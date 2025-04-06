@@ -5,6 +5,7 @@ import Link from 'next/link'
 
 // cat 값 → 한글명으로 바꿔주기 위한 매핑 객체
 const categoryMap: Record<string, string> = {
+  all:'전체글',
   codingtest: '코딩테스트',
   springboot: '스프링부트',
 }
@@ -32,7 +33,9 @@ export default function CategoryPage({ params }: { params: { cat: string } }) {
       {filtered.map((post) => (
         <Link key={post.slug} href={`/blog/${post.slug}`}>
           <div>
-            <p>{post.date}</p>
+          <div className="text-sm text-gray-500">
+              <span>{post.date}</span>
+            </div>
             <p>{post.title}</p>
           </div>
         </Link>

@@ -6,14 +6,14 @@ import posts from '../content/posts'
 export function BlogPosts() {
   // 모든 카테고리 + “전체글” 섞어서 세트 만들기
   const categories = Array.from(
-    new Set(["전체글", ...posts.map((post) => post.category)])
+    new Set(["all", ...posts.map((post) => post.category)])
   );
 
   return (
     <div>
       {categories.map((cat) => {
         // “전체글”이면 필터링 없이 그냥 전체 posts
-        const categoryPosts = cat === "전체글"
+        const categoryPosts = cat === "all"
           ? posts
           : posts.filter((post) => post.category === cat);
 
