@@ -4,11 +4,11 @@ import ThemeToggle from './theme'
 
 const navItems = {
   '/': {
-    name: 'home',
+    name: '홈',
   },
-  '/blog': {
-    name: 'blog',
-  },
+  '/blog': { name: '전체글' },
+  '/blog/category/codingtest': { name: '코딩테스트' },
+  '/blog/category/springboot': { name: '스프링부트' },
   'https://github.com/Uralauah': {
     name: 'github',
   },

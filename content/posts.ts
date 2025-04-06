@@ -8,7 +8,8 @@ const posts = [
     content: post1,
     date: "2025-04-02",
     description: "정민주배 코딩테스트 1번",
-    image: undefined
+    image: undefined,
+    category: "codingtest"
   },
   {
     title: "Naver Search Bar UX: Analysis and Implementation Guide",
@@ -16,7 +17,8 @@ const posts = [
     content: post2,
     date: "2023-10-23",
     description: "Explore the UX analysis of Naver's search bar and strategies for replicating its features. The post examines the UX triggers, selection of search results, and the refreshing of result lists. It also compares coding approaches for implementing search bar functionalities, aiming for a concise and effective execution.",
-    image: undefined
+    image: undefined,
+    category: "springboot"
   }
 ] as Post[];
 
@@ -29,4 +31,5 @@ export type Post = {
   date: string;
   description: string;
   image?: string;
+  category: string;
 };
