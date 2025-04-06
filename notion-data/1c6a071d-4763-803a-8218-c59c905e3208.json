@@ -1,0 +1,2248 @@
+{
+  "object": "page",
+  "id": "1c6a071d-4763-803a-8218-c59c905e3208",
+  "created_time": "2025-03-30T06:15:00.000Z",
+  "last_edited_time": "2025-03-30T08:23:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4768bae9-93de-4788-8237-416bf24413ea",
+          "name": "코딩테스트",
+          "color": "green"
+        },
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "자바",
+          "color": "pink"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-03-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "완전범죄",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "완전범죄",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/1c6a071d4763803a8218c59c905e3208",
+  "public_url": "https://codinggroove.notion.site/1c6a071d4763803a8218c59c905e3208",
+  "request_id": "43414188-9668-448e-9390-f268021a0806",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-8077-bba2-edce945c65d3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T06:15:00.000Z",
+      "last_edited_time": "2025-03-30T08:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://school.programmers.co.kr/learn/courses/30/lessons/389480"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://school.programmers.co.kr/learn/courses/30/lessons/389480"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80da-a00f-ce62d3f679d7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T06:15:00.000Z",
+      "last_edited_time": "2025-03-30T08:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 1시간 이상",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 1시간 이상",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80fc-b9b7-e331868d331b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:10:00.000Z",
+      "last_edited_time": "2025-03-30T08:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-808f-96fe-e1930d0cbecf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:10:00.000Z",
+      "last_edited_time": "2025-03-30T08:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 : ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 : ",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-8077-876e-d0395632d888",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:10:00.000Z",
+      "last_edited_time": "2025-03-30T08:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제를 읽고나서 바로 이건 조합으로 풀면 안되겠다 라고 생각했지만",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제를 읽고나서 바로 이건 조합으로 풀면 안되겠다 라고 생각했지만",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-801c-8a8f-eefd24b2b95a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:11:00.000Z",
+      "last_edited_time": "2025-03-30T08:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "생각나는 풀이 방법이 이거 밖에 없어서 일단 코드를 짰다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "생각나는 풀이 방법이 이거 밖에 없어서 일단 코드를 짰다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-8050-a6cd-e2ef729165fd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T06:15:00.000Z",
+      "last_edited_time": "2025-03-30T06:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "초기 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "초기 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-802c-aadb-ff54a157a5a4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T06:15:00.000Z",
+      "last_edited_time": "2025-03-30T06:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "class Solution {\n    public int[][] INFO;\n    public int N, M, ans = Integer.MAX_VALUE;\n    \n    public void find(int idx, int sumA, int sumB){\n        if(N<=sumA || M<=sumB){\n            return;   \n        }\n        if(idx == INFO.length){\n            ans = Math.min(ans, sumA);\n            return;\n        }\n        \n        find(idx+1,sumA+INFO[idx][0],sumB);\n        find(idx+1,sumA,sumB+INFO[idx][1]);\n    }\n    \n    \n    public int solution(int[][] info, int n, int m) {\n        int answer = 0;\n        INFO = info;\n        N = n;\n        M = m;\n        \n        find(0,0,0);\n        \n        return ans == Integer.MAX_VALUE ? -1 : ans;\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "class Solution {\n    public int[][] INFO;\n    public int N, M, ans = Integer.MAX_VALUE;\n    \n    public void find(int idx, int sumA, int sumB){\n        if(N<=sumA || M<=sumB){\n            return;   \n        }\n        if(idx == INFO.length){\n            ans = Math.min(ans, sumA);\n            return;\n        }\n        \n        find(idx+1,sumA+INFO[idx][0],sumB);\n        find(idx+1,sumA,sumB+INFO[idx][1]);\n    }\n    \n    \n    public int solution(int[][] info, int n, int m) {\n        int answer = 0;\n        INFO = info;\n        N = n;\n        M = m;\n        \n        find(0,0,0);\n        \n        return ans == Integer.MAX_VALUE ? -1 : ans;\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80c0-b4a3-ef0532114af5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T06:33:00.000Z",
+      "last_edited_time": "2025-03-30T08:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "당연하게도 시간초과가 나고 40점을 받았다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "당연하게도 시간초과가 나고 40점을 받았다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-8079-a8a7-c3123b0410a1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:13:00.000Z",
+      "last_edited_time": "2025-03-30T08:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80c7-add1-e403a7b95832",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:13:00.000Z",
+      "last_edited_time": "2025-03-30T08:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "뭔가 dp로 해야된다는건 알겠는데",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "뭔가 dp로 해야된다는건 알겠는데",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-8012-9c65-e215d573dfb3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:13:00.000Z",
+      "last_edited_time": "2025-03-30T08:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "풀이방법을 모르겠다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "풀이방법을 모르겠다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80af-9162-e7331033d9ad",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:13:00.000Z",
+      "last_edited_time": "2025-03-30T08:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80d2-9d72-f31b2f92d198",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:13:00.000Z",
+      "last_edited_time": "2025-03-30T08:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 결국 검색찬스를 썼다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 결국 검색찬스를 썼다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80d0-b4bd-fa86effbda99",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:14:00.000Z",
+      "last_edited_time": "2025-03-30T08:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-8057-9698-ce60dfe8e2bd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:14:00.000Z",
+      "last_edited_time": "2025-03-30T08:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-8093-8d90-c9ea006678d0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:14:00.000Z",
+      "last_edited_time": "2025-03-30T08:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "여기서 dp[i][j] 배열은 i번째 물건을 훔쳤을 때, B의 흔적의 합이 j이고, A의 흔적의 합이 dp[i][j]인 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "여기서 dp[i][j] 배열은 i번째 물건을 훔쳤을 때, B의 흔적의 합이 j이고, A의 흔적의 합이 dp[i][j]인 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80dd-8994-f6afc512aa80",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:16:00.000Z",
+      "last_edited_time": "2025-03-30T08:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80c5-bbd1-e77b25e6126f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:14:00.000Z",
+      "last_edited_time": "2025-03-30T08:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "각 물건에 대해 우리가 고려할 상황은 두가지이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "각 물건에 대해 우리가 고려할 상황은 두가지이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80fc-b8e1-e6182d7d1dd9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:16:00.000Z",
+      "last_edited_time": "2025-03-30T08:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A가 훔친 경우",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A가 훔친 경우",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-802c-971f-dae44f1ce754",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:16:00.000Z",
+      "last_edited_time": "2025-03-30T08:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "B가 훔친 경우",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "B가 훔친 경우",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80d4-81c6-f326b966d29f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:22:00.000Z",
+      "last_edited_time": "2025-03-30T08:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-8070-b32c-d5ffb914b19c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:22:00.000Z",
+      "last_edited_time": "2025-03-30T08:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A가 훔친 경우",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A가 훔친 경우",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-806a-b2ac-e0a8a0465155",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:20:00.000Z",
+      "last_edited_time": "2025-03-30T08:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이전 상태",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "이전 상태",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " = ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " = ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "dp[i-1][j]",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "dp[i-1][j]",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 물건 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 물건 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "i-1",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "i-1",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "개까지 훔쳤고, B 도둑의 흔적의 합은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "개까지 훔쳤고, B 도둑의 흔적의 합은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "j",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "j",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80fe-9c95-f8b9c138d6c4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:20:00.000Z",
+      "last_edited_time": "2025-03-30T08:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A 도둑이 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A 도둑이 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "i",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "i",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "번째 물건을 훔치면",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "번째 물건을 훔치면",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1c6a071d-4763-805e-b5a2-e27dc6bbc25c",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1c6a071d-4763-80fe-9c95-f8b9c138d6c4"
+          },
+          "created_time": "2025-03-30T08:20:00.000Z",
+          "last_edited_time": "2025-03-30T08:21:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "B 도둑의 흔적은 그대로 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "B 도둑의 흔적은 그대로 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "j",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "j",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1c6a071d-4763-8016-8f5a-f02db41a4cfb",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1c6a071d-4763-80fe-9c95-f8b9c138d6c4"
+          },
+          "created_time": "2025-03-30T08:20:00.000Z",
+          "last_edited_time": "2025-03-30T08:21:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "A 도둑의 흔적은 기존보다 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "A 도둑의 흔적은 기존보다 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "+A",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "+A",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " 증가",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " 증가",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-8022-beed-d9b1b47f37a9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:20:00.000Z",
+      "last_edited_time": "2025-03-30T08:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 현재 상태 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 현재 상태 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "dp[i][j]",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "dp[i][j]",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "를 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "를 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "dp[i-1][j] + A",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "dp[i-1][j] + A",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "로 갱신한다",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로 갱신한다",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80ef-95ba-c53d5c59f137",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:22:00.000Z",
+      "last_edited_time": "2025-03-30T08:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-806e-9833-d14de55f70eb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:22:00.000Z",
+      "last_edited_time": "2025-03-30T08:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "B가 훔친 경우",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "B가 훔친 경우",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80fa-9870-f72ee641188a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:22:00.000Z",
+      "last_edited_time": "2025-03-30T08:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이전 상태",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "이전 상태",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " → ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " → ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "dp[i-1][j]",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "dp[i-1][j]",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 물건 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 물건 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "i-1",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "i-1",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "개까지 처리했고, B 도둑의 흔적은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "개까지 처리했고, B 도둑의 흔적은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "j",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "j",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-8090-806f-fcf7da46219b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:22:00.000Z",
+      "last_edited_time": "2025-03-30T08:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "B 도둑이 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "B 도둑이 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "i",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "i",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "번째 물건을 훔치면,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "번째 물건을 훔치면,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1c6a071d-4763-8040-bc21-e9ac6e4b66c9",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1c6a071d-4763-8090-806f-fcf7da46219b"
+          },
+          "created_time": "2025-03-30T08:22:00.000Z",
+          "last_edited_time": "2025-03-30T08:22:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "B 도둑의 흔적은 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "B 도둑의 흔적은 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "j + B",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "j + B",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "로 증가",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "로 증가",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1c6a071d-4763-8085-a7ec-e4d9b0ded5c3",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1c6a071d-4763-8090-806f-fcf7da46219b"
+          },
+          "created_time": "2025-03-30T08:22:00.000Z",
+          "last_edited_time": "2025-03-30T08:22:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "A 도둑의 흔적은 그대로 유지",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "A 도둑의 흔적은 그대로 유지",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80be-a4df-c584c34f8b7e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:22:00.000Z",
+      "last_edited_time": "2025-03-30T08:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 현재 상태 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 현재 상태 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "dp[i][j + B]",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "dp[i][j + B]",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "를 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "를 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "dp[i-1][j]",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "dp[i-1][j]",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "로 갱신한다",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로 갱신한다",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-807e-b1f4-c6ee86cdac3b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:22:00.000Z",
+      "last_edited_time": "2025-03-30T08:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-807d-bb32-f30160120ad7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:22:00.000Z",
+      "last_edited_time": "2025-03-30T08:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80e8-9b4f-cad6b7272f9d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:14:00.000Z",
+      "last_edited_time": "2025-03-30T08:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 마지막에 아래와 같은 코드로 모든 물건을 훔쳤을 때 A가 남긴 흔적의 최솟값을 구해주면 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 마지막에 아래와 같은 코드로 모든 물건을 훔쳤을 때 A가 남긴 흔적의 최솟값을 구해주면 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-808b-9b46-d1f2ea072443",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T08:23:00.000Z",
+      "last_edited_time": "2025-03-30T08:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "for(int i=0;i<m;i++){\n\tanswer = Math.min(answer, dp[info.length][i]); //A가 남긴 흔적의 최솟값\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "for(int i=0;i<m;i++){\n\tanswer = Math.min(answer, dp[info.length][i]); //A가 남긴 흔적의 최솟값\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-80f2-b283-cd0881861edc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T06:33:00.000Z",
+      "last_edited_time": "2025-03-30T06:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최종 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최종 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1c6a071d-4763-8074-aa0c-f678d4788070",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1c6a071d-4763-803a-8218-c59c905e3208"
+      },
+      "created_time": "2025-03-30T06:33:00.000Z",
+      "last_edited_time": "2025-03-30T06:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.util.*;\n\nclass Solution {\n    public int solution(int[][] info, int n, int m) {\n        int answer = Integer.MAX_VALUE;\n        \n        int[][] dp = new int[info.length+1][m];\n        \n        for(int i=0;i<info.length+1;i++){\n            Arrays.fill(dp[i],1000000);\n        }\n        \n        dp[0][0] = 0;\n        \n        for(int i=1;i<info.length+1;i++){\n            int A = info[i-1][0]; //A가 훔칠 경우 흔적\n            int B = info[i-1][1]; //B가 훔칠 경우 흔적\n            for(int j=0;j<m;j++){\n                dp[i][j] = Math.min(dp[i][j], dp[i-1][j]+A); //A가 훔칠 경우 \n                \n                if(j+B<m){ //B가 훔칠 경우 흔적의 합이 m을 넘으면 안됨\n                    dp[i][j+B] = Math.min(dp[i][j+B], dp[i-1][j]);\n                }\n            }\n        }\n        \n        for(int i=0;i<m;i++){\n            answer = Math.min(answer, dp[info.length][i]); //A가 남긴 흔적의 최솟값\n        }\n        \n        return answer < n ? answer : -1;\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.util.*;\n\nclass Solution {\n    public int solution(int[][] info, int n, int m) {\n        int answer = Integer.MAX_VALUE;\n        \n        int[][] dp = new int[info.length+1][m];\n        \n        for(int i=0;i<info.length+1;i++){\n            Arrays.fill(dp[i],1000000);\n        }\n        \n        dp[0][0] = 0;\n        \n        for(int i=1;i<info.length+1;i++){\n            int A = info[i-1][0]; //A가 훔칠 경우 흔적\n            int B = info[i-1][1]; //B가 훔칠 경우 흔적\n            for(int j=0;j<m;j++){\n                dp[i][j] = Math.min(dp[i][j], dp[i-1][j]+A); //A가 훔칠 경우 \n                \n                if(j+B<m){ //B가 훔칠 경우 흔적의 합이 m을 넘으면 안됨\n                    dp[i][j+B] = Math.min(dp[i][j+B], dp[i-1][j]);\n                }\n            }\n        }\n        \n        for(int i=0;i<m;i++){\n            answer = Math.min(answer, dp[info.length][i]); //A가 남긴 흔적의 최솟값\n        }\n        \n        return answer < n ? answer : -1;\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    }
+  ]
+}
