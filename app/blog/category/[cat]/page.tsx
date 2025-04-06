@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation'
 import posts from 'content/posts'
 import Link from 'next/link'
 
+export const runtime = 'edge'
+
 // cat 값 → 한글명으로 바꿔주기 위한 매핑 객체
 const categoryMap: Record<string, string> = {
   all:'전체글',
