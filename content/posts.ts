@@ -4,7 +4,7 @@ import post2 from '../notion-data/127ce18c-fd83-805c-bebd-d6772e18bf02.json'
 const posts = [
   {
     title: "완전범죄",
-    slug: "완전범죄",
+    slug: "codingtest1",
     content: post1,
     date: "2025-04-02",
     description: "정민주배 코딩테스트 1번",
