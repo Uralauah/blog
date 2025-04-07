@@ -2,7 +2,9 @@ import { notFound } from 'next/navigation'
 import { baseUrl } from 'app/sitemap'
 import posts from 'content/posts'
 import NotionRenderer from 'components/notion-renderer'
-// import Comment from 'components/comment'
+import dynamic from 'next/dynamic';
+
+const Comment = dynamic(() => import('components/comment'), { ssr: false });
 
 export const runtime = 'edge';
 
@@ -81,7 +83,9 @@ export default async function Blog({ params }) {
         }}
       />
       <NotionRenderer post={post} />
-      
+      <div className="mt-16">
+        <Comment />
+      </div>
     </section>
   )
 }
