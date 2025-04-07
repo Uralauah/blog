@@ -67,6 +67,13 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9260700889545229"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="antialiased max-w-xl mx-4 mt-8 sm:mx-auto text-black bg-white dark:text-white dark:bg-black">
         <ThemeProvider attribute='class' defaultTheme='light' >
           <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
