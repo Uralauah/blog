@@ -34,11 +34,11 @@ export default function CategoryPage({ params }: { params: { cat: string } }) {
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">{catName}</h1>
       {filtered.map((post) => (
         <Link key={post.slug} href={`/blog/${post.slug}`}>
-          <div>
-          <div className="text-sm text-gray-500">
+          <div className="mb-4">
+            <div className="text-sm text-gray-500">
               <span>{post.date}</span>
             </div>
-            <p>{post.title}</p>
+            <p className="font-medium">{post.title}</p>
           </div>
         </Link>
       ))}

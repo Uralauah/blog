@@ -20,12 +20,12 @@ export default function Page() {
       </h1>
       {sortedPosts.map((post) => (
         <Link key={post.slug} href={`/blog/${post.slug}`}>
-          <div>
+          <div className="mb-4"> 
             <div className="text-sm text-gray-500">
               <span>{post.date}</span>
               <span className="ml-2">· {post.category}</span>
             </div>
-            <p>{post.title}</p>
+            <p className="font-medium">{post.title}</p>
           </div>
         </Link>
       ))}
