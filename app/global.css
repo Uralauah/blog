@@ -30,6 +30,11 @@
 
 html {
   min-width: 360px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body {
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .prose .anchor {
