@@ -1,0 +1,1624 @@
+{
+  "object": "page",
+  "id": "19da071d-4763-80bc-837a-e2189f57b118",
+  "created_time": "2025-02-17T04:31:00.000Z",
+  "last_edited_time": "2025-02-17T04:49:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4768bae9-93de-4788-8237-416bf24413ea",
+          "name": "코딩테스트",
+          "color": "green"
+        },
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "자바",
+          "color": "pink"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-02-17",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "20293번 - 연료가 부족해",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "20293번 - 연료가 부족해",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/20293-19da071d476380bc837ae2189f57b118",
+  "public_url": "https://codinggroove.notion.site/20293-19da071d476380bc837ae2189f57b118",
+  "request_id": "21605bc6-26fb-4b65-aea1-95e4b1fb9b91",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "19da071d-4763-803e-affc-cc4eea1d83f3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:31:00.000Z",
+      "last_edited_time": "2025-02-17T04:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://www.acmicpc.net/problem/20293"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://www.acmicpc.net/problem/20293"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8058-a05f-d541e7afb01f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:31:00.000Z",
+      "last_edited_time": "2025-02-17T04:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 2시간",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 2시간",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-80dc-84ac-e7c4ed03a8e3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:32:00.000Z",
+      "last_edited_time": "2025-02-17T04:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-80d1-85f7-e3d777919792",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:32:00.000Z",
+      "last_edited_time": "2025-02-17T04:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 : ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 : ",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-80bb-8e06-caf7016bf42a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:32:00.000Z",
+      "last_edited_time": "2025-02-17T04:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "처음에는 간단한 dfs 문제라고 생각하고 dfs로 코드를 짰다",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "처음에는 간단한 dfs 문제라고 생각하고 dfs로 코드를 짰다",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-80e8-9a28-f7a08bef33ad",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:33:00.000Z",
+      "last_edited_time": "2025-02-17T04:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8034-a08a-f6169c90952f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:32:00.000Z",
+      "last_edited_time": "2025-02-17T04:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "초기 위치에서 가지고 있는 연료(have)와 필요한 연료(need)를 둘 다 0으로 초기화하고, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "초기 위치에서 가지고 있는 연료(have)와 필요한 연료(need)를 둘 다 0으로 초기화하고, ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-804c-80d9-cd2468503078",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:34:00.000Z",
+      "last_edited_time": "2025-02-17T04:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "dfs로 탐색하면서 각 위치에 따라 have가 있다면 다음 위치로 이동하며 have를 1 차감하고,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "dfs로 탐색하면서 각 위치에 따라 have가 있다면 다음 위치로 이동하며 have를 1 차감하고,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8088-92e1-f6b5504a61f7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:35:00.000Z",
+      "last_edited_time": "2025-02-17T04:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "have가 0이라면 need를 1 증가하며 이동했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "have가 0이라면 need를 1 증가하며 이동했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8079-a7e8-dd9f5e363a56",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:37:00.000Z",
+      "last_edited_time": "2025-02-17T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public static void dfs(int x, int y, int have, int need) { //x좌표, y좌표, 가지고 있는 연료, 필요한 연료\n        if (x == r && y == c) { //목적지에서 필요한 연료 계산\n            min = Math.min(need, min);\n            return;\n        }\n        if (arr[x][y] != 0) { //현재 위치가 충전소라면 연료 충전\n            have += arr[x][y];\n        }\n        for (int i = 0; i < 2; i++) {\n            int dx = x + dir[i][0];\n            int dy = y + dir[i][1];\n\n            if (check(dx, dy)) { //지도를 벗어나지 않는지\n                return;\n            }\n\n            if (have > 0) { //연료가 있다면\n                dfs(dx, dy, have - 1, need); //연료 차감\n            } else { //연료가 없으며\n                dfs(dx, dy, have, need + 1); //필요한 연료 증가\n            }\n        }\n    }",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public static void dfs(int x, int y, int have, int need) { //x좌표, y좌표, 가지고 있는 연료, 필요한 연료\n        if (x == r && y == c) { //목적지에서 필요한 연료 계산\n            min = Math.min(need, min);\n            return;\n        }\n        if (arr[x][y] != 0) { //현재 위치가 충전소라면 연료 충전\n            have += arr[x][y];\n        }\n        for (int i = 0; i < 2; i++) {\n            int dx = x + dir[i][0];\n            int dy = y + dir[i][1];\n\n            if (check(dx, dy)) { //지도를 벗어나지 않는지\n                return;\n            }\n\n            if (have > 0) { //연료가 있다면\n                dfs(dx, dy, have - 1, need); //연료 차감\n            } else { //연료가 없으며\n                dfs(dx, dy, have, need + 1); //필요한 연료 증가\n            }\n        }\n    }",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-80f9-bb39-cacce84efb0c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:35:00.000Z",
+      "last_edited_time": "2025-02-17T04:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8033-8beb-cbbb94b27a3b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:35:00.000Z",
+      "last_edited_time": "2025-02-17T04:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그리고 마지막 r,c 위치에서 need의 수를 출력하면 최초에 필요한 연료의 크기를 구할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그리고 마지막 r,c 위치에서 need의 수를 출력하면 최초에 필요한 연료의 크기를 구할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-801f-b6c8-e41fcef5742b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:33:00.000Z",
+      "last_edited_time": "2025-02-17T04:36:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.util.LinkedList;\nimport java.util.Queue;\nimport java.util.StringTokenizer;\n\nclass Main{\n    public static int r,c,n;\n    public static int[][] arr;\n\n    public static int[][] dir = {{0, 1}, {1, 0}};\n    public static int min = Integer.MAX_VALUE;\n\n    public static boolean check(int a, int b) {\n        return a < 1 || a > r || b < 1 || b > c;\n    }\n\n    public static void dfs(int x, int y, int have, int need) { //x좌표, y좌표, 가지고 있는 연료, 필요한 연료\n        if (x == r && y == c) { //목적지에서 필요한 연료 계산\n            min = Math.min(need, min);\n            return;\n        }\n        if (arr[x][y] != 0) { //현재 위치가 충전소라면 연료 충전\n            have += arr[x][y];\n        }\n        for (int i = 0; i < 2; i++) {\n            int dx = x + dir[i][0];\n            int dy = y + dir[i][1];\n\n            if (check(dx, dy)) { //지도를 벗어나지 않는지\n                return;\n            }\n\n            if (have > 0) { //연료가 있다면\n                dfs(dx, dy, have - 1, need); //연료 차감\n            } else { //연료가 없으며\n                dfs(dx, dy, have, need + 1); //필요한 연료 증가\n            }\n        }\n    }\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n\n        r = Integer.parseInt(st.nextToken());\n        c = Integer.parseInt(st.nextToken());\n        n = Integer.parseInt(br.readLine());\n\n        arr = new int[r + 2][c + 2];\n        for (int i = 0; i < n; i++) {\n            st = new StringTokenizer(br.readLine());\n            arr[Integer.parseInt(st.nextToken())][Integer.parseInt(st.nextToken())] = Integer.parseInt(st.nextToken());\n        }\n\n        dfs(1, 1, 0, 0);\n        System.out.println(min);\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.util.LinkedList;\nimport java.util.Queue;\nimport java.util.StringTokenizer;\n\nclass Main{\n    public static int r,c,n;\n    public static int[][] arr;\n\n    public static int[][] dir = {{0, 1}, {1, 0}};\n    public static int min = Integer.MAX_VALUE;\n\n    public static boolean check(int a, int b) {\n        return a < 1 || a > r || b < 1 || b > c;\n    }\n\n    public static void dfs(int x, int y, int have, int need) { //x좌표, y좌표, 가지고 있는 연료, 필요한 연료\n        if (x == r && y == c) { //목적지에서 필요한 연료 계산\n            min = Math.min(need, min);\n            return;\n        }\n        if (arr[x][y] != 0) { //현재 위치가 충전소라면 연료 충전\n            have += arr[x][y];\n        }\n        for (int i = 0; i < 2; i++) {\n            int dx = x + dir[i][0];\n            int dy = y + dir[i][1];\n\n            if (check(dx, dy)) { //지도를 벗어나지 않는지\n                return;\n            }\n\n            if (have > 0) { //연료가 있다면\n                dfs(dx, dy, have - 1, need); //연료 차감\n            } else { //연료가 없으며\n                dfs(dx, dy, have, need + 1); //필요한 연료 증가\n            }\n        }\n    }\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n\n        r = Integer.parseInt(st.nextToken());\n        c = Integer.parseInt(st.nextToken());\n        n = Integer.parseInt(br.readLine());\n\n        arr = new int[r + 2][c + 2];\n        for (int i = 0; i < n; i++) {\n            st = new StringTokenizer(br.readLine());\n            arr[Integer.parseInt(st.nextToken())][Integer.parseInt(st.nextToken())] = Integer.parseInt(st.nextToken());\n        }\n\n        dfs(1, 1, 0, 0);\n        System.out.println(min);\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8016-8742-f8f3005f1b8c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:37:00.000Z",
+      "last_edited_time": "2025-02-17T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8074-aa24-f3e193171c05",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:37:00.000Z",
+      "last_edited_time": "2025-02-17T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8085-9957-f58af15271e6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:37:00.000Z",
+      "last_edited_time": "2025-02-17T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8038-89dd-e917eeda112d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:32:00.000Z",
+      "last_edited_time": "2025-02-17T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 이렇게 하면 1%에서 시간초과가 나온다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 이렇게 하면 1%에서 시간초과가 나온다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8062-b344-dedc837d3db0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:37:00.000Z",
+      "last_edited_time": "2025-02-17T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아무리 생각해도 방법을 모르겠어서",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아무리 생각해도 방법을 모르겠어서",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8089-a3cc-d5ce00c52eeb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:37:00.000Z",
+      "last_edited_time": "2025-02-17T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "결국 다른사람들의 코드를 참고했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "결국 다른사람들의 코드를 참고했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8052-bfad-df4acfb311ae",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:37:00.000Z",
+      "last_edited_time": "2025-02-17T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-800d-b1cd-e3f4cdea0b13",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:37:00.000Z",
+      "last_edited_time": "2025-02-17T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-806f-a7e6-fbf3fefd4c9d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:37:00.000Z",
+      "last_edited_time": "2025-02-17T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 문제는 dp와 이분탐색을 사용해서 풀어야하는 문제이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 문제는 dp와 이분탐색을 사용해서 풀어야하는 문제이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-80eb-8cd9-d39f1ec451c4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:37:00.000Z",
+      "last_edited_time": "2025-02-17T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-805b-8795-ce4ee6c62471",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:37:00.000Z",
+      "last_edited_time": "2025-02-17T04:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이동은 아래, 오른쪽 두가지만 존재하기 때문에 1,1에서 r,c로 이동할 때 필요한 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이동은 아래, 오른쪽 두가지만 존재하기 때문에 1,1에서 r,c로 이동할 때 필요한 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "최대 연료는 r+c-2",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "red_background"
+            },
+            "plain_text": "최대 연료는 r+c-2",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-801a-a5a4-e0dc3f1ef23f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:39:00.000Z",
+      "last_edited_time": "2025-02-17T04:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "초기 연료 f를 1,1과 r+c-2 사이에서 이분탐색하며 탐색한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "초기 연료 f를 1,1과 r+c-2 사이에서 이분탐색하며 탐색한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8052-a7be-de666c8c41a7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:39:00.000Z",
+      "last_edited_time": "2025-02-17T04:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "find(f)를 이용해서 f라는 연료를 통해 1,1에서 r,c로 이동할 수 있는지 확인한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "find(f)를 이용해서 f라는 연료를 통해 1,1에서 r,c로 이동할 수 있는지 확인한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-808e-8276-ece48a1bca19",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:40:00.000Z",
+      "last_edited_time": "2025-02-17T04:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "int s = 1, e = r + c - 2;\nwhile (s <= e) {\n    int mid = (s + e) / 2;\n    \n    if (find(mid)) {\n        e = mid - 1;\n    } else {\n        s = mid + 1;\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "int s = 1, e = r + c - 2;\nwhile (s <= e) {\n    int mid = (s + e) / 2;\n    \n    if (find(mid)) {\n        e = mid - 1;\n    } else {\n        s = mid + 1;\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-80b6-8db7-feef6e6dbd53",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:41:00.000Z",
+      "last_edited_time": "2025-02-17T04:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8075-b4a5-d48e13c4b010",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:40:00.000Z",
+      "last_edited_time": "2025-02-17T04:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "dp배열에는 i번째 위치에서의 연료의 양이 저장되어 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "dp배열에는 i번째 위치에서의 연료의 양이 저장되어 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8060-a8e3-cdf5e11521e4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:41:00.000Z",
+      "last_edited_time": "2025-02-17T04:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "각 위치는 시작위치, 충전소의 위치, 도착위치가 있다. (즉, dp 배열의 크기는 n+2)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "각 위치는 시작위치, 충전소의 위치, 도착위치가 있다. (즉, dp 배열의 크기는 n+2)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-807a-a201-d8a738cb9a80",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:42:00.000Z",
+      "last_edited_time": "2025-02-17T04:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그 후 각 위치에서 이전 위치에서 현재 위치로 이동할 수 있는지 확인한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그 후 각 위치에서 이전 위치에서 현재 위치로 이동할 수 있는지 확인한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8058-869b-dc82803dbcae",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:46:00.000Z",
+      "last_edited_time": "2025-02-17T04:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8035-96b1-c8a9d37a2ae0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:46:00.000Z",
+      "last_edited_time": "2025-02-17T04:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public static boolean find(int f) {\n    int[] dp = new int[n + 2];\n    \n    Arrays.fill(dp, -1);\n    dp[0] = f; //초기 위치 연료량 설정\n    fuels[0][2] = f; //초기 위치 연료량 설정\n    \n    for (int i = 1; i < n + 2; i++) {\n        for (int j = 0; j < i; j++) {\n            if (fuels[j][0] > fuels[i][0] || fuels[j][1] > fuels[i][1]) { //j위치에서 i위치로 이동할 수 없음\n                continue;\n            }\n            \n            if (dp[j] < dist(j, i)) { //이동거리보다 연료량이 적음\n                continue;\n            }\n            \n            //dp배열 최대크기로 설정\n            dp[i] = Math.max(dp[i], dp[j] - dist(j, i) + fuels[i][2]); \n        }\n    }\n    \n    //도착점의 dp 배열 값이 0이상이라면 true 반환\n    return dp[n + 1] >= 0;\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public static boolean find(int f) {\n    int[] dp = new int[n + 2];\n    \n    Arrays.fill(dp, -1);\n    dp[0] = f; //초기 위치 연료량 설정\n    fuels[0][2] = f; //초기 위치 연료량 설정\n    \n    for (int i = 1; i < n + 2; i++) {\n        for (int j = 0; j < i; j++) {\n            if (fuels[j][0] > fuels[i][0] || fuels[j][1] > fuels[i][1]) { //j위치에서 i위치로 이동할 수 없음\n                continue;\n            }\n            \n            if (dp[j] < dist(j, i)) { //이동거리보다 연료량이 적음\n                continue;\n            }\n            \n            //dp배열 최대크기로 설정\n            dp[i] = Math.max(dp[i], dp[j] - dist(j, i) + fuels[i][2]); \n        }\n    }\n    \n    //도착점의 dp 배열 값이 0이상이라면 true 반환\n    return dp[n + 1] >= 0;\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8077-8e8c-f279e4ac585e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:49:00.000Z",
+      "last_edited_time": "2025-02-17T04:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8094-a20f-e57e9d81a8b9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:48:00.000Z",
+      "last_edited_time": "2025-02-17T04:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "전체 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "전체 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8075-9eeb-ced171e9c279",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:48:00.000Z",
+      "last_edited_time": "2025-02-17T04:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.util.Arrays;\nimport java.util.Comparator;\nimport java.util.StringTokenizer;\n\nclass Main {\n    public static int r, c, n;\n    public static int[][] fuels;\n\n    public static int dist(int i, int j) {\n        return fuels[j][0] + fuels[j][1] - fuels[i][0] - fuels[i][1];\n    }\n\n    public static boolean find(int f) {\n        int[] dp = new int[n + 2];\n\n        Arrays.fill(dp, -1);\n        dp[0] = f;\n        fuels[0][2] = f;\n\n        for (int i = 1; i < n + 2; i++) {\n            for (int j = 0; j < i; j++) {\n                if (fuels[j][0] > fuels[i][0] || fuels[j][1] > fuels[i][1]) {\n                    continue;\n                }\n\n                if (dp[j] < dist(j, i)) {\n                    continue;\n                }\n\n                dp[i] = Math.max(dp[i], dp[j] - dist(j, i) + fuels[i][2]);\n            }\n        }\n\n        return dp[n + 1] >= 0;\n    }\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n\n        r = Integer.parseInt(st.nextToken());\n        c = Integer.parseInt(st.nextToken());\n        n = Integer.parseInt(br.readLine());\n\n        fuels = new int[n + 2][3];\n\n        for (int i = 1; i <= n; i++) {\n            st = new StringTokenizer(br.readLine());\n            fuels[i][0] = Integer.parseInt(st.nextToken());\n            fuels[i][1] = Integer.parseInt(st.nextToken());\n            fuels[i][2] = Integer.parseInt(st.nextToken());\n        }\n        fuels[0] = new int[]{1, 1, 0};\n        fuels[n + 1] = new int[]{r, c, 0};\n\n        Arrays.sort(fuels, new Comparator<int[]>() {\n            @Override\n            public int compare(int[] o1, int[] o2) {\n                return (o1[0] + o1[1]) - (o2[0] + o2[1]);\n            }\n        });\n\n        int s = 1, e = r + c - 2;\n\n        while (s <= e) {\n            int mid = (s + e) / 2;\n\n            if (find(mid)) {\n                e = mid - 1;\n            } else\n                s = mid + 1;\n        }\n\n        System.out.println(s);\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.util.Arrays;\nimport java.util.Comparator;\nimport java.util.StringTokenizer;\n\nclass Main {\n    public static int r, c, n;\n    public static int[][] fuels;\n\n    public static int dist(int i, int j) {\n        return fuels[j][0] + fuels[j][1] - fuels[i][0] - fuels[i][1];\n    }\n\n    public static boolean find(int f) {\n        int[] dp = new int[n + 2];\n\n        Arrays.fill(dp, -1);\n        dp[0] = f;\n        fuels[0][2] = f;\n\n        for (int i = 1; i < n + 2; i++) {\n            for (int j = 0; j < i; j++) {\n                if (fuels[j][0] > fuels[i][0] || fuels[j][1] > fuels[i][1]) {\n                    continue;\n                }\n\n                if (dp[j] < dist(j, i)) {\n                    continue;\n                }\n\n                dp[i] = Math.max(dp[i], dp[j] - dist(j, i) + fuels[i][2]);\n            }\n        }\n\n        return dp[n + 1] >= 0;\n    }\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n\n        r = Integer.parseInt(st.nextToken());\n        c = Integer.parseInt(st.nextToken());\n        n = Integer.parseInt(br.readLine());\n\n        fuels = new int[n + 2][3];\n\n        for (int i = 1; i <= n; i++) {\n            st = new StringTokenizer(br.readLine());\n            fuels[i][0] = Integer.parseInt(st.nextToken());\n            fuels[i][1] = Integer.parseInt(st.nextToken());\n            fuels[i][2] = Integer.parseInt(st.nextToken());\n        }\n        fuels[0] = new int[]{1, 1, 0};\n        fuels[n + 1] = new int[]{r, c, 0};\n\n        Arrays.sort(fuels, new Comparator<int[]>() {\n            @Override\n            public int compare(int[] o1, int[] o2) {\n                return (o1[0] + o1[1]) - (o2[0] + o2[1]);\n            }\n        });\n\n        int s = 1, e = r + c - 2;\n\n        while (s <= e) {\n            int mid = (s + e) / 2;\n\n            if (find(mid)) {\n                e = mid - 1;\n            } else\n                s = mid + 1;\n        }\n\n        System.out.println(s);\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-80e4-b73a-eea0d6ec41a4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:49:00.000Z",
+      "last_edited_time": "2025-02-17T04:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-8052-8cd0-cd95be8a6802",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:49:00.000Z",
+      "last_edited_time": "2025-02-17T04:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "너무 당연하게 dfs로 생각했지만 dp와 이분탐색을 섞어서 푸는 색다른 문제였다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "너무 당연하게 dfs로 생각했지만 dp와 이분탐색을 섞어서 푸는 색다른 문제였다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19da071d-4763-80bb-b6fb-d41bd87c22ea",
+      "parent": {
+        "type": "page_id",
+        "page_id": "19da071d-4763-80bc-837a-e2189f57b118"
+      },
+      "created_time": "2025-02-17T04:49:00.000Z",
+      "last_edited_time": "2025-02-17T04:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

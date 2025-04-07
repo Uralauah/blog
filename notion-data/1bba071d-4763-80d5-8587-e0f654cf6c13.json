@@ -1,0 +1,2067 @@
+{
+  "object": "page",
+  "id": "1bba071d-4763-80d5-8587-e0f654cf6c13",
+  "created_time": "2025-03-19T07:41:00.000Z",
+  "last_edited_time": "2025-03-21T01:03:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4768bae9-93de-4788-8237-416bf24413ea",
+          "name": "코딩테스트",
+          "color": "green"
+        },
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "자바",
+          "color": "pink"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-03-19",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "10868번 - 최솟값",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "10868번 - 최솟값",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/10868-1bba071d476380d58587e0f654cf6c13",
+  "public_url": "https://codinggroove.notion.site/10868-1bba071d476380d58587e0f654cf6c13",
+  "request_id": "822c7456-30cd-40bb-abf7-e6f04e233d2d",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8010-b955-e82eb59d601f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:43:00.000Z",
+      "last_edited_time": "2025-03-19T07:43:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://www.acmicpc.net/problem/10868"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://www.acmicpc.net/problem/10868"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-803d-b600-d1c5d87e8261",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:43:00.000Z",
+      "last_edited_time": "2025-03-19T07:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 1시간",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 1시간",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80f0-8437-e85c97bce0d6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:43:00.000Z",
+      "last_edited_time": "2025-03-19T07:43:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-804d-aad5-c629dc7417e3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:43:00.000Z",
+      "last_edited_time": "2025-03-19T07:43:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 : ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 : ",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8039-a5e1-d10be590030f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:44:00.000Z",
+      "last_edited_time": "2025-03-19T07:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 문제는 모의 코테를 하면서 세그먼트 트리라는 소리를 듣자마자 가볍게 패스했던 문제였다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 문제는 모의 코테를 하면서 세그먼트 트리라는 소리를 듣자마자 가볍게 패스했던 문제였다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8018-9d97-f6e1616c0d38",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:44:00.000Z",
+      "last_edited_time": "2025-03-19T07:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "세그먼트 트리를 한번도 배워본적이 없어서 이번 기회에 새롭게 공부를 해봤다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "세그먼트 트리를 한번도 배워본적이 없어서 이번 기회에 새롭게 공부를 해봤다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-805a-aa54-e088561f5ee9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:44:00.000Z",
+      "last_edited_time": "2025-03-19T07:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80a2-8383-e625b3de1823",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:45:00.000Z",
+      "last_edited_time": "2025-03-19T07:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "세그먼트 트리",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "세그먼트 트리",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-803b-8ebc-eb87dcd36e2f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:45:00.000Z",
+      "last_edited_time": "2025-03-19T07:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "세그먼트 트리는 여러 개의 데이터가 존재할 때 특정 구간의 합(최솟값, 최댓값, 곱 등)을 구하는 데 사용하는 자료구조이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "세그먼트 트리는 여러 개의 데이터가 존재할 때 특정 구간의 합(최솟값, 최댓값, 곱 등)을 구하는 데 사용하는 자료구조이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80da-bba5-cd04deb6e66a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:45:00.000Z",
+      "last_edited_time": "2025-03-19T07:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80e3-acd8-f75cb5ac1db1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:45:00.000Z",
+      "last_edited_time": "2025-03-19T07:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "기본적인 배열에서 구간의 합을 구하려고 한다면",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기본적인 배열에서 구간의 합을 구하려고 한다면",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80f7-a9a9-f962be01c5e9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:46:00.000Z",
+      "last_edited_time": "2025-03-19T07:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "O(N)의 시간복잡도를 가질 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "O(N)의 시간복잡도를 가질 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80b0-9a92-e183d134047d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:46:00.000Z",
+      "last_edited_time": "2025-03-19T07:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이것도 생각보다 느린 것은 아니겠지만 그 N의 크기가 커지거나, 반복의 횟수가 많아진다면 느리게 될 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이것도 생각보다 느린 것은 아니겠지만 그 N의 크기가 커지거나, 반복의 횟수가 많아진다면 느리게 될 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8048-a75c-ccee3ce9a4d9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:46:00.000Z",
+      "last_edited_time": "2025-03-19T07:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80c6-8b05-ed05af3553e4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:46:00.000Z",
+      "last_edited_time": "2025-03-19T07:47:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "해당 문제에서는 최솟값을 구하는 것이 문제이므로 최솟값을 기준으로 설명하겠다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "해당 문제에서는 최솟값을 구하는 것이 문제이므로 최솟값을 기준으로 설명하겠다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8023-b99e-d9809cb6052f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:57:00.000Z",
+      "last_edited_time": "2025-03-19T07:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80e5-b9b6-e850c10b95f0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:47:00.000Z",
+      "last_edited_time": "2025-03-19T07:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아래와 같은 입력이 들어온다면",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아래와 같은 입력이 들어온다면",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8080-93cc-d5f26defb513",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:57:00.000Z",
+      "last_edited_time": "2025-03-19T07:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "75\n30\n100\n38\n50\n51\n52\n20\n81\n5",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "75\n30\n100\n38\n50\n51\n52\n20\n81\n5",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80d7-b57b-ea17b67d19a2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:58:00.000Z",
+      "last_edited_time": "2025-03-19T07:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아래와 같은 세그먼트 트리가 만들어진다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아래와 같은 세그먼트 트리가 만들어진다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80ed-b493-d2508f56b7b5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:57:00.000Z",
+      "last_edited_time": "2025-03-21T01:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/1bba071d-4763-80d5-8587-e0f654cf6c13/image_1.png",
+          "expiry_time": "2025-04-07T07:46:18.250Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-805f-bee3-e47ee06b289e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:58:00.000Z",
+      "last_edited_time": "2025-03-19T07:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8022-9126-f78dfd8b8d83",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:58:00.000Z",
+      "last_edited_time": "2025-03-19T07:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "즉, 각 구간에 대해 최솟값을 저장하는 배열을 만드는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "즉, 각 구간에 대해 최솟값을 저장하는 배열을 만드는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8062-ba99-d96535d7dd2b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:58:00.000Z",
+      "last_edited_time": "2025-03-19T07:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "여기서 루트 노드는 1번이 되고,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "여기서 루트 노드는 1번이 되고,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80c6-8e67-c681a6af0dc2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:58:00.000Z",
+      "last_edited_time": "2025-03-19T07:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "왼쪽 자식은 2, 오른쪽 자식은 3이 되어서",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "왼쪽 자식은 2, 오른쪽 자식은 3이 되어서",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80ec-97f8-d92b738014a5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:59:00.000Z",
+      "last_edited_time": "2025-03-19T07:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "부모 노드의 번호가 i 라면 왼쪽 자식은 2*i, 오른쪽 자식은 2*i+1이 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "부모 노드의 번호가 i 라면 왼쪽 자식은 2*i, 오른쪽 자식은 2*i+1이 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8098-bc12-c254bae079cd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:59:00.000Z",
+      "last_edited_time": "2025-03-19T07:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-808a-b854-ce739821db92",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:59:00.000Z",
+      "last_edited_time": "2025-03-19T07:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이제 다 배운거나 다름없다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이제 다 배운거나 다름없다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80ef-8ba5-eebe9ea2a028",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:59:00.000Z",
+      "last_edited_time": "2025-03-19T07:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8085-ae68-ccd3210af849",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:47:00.000Z",
+      "last_edited_time": "2025-03-19T07:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "바로 코드를 짜보면",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "바로 코드를 짜보면",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8018-ae28-f10bbddab152",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:00:00.000Z",
+      "last_edited_time": "2025-03-19T08:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "세그먼트트리 생성 함수",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "세그먼트트리 생성 함수",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80fc-8f2e-c9f4bfbda17b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:00:00.000Z",
+      "last_edited_time": "2025-03-19T08:02:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public static int init(int idx, int s, int e) {\n        if (s == e) {\n            tree[idx] = arr[s];\n            return tree[idx];\n        }\n        int mid = (s + e) / 2;\n        tree[idx] = Math.min(init(idx * 2, s, mid), init(idx * 2 + 1, mid + 1, e)); //왼쪽, 오른쪽 자식 중 작은 값 가져옴\n        return tree[idx];\n    }\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public static int init(int idx, int s, int e) {\n        if (s == e) {\n            tree[idx] = arr[s];\n            return tree[idx];\n        }\n        int mid = (s + e) / 2;\n        tree[idx] = Math.min(init(idx * 2, s, mid), init(idx * 2 + 1, mid + 1, e)); //왼쪽, 오른쪽 자식 중 작은 값 가져옴\n        return tree[idx];\n    }\n",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8089-ab86-eeba0b9558fd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:02:00.000Z",
+      "last_edited_time": "2025-03-19T08:02:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80bd-a5de-e04f4101e6f6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:02:00.000Z",
+      "last_edited_time": "2025-03-19T08:02:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최솟값 찾는 함수",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최솟값 찾는 함수",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8036-add1-d2eae3cffb9d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:02:00.000Z",
+      "last_edited_time": "2025-03-19T08:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public static int find(int s, int e, int idx, int a, int b) {\n        if (b < s || e < a) { //범위를 벗어난다면 최댓값 리턴\n            return Integer.MAX_VALUE;\n        }\n\n        if (a <= s && e <= b) { //범위 내라면 해당 값 리턴\n            return tree[idx];\n        }\n\n        int mid = (s + e) / 2;\n\n        return Math.min(find(s, mid, idx * 2, a, b), find(mid + 1, e, idx * 2 + 1, a, b)); //범위 내에서 최솟 값 리턴\n    }",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public static int find(int s, int e, int idx, int a, int b) {\n        if (b < s || e < a) { //범위를 벗어난다면 최댓값 리턴\n            return Integer.MAX_VALUE;\n        }\n\n        if (a <= s && e <= b) { //범위 내라면 해당 값 리턴\n            return tree[idx];\n        }\n\n        int mid = (s + e) / 2;\n\n        return Math.min(find(s, mid, idx * 2, a, b), find(mid + 1, e, idx * 2 + 1, a, b)); //범위 내에서 최솟 값 리턴\n    }",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-804c-a95c-ffc138ba776f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:03:00.000Z",
+      "last_edited_time": "2025-03-19T08:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8085-8668-f6968d127818",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:03:00.000Z",
+      "last_edited_time": "2025-03-19T08:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80fc-8f29-d7f2a25752cb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T07:41:00.000Z",
+      "last_edited_time": "2025-03-19T08:05:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static int[] arr, tree;\n\n    public static int init(int idx, int s, int e) {\n        if (s == e) {\n            tree[idx] = arr[s];\n            return tree[idx];\n        }\n        int mid = (s + e) / 2;\n        tree[idx] = Math.min(init(idx * 2, s, mid), init(idx * 2 + 1, mid + 1, e));\n        return tree[idx];\n    }\n\n    public static int find(int s, int e, int idx, int a, int b) {\n        if (b < s || e < a) {\n            return Integer.MAX_VALUE;\n        }\n\n        if (a <= s && e <= b) {\n            return tree[idx];\n        }\n\n        int mid = (s + e) / 2;\n\n        return Math.min(find(s, mid, idx * 2, a, b), find(mid + 1, e, idx * 2 + 1, a, b));\n    }\n\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n\n        int n = Integer.parseInt(st.nextToken());\n        int m = Integer.parseInt(st.nextToken());\n\n        arr = new int[n];\n        tree = new int[n * 4];\n\n        for (int i = 0; i < n; i++) {\n            arr[i] = Integer.parseInt(br.readLine());\n        }\n\n        init(0, 0, n - 1);\n        \n        \n        for (int i = 0; i < m; i++) {\n            st = new StringTokenizer(br.readLine());\n            int a = Integer.parseInt(st.nextToken()) - 1;\n            int b = Integer.parseInt(st.nextToken()) - 1;\n\n            System.out.println(find(0, n - 1, 0, a, b));\n        }\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static int[] arr, tree;\n\n    public static int init(int idx, int s, int e) {\n        if (s == e) {\n            tree[idx] = arr[s];\n            return tree[idx];\n        }\n        int mid = (s + e) / 2;\n        tree[idx] = Math.min(init(idx * 2, s, mid), init(idx * 2 + 1, mid + 1, e));\n        return tree[idx];\n    }\n\n    public static int find(int s, int e, int idx, int a, int b) {\n        if (b < s || e < a) {\n            return Integer.MAX_VALUE;\n        }\n\n        if (a <= s && e <= b) {\n            return tree[idx];\n        }\n\n        int mid = (s + e) / 2;\n\n        return Math.min(find(s, mid, idx * 2, a, b), find(mid + 1, e, idx * 2 + 1, a, b));\n    }\n\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n\n        int n = Integer.parseInt(st.nextToken());\n        int m = Integer.parseInt(st.nextToken());\n\n        arr = new int[n];\n        tree = new int[n * 4];\n\n        for (int i = 0; i < n; i++) {\n            arr[i] = Integer.parseInt(br.readLine());\n        }\n\n        init(0, 0, n - 1);\n        \n        \n        for (int i = 0; i < m; i++) {\n            st = new StringTokenizer(br.readLine());\n            int a = Integer.parseInt(st.nextToken()) - 1;\n            int b = Integer.parseInt(st.nextToken()) - 1;\n\n            System.out.println(find(0, n - 1, 0, a, b));\n        }\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80c3-a2f6-c5fa1f50b20c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:03:00.000Z",
+      "last_edited_time": "2025-03-19T08:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이렇게 하면 바로 통과일거라고 생각했지만 테스트케이스부터 틀리다고 나온다..",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이렇게 하면 바로 통과일거라고 생각했지만 테스트케이스부터 틀리다고 나온다..",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-803b-8560-d9bb9848d72d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:03:00.000Z",
+      "last_edited_time": "2025-03-19T08:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80f8-9917-cc04e3c915e4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:03:00.000Z",
+      "last_edited_time": "2025-03-19T08:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80e7-899f-d613705bcab7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:03:00.000Z",
+      "last_edited_time": "2025-03-19T08:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이유가 무엇일까??",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이유가 무엇일까??",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80eb-bd5b-e3909075fa85",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:04:00.000Z",
+      "last_edited_time": "2025-03-19T08:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80bf-a230-fbb569da6813",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:04:00.000Z",
+      "last_edited_time": "2025-03-19T08:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-807c-bc94-df70b40f23f3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:04:00.000Z",
+      "last_edited_time": "2025-03-19T08:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8002-a33f-fea67680e9ad",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:04:00.000Z",
+      "last_edited_time": "2025-03-19T08:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80c1-84cb-d5a6f6babf76",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:04:00.000Z",
+      "last_edited_time": "2025-03-19T08:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "for (int i = 0; i < n; i++) {\n            arr[i] = Integer.parseInt(br.readLine());\n        }",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "for (int i = 0; i < n; i++) {\n            arr[i] = Integer.parseInt(br.readLine());\n        }",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-8073-ad52-c48521c2d640",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:04:00.000Z",
+      "last_edited_time": "2025-03-19T08:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "바로 여기서 arr에 0번 인덱스부터 저장해줬기 때문에",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "바로 여기서 arr에 0번 인덱스부터 저장해줬기 때문에",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-806d-8629-e2d22eeec1fa",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:04:00.000Z",
+      "last_edited_time": "2025-03-19T08:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "init 함수 내에서 i*2, i*2+1이 제대로 계산되지 못한 것이다.ㅋㅋ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "init 함수 내에서 i*2, i*2+1이 제대로 계산되지 못한 것이다.ㅋㅋ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80ea-b0a0-ffa7c0e6aad9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:04:00.000Z",
+      "last_edited_time": "2025-03-19T08:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-809c-b402-e415a550e646",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:04:00.000Z",
+      "last_edited_time": "2025-03-19T08:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최종 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최종 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bba071d-4763-80cd-bde9-dd290ad96ce1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1bba071d-4763-80d5-8587-e0f654cf6c13"
+      },
+      "created_time": "2025-03-19T08:04:00.000Z",
+      "last_edited_time": "2025-03-19T08:05:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static int[] arr, tree;\n\n    public static int init(int idx, int s, int e) {\n        if (s == e) {\n            tree[idx] = arr[s];\n            return tree[idx];\n        }\n        int mid = (s + e) / 2;\n        tree[idx] = Math.min(init(idx * 2, s, mid), init(idx * 2 + 1, mid + 1, e));\n        return tree[idx];\n    }\n\n\n    public static int find(int s, int e, int idx, int a, int b) {\n        if (b < s || e < a) {\n            return Integer.MAX_VALUE;\n        }\n\n        if (a <= s && e <= b) {\n            return tree[idx];\n        }\n\n        int mid = (s + e) / 2;\n\n        return Math.min(find(s, mid, idx * 2, a, b), find(mid + 1, e, idx * 2 + 1, a, b));\n    }\n\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n\n        int n = Integer.parseInt(st.nextToken());\n        int m = Integer.parseInt(st.nextToken());\n\n        arr = new int[n+1];\n        tree = new int[n * 4];\n\n        for (int i = 1; i <= n; i++) {\n            arr[i] = Integer.parseInt(br.readLine());\n        }\n\n        init(1, 1, n);\n\n\n        for (int i = 0; i < m; i++) {\n            st = new StringTokenizer(br.readLine());\n            int a = Integer.parseInt(st.nextToken());\n            int b = Integer.parseInt(st.nextToken());\n\n            System.out.println(find(1, n, 1, a, b));\n        }\n    }\n}\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.util.*;\nimport java.io.*;\n\npublic class Main {\n    public static int[] arr, tree;\n\n    public static int init(int idx, int s, int e) {\n        if (s == e) {\n            tree[idx] = arr[s];\n            return tree[idx];\n        }\n        int mid = (s + e) / 2;\n        tree[idx] = Math.min(init(idx * 2, s, mid), init(idx * 2 + 1, mid + 1, e));\n        return tree[idx];\n    }\n\n\n    public static int find(int s, int e, int idx, int a, int b) {\n        if (b < s || e < a) {\n            return Integer.MAX_VALUE;\n        }\n\n        if (a <= s && e <= b) {\n            return tree[idx];\n        }\n\n        int mid = (s + e) / 2;\n\n        return Math.min(find(s, mid, idx * 2, a, b), find(mid + 1, e, idx * 2 + 1, a, b));\n    }\n\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n\n        int n = Integer.parseInt(st.nextToken());\n        int m = Integer.parseInt(st.nextToken());\n\n        arr = new int[n+1];\n        tree = new int[n * 4];\n\n        for (int i = 1; i <= n; i++) {\n            arr[i] = Integer.parseInt(br.readLine());\n        }\n\n        init(1, 1, n);\n\n\n        for (int i = 0; i < m; i++) {\n            st = new StringTokenizer(br.readLine());\n            int a = Integer.parseInt(st.nextToken());\n            int b = Integer.parseInt(st.nextToken());\n\n            System.out.println(find(1, n, 1, a, b));\n        }\n    }\n}\n",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    }
+  ]
+}

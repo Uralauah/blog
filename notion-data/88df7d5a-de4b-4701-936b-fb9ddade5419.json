@@ -1,0 +1,932 @@
+{
+  "object": "page",
+  "id": "88df7d5a-de4b-4701-936b-fb9ddade5419",
+  "created_time": "2024-07-29T05:08:00.000Z",
+  "last_edited_time": "2024-07-29T05:08:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4768bae9-93de-4788-8237-416bf24413ea",
+          "name": "코딩테스트",
+          "color": "green"
+        },
+        {
+          "id": "84763982-c05d-4310-a5a7-6842e950bd08",
+          "name": "C++",
+          "color": "gray"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2024-02-14",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "2096번 - 내려가기",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "2096번 - 내려가기",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/2096-88df7d5ade4b4701936bfb9ddade5419",
+  "public_url": "https://codinggroove.notion.site/2096-88df7d5ade4b4701936bfb9ddade5419",
+  "request_id": "91f76e59-40ca-4c76-b469-6f5b5f96dd2a",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "f6332f0e-2113-4683-800c-8b63ca11bfab",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://www.acmicpc.net/problem/2096"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://www.acmicpc.net/problem/2096"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6fc64a20-ee86-461a-bd46-2d7a43f3f302",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 1시간",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 1시간",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "4f51098f-d609-45a5-8420-71e198e40562",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6b6a29a8-1496-41de-85a7-359792aed21a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 요약",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 요약",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1afa0686-b87c-4dc6-8912-fe495f20e2c5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "n줄에 0이상 9이하의 숫자가 세개씩 적혀있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "n줄에 0이상 9이하의 숫자가 세개씩 적혀있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "f1791713-55d0-4a01-b0d3-19d7fd2b23b2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "첫줄에서 가장 마지막줄까지 이동하면서 세가지 숫자 중 하나를 고른다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "첫줄에서 가장 마지막줄까지 이동하면서 세가지 숫자 중 하나를 고른다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "7defa508-e383-4ffe-bc3a-a4c840f38894",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "마지막 줄에서 얻을 수 있는 최대 점수, 최소 점수를 구해라",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "마지막 줄에서 얻을 수 있는 최대 점수, 최소 점수를 구해라",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "290a52d3-ae62-43d6-842e-fc08a9533957",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5e7a0979-2c86-4fcb-9976-448890814996",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 문제는 dp로 풀 수 있겠다고 생각했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 문제는 dp로 풀 수 있겠다고 생각했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d89cef3a-32f0-4a3c-b7f0-0b75289ccd27",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "초기 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "초기 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "9a127f62-a5e9-4746-bccf-dc8fb01c8711",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "#include <iostream>\n#include <vector>\n\nusing namespace std;\n\nint min_arr[100001][3], max_arr[10001][3], input[10001][3];\nint dir[3][2] = {-1, 0, -1, -1, -1, 1};\nint n;\n\nbool check(int x, int y) {\n    if (x < 0 || x >= n || y < 0 || y >= 3)\n        return false;\n    return true;\n}\n\nvoid dp_min() { //최소 점수 구하기\n    int x = 1, y, tx, ty;\n    for (; x < n; x++) { //줄 번호\n        for (y = 0; y < 3; y++) { //줄 당 숫자\n\t\t\t\t\t\t//현재 칸에 값을 초기화 해준다\n            min_arr[x][y] = input[x][y] + min_arr[x + dir[0][0]][y + dir[0][1]]; \n            for (int i = 1; i < 3; i++) { //위의 다른 칸에서 내려왔을 때 경우 확인하기\n                tx = x + dir[i][0];\n                ty = y + dir[i][1];\n                if (!check(tx, ty))\n                    continue;\n                if (min_arr[x][y] > input[x][y] + min_arr[tx][ty])\n                    min_arr[x][y] = input[x][y] + min_arr[tx][ty];\n            }\n        }\n    }\n}\n\nvoid dp_max() { //최대 점수 구하기\n    int x = 1, y, tx, ty;\n    for (; x < n; x++) {\n        for (y = 0; y < 3; y++) {\n            max_arr[x][y] = input[x][y] + max_arr[x + dir[0][0]][y + dir[0][1]];\n            for (int i = 1; i < 3; i++) {\n                tx = x + dir[i][0];\n                ty = y + dir[i][1];\n                if (!check(tx, ty))\n                    continue;\n                if (max_arr[x][y] < input[x][y] + max_arr[tx][ty]) {\n                    max_arr[x][y] = input[x][y] + max_arr[tx][ty];\n                }\n            }\n        }\n    }\n}\n\nint main() {\n    cin >> n;\n    for (int i = 0; i < n; i++) {\n        cin >> input[i][0] >> input[i][1] >> input[i][2];\n        if (i == 0) { //첫번째줄 초기화 해주기\n            for (int j = 0; j < 3; j++) {\n                min_arr[0][j] = input[i][j];\n                max_arr[0][j] = input[i][j];\n            }\n        }\n    }\n    dp_min();\n    dp_max();\n    int min = min_arr[n - 1][0], max = max_arr[n - 1][0];\n    for (int i = 1; i < 3; i++) { //최대, 최소 점수 구하기\n        if (min > min_arr[n - 1][i])\n            min = min_arr[n - 1][i];\n        if (max < max_arr[n - 1][i])\n            max = max_arr[n - 1][i];\n    }\n    cout << max << \" \" << min;\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "#include <iostream>\n#include <vector>\n\nusing namespace std;\n\nint min_arr[100001][3], max_arr[10001][3], input[10001][3];\nint dir[3][2] = {-1, 0, -1, -1, -1, 1};\nint n;\n\nbool check(int x, int y) {\n    if (x < 0 || x >= n || y < 0 || y >= 3)\n        return false;\n    return true;\n}\n\nvoid dp_min() { //최소 점수 구하기\n    int x = 1, y, tx, ty;\n    for (; x < n; x++) { //줄 번호\n        for (y = 0; y < 3; y++) { //줄 당 숫자\n\t\t\t\t\t\t//현재 칸에 값을 초기화 해준다\n            min_arr[x][y] = input[x][y] + min_arr[x + dir[0][0]][y + dir[0][1]]; \n            for (int i = 1; i < 3; i++) { //위의 다른 칸에서 내려왔을 때 경우 확인하기\n                tx = x + dir[i][0];\n                ty = y + dir[i][1];\n                if (!check(tx, ty))\n                    continue;\n                if (min_arr[x][y] > input[x][y] + min_arr[tx][ty])\n                    min_arr[x][y] = input[x][y] + min_arr[tx][ty];\n            }\n        }\n    }\n}\n\nvoid dp_max() { //최대 점수 구하기\n    int x = 1, y, tx, ty;\n    for (; x < n; x++) {\n        for (y = 0; y < 3; y++) {\n            max_arr[x][y] = input[x][y] + max_arr[x + dir[0][0]][y + dir[0][1]];\n            for (int i = 1; i < 3; i++) {\n                tx = x + dir[i][0];\n                ty = y + dir[i][1];\n                if (!check(tx, ty))\n                    continue;\n                if (max_arr[x][y] < input[x][y] + max_arr[tx][ty]) {\n                    max_arr[x][y] = input[x][y] + max_arr[tx][ty];\n                }\n            }\n        }\n    }\n}\n\nint main() {\n    cin >> n;\n    for (int i = 0; i < n; i++) {\n        cin >> input[i][0] >> input[i][1] >> input[i][2];\n        if (i == 0) { //첫번째줄 초기화 해주기\n            for (int j = 0; j < 3; j++) {\n                min_arr[0][j] = input[i][j];\n                max_arr[0][j] = input[i][j];\n            }\n        }\n    }\n    dp_min();\n    dp_max();\n    int min = min_arr[n - 1][0], max = max_arr[n - 1][0];\n    for (int i = 1; i < 3; i++) { //최대, 최소 점수 구하기\n        if (min > min_arr[n - 1][i])\n            min = min_arr[n - 1][i];\n        if (max < max_arr[n - 1][i])\n            max = max_arr[n - 1][i];\n    }\n    cout << max << \" \" << min;\n}",
+            "href": null
+          }
+        ],
+        "language": "c++"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d311809f-11ae-47d6-b733-f5e2c163085a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위 코드가 좀 더럽긴해도 맞다고 생각했는데",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위 코드가 좀 더럽긴해도 맞다고 생각했는데",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a28e2b9f-30db-422c-8af8-ea999092b182",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이상하게 3%에서 틀렸다고 뜬다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이상하게 3%에서 틀렸다고 뜬다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "853f95a3-22f0-4c2c-9558-29343529f7fa",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이유는 모르겠다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이유는 모르겠다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "81eb6828-bfb2-405a-a3ea-2468f5d88a01",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 다른 사람의 풀이를 조금 참고했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 다른 사람의 풀이를 조금 참고했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "eafc0a61-410a-4d7e-9c3f-2979731dfcc4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e4da6c2d-db5a-4f4e-b130-01a4c6d1572f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최종 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최종 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "8100f6d9-eb11-4e60-b39b-b12a42efd66f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "int main() {\n    cin >> n;\n    for (int i = 0; i < n; i++) {\n        cin >> input[0] >> input[1] >> input[2];\n        for (int j = 0; j < 3; j++) {\n            max_arr[i][j] = input[j];\n            min_arr[i][j] = input[j];\n        }\n        if (i == 0) {\n            continue;\n        } //무작정 큰값 대입해주기\n        max_arr[i][0] = max(max_arr[i - 1][0], max_arr[i - 1][1]) + input[0];\n        max_arr[i][1] = max(max_arr[i - 1][0], max(max_arr[i - 1][1], max_arr[i - 1][2])) + input[1];\n        max_arr[i][2] = max(max_arr[i - 1][1], max_arr[i - 1][2]) + input[2];\n\t\t\t\t//무작정 작은값 대입해주기\n        min_arr[i][0] = min(min_arr[i - 1][0], min_arr[i - 1][1]) + input[0];\n        min_arr[i][1] = min(min_arr[i - 1][0], min(min_arr[i - 1][1], min_arr[i - 1][2])) + input[1];\n        min_arr[i][2] = min(min_arr[i - 1][1], min_arr[i - 1][2]) + input[2];\n    }\n\n    int min = min_arr[n - 1][0], max = max_arr[n - 1][0];\n    for (int i = 1; i < 3; i++) {\n        if (min > min_arr[n - 1][i])\n            min = min_arr[n - 1][i];\n        if (max < max_arr[n - 1][i])\n            max = max_arr[n - 1][i];\n    }\n    cout << max << \" \" << min;\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "int main() {\n    cin >> n;\n    for (int i = 0; i < n; i++) {\n        cin >> input[0] >> input[1] >> input[2];\n        for (int j = 0; j < 3; j++) {\n            max_arr[i][j] = input[j];\n            min_arr[i][j] = input[j];\n        }\n        if (i == 0) {\n            continue;\n        } //무작정 큰값 대입해주기\n        max_arr[i][0] = max(max_arr[i - 1][0], max_arr[i - 1][1]) + input[0];\n        max_arr[i][1] = max(max_arr[i - 1][0], max(max_arr[i - 1][1], max_arr[i - 1][2])) + input[1];\n        max_arr[i][2] = max(max_arr[i - 1][1], max_arr[i - 1][2]) + input[2];\n\t\t\t\t//무작정 작은값 대입해주기\n        min_arr[i][0] = min(min_arr[i - 1][0], min_arr[i - 1][1]) + input[0];\n        min_arr[i][1] = min(min_arr[i - 1][0], min(min_arr[i - 1][1], min_arr[i - 1][2])) + input[1];\n        min_arr[i][2] = min(min_arr[i - 1][1], min_arr[i - 1][2]) + input[2];\n    }\n\n    int min = min_arr[n - 1][0], max = max_arr[n - 1][0];\n    for (int i = 1; i < 3; i++) {\n        if (min > min_arr[n - 1][i])\n            min = min_arr[n - 1][i];\n        if (max < max_arr[n - 1][i])\n            max = max_arr[n - 1][i];\n    }\n    cout << max << \" \" << min;\n}",
+            "href": null
+          }
+        ],
+        "language": "c++"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "943e747b-2eb2-4f5f-9d06-c5d261066e92",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "생각보다 너무 간단하고 무지성으로 풀 수 있었던 문제…",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "생각보다 너무 간단하고 무지성으로 풀 수 있었던 문제…",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "fc30e6e7-24bc-40bb-b9f7-277e6f55c026",
+      "parent": {
+        "type": "page_id",
+        "page_id": "88df7d5a-de4b-4701-936b-fb9ddade5419"
+      },
+      "created_time": "2024-07-29T05:08:00.000Z",
+      "last_edited_time": "2024-07-29T05:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

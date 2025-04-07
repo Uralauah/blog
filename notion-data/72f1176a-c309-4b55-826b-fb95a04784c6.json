@@ -1,0 +1,1094 @@
+{
+  "object": "page",
+  "id": "72f1176a-c309-4b55-826b-fb95a04784c6",
+  "created_time": "2024-07-29T05:08:00.000Z",
+  "last_edited_time": "2024-07-29T05:09:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4768bae9-93de-4788-8237-416bf24413ea",
+          "name": "코딩테스트",
+          "color": "green"
+        },
+        {
+          "id": "84763982-c05d-4310-a5a7-6842e950bd08",
+          "name": "C++",
+          "color": "gray"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2024-02-20",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "16234번 - 인구 이동",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "16234번 - 인구 이동",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/16234-72f1176ac3094b55826bfb95a04784c6",
+  "public_url": "https://codinggroove.notion.site/16234-72f1176ac3094b55826bfb95a04784c6",
+  "request_id": "7bbf5f64-e761-4bfe-aafa-0d70e4e96b8a",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "4c03e307-da5b-4817-a897-694c1a19eb96",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://www.acmicpc.net/problem/16234"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://www.acmicpc.net/problem/16234"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2f47f299-c8c4-4ecb-aac6-46c4807587e4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 2시간",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 2시간",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5fcf8acf-ef53-43cc-ad5e-6847ea43f9c7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c802def2-0d8e-4621-8e90-5828e2bf040d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 요약",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 요약",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "35d7eb45-bfc2-4a86-bf80-1bd4d9ae946a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "NxN크기의 땅 한칸마다 나라가 존재한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "NxN크기의 땅 한칸마다 나라가 존재한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5434fdea-d32e-4f5b-a4b9-365dbc09d8e6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "국경선을 공유하는 두 나라의 인구 차이가 L명 이상, R명 이하라면 두 나라는 연합이 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "국경선을 공유하는 두 나라의 인구 차이가 L명 이상, R명 이하라면 두 나라는 연합이 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "9398a8ae-eec6-4b01-bfd3-868ad7de9bc5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위의 조건에 해당하는 모든 나라가 연합이 되었다면 그 연합은 인구이동을 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위의 조건에 해당하는 모든 나라가 연합이 되었다면 그 연합은 인구이동을 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "9a7c55ae-6a20-47f1-a413-63b5dad41018",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "인구 이동은 (연합의 총 인구 수)/(연합을 이루는 나라의 개수) 가 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "인구 이동은 (연합의 총 인구 수)/(연합을 이루는 나라의 개수) 가 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d071d300-9f03-40d7-87c2-d93374960c67",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "인구이동이 더이상 이뤄지지 않을 때까지 반복하여 며칠 동안 인구 이동이 발생하는지 구해라",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "인구이동이 더이상 이뤄지지 않을 때까지 반복하여 며칠 동안 인구 이동이 발생하는지 구해라",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5977dec6-2c06-454a-b05c-6b3f081eebeb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "017a5462-4751-40d0-b7f5-4e58f1d952bf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 문제는 bfs로 인접한 나라들의 인구를 비교하면서 풀면 간단하게 풀 수 있을 거라고 생각했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 문제는 bfs로 인접한 나라들의 인구를 비교하면서 풀면 간단하게 풀 수 있을 거라고 생각했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "9095d8df-1e45-4706-ba82-5cacb42322d1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c34693f8-6549-4ebf-8f89-6c1dcf92e45f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "초기 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "초기 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "347178c8-eac9-49e6-842d-45f06db02cbb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "#include <iostream>\n#include <cmath>\n#include <queue>\n#include <set>\n\nusing namespace std;\n\nint n, l, r, ans = 0;\nint city[51][51], dir[4][2] = {1, 0, -1, 0, 0, 1, 0, -1};\nbool visited[51][51];\nqueue<pair<int, int>> q, q2, ali;\nset<pair<int, int>> s;\n\nbool check(int x, int y) {\n    if (x < 1 || x > n || y < 1 || y > n)\n        return false;\n    return true;\n}\n\nvoid find(int x, int y) {\n    q.push({x, y}); //bfs탐색을 위한 큐\n    ali.push({x, y}); //연합 확인을 위한 큐\n    int people = city[x][y]; //연합의 인구 수\n    visited[x][y] = true;\n\n    while (!q.empty()) {\n        x = q.front().first;\n        y = q.front().second;\n        q.pop();\n        for (int i = 0; i < 4; i++) {\n            int tx = x + dir[i][0];\n            int ty = y + dir[i][1];\n            if (check(tx, ty)) { //칸을 넘기지 않고\n                if (!visited[tx][ty]) { //방문되지 않았다면\n                    int sum = abs(city[x][y] - city[tx][ty]); //인접한 국가의 인구 수 차이\n                    if (sum >= l && sum <= r) { //조건에 만족한다면\n                        ali.push({tx, ty}); //연합에 추가\n                        q.push({tx, ty}); //bfs큐에 추가\n                        visited[tx][ty] = true; //방문처리\n                        people += city[tx][ty]; //연합 인구수 증가\n                    } else {\n                        s.insert({tx, ty}); //만족하지 않으면 방문되지 않은 나라를 저장하는 set에 저장\n                    }\n                }\n            }\n        }\n    }\n\n    people = people / ali.size(); //연합의 각 나라의 인구 수 계산\n\n    while (!ali.empty()) { //각 나라의 인구수 저장\n        city[ali.front().first][ali.front().second] = people;\n        ali.pop();\n    }\n    if (!s.empty()) { //연합에 포함되지 않았던 나라들 다시 bfs\n        ans++;\n        while (true) {\n            if (s.empty())\n                break;\n            x = (*s.begin()).first;\n            y = (*s.begin()).second;\n            s.erase(s.begin());\n            if (!visited[x][y])\n                break;\n        }\n        find(x, y);\n    }\n}\n\nint main() {\n    cin >> n >> l >> r;\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= n; j++) {\n            cin >> city[i][j];\n        }\n    }\n\n    int sum = 0;\n    while (true) {\n        sum++;\n        find(1, 1);\n        for (int i = 1; i <= n; i++) {\n            for (int j = 1; j <= n; j++)\n                visited[i][j] = false;\n        }\n        if (ans == n * n - 1)\n            break;\n        ans = 0;\n    }\n    cout << sum - 1;\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "#include <iostream>\n#include <cmath>\n#include <queue>\n#include <set>\n\nusing namespace std;\n\nint n, l, r, ans = 0;\nint city[51][51], dir[4][2] = {1, 0, -1, 0, 0, 1, 0, -1};\nbool visited[51][51];\nqueue<pair<int, int>> q, q2, ali;\nset<pair<int, int>> s;\n\nbool check(int x, int y) {\n    if (x < 1 || x > n || y < 1 || y > n)\n        return false;\n    return true;\n}\n\nvoid find(int x, int y) {\n    q.push({x, y}); //bfs탐색을 위한 큐\n    ali.push({x, y}); //연합 확인을 위한 큐\n    int people = city[x][y]; //연합의 인구 수\n    visited[x][y] = true;\n\n    while (!q.empty()) {\n        x = q.front().first;\n        y = q.front().second;\n        q.pop();\n        for (int i = 0; i < 4; i++) {\n            int tx = x + dir[i][0];\n            int ty = y + dir[i][1];\n            if (check(tx, ty)) { //칸을 넘기지 않고\n                if (!visited[tx][ty]) { //방문되지 않았다면\n                    int sum = abs(city[x][y] - city[tx][ty]); //인접한 국가의 인구 수 차이\n                    if (sum >= l && sum <= r) { //조건에 만족한다면\n                        ali.push({tx, ty}); //연합에 추가\n                        q.push({tx, ty}); //bfs큐에 추가\n                        visited[tx][ty] = true; //방문처리\n                        people += city[tx][ty]; //연합 인구수 증가\n                    } else {\n                        s.insert({tx, ty}); //만족하지 않으면 방문되지 않은 나라를 저장하는 set에 저장\n                    }\n                }\n            }\n        }\n    }\n\n    people = people / ali.size(); //연합의 각 나라의 인구 수 계산\n\n    while (!ali.empty()) { //각 나라의 인구수 저장\n        city[ali.front().first][ali.front().second] = people;\n        ali.pop();\n    }\n    if (!s.empty()) { //연합에 포함되지 않았던 나라들 다시 bfs\n        ans++;\n        while (true) {\n            if (s.empty())\n                break;\n            x = (*s.begin()).first;\n            y = (*s.begin()).second;\n            s.erase(s.begin());\n            if (!visited[x][y])\n                break;\n        }\n        find(x, y);\n    }\n}\n\nint main() {\n    cin >> n >> l >> r;\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= n; j++) {\n            cin >> city[i][j];\n        }\n    }\n\n    int sum = 0;\n    while (true) {\n        sum++;\n        find(1, 1);\n        for (int i = 1; i <= n; i++) {\n            for (int j = 1; j <= n; j++)\n                visited[i][j] = false;\n        }\n        if (ans == n * n - 1)\n            break;\n        ans = 0;\n    }\n    cout << sum - 1;\n}",
+            "href": null
+          }
+        ],
+        "language": "c++"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "8ae140f7-1471-4b34-a1fb-f84372b336fe",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위 코드도 바로 통과를 했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위 코드도 바로 통과를 했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "058db694-d2dc-4e0f-8339-89a62b07c4cc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "근데 아무리 생각해도 저렇게 비효율적으로 할 필요가 있을까?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "근데 아무리 생각해도 저렇게 비효율적으로 할 필요가 있을까?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "65480db5-4899-4903-be3a-afe4c7325203",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "라는 생각을 하고 다른 사람들은 어떻게 풀었나 한번 찾아봤더니",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "라는 생각을 하고 다른 사람들은 어떻게 풀었나 한번 찾아봤더니",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "bd6953d2-7367-4dac-b797-471c50f22c08",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "굳이 s라는 set를 사용하지 않고 방문되지 않은 나라를 탐색하는 방식으로 해도 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "굳이 s라는 set를 사용하지 않고 방문되지 않은 나라를 탐색하는 방식으로 해도 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d47b4742-250c-49bb-9c8b-d97f0ddf5da3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "나라 개수가 아무리 많아봤자 50x50=2500이므로 시간초과와는 거리가 멀다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "나라 개수가 아무리 많아봤자 50x50=2500이므로 시간초과와는 거리가 멀다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "0ecb4389-b63c-4fe9-a61a-f1f9d68f60a3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 다시 코드를 수정해서 아래와 같은 결과를 얻을 수 있었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 다시 코드를 수정해서 아래와 같은 결과를 얻을 수 있었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c9fda4b0-872c-4f25-b378-0a6cbf79dc8f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최종 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최종 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a4856a5e-f03e-4252-be59-08bc6badc9be",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "#include <iostream>\n#include <vector>\n#include <queue>\n\nusing namespace std;\nvector<pair<int, int>> v;\nqueue<pair<int, int>> q;\nint n, l, r, sum = 0;\nint city[51][51], dir[4][2] = {1, 0, -1, 0, 0, 1, 0, -1};\nbool visited[51][51];\n\nbool check(int x, int y) {\n    if (x < 1 || x > n || y < 1 || y > n)\n        return false;\n    return true;\n}\n\nvoid find(pair<int, int> input) {\n    q.push(input); //bfs탐색을 위한 큐\n    visited[input.first][input.second] = true; //방문 처리\n    while (!q.empty()) {\n        int x = q.front().first;\n        int y = q.front().second;\n        q.pop();\n        for (int i = 0; i < 4; i++) {\n            int tx = x + dir[i][0];\n            int ty = y + dir[i][1];\n            if (!visited[tx][ty]) {\n                if (check(tx, ty)) {\n                    int temp = abs(city[x][y] - city[tx][ty]);\n                    if (temp >= l && temp <= r) {\n                        v.push_back({tx, ty}); //연합 처리를 위한 벡터 저장\n                        q.push({tx, ty});\n                        visited[tx][ty] = true;\n                        sum += city[tx][ty]; //인구수 계산\n                    }\n                }\n\n            }\n        }\n    }\n}\n\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    cout.tie(NULL);\n    cin >> n >> l >> r;\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= n; j++)\n            cin >> city[i][j];\n    }\n    bool flag = true;\n    int ans = 0;\n    while (flag) { //연합이 발생하지 않을 때까지 반복\n        flag = false;\n        for (int i = 1; i <= n; i++) { //모든 나라를 보며 방문되지 않은 경우 bfs실시\n            for (int j = 1; j <= n; j++) {\n                if (!visited[i][j]) {\n                    v.push_back({i, j});\n                    sum = city[i][j];\n                    find({i, j});\n                }\n                if (v.size() > 1) { //벡터에 2개이상의 나라가 저장됐다면 연합 발생\n                    flag = true;\n                    for (int k = 0; k < v.size(); k++) {\n                        city[v[k].first][v[k].second] = sum / v.size();\n                    }\n                }\n                v.clear();\n            }\n        }\n        if (flag)\n            ans++;\n        for (int i = 1; i <= n; i++) {\n            for (int j = 1; j <= n; j++)\n                visited[i][j] = false;\n        }\n\n    }\n    cout << ans;\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "#include <iostream>\n#include <vector>\n#include <queue>\n\nusing namespace std;\nvector<pair<int, int>> v;\nqueue<pair<int, int>> q;\nint n, l, r, sum = 0;\nint city[51][51], dir[4][2] = {1, 0, -1, 0, 0, 1, 0, -1};\nbool visited[51][51];\n\nbool check(int x, int y) {\n    if (x < 1 || x > n || y < 1 || y > n)\n        return false;\n    return true;\n}\n\nvoid find(pair<int, int> input) {\n    q.push(input); //bfs탐색을 위한 큐\n    visited[input.first][input.second] = true; //방문 처리\n    while (!q.empty()) {\n        int x = q.front().first;\n        int y = q.front().second;\n        q.pop();\n        for (int i = 0; i < 4; i++) {\n            int tx = x + dir[i][0];\n            int ty = y + dir[i][1];\n            if (!visited[tx][ty]) {\n                if (check(tx, ty)) {\n                    int temp = abs(city[x][y] - city[tx][ty]);\n                    if (temp >= l && temp <= r) {\n                        v.push_back({tx, ty}); //연합 처리를 위한 벡터 저장\n                        q.push({tx, ty});\n                        visited[tx][ty] = true;\n                        sum += city[tx][ty]; //인구수 계산\n                    }\n                }\n\n            }\n        }\n    }\n}\n\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(NULL);\n    cout.tie(NULL);\n    cin >> n >> l >> r;\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= n; j++)\n            cin >> city[i][j];\n    }\n    bool flag = true;\n    int ans = 0;\n    while (flag) { //연합이 발생하지 않을 때까지 반복\n        flag = false;\n        for (int i = 1; i <= n; i++) { //모든 나라를 보며 방문되지 않은 경우 bfs실시\n            for (int j = 1; j <= n; j++) {\n                if (!visited[i][j]) {\n                    v.push_back({i, j});\n                    sum = city[i][j];\n                    find({i, j});\n                }\n                if (v.size() > 1) { //벡터에 2개이상의 나라가 저장됐다면 연합 발생\n                    flag = true;\n                    for (int k = 0; k < v.size(); k++) {\n                        city[v[k].first][v[k].second] = sum / v.size();\n                    }\n                }\n                v.clear();\n            }\n        }\n        if (flag)\n            ans++;\n        for (int i = 1; i <= n; i++) {\n            for (int j = 1; j <= n; j++)\n                visited[i][j] = false;\n        }\n\n    }\n    cout << ans;\n}",
+            "href": null
+          }
+        ],
+        "language": "c++"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a701b6a0-52d5-421a-b368-9880a0a0e477",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "15be0ea7-9eb4-40ac-b4ce-7cec74a7f992",
+      "parent": {
+        "type": "page_id",
+        "page_id": "72f1176a-c309-4b55-826b-fb95a04784c6"
+      },
+      "created_time": "2024-07-29T05:09:00.000Z",
+      "last_edited_time": "2024-07-29T05:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

@@ -1,0 +1,5404 @@
+{
+  "object": "page",
+  "id": "2ccef68b-d878-4581-8cf4-df19af48a432",
+  "created_time": "2024-08-11T11:36:00.000Z",
+  "last_edited_time": "2025-04-07T07:23:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "b2df65bf-3651-4ad7-97dd-58844a6742a7",
+          "name": "스프링부트",
+          "color": "brown"
+        },
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "자바",
+          "color": "pink"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2024-08-11",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Spring 구조 설계, 정답은 없다 – 상황에 따라 결정하자",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Spring 구조 설계, 정답은 없다 – 상황에 따라 결정하자",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/Spring-2ccef68bd87845818cf4df19af48a432",
+  "public_url": "https://codinggroove.notion.site/Spring-2ccef68bd87845818cf4df19af48a432",
+  "request_id": "288351d5-eaed-43a9-a047-1bf0a8db84dd",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "9db3096e-8c2f-4f89-ae07-b016cf4abc30",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T11:37:00.000Z",
+      "last_edited_time": "2024-08-11T12:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "스프링으로 개발을 하다보면 아래와 같은 상황이 자주 생길 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "스프링으로 개발을 하다보면 아래와 같은 상황이 자주 생길 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a5591fd9-e7f0-4adf-a128-ffe96a3ebbbf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:40:00.000Z",
+      "last_edited_time": "2024-08-11T12:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Post라는 글을 처리하는 비즈니스 로직에서 User를 처리해야할 경우와 같이",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Post라는 글을 처리하는 비즈니스 로직에서 User를 처리해야할 경우와 같이",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "cfd5dc1c-f495-4f1c-af6e-9fcb0819be5d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:40:00.000Z",
+      "last_edited_time": "2024-08-11T12:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "서로 다른 도메인을 건드려야하는 경우이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "서로 다른 도메인을 건드려야하는 경우이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "fe0f710e-f77b-4855-92b4-733c08f87a8f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:40:00.000Z",
+      "last_edited_time": "2024-08-11T12:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dac93f3-01a8-4e4f-a467-773ce9bb645a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:40:00.000Z",
+      "last_edited_time": "2024-08-11T12:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이때 우리는 크게 3가지 방법을 사용할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이때 우리는 크게 3가지 방법을 사용할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "13839959-493c-40b3-ad77-ba5b817208b7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:50:00.000Z",
+      "last_edited_time": "2024-08-11T12:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5fed31b5-5442-4ed3-9a44-e977ac3b0f62",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:50:00.000Z",
+      "last_edited_time": "2024-08-11T12:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3가지 방법",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3가지 방법",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "b6d30944-fd9d-468c-8c35-15e20de68f2f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:41:00.000Z",
+      "last_edited_time": "2024-08-11T12:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. 서비스에서 서비스 의존",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. 서비스에서 서비스 의존",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "58e664bd-efde-48c1-a94c-b32895ae6391",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:41:00.000Z",
+      "last_edited_time": "2024-08-11T12:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Service\n@RequiredArgsConstructor\npublic class PostService {\n    private final UserService userService;\n\n    public boolean check(Post post, Long userId) {\n        User user = userService.find(userId);\n        \n        return post.getUser().equals(user);\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@Service\n@RequiredArgsConstructor\npublic class PostService {\n    private final UserService userService;\n\n    public boolean check(Post post, Long userId) {\n        User user = userService.find(userId);\n        \n        return post.getUser().equals(user);\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "abc653a2-682e-45e4-b4eb-aaf95430a7b9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:44:00.000Z",
+      "last_edited_time": "2024-08-11T12:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "예를 들어 위와 같은 글의 작성자와 사용자가 일치하는지 확인하는 코드가 있다고 하자.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "예를 들어 위와 같은 글의 작성자와 사용자가 일치하는지 확인하는 코드가 있다고 하자.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "316504a5-0301-4e5b-9773-3280d1a81184",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:44:00.000Z",
+      "last_edited_time": "2024-08-11T12:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그럴 때, 이와 같이 PostService에서 UserService를 직접 호출하는 경우이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그럴 때, 이와 같이 PostService에서 UserService를 직접 호출하는 경우이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1946e2dc-129d-4e78-9da8-bb8cd685eb3c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:45:00.000Z",
+      "last_edited_time": "2024-08-11T12:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "05199699-8a1e-44ce-8cbb-86029241d676",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:45:00.000Z",
+      "last_edited_time": "2024-08-11T12:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. 서비스에서 리포지토리 의존",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. 서비스에서 리포지토리 의존",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "7df3c0e5-e048-4c35-bcaf-c9625f054ef0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:46:00.000Z",
+      "last_edited_time": "2024-08-11T12:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Service\n@RequiredArgsConstructor\npublic class PostService {\n    private final UserRepository userRepository;\n\n    public boolean check(Post post, Long userId) {\n        User user = userRepository.findById(userId);\n        \n        return post.getUser().equals(user);\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@Service\n@RequiredArgsConstructor\npublic class PostService {\n    private final UserRepository userRepository;\n\n    public boolean check(Post post, Long userId) {\n        User user = userRepository.findById(userId);\n        \n        return post.getUser().equals(user);\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "3f8bffec-f712-4b3f-89e8-8d124db4a08b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:44:00.000Z",
+      "last_edited_time": "2024-08-11T12:47:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1번에서의 코드와 같은 동작을 하지만 해당 코드에서는 UserService를 호출하는 것이 아니라",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1번에서의 코드와 같은 동작을 하지만 해당 코드에서는 UserService를 호출하는 것이 아니라",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "cf3e5566-bb4f-4d83-92e3-53e6a5186166",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:47:00.000Z",
+      "last_edited_time": "2024-08-11T12:47:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "UserRepository를 호출하여 동작한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "UserRepository를 호출하여 동작한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6d4b62d4-a6a0-43b9-ad9e-563e15b3122b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:47:00.000Z",
+      "last_edited_time": "2024-08-11T12:47:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "49494751-348e-4c64-b444-0add19b7f37d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:47:00.000Z",
+      "last_edited_time": "2024-08-11T12:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3. 상위 서비스에서 다른 서비스 호출",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3. 상위 서비스에서 다른 서비스 호출",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "bdadf4ea-9975-442e-8a49-1de722b65ce5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:47:00.000Z",
+      "last_edited_time": "2024-08-11T12:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Service\n@RequiredArgsConstructor\npublic class PostServiceFacade {\n    private final UserService userService;\n    private final PostService postService;\n\n    public boolean check(Post post, Long userId) {\n        User user = userService.find(userId);\n        \n        return postService.check(post, user);\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@Service\n@RequiredArgsConstructor\npublic class PostServiceFacade {\n    private final UserService userService;\n    private final PostService postService;\n\n    public boolean check(Post post, Long userId) {\n        User user = userService.find(userId);\n        \n        return postService.check(post, user);\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ef8876ab-112f-4a89-9225-afbff8a84dc1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:44:00.000Z",
+      "last_edited_time": "2024-08-11T12:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이번에는 Facade 패턴을 사용하여 두 서비스의 상위 서비스에서 나머지 서비스를 호출해서 사용하는 경우이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이번에는 Facade 패턴을 사용하여 두 서비스의 상위 서비스에서 나머지 서비스를 호출해서 사용하는 경우이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1bf08558-bff0-4f0a-a3a9-c48a42379956",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:49:00.000Z",
+      "last_edited_time": "2024-08-11T12:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e6217c67-dbaa-4f55-acf2-e6cb0d64f300",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:49:00.000Z",
+      "last_edited_time": "2024-08-11T12:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "8e4f137c-0939-49e3-9db9-3bf67ce1879f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:49:00.000Z",
+      "last_edited_time": "2024-08-11T12:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위와 같이, 3가지 방법 중에 우리는 어떤 방법을 쓰는 것이 좋을까?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위와 같이, 3가지 방법 중에 우리는 어떤 방법을 쓰는 것이 좋을까?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d74a2e3f-db82-4b91-a190-86aaa8054b5e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:49:00.000Z",
+      "last_edited_time": "2024-08-11T12:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "b45871af-0158-45a4-a577-c54414f4f6fd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:49:00.000Z",
+      "last_edited_time": "2024-08-11T12:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "결론을 미리 말하자면, 정답은 없다!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "결론을 미리 말하자면, 정답은 없다!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "07fce211-eb25-4713-b26d-06343e16699d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:49:00.000Z",
+      "last_edited_time": "2024-08-11T12:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "지금부터 이유를 설명해보겠다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "지금부터 이유를 설명해보겠다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e8ec55fc-1177-41d7-a9c9-c6bab238c053",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:49:00.000Z",
+      "last_edited_time": "2024-08-11T12:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "228b9942-6629-4fc0-b427-c8c4f477b757",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:50:00.000Z",
+      "last_edited_time": "2024-08-11T12:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3가지 방법의 장단점",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3가지 방법의 장단점",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e567b6a3-5a15-4742-a2ed-18fdee1cf51c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:50:00.000Z",
+      "last_edited_time": "2024-08-11T12:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. 서비스에서 서비스 의존",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. 서비스에서 서비스 의존",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "82c3ebe6-3a02-4ce4-b05c-9cafa8449e7f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T12:50:00.000Z",
+      "last_edited_time": "2024-08-11T13:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "장점",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "장점",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "bc5b4379-275b-4bd3-a790-ef38795467bc",
+          "parent": {
+            "type": "block_id",
+            "block_id": "82c3ebe6-3a02-4ce4-b05c-9cafa8449e7f"
+          },
+          "created_time": "2024-08-11T13:01:00.000Z",
+          "last_edited_time": "2024-08-11T13:02:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "해당 데이터는 해당 서비스에서만 처리되므로 데이터가 분산되지 않고 관리가 편하다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "해당 데이터는 해당 서비스에서만 처리되므로 데이터가 분산되지 않고 관리가 편하다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "d691b7b5-fe99-462c-b97c-cad58e50e6a5",
+          "parent": {
+            "type": "block_id",
+            "block_id": "82c3ebe6-3a02-4ce4-b05c-9cafa8449e7f"
+          },
+          "created_time": "2024-08-11T13:06:00.000Z",
+          "last_edited_time": "2024-08-11T13:06:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "코드 재활용이 간편하다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "코드 재활용이 간편하다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "7a0615b7-8195-4341-aa53-d41445526607",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:02:00.000Z",
+      "last_edited_time": "2024-08-11T13:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "단점",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "단점",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "16a7e764-b09e-4179-a3ee-f46d50716dae",
+          "parent": {
+            "type": "block_id",
+            "block_id": "7a0615b7-8195-4341-aa53-d41445526607"
+          },
+          "created_time": "2024-08-11T13:02:00.000Z",
+          "last_edited_time": "2024-08-11T13:02:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "순환 참조가 발생할 수 있다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "순환 참조가 발생할 수 있다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "153d8dec-6be6-4773-a4c8-778bc82db3d0",
+          "parent": {
+            "type": "block_id",
+            "block_id": "7a0615b7-8195-4341-aa53-d41445526607"
+          },
+          "created_time": "2024-08-11T13:02:00.000Z",
+          "last_edited_time": "2024-08-11T13:02:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "A 서비스에서만 필요한 기능을 B 서비스에서 불러오게 된다면, A 서비스를 위한 B 서비스가 만들어질 수도 있다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "A 서비스에서만 필요한 기능을 B 서비스에서 불러오게 된다면, A 서비스를 위한 B 서비스가 만들어질 수도 있다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "8e6b59b3-6ce7-4b3d-825c-58ecc1bb6323",
+          "parent": {
+            "type": "block_id",
+            "block_id": "7a0615b7-8195-4341-aa53-d41445526607"
+          },
+          "created_time": "2024-08-11T13:03:00.000Z",
+          "last_edited_time": "2024-08-11T13:03:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "트랜잭션 처리에 주의가 필요하다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "트랜잭션 처리에 주의가 필요하다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "d7f4a0e6-d12d-439c-8787-b8fa11388c65",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:02:00.000Z",
+      "last_edited_time": "2024-08-11T13:02:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "9ffff1b8-27e8-40e4-ab51-647e60c00969",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:02:00.000Z",
+      "last_edited_time": "2024-08-11T13:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "여기서 순환 참조가 일어날 수 있다. 라는 내용은 대부분의 사람들의 의견으로는 단점이라기보단 해당 내용은 개발자의 설계 오류라고 생각하는 사람들이 많은 것 같다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "여기서 순환 참조가 일어날 수 있다. 라는 내용은 대부분의 사람들의 의견으로는 단점이라기보단 해당 내용은 개발자의 설계 오류라고 생각하는 사람들이 많은 것 같다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d67a8373-02eb-48a2-813c-0f99c1076650",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:03:00.000Z",
+      "last_edited_time": "2024-08-11T13:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c8b58391-8b0a-4b6c-9e5d-25dfd7e2790e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:03:00.000Z",
+      "last_edited_time": "2024-08-11T13:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. 서비스에서 리포지토리 의존",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. 서비스에서 리포지토리 의존",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "964299c9-5c73-43b1-9c65-eb81b8c7d3f1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:04:00.000Z",
+      "last_edited_time": "2024-08-11T13:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "장점",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "장점",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "b3fcf70b-12c9-4692-9fab-57c2f5c0212b",
+          "parent": {
+            "type": "block_id",
+            "block_id": "964299c9-5c73-43b1-9c65-eb81b8c7d3f1"
+          },
+          "created_time": "2024-08-11T13:04:00.000Z",
+          "last_edited_time": "2024-08-11T13:04:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "서비스 → 리포지토리 라는 구조로 인해 순환참조에 대한 걱정이 없다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "서비스 → 리포지토리 라는 구조로 인해 순환참조에 대한 걱정이 없다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "c524cd93-4b2c-4a17-99f4-e5df14e593eb",
+          "parent": {
+            "type": "block_id",
+            "block_id": "964299c9-5c73-43b1-9c65-eb81b8c7d3f1"
+          },
+          "created_time": "2024-08-11T13:04:00.000Z",
+          "last_edited_time": "2024-08-11T13:05:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "여러 서비스에서 데이터를 쉽게 불러올 수 있어서 유연하다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "여러 서비스에서 데이터를 쉽게 불러올 수 있어서 유연하다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "34271ef0-cd1a-4470-b5d1-e7458d7199d2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:05:00.000Z",
+      "last_edited_time": "2024-08-11T13:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "단점",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "단점",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "6b6d190b-6a67-4da3-9674-3d854cf8d804",
+          "parent": {
+            "type": "block_id",
+            "block_id": "34271ef0-cd1a-4470-b5d1-e7458d7199d2"
+          },
+          "created_time": "2024-08-11T13:06:00.000Z",
+          "last_edited_time": "2024-08-11T13:07:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "복잡한 프로젝트라면 하나의 서비스의 책임이 과해질 수 있다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "복잡한 프로젝트라면 하나의 서비스의 책임이 과해질 수 있다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "4f8a6c13-2f8a-4479-a667-9f506a2eec9a",
+          "parent": {
+            "type": "block_id",
+            "block_id": "34271ef0-cd1a-4470-b5d1-e7458d7199d2"
+          },
+          "created_time": "2024-08-11T13:07:00.000Z",
+          "last_edited_time": "2024-08-11T13:07:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "코드 재활용이 어렵다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "코드 재활용이 어렵다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "54cd1f8f-c880-4402-9bfa-a6501c7c000b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:11:00.000Z",
+      "last_edited_time": "2024-08-11T13:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "34fb3139-9e8a-4b8c-b08b-c38bae570bca",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:11:00.000Z",
+      "last_edited_time": "2024-08-11T13:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3. 상위 서비스에서 다른 서비스 호출",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3. 상위 서비스에서 다른 서비스 호출",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e6f84ade-2410-43b6-ad27-e09a596f5262",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:12:00.000Z",
+      "last_edited_time": "2024-08-11T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "장점",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "장점",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "84a73453-1d6a-4286-9da8-941c8931ab9a",
+          "parent": {
+            "type": "block_id",
+            "block_id": "e6f84ade-2410-43b6-ad27-e09a596f5262"
+          },
+          "created_time": "2024-08-11T13:12:00.000Z",
+          "last_edited_time": "2024-08-11T13:12:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "하위 시스템의 복잡성에서 코드를 분리하여 외부에서 시스템을 사용하기 쉽다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "하위 시스템의 복잡성에서 코드를 분리하여 외부에서 시스템을 사용하기 쉽다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "6262c7d5-56f3-4c8a-8ff0-01b5b6ad4bd1",
+          "parent": {
+            "type": "block_id",
+            "block_id": "e6f84ade-2410-43b6-ad27-e09a596f5262"
+          },
+          "created_time": "2024-08-11T13:12:00.000Z",
+          "last_edited_time": "2024-08-11T13:12:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "하위 시스템의 의존관계를 감소시키고 한 곳으로 모을 수 있다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "하위 시스템의 의존관계를 감소시키고 한 곳으로 모을 수 있다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "5467d279-c4a6-4714-8c66-78bbff5ee3be",
+          "parent": {
+            "type": "block_id",
+            "block_id": "e6f84ade-2410-43b6-ad27-e09a596f5262"
+          },
+          "created_time": "2024-08-11T13:12:00.000Z",
+          "last_edited_time": "2024-08-11T13:13:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "복잡한 코드를 감춰서 클라이언트가 Facade 클래스만 이해하고 사용할 수 있다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "복잡한 코드를 감춰서 클라이언트가 Facade 클래스만 이해하고 사용할 수 있다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "491ca2a1-43ab-47af-bf0b-e5daf386d9b7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:13:00.000Z",
+      "last_edited_time": "2024-08-11T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "단점",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "단점",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "ccb9d989-5f46-4642-aea2-fa482d74bd71",
+          "parent": {
+            "type": "block_id",
+            "block_id": "491ca2a1-43ab-47af-bf0b-e5daf386d9b7"
+          },
+          "created_time": "2024-08-11T13:13:00.000Z",
+          "last_edited_time": "2024-08-11T13:13:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Facade 클래스 자체가 하위 클래스에 대한 의존성을 가지기 때문에 의존성을 완전 피할 수 없다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Facade 클래스 자체가 하위 클래스에 대한 의존성을 가지기 때문에 의존성을 완전 피할 수 없다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "17fa4e4a-c2f9-49f7-bb3b-dedb65423fe4",
+          "parent": {
+            "type": "block_id",
+            "block_id": "491ca2a1-43ab-47af-bf0b-e5daf386d9b7"
+          },
+          "created_time": "2024-08-11T13:13:00.000Z",
+          "last_edited_time": "2024-08-11T13:13:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "결과적으론 추가적인 코드가 늘어나는 것이기 때문에 유지보수 측면에서 노력이 더 필요하다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "결과적으론 추가적인 코드가 늘어나는 것이기 때문에 유지보수 측면에서 노력이 더 필요하다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "353c6498-b0a9-4fc2-9c3c-e416908b3645",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:04:00.000Z",
+      "last_edited_time": "2024-08-11T13:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "4b4e5c6a-7461-466c-a417-b595a8df523b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:04:00.000Z",
+      "last_edited_time": "2024-08-11T13:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1ca3ebad-330f-4667-a968-e0554a9397ce",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:04:00.000Z",
+      "last_edited_time": "2024-08-11T13:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위와 같이 각 방법이 모두 장단점이 존재한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위와 같이 각 방법이 모두 장단점이 존재한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e6c1fa4c-277b-45b9-a48c-4b50b7800926",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:14:00.000Z",
+      "last_edited_time": "2024-08-11T13:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "여기서 우리는 다른 전문가분들의 의견을 볼 필요가 있을 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "여기서 우리는 다른 전문가분들의 의견을 볼 필요가 있을 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c07e0acd-85c4-460f-8a40-999aa96a898d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:14:00.000Z",
+      "last_edited_time": "2024-08-11T13:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "0c5c03f4-3cc1-4552-83ea-83b64892b4fc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:15:00.000Z",
+      "last_edited_time": "2024-08-11T13:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "전문가 의견",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "전문가 의견",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5318279c-2706-4dec-abc4-ceecb4f314f0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:16:00.000Z",
+      "last_edited_time": "2024-08-11T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "52742330-c7ca-4cfe-878f-0e451704104f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:16:00.000Z",
+      "last_edited_time": "2024-08-11T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "quote",
+      "quote": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "스택오버플로우 의견",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "스택오버플로우 의견",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "2a1b9f68-0042-4f5d-88d0-a5d2de45459f",
+          "parent": {
+            "type": "block_id",
+            "block_id": "52742330-c7ca-4cfe-878f-0e451704104f"
+          },
+          "created_time": "2024-08-11T13:16:00.000Z",
+          "last_edited_time": "2024-08-11T13:17:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": true,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Use ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Use ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "EntityARepository",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "EntityARepository",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " directly in ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " directly in ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "EntityBService",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "EntityBService",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " if what you're trying to do is just fetching ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " if what you're trying to do is just fetching ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "EntityA",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "EntityA",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " without any business logic related to ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " without any business logic related to ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "EntityA",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "EntityA",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ". Here is a simple example:",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ". Here is a simple example:",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": [
+            {
+              "object": "block",
+              "id": "6f9632dd-cc00-4aec-8189-50d2ece01090",
+              "parent": {
+                "type": "block_id",
+                "block_id": "2a1b9f68-0042-4f5d-88d0-a5d2de45459f"
+              },
+              "created_time": "2024-08-11T13:16:00.000Z",
+              "last_edited_time": "2024-08-11T13:17:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "paragraph",
+              "paragraph": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityBService",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityBService",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": " performs operation on ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": " performs operation on ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityB",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityB",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": ", but it depends on purely ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": ", but it depends on purely ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityA",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityA",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": " state.",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": " state.",
+                    "href": null
+                  }
+                ],
+                "color": "default"
+              },
+              "blocks": []
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "a706492d-7255-46ae-b660-c3566b4c02f4",
+          "parent": {
+            "type": "block_id",
+            "block_id": "52742330-c7ca-4cfe-878f-0e451704104f"
+          },
+          "created_time": "2024-08-11T13:16:00.000Z",
+          "last_edited_time": "2024-08-11T13:17:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": true,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Use ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Use ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "EntityAService",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "EntityAService",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " in ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " in ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "EntityBService",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "EntityBService",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " if requesting ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " if requesting ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "EntityA",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "EntityA",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " involves some business logic related to ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " involves some business logic related to ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "EntityA",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "EntityA",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ". Here is a simple example:",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ". Here is a simple example:",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": [
+            {
+              "object": "block",
+              "id": "5a825c42-01d6-453f-a0a1-b1247ff67a7f",
+              "parent": {
+                "type": "block_id",
+                "block_id": "a706492d-7255-46ae-b660-c3566b4c02f4"
+              },
+              "created_time": "2024-08-11T13:16:00.000Z",
+              "last_edited_time": "2024-08-11T13:16:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "paragraph",
+              "paragraph": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityBService",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityBService",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": " performs operation on ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": " performs operation on ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityB",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityB",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": " and ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": " and ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityA",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityA",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": " and later needs to be created if it doesn't exist - creation involves a business logic like checking is it allowed (e.g. based on user role).",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": " and later needs to be created if it doesn't exist - creation involves a business logic like checking is it allowed (e.g. based on user role).",
+                    "href": null
+                  }
+                ],
+                "color": "default"
+              },
+              "blocks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "b7975a42-ce41-4995-8b16-7ed90527555b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:04:00.000Z",
+      "last_edited_time": "2024-08-11T13:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "b2f5d046-2bee-4572-aa9f-b04354f31e1d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:17:00.000Z",
+      "last_edited_time": "2024-08-11T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "quote",
+      "quote": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "해석",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "해석",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "62eb33ee-f5ab-4d62-8e08-b1a481192e80",
+          "parent": {
+            "type": "block_id",
+            "block_id": "b2f5d046-2bee-4572-aa9f-b04354f31e1d"
+          },
+          "created_time": "2024-08-11T13:17:00.000Z",
+          "last_edited_time": "2024-08-11T13:17:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": true,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "EntityARepository를 직접 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "EntityARepository를 직접 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "EntityBService",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "EntityBService",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "에서 사용하는 경우:",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "에서 사용하는 경우:",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": [
+            {
+              "object": "block",
+              "id": "15239edc-74f5-4f79-92e9-13112ef67362",
+              "parent": {
+                "type": "block_id",
+                "block_id": "62eb33ee-f5ab-4d62-8e08-b1a481192e80"
+              },
+              "created_time": "2024-08-11T13:17:00.000Z",
+              "last_edited_time": "2024-08-11T13:17:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityBService",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityBService",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "에서 ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "에서 ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityARepository",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityARepository",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "를 직접 사용하는 경우는, ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "를 직접 사용하는 경우는, ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityA",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityA",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "와 관련된 비즈니스 로직 없이 단순히 ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "와 관련된 비즈니스 로직 없이 단순히 ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityA",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityA",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "를 가져오려고 할 때입니다.",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "를 가져오려고 할 때입니다.",
+                    "href": null
+                  }
+                ],
+                "color": "default"
+              },
+              "blocks": []
+            },
+            {
+              "object": "block",
+              "id": "b8b23141-1435-4100-94a4-ea8728f95240",
+              "parent": {
+                "type": "block_id",
+                "block_id": "62eb33ee-f5ab-4d62-8e08-b1a481192e80"
+              },
+              "created_time": "2024-08-11T13:17:00.000Z",
+              "last_edited_time": "2024-08-11T13:17:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "예시: ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "예시: ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityBService",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityBService",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "가 ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "가 ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityB",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityB",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "에 대한 작업을 수행하는데, 이 작업이 순수하게 ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "에 대한 작업을 수행하는데, 이 작업이 순수하게 ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityA",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityA",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "의 상태에 의존할 때.",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "의 상태에 의존할 때.",
+                    "href": null
+                  }
+                ],
+                "color": "default"
+              },
+              "blocks": []
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "be7959ab-9ac5-4e31-a758-10c45198cb49",
+          "parent": {
+            "type": "block_id",
+            "block_id": "b2f5d046-2bee-4572-aa9f-b04354f31e1d"
+          },
+          "created_time": "2024-08-11T13:17:00.000Z",
+          "last_edited_time": "2024-08-11T13:17:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": true,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "EntityBService",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "EntityBService",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "에서 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "에서 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "EntityAService",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "EntityAService",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "를 사용하는 경우:",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "를 사용하는 경우:",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": [
+            {
+              "object": "block",
+              "id": "9ae91280-77dc-4fb8-bb74-ee6ff6da59a6",
+              "parent": {
+                "type": "block_id",
+                "block_id": "be7959ab-9ac5-4e31-a758-10c45198cb49"
+              },
+              "created_time": "2024-08-11T13:17:00.000Z",
+              "last_edited_time": "2024-08-11T13:17:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityA",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityA",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "를 요청할 때, ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "를 요청할 때, ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityA",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityA",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "와 관련된 일부 비즈니스 로직이 있는 경우 ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "와 관련된 일부 비즈니스 로직이 있는 경우 ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityBService",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityBService",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "에서 ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "에서 ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityAService",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityAService",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "를 사용해야 합니다.",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "를 사용해야 합니다.",
+                    "href": null
+                  }
+                ],
+                "color": "default"
+              },
+              "blocks": []
+            },
+            {
+              "object": "block",
+              "id": "9eb51194-6a89-4524-b381-a41ac80b5afc",
+              "parent": {
+                "type": "block_id",
+                "block_id": "be7959ab-9ac5-4e31-a758-10c45198cb49"
+              },
+              "created_time": "2024-08-11T13:17:00.000Z",
+              "last_edited_time": "2024-08-11T13:17:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "예시: ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "예시: ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityBService",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityBService",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "가 ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "가 ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityB",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityB",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "와 ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "와 ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityA",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityA",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "에 대한 작업을 수행하고, 나중에 ",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "에 대한 작업을 수행하고, 나중에 ",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "EntityA",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": true,
+                      "color": "default"
+                    },
+                    "plain_text": "EntityA",
+                    "href": null
+                  },
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "가 존재하지 않으면 생성해야 하는 경우입니다. 생성 과정에서 사용자의 역할에 기반한 허용 여부를 확인하는 비즈니스 로직이 포함될 수 있습니다.",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "가 존재하지 않으면 생성해야 하는 경우입니다. 생성 과정에서 사용자의 역할에 기반한 허용 여부를 확인하는 비즈니스 로직이 포함될 수 있습니다.",
+                    "href": null
+                  }
+                ],
+                "color": "default"
+              },
+              "blocks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "db2d6248-4d2a-4d98-a8dd-4f924a8dc77d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:17:00.000Z",
+      "last_edited_time": "2024-08-11T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e7fc9af4-3eaf-4b53-8a5c-188b5e88896f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:17:00.000Z",
+      "last_edited_time": "2024-08-11T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "요약하자면 비즈니스 로직이 필요하지 않다면 Repository를, 비즈니스 로직이 필요한 경우라면 코드 중복 제거를 위해 Service를 의존해서 사용해도 괜찮다는 의견이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "요약하자면 비즈니스 로직이 필요하지 않다면 Repository를, 비즈니스 로직이 필요한 경우라면 코드 중복 제거를 위해 Service를 의존해서 사용해도 괜찮다는 의견이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "43ac7980-faa9-41bd-a61d-228636ff74c2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:18:00.000Z",
+      "last_edited_time": "2024-08-11T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6af5a622-6e7e-4356-90d9-040f6e38a425",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:18:00.000Z",
+      "last_edited_time": "2024-08-11T13:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "3a6f0e9d-01ea-4045-82f8-84a162dffb70",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:18:00.000Z",
+      "last_edited_time": "2024-10-09T09:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/2ccef68b-d878-4581-8cf4-df19af48a432/image_1.png",
+          "expiry_time": "2025-04-07T08:23:30.310Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6e239a71-dc71-4482-8456-6bc9fc7a0959",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:18:00.000Z",
+      "last_edited_time": "2024-08-11T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "다음은 (전)네이버, 아마존 개발자이자 (현) 마이크로소프트의 시니어 개발자인 백기선님의 의견이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "다음은 (전)네이버, 아마존 개발자이자 (현) 마이크로소프트의 시니어 개발자인 백기선님의 의견이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c026d878-d2e5-40af-9353-df41ce29c1e9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:19:00.000Z",
+      "last_edited_time": "2024-08-11T13:20:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이분은 특이하게 컨트롤러에서도 Repository를 직접 사용하기도 한다는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이분은 특이하게 컨트롤러에서도 Repository를 직접 사용하기도 한다는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "cc0e5443-98ed-4437-b8b4-fe9b4344096e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:20:00.000Z",
+      "last_edited_time": "2024-08-11T13:20:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "cac4bf2e-5065-4a8d-94d3-2afe48cc9330",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:18:00.000Z",
+      "last_edited_time": "2024-08-11T13:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "마지막으로 현재 카카오에서 백엔드 개발자로 근무 중이신 김우근 님의 의견이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "마지막으로 현재 카카오에서 백엔드 개발자로 근무 중이신 김우근 님의 의견이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "55ea83e5-bd32-400a-9e9c-22b8690aca6e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:22:00.000Z",
+      "last_edited_time": "2024-08-11T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "김우근님은 Facade 패턴을 학습한 개발자가 주로 생각하는 것이 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "김우근님은 Facade 패턴을 학습한 개발자가 주로 생각하는 것이 ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "f65cf9c6-2bd0-444c-8ddf-6010dbf821bc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:24:00.000Z",
+      "last_edited_time": "2024-08-11T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Facade 패턴을 사용한다 = 서비스가 다른 서비스를 참조해서는 절대 안된다!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "red_background"
+            },
+            "plain_text": "Facade 패턴을 사용한다 = 서비스가 다른 서비스를 참조해서는 절대 안된다!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "f0931a21-fa31-4347-a079-e773ecec1cdc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:24:00.000Z",
+      "last_edited_time": "2024-08-11T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "라고 생각하는 경우가 많은데 그것이 아니라는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "라고 생각하는 경우가 많은데 그것이 아니라는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "405f007a-29db-474a-8c89-e906cc4cdacc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:24:00.000Z",
+      "last_edited_time": "2024-08-11T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e14b347f-382c-45b6-8940-415046bb28be",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:24:00.000Z",
+      "last_edited_time": "2024-08-11T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "의존관계를 지나치게 망치지 않는다면 다른 서비스를 참조해도 괜찮다! 라는 의견이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "의존관계를 지나치게 망치지 않는다면 다른 서비스를 참조해도 괜찮다! 라는 의견이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2b521b18-af21-4d56-a11c-7036055608f4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:24:00.000Z",
+      "last_edited_time": "2024-08-11T13:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "7f03ad77-3302-40a9-92b7-2f0226f211cc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:24:00.000Z",
+      "last_edited_time": "2024-08-11T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "우리가 흔히 Facade 패턴을 쓴다고 하면 그저 복잡하고 지저분한 것들을 가려주는 가림막을 만드는 것과 같다는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "우리가 흔히 Facade 패턴을 쓴다고 하면 그저 복잡하고 지저분한 것들을 가려주는 가림막을 만드는 것과 같다는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "0f736a6b-fb9f-406a-95d5-e9f3204a930b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:25:00.000Z",
+      "last_edited_time": "2024-08-11T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "즉, Facade 패턴을 적용시키면서 새로운 유형의 서비스를 만드는 것에 불과하다는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "즉, Facade 패턴을 적용시키면서 새로운 유형의 서비스를 만드는 것에 불과하다는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "7af9aae2-080f-4977-b497-b9e9d19327b1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:25:00.000Z",
+      "last_edited_time": "2024-08-11T13:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "143d9862-9572-472c-9709-b52a94d46318",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:25:00.000Z",
+      "last_edited_time": "2024-08-11T13:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "예를 들어, 김우근씨가 언급한 코드를 보자.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "예를 들어, 김우근씨가 언급한 코드를 보자.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "008511f7-2286-4e8d-b9fc-187690545217",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:26:00.000Z",
+      "last_edited_time": "2024-08-11T13:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public class UserServiceFacade {\n\n    // ...\n\n    @Transactional\n    public void update(UserUpdate userUpdate) {\n        this.userService.update(userUpdate);\n        this.fileService.saveAndUpload(userUpdate.getProfileImage());\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public class UserServiceFacade {\n\n    // ...\n\n    @Transactional\n    public void update(UserUpdate userUpdate) {\n        this.userService.update(userUpdate);\n        this.fileService.saveAndUpload(userUpdate.getProfileImage());\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "f46d2423-cc44-4559-a744-1f90edab9808",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:24:00.000Z",
+      "last_edited_time": "2024-08-11T13:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위의 코드가 아래와 다를게 뭐냐는 것이다",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위의 코드가 아래와 다를게 뭐냐는 것이다",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "8eb2b7dd-6aff-49e8-a654-3f75972e7d6b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:26:00.000Z",
+      "last_edited_time": "2024-08-11T13:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public class UserServiceImpl implements UserService {\n\n    // ...\n\n    @Transactional\n    public void update(UserUpdate userUpdate) {\n        this.update(userUpdate);\n        this.fileService.saveAndUpload(userUpdate.getProfileImage());\n    }\n\n    private void update(UserUpdate userUpdate) { \n        // ...\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public class UserServiceImpl implements UserService {\n\n    // ...\n\n    @Transactional\n    public void update(UserUpdate userUpdate) {\n        this.update(userUpdate);\n        this.fileService.saveAndUpload(userUpdate.getProfileImage());\n    }\n\n    private void update(UserUpdate userUpdate) { \n        // ...\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ee1749cf-a5c0-4f98-8bdf-ef24c05bfc0a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:26:00.000Z",
+      "last_edited_time": "2024-08-11T13:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "또, 아래랑 다를 것은 무엇인가?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "또, 아래랑 다를 것은 무엇인가?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "60f0360b-6270-4524-ac91-a5572529ba5d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:27:00.000Z",
+      "last_edited_time": "2024-08-11T13:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public class UserUpdateService {\n\n    // ...\n\n    @Transactional\n    public void update(UserUpdate userUpdate) {\n        this.userService.update(userUpdate);\n        this.fileService.saveAndUpload(userUpdate.getProfileImage());\n    }\n}\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public class UserUpdateService {\n\n    // ...\n\n    @Transactional\n    public void update(UserUpdate userUpdate) {\n        this.userService.update(userUpdate);\n        this.fileService.saveAndUpload(userUpdate.getProfileImage());\n    }\n}\n",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d8fbea46-bca2-41c4-b6d2-14a2737388f7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:26:00.000Z",
+      "last_edited_time": "2024-08-11T13:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이러한 이유로 김우근씨는 Facade 패턴의 필요성을 잘 모르겠다고 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이러한 이유로 김우근씨는 Facade 패턴의 필요성을 잘 모르겠다고 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "96fbf464-7621-462f-b9d4-8fa012e17cab",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:29:00.000Z",
+      "last_edited_time": "2024-08-11T13:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 부분은 나도 동의하는 부분이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 부분은 나도 동의하는 부분이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "b4b59adc-8ce9-4672-9f8f-456eade0402a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:29:00.000Z",
+      "last_edited_time": "2024-08-11T13:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "cfdecc78-537b-458b-a3b3-e65ea6254fb2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:29:00.000Z",
+      "last_edited_time": "2024-08-11T13:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "결론은 서비스가 다른 서비스를 호출하는 것은 주의해야 하는 부분이 맞긴 하지만, 너무 경계하고 쓰지말자! 라고 할 필요까지는 없다는 것이다. 순환 참조가 일어나지 않고, 책임이 과하게 할당되는 것만 방지하면서 사용하면 괜찮다라는 의견이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "결론은 서비스가 다른 서비스를 호출하는 것은 주의해야 하는 부분이 맞긴 하지만, 너무 경계하고 쓰지말자! 라고 할 필요까지는 없다는 것이다. 순환 참조가 일어나지 않고, 책임이 과하게 할당되는 것만 방지하면서 사용하면 괜찮다라는 의견이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5c861341-9998-4d67-a842-a3e2465ac39c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:26:00.000Z",
+      "last_edited_time": "2024-08-11T13:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "777a8959-c952-47d2-9219-170c79ba3897",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:26:00.000Z",
+      "last_edited_time": "2024-08-11T13:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ff0db250-f265-4abc-b2da-93cbedf5a26e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:26:00.000Z",
+      "last_edited_time": "2024-08-11T13:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5e64b62c-305b-4d5d-8703-1ecabef2885c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2ccef68b-d878-4581-8cf4-df19af48a432"
+      },
+      "created_time": "2024-08-11T13:26:00.000Z",
+      "last_edited_time": "2024-08-11T13:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

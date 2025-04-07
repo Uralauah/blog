@@ -1,0 +1,1407 @@
+{
+  "object": "page",
+  "id": "f0a7642c-a94e-418a-aa93-faaad52a27ec",
+  "created_time": "2024-07-29T05:11:00.000Z",
+  "last_edited_time": "2024-07-29T05:12:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4768bae9-93de-4788-8237-416bf24413ea",
+          "name": "코딩테스트",
+          "color": "green"
+        },
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "자바",
+          "color": "pink"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2024-05-15",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "1774번 - 우주신과의 교감",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "1774번 - 우주신과의 교감",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/1774-f0a7642ca94e418aaa93faaad52a27ec",
+  "public_url": "https://codinggroove.notion.site/1774-f0a7642ca94e418aaa93faaad52a27ec",
+  "request_id": "84d55341-c355-4849-8aa6-a86171583124",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1f1f7ee7-7a3b-48be-9845-a569c509e4af",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://www.acmicpc.net/problem/1774"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://www.acmicpc.net/problem/1774"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5b4c9dbc-92eb-452f-b181-72bcd55c65f1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 3시간",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 3시간",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "be0294d2-fc78-432a-8d15-9f8535758270",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "378061c4-5179-4749-8306-bc19529edb3b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 요약",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 요약",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "35ed9e71-8d07-4004-907f-4c1d37d70372",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "황선자씨는 N-1명의 우주신과 교감을 할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "황선자씨는 N-1명의 우주신과 교감을 할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "5b506db7-b621-4834-bd4b-d006ea2a5685",
+          "parent": {
+            "type": "block_id",
+            "block_id": "35ed9e71-8d07-4004-907f-4c1d37d70372"
+          },
+          "created_time": "2024-07-29T05:11:00.000Z",
+          "last_edited_time": "2024-07-29T05:11:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "image",
+          "image": {
+            "caption": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "황선자씨",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "yellow"
+                },
+                "plain_text": "황선자씨",
+                "href": null
+              }
+            ],
+            "type": "file",
+            "file": {
+              "url": "/notion-data/f0a7642c-a94e-418a-aa93-faaad52a27ec/image_1.png",
+              "expiry_time": "2025-04-07T08:25:30.810Z"
+            }
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "b99197d7-957a-4e5d-b1b2-cf7b766e44f4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "황선자씨나 우주신들이 연결된 통로 M개가 존재한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "황선자씨나 우주신들이 연결된 통로 M개가 존재한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e2e36913-d3d5-47f7-b288-1f9415a7eed4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아직 연결되지 않은 우주신들이 연결되기 위해 필요한 통로의 최소 길이를 구하라",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아직 연결되지 않은 우주신들이 연결되기 위해 필요한 통로의 최소 길이를 구하라",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a463bcd6-bbbd-4300-8179-4417ce05076b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "78b58961-2272-47be-8b29-d5d1e92a112d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "64c0483a-5b6b-46f9-a9c6-81fbae233d49",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제를 읽다가 재밌어 보여서 풀기 시작했는데",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제를 읽다가 재밌어 보여서 풀기 시작했는데",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6f0a1bfe-7e43-48e6-811c-7a8deb0f2acd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "풀다 보니 얼마 전에 알고리즘 수업 시간에 배웠던 최소 신장 트리(MST) 문제라는 것을 깨달았다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "풀다 보니 얼마 전에 알고리즘 수업 시간에 배웠던 최소 신장 트리(MST) 문제라는 것을 깨달았다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "68f420f4-f5b8-459c-9006-2bd10a33722a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 Prim의 알고리즘으로 풀려고 시도를 했는데….",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 Prim의 알고리즘으로 풀려고 시도를 했는데….",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "fd510c69-d31e-4b7f-8668-eefd78dd3711",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d6aba4e3-11a6-4609-8229-416433fb68a3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "초기 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "초기 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "633e82ab-93c9-4158-bcdd-8ef2287e29ed",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.lang.reflect.Array;\nimport java.util.ArrayList;\nimport java.util.StringTokenizer;\n\npublic class Main {\n    public static class Pair {\n        private int x, y;\n\n        Pair(int x, int y) {\n            this.x = x;\n            this.y = y;\n        }\n    }\n\n    public static int N;\n    public static int M;\n    public static ArrayList<Pair> gods;\n    public static ArrayList<Integer> road;\n\n    public static double value[][];\n    public static double result;\n\n    public static void find() { //프림의 알고리즘\n        if (road.size() == N)\n            return;\n        double min = Double.MAX_VALUE;\n        int min_idx = -1;\n        for (int i = 0; i < road.size(); i++) { //현재 연결된 우주신들과 연결되지 않은 우주신 사이에 가장 짧은 통로 찾기\n            for (int j = 0; j < N; j++) {\n                if(j==road.get(i))\n                    continue;\n                if(road.contains(j))\n                    continue;\n                if(value[road.get(i)][j]<min){\n                    min = value[road.get(i)][j];\n                    min_idx = j;\n                }\n            }\n        }\n        road.add(min_idx); //새로 연결된 우주신 넣기\n        result += min; //최소 길이 추가\n        find(); //재귀\n    }\n\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n        N = Integer.parseInt(st.nextToken());\n        M = Integer.parseInt(st.nextToken());\n        gods = new ArrayList<>();\n        road = new ArrayList<>();\n        int x, y;\n        for (int i = 0; i < N; i++) {\n            st = new StringTokenizer(br.readLine());\n            x = Integer.parseInt(st.nextToken());\n            y = Integer.parseInt(st.nextToken());\n            gods.add(new Pair(x, y));\n        }\n        for (int i = 0; i < M; i++) {\n            st = new StringTokenizer(br.readLine());\n            road.add(Integer.parseInt(st.nextToken())-1);\n            road.add(Integer.parseInt(st.nextToken())-1);\n        }\n        value = new double[N][N];\n        for (int i = 0; i < N; i++) {\n            for (int j = 0; j < N; j++) {\n                value[i][j] = Math.sqrt(Math.pow((gods.get(i).x - gods.get(j).x), 2) + Math.pow((gods.get(i).y - gods.get(j).y), 2));\n            }\n        }\n        result = 0;\n        find();\n        System.out.println(result);\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.lang.reflect.Array;\nimport java.util.ArrayList;\nimport java.util.StringTokenizer;\n\npublic class Main {\n    public static class Pair {\n        private int x, y;\n\n        Pair(int x, int y) {\n            this.x = x;\n            this.y = y;\n        }\n    }\n\n    public static int N;\n    public static int M;\n    public static ArrayList<Pair> gods;\n    public static ArrayList<Integer> road;\n\n    public static double value[][];\n    public static double result;\n\n    public static void find() { //프림의 알고리즘\n        if (road.size() == N)\n            return;\n        double min = Double.MAX_VALUE;\n        int min_idx = -1;\n        for (int i = 0; i < road.size(); i++) { //현재 연결된 우주신들과 연결되지 않은 우주신 사이에 가장 짧은 통로 찾기\n            for (int j = 0; j < N; j++) {\n                if(j==road.get(i))\n                    continue;\n                if(road.contains(j))\n                    continue;\n                if(value[road.get(i)][j]<min){\n                    min = value[road.get(i)][j];\n                    min_idx = j;\n                }\n            }\n        }\n        road.add(min_idx); //새로 연결된 우주신 넣기\n        result += min; //최소 길이 추가\n        find(); //재귀\n    }\n\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n        N = Integer.parseInt(st.nextToken());\n        M = Integer.parseInt(st.nextToken());\n        gods = new ArrayList<>();\n        road = new ArrayList<>();\n        int x, y;\n        for (int i = 0; i < N; i++) {\n            st = new StringTokenizer(br.readLine());\n            x = Integer.parseInt(st.nextToken());\n            y = Integer.parseInt(st.nextToken());\n            gods.add(new Pair(x, y));\n        }\n        for (int i = 0; i < M; i++) {\n            st = new StringTokenizer(br.readLine());\n            road.add(Integer.parseInt(st.nextToken())-1);\n            road.add(Integer.parseInt(st.nextToken())-1);\n        }\n        value = new double[N][N];\n        for (int i = 0; i < N; i++) {\n            for (int j = 0; j < N; j++) {\n                value[i][j] = Math.sqrt(Math.pow((gods.get(i).x - gods.get(j).x), 2) + Math.pow((gods.get(i).y - gods.get(j).y), 2));\n            }\n        }\n        result = 0;\n        find();\n        System.out.println(result);\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "0a573504-102c-4371-8394-0908e36a9776",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "얼레?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "얼레?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "247eae9c-a8a4-4777-8667-a1f9f9b6e2b1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "예상은 했지만 바로 시간 초과가 나왔다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "예상은 했지만 바로 시간 초과가 나왔다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e1f96449-961e-4eeb-80c5-db5524651ed8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "확실히 조행래 교수님이 알려주신 방법대로 안 해서 그런가?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "확실히 조행래 교수님이 알려주신 방법대로 안 해서 그런가?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "eb43402b-533c-4150-ab8d-11a9ed54a1e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하고 배운 대로 풀어보려고 코드를 다시 짜봤다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하고 배운 대로 풀어보려고 코드를 다시 짜봤다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c4a10497-fcd1-473d-b7d2-f9c9d860f83f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a04a6d38-0cdb-43a7-b6be-33e500045d7a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "중기 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "중기 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c077c4e5-87df-4046-b25e-086f7c5eac5f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.lang.reflect.Array;\nimport java.util.ArrayList;\nimport java.util.StringTokenizer;\n\npublic class Main {\n    public static class Pair {\n        private int x, y;\n\n        Pair(int x, int y) {\n            this.x = x;\n            this.y = y;\n        }\n    }\n\n    public static int N;\n    public static int M;\n    public static ArrayList<Pair> gods;\n    public static ArrayList<Integer> road;\n    public static int nearest[];\n    public static double value[][];\n    public static double result;\n\n    public static void find() {\n        if (road.size() == N)\n            return;\n        double min = Double.MAX_VALUE;\n        int min_idx = -1;\n        for(int i=0;i<N;i++){ \n            if(road.contains(i)) //연결된 우주신은 패스\n                continue;\n\n            if(value[i][nearest[i]]<min){ //최소 길이 찾기\n                min = value[i][nearest[i]];\n                min_idx = i;\n            }\n        }\n        result+=Math.sqrt(min);\n        road.add(min_idx);//새로 찾은 우주신 넣기\n        resetNearest();//nearest 다시 초기화\n        find();\n    }\n\n    public static void resetNearest(){ //nearest배열 초기화 함수\n        for(int i=0;i<N;i++) {\n            if (road.contains(i))\n                continue;\n            int near = -1;\n            double near_num = Double.MAX_VALUE;\n            for (int j = 0; j < N; j++) { //연결된 우주신들 중 j우주신과 가장 가까운 우주신 찾기\n                if (i == j)\n                    continue;\n                if (road.contains(j)) {\n                    if (value[i][j] < near_num) {\n                        near_num = value[i][j];\n                        near = j;\n                    }\n                }\n            }\n            nearest[i] = near;\n        }\n    }\n\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n        N = Integer.parseInt(st.nextToken());\n        M = Integer.parseInt(st.nextToken());\n        gods = new ArrayList<>();\n        road = new ArrayList<>();\n        nearest = new int[N];\n        int x, y;\n        for (int i = 0; i < N; i++) {\n            st = new StringTokenizer(br.readLine());\n            x = Integer.parseInt(st.nextToken());\n            y = Integer.parseInt(st.nextToken());\n            gods.add(new Pair(x, y));\n        }\n        for (int i = 0; i < M; i++) {\n            st = new StringTokenizer(br.readLine());\n            road.add(Integer.parseInt(st.nextToken())-1);\n            road.add(Integer.parseInt(st.nextToken())-1);\n        }\n        value = new double[N][N];\n        for (int i = 0; i < N; i++) {\n            for (int j = i+1; j < N; j++) {\n                value[i][j] = Math.pow((gods.get(i).x - gods.get(j).x), 2) + Math.pow((gods.get(i).y - gods.get(j).y), 2);\n                value[j][i] = value[i][j];\n            }\n        }\n        resetNearest(); //nearest 배열 초기화\n\n        result = 0;\n        find();\n        System.out.println(result);\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.lang.reflect.Array;\nimport java.util.ArrayList;\nimport java.util.StringTokenizer;\n\npublic class Main {\n    public static class Pair {\n        private int x, y;\n\n        Pair(int x, int y) {\n            this.x = x;\n            this.y = y;\n        }\n    }\n\n    public static int N;\n    public static int M;\n    public static ArrayList<Pair> gods;\n    public static ArrayList<Integer> road;\n    public static int nearest[];\n    public static double value[][];\n    public static double result;\n\n    public static void find() {\n        if (road.size() == N)\n            return;\n        double min = Double.MAX_VALUE;\n        int min_idx = -1;\n        for(int i=0;i<N;i++){ \n            if(road.contains(i)) //연결된 우주신은 패스\n                continue;\n\n            if(value[i][nearest[i]]<min){ //최소 길이 찾기\n                min = value[i][nearest[i]];\n                min_idx = i;\n            }\n        }\n        result+=Math.sqrt(min);\n        road.add(min_idx);//새로 찾은 우주신 넣기\n        resetNearest();//nearest 다시 초기화\n        find();\n    }\n\n    public static void resetNearest(){ //nearest배열 초기화 함수\n        for(int i=0;i<N;i++) {\n            if (road.contains(i))\n                continue;\n            int near = -1;\n            double near_num = Double.MAX_VALUE;\n            for (int j = 0; j < N; j++) { //연결된 우주신들 중 j우주신과 가장 가까운 우주신 찾기\n                if (i == j)\n                    continue;\n                if (road.contains(j)) {\n                    if (value[i][j] < near_num) {\n                        near_num = value[i][j];\n                        near = j;\n                    }\n                }\n            }\n            nearest[i] = near;\n        }\n    }\n\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n        N = Integer.parseInt(st.nextToken());\n        M = Integer.parseInt(st.nextToken());\n        gods = new ArrayList<>();\n        road = new ArrayList<>();\n        nearest = new int[N];\n        int x, y;\n        for (int i = 0; i < N; i++) {\n            st = new StringTokenizer(br.readLine());\n            x = Integer.parseInt(st.nextToken());\n            y = Integer.parseInt(st.nextToken());\n            gods.add(new Pair(x, y));\n        }\n        for (int i = 0; i < M; i++) {\n            st = new StringTokenizer(br.readLine());\n            road.add(Integer.parseInt(st.nextToken())-1);\n            road.add(Integer.parseInt(st.nextToken())-1);\n        }\n        value = new double[N][N];\n        for (int i = 0; i < N; i++) {\n            for (int j = i+1; j < N; j++) {\n                value[i][j] = Math.pow((gods.get(i).x - gods.get(j).x), 2) + Math.pow((gods.get(i).y - gods.get(j).y), 2);\n                value[j][i] = value[i][j];\n            }\n        }\n        resetNearest(); //nearest 배열 초기화\n\n        result = 0;\n        find();\n        System.out.println(result);\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ac4c4ec4-8c2f-4f26-b2d8-8820967cd566",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이렇게 해도 똑같이 시간 초과가 나버려서",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이렇게 해도 똑같이 시간 초과가 나버려서",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "58138dcb-d22a-4e61-bc36-041d4b68be49",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "결국 다른 사람의 풀이를 참조할 수 밖에 없었다..",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "결국 다른 사람의 풀이를 참조할 수 밖에 없었다..",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "05b12219-c01d-4297-89fb-bd49130c1da4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "079890f1-0d0d-4090-860e-b19e7f1bb4a6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최종 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최종 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "0ac50820-0454-480f-8959-db55cd990724",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.util.LinkedList;\nimport java.util.List;\nimport java.util.PriorityQueue;\nimport java.util.StringTokenizer;\n\npublic class Main {\n\t\t//우선순위 큐에서 사용하기 위한 클래스\n    static class Path implements Comparable<Path> {\n        int vertex;\n        double weight;\n\n        Path(int vertex, double weight) {\n            this.vertex = vertex;\n            this.weight = weight;\n        }\n\n        @Override\n        public int compareTo(Path other) {\n            return Double.compare(this.weight, other.weight);\n        }\n    }\n\t\t//엣지 클래스\n    static class Edge {\n        int from, to;\n        double weight;\n\n        Edge(int from, int to, double weight) {\n            this.from = from;\n            this.to = to;\n            this.weight = weight;\n        }\n    }\n\t\t//프림 알고리즘\n    public static double find(List<List<Edge>> edges, int N) {\n        boolean[] connected = new boolean[N]; //현재 연결된 우주신들\n        double[] minWeight = new double[N]; //각 우주신들의 최소 거리\n        //시작 노드를 제외하고 모든 노드 가중치 무한대\n        for (int i = 1; i < N; i++) {\n            minWeight[i] = Double.MAX_VALUE;\n        }\n\t\t\t\t\n        PriorityQueue<Path> pq = new PriorityQueue<>();\n        pq.add(new Path(0, 0));\n        double result = 0;\n\n        while (!pq.isEmpty()) {\n            Path path = pq.poll();\n            int god = path.vertex;\n            double weight = path.weight;\n\t\t\t\t\t\t//이미 연결된 우주신이면 패스\n            if (connected[god]) continue;\n            //현재 우주신을 연결시킴\n            connected[god] = true;\n            //현재 우주신의 최소 거리를 결과에 추가\n            result += weight;\n\t\t\t\t\t\t//현재 우주신과 다른 우주신들 사이 거리 검사\n            for (Edge edge : edges.get(god)) {\n\t\t            //연결되지 않은 우주신들의 최소 거리 업데이트\n                if (!connected[edge.to] && minWeight[edge.to] > edge.weight) {\n                    minWeight[edge.to] = edge.weight;\n                    pq.add(new Path(edge.to, edge.weight));\n                }\n            }\n        }\n\n        return result;    \n    }\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n\n        int N = Integer.parseInt(st.nextToken());\n        int M = Integer.parseInt(st.nextToken());\n        long[][] coordinates = new long[N][2];\n\n        for (int i = 0; i < N; i++) {\n            st = new StringTokenizer(br.readLine());\n            coordinates[i][0] = Long.parseLong(st.nextToken());\n            coordinates[i][1] = Long.parseLong(st.nextToken());\n        }\n\n        List<List<Edge>> edges = new LinkedList<>();\n        for (int i = 0; i < N; i++) {\n            edges.add(new LinkedList<>());\n        }\n\t\t\t\t//이미 연결된 우주신들 사이의 거리 0으로 설정\n        for (int i = 0; i < M; i++) {\n            st = new StringTokenizer(br.readLine());\n            int from = Integer.parseInt(st.nextToken()) - 1;\n            int to = Integer.parseInt(st.nextToken()) - 1;\n            edges.get(from).add(new Edge(from, to, 0));\n            edges.get(to).add(new Edge(to, from, 0));\n        }\n\t\t\t\t//모든 우주신들 사이 거리 계산, 추가\n        for (int i = 0; i < N - 1; i++) {\n            for (int j = i + 1; j < N; j++) {\n                double weight = Math.sqrt(Math.pow(coordinates[j][0] - coordinates[i][0], 2) +\n                        Math.pow(coordinates[j][1] - coordinates[i][1], 2));\n                edges.get(i).add(new Edge(i, j, weight));\n                edges.get(j).add(new Edge(j, i, weight));\n            }\n        }\n\n        System.out.printf(\"%.2f\", find(edges, N));\n    }\n}\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.util.LinkedList;\nimport java.util.List;\nimport java.util.PriorityQueue;\nimport java.util.StringTokenizer;\n\npublic class Main {\n\t\t//우선순위 큐에서 사용하기 위한 클래스\n    static class Path implements Comparable<Path> {\n        int vertex;\n        double weight;\n\n        Path(int vertex, double weight) {\n            this.vertex = vertex;\n            this.weight = weight;\n        }\n\n        @Override\n        public int compareTo(Path other) {\n            return Double.compare(this.weight, other.weight);\n        }\n    }\n\t\t//엣지 클래스\n    static class Edge {\n        int from, to;\n        double weight;\n\n        Edge(int from, int to, double weight) {\n            this.from = from;\n            this.to = to;\n            this.weight = weight;\n        }\n    }\n\t\t//프림 알고리즘\n    public static double find(List<List<Edge>> edges, int N) {\n        boolean[] connected = new boolean[N]; //현재 연결된 우주신들\n        double[] minWeight = new double[N]; //각 우주신들의 최소 거리\n        //시작 노드를 제외하고 모든 노드 가중치 무한대\n        for (int i = 1; i < N; i++) {\n            minWeight[i] = Double.MAX_VALUE;\n        }\n\t\t\t\t\n        PriorityQueue<Path> pq = new PriorityQueue<>();\n        pq.add(new Path(0, 0));\n        double result = 0;\n\n        while (!pq.isEmpty()) {\n            Path path = pq.poll();\n            int god = path.vertex;\n            double weight = path.weight;\n\t\t\t\t\t\t//이미 연결된 우주신이면 패스\n            if (connected[god]) continue;\n            //현재 우주신을 연결시킴\n            connected[god] = true;\n            //현재 우주신의 최소 거리를 결과에 추가\n            result += weight;\n\t\t\t\t\t\t//현재 우주신과 다른 우주신들 사이 거리 검사\n            for (Edge edge : edges.get(god)) {\n\t\t            //연결되지 않은 우주신들의 최소 거리 업데이트\n                if (!connected[edge.to] && minWeight[edge.to] > edge.weight) {\n                    minWeight[edge.to] = edge.weight;\n                    pq.add(new Path(edge.to, edge.weight));\n                }\n            }\n        }\n\n        return result;    \n    }\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n\n        int N = Integer.parseInt(st.nextToken());\n        int M = Integer.parseInt(st.nextToken());\n        long[][] coordinates = new long[N][2];\n\n        for (int i = 0; i < N; i++) {\n            st = new StringTokenizer(br.readLine());\n            coordinates[i][0] = Long.parseLong(st.nextToken());\n            coordinates[i][1] = Long.parseLong(st.nextToken());\n        }\n\n        List<List<Edge>> edges = new LinkedList<>();\n        for (int i = 0; i < N; i++) {\n            edges.add(new LinkedList<>());\n        }\n\t\t\t\t//이미 연결된 우주신들 사이의 거리 0으로 설정\n        for (int i = 0; i < M; i++) {\n            st = new StringTokenizer(br.readLine());\n            int from = Integer.parseInt(st.nextToken()) - 1;\n            int to = Integer.parseInt(st.nextToken()) - 1;\n            edges.get(from).add(new Edge(from, to, 0));\n            edges.get(to).add(new Edge(to, from, 0));\n        }\n\t\t\t\t//모든 우주신들 사이 거리 계산, 추가\n        for (int i = 0; i < N - 1; i++) {\n            for (int j = i + 1; j < N; j++) {\n                double weight = Math.sqrt(Math.pow(coordinates[j][0] - coordinates[i][0], 2) +\n                        Math.pow(coordinates[j][1] - coordinates[i][1], 2));\n                edges.get(i).add(new Edge(i, j, weight));\n                edges.get(j).add(new Edge(j, i, weight));\n            }\n        }\n\n        System.out.printf(\"%.2f\", find(edges, N));\n    }\n}\n",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6f1cbf26-d8db-45b1-ba93-7bae483bbaac",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2735cb97-3702-4c0d-a14b-9ca61a69bf28",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "feb28ecf-3f93-4e2d-a003-7e60ed23e103",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "교수님 말대로 생각으로 하는 거랑 구현은 하늘과 땅 차이인 것 같다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "교수님 말대로 생각으로 하는 거랑 구현은 하늘과 땅 차이인 것 같다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "998529a1-a129-484c-9746-3c5b6cbd9ef7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "f0a7642c-a94e-418a-aa93-faaad52a27ec"
+      },
+      "created_time": "2024-07-29T05:11:00.000Z",
+      "last_edited_time": "2024-07-29T05:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "구현을 많이 해보자…",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "구현을 많이 해보자…",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

@@ -1,0 +1,5338 @@
+{
+  "object": "page",
+  "id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc",
+  "created_time": "2024-07-29T05:57:00.000Z",
+  "last_edited_time": "2024-07-29T07:08:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "b2df65bf-3651-4ad7-97dd-58844a6742a7",
+          "name": "스프링부트",
+          "color": "brown"
+        },
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "자바",
+          "color": "pink"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2024-07-29",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "07-31 의존성 주입",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "07-31 의존성 주입",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/07-31-1b1be4ac35cd453e9e6e73fd77e142cc",
+  "public_url": "https://codinggroove.notion.site/07-31-1b1be4ac35cd453e9e6e73fd77e142cc",
+  "request_id": "558f46c9-ab61-47e2-b50e-0856292949c3",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1e737af4-aed1-402c-b257-2dfd91a51931",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T05:58:00.000Z",
+      "last_edited_time": "2024-07-29T05:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "우리가 스프링을 공부하다보면 아래와 같은 의존성 주입을 사용하지 말라는 말을 많이 듣는다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "우리가 스프링을 공부하다보면 아래와 같은 의존성 주입을 사용하지 말라는 말을 많이 듣는다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6110672f-26cd-409f-a9ea-6169b54641f3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T05:58:00.000Z",
+      "last_edited_time": "2024-07-29T05:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Autowired\nprivate B b;",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@Autowired\nprivate B b;",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "46cc15ad-fce1-4086-bf63-2aa7281e0e3e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T05:59:00.000Z",
+      "last_edited_time": "2024-07-29T05:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위와 같은 의존성 주입법을 필드 주입이라고 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위와 같은 의존성 주입법을 필드 주입이라고 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e2ec6bb0-c10a-4adc-b944-9c95d705225d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T05:59:00.000Z",
+      "last_edited_time": "2024-07-29T05:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그렇다면 왜 이런 주입법을 사용하지 말라고 하는걸까?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그렇다면 왜 이런 주입법을 사용하지 말라고 하는걸까?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ea27045f-6fd9-4f55-8a45-c504489d2143",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T05:59:00.000Z",
+      "last_edited_time": "2024-07-29T05:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "9e0640bd-f5b4-4104-80f9-b207360b1d41",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:00:00.000Z",
+      "last_edited_time": "2024-07-29T06:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a7044dfc-0161-40cf-8369-9268484ae7bd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:19:00.000Z",
+      "last_edited_time": "2024-07-29T06:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "의존성 주입의 종류",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "의존성 주입의 종류",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "0f329946-e0b3-4e8f-b4eb-7f55d508b4bb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:00:00.000Z",
+      "last_edited_time": "2024-07-29T06:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "의존성 주입의 종류에는 크게 3가지 방법이 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "의존성 주입의 종류에는 크게 3가지 방법이 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2786e7f0-caa0-4fdd-8ed0-5cde36e9ce76",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:00:00.000Z",
+      "last_edited_time": "2024-07-29T06:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "필드 주입 (Field Injection)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "필드 주입 (Field Injection)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2cb76cd7-73ef-4e97-bd12-208675c949f5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:00:00.000Z",
+      "last_edited_time": "2024-07-29T06:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "수정자 주입 (Setter Injection)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "수정자 주입 (Setter Injection)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "b2e3f72e-afe5-4440-b4ac-c84f851f11c2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:00:00.000Z",
+      "last_edited_time": "2024-07-29T06:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "생성자 주입 (Constructor Injection)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "생성자 주입 (Constructor Injection)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "47b102ba-6877-424b-99a5-599d94620334",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:00:00.000Z",
+      "last_edited_time": "2024-07-29T06:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ca408aa3-c7fb-45a2-bce6-687292e204d4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:00:00.000Z",
+      "last_edited_time": "2024-07-29T06:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "여기서 필드 주입과 생성자 주입은 많이 들어봤을텐데 수정자 주입은 많이 들어보지 못했을 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "여기서 필드 주입과 생성자 주입은 많이 들어봤을텐데 수정자 주입은 많이 들어보지 못했을 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "7fc4511d-b064-4c68-9501-378a0ef4536e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:01:00.000Z",
+      "last_edited_time": "2024-07-29T06:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "적어도 나는 그랬다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "적어도 나는 그랬다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d9b076c7-f6ed-4203-9b32-db2f9cfe2dc5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:01:00.000Z",
+      "last_edited_time": "2024-07-29T06:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "3adf4a03-e823-4cd3-bd36-0fef32552495",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:01:00.000Z",
+      "last_edited_time": "2024-07-29T06:02:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그럼 이 세가지 의존성 주입법에 대해 살펴보자.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그럼 이 세가지 의존성 주입법에 대해 살펴보자.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6ed142cd-50ad-4e1b-982f-92cd7903b73d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:02:00.000Z",
+      "last_edited_time": "2024-07-29T06:02:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "cd9689da-4b3b-43e0-a326-f0a1a2974b7c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:19:00.000Z",
+      "last_edited_time": "2024-07-29T06:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. 필드 주입 (Field Injection)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. 필드 주입 (Field Injection)",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6a1cf0f9-949d-4759-aefa-37643bd5d2cb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:03:00.000Z",
+      "last_edited_time": "2024-07-29T06:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "필드 주입법은 해당 클래스의 필드에 @Autowired 어노테이션을 붙이면 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "필드 주입법은 해당 클래스의 필드에 @Autowired 어노테이션을 붙이면 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "199e48b6-b771-44ba-93e1-f8dde9d2979b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:03:00.000Z",
+      "last_edited_time": "2024-07-29T06:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아래와 같이 간단하게 사용가능하다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아래와 같이 간단하게 사용가능하다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ef1bfc4a-43c4-4ac9-83bc-26bff65e278d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:03:00.000Z",
+      "last_edited_time": "2024-07-29T06:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Component\nclass B {\n\tpublic funcB() {\n\t\t\tSystem.out.println(\"hello I'm B\");\n\t}\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@Component\nclass B {\n\tpublic funcB() {\n\t\t\tSystem.out.println(\"hello I'm B\");\n\t}\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "88c658f7-c8f4-4495-b380-951e7193a22a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:04:00.000Z",
+      "last_edited_time": "2024-07-29T06:05:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "class A{\n\t@Autowired\n\tprivate B b;\n\t\n\tpublic funcA(){\n\t\tthis.b.funcB;\n\t\t...\n\t}\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "class A{\n\t@Autowired\n\tprivate B b;\n\t\n\tpublic funcA(){\n\t\tthis.b.funcB;\n\t\t...\n\t}\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "398191e1-25ae-4986-9967-2cdf5e8ad790",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:05:00.000Z",
+      "last_edited_time": "2024-07-29T06:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A 클래스에서 @Autowired 를 사용하여 스프링에서 자동으로 B 객체를 주입해준다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A 클래스에서 @Autowired 를 사용하여 스프링에서 자동으로 B 객체를 주입해준다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "fdb7d825-5f10-44e9-a3cd-f1190a5178e8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:06:00.000Z",
+      "last_edited_time": "2024-07-29T06:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "9e1759ca-6cb0-49ea-bde0-b9d386f02fc1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:09:00.000Z",
+      "last_edited_time": "2024-07-29T06:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "0dab365e-b234-4924-9086-8230c0b19f53",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:20:00.000Z",
+      "last_edited_time": "2024-07-29T06:20:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. 수정자 주입 (Setter Injection)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. 수정자 주입 (Setter Injection)",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "42c3752d-58f2-4245-b010-f98782642706",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:09:00.000Z",
+      "last_edited_time": "2024-07-29T06:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "수정자 주입은 Setter를 통해 필드의 값을 수정할 수 있는 특성을 이용한 주입법이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "수정자 주입은 Setter를 통해 필드의 값을 수정할 수 있는 특성을 이용한 주입법이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "8f649688-1257-46ca-8cbc-cca69f695c94",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:12:00.000Z",
+      "last_edited_time": "2024-07-29T06:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "주입 받는 객체가 변경될 가능성이 있는 의존관계에서 주로 사용된다. (실제로는 굉장히 드문 경우라고 한다.)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "주입 받는 객체가 변경될 가능성이 있는 의존관계에서 주로 사용된다. (실제로는 굉장히 드문 경우라고 한다.)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "f32e0dd6-455e-4597-8e71-77e60bb8f07b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:12:00.000Z",
+      "last_edited_time": "2024-07-29T06:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "클래스에 Setter method를 만들어 @Autowired 어노테이션을 붙이면 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "클래스에 Setter method를 만들어 @Autowired 어노테이션을 붙이면 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e6a2c698-a7ef-4075-943f-7ab698c5c068",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:10:00.000Z",
+      "last_edited_time": "2024-07-29T06:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "class A{\n\tprivate B b;\n\t\n\t@Autowired\n\tpublic void setB(B b){\n\t\tthis.b = b;\n\t}\n\t...\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "class A{\n\tprivate B b;\n\t\n\t@Autowired\n\tpublic void setB(B b){\n\t\tthis.b = b;\n\t}\n\t...\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "8dc49459-3f53-42fb-ab82-77544a29cbc5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:11:00.000Z",
+      "last_edited_time": "2024-07-29T06:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "또한 우리는 Lombok으로 더욱 간단하게 사용할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "또한 우리는 Lombok으로 더욱 간단하게 사용할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2ac94b6c-254a-4566-aafc-b1ed6393761e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:11:00.000Z",
+      "last_edited_time": "2024-07-29T06:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "class A{\n\t@Setter(onMethod_={@Autowired})\n\tprivate B b;\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "class A{\n\t@Setter(onMethod_={@Autowired})\n\tprivate B b;\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "9aa9c1a1-7b98-453d-bdb4-4848dd6c077a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:20:00.000Z",
+      "last_edited_time": "2024-07-29T06:20:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6a8825a5-c010-427e-8075-9d3f0f31a1bf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:20:00.000Z",
+      "last_edited_time": "2024-07-29T06:20:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3. 생성자 주입 (Constructor Injection)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3. 생성자 주입 (Constructor Injection)",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "11e4dbc2-d465-4601-9c79-d9583989bf40",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:20:00.000Z",
+      "last_edited_time": "2024-07-29T06:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "생성자 주입은 우리가 잘 알 듯, 단일 생성자인 경우에는 @Autowired 어노테이션을 사용하지 않아도 된다. 하지만, 생성자가 2개 이상인 경우에는 해당 어노테이션을 붙여야 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "생성자 주입은 우리가 잘 알 듯, 단일 생성자인 경우에는 @Autowired 어노테이션을 사용하지 않아도 된다. 하지만, 생성자가 2개 이상인 경우에는 해당 어노테이션을 붙여야 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ab8ab2f9-e934-4ceb-a81f-da67308dcf27",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:23:00.000Z",
+      "last_edited_time": "2024-07-29T06:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아래 예시를 보자.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아래 예시를 보자.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d5c16428-0da2-49f3-8045-0ff486de5603",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:23:00.000Z",
+      "last_edited_time": "2024-07-29T06:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Component\nclass A{\n\tprivate final B b;\n\t\n\tpublic A(B b){\n\t\tthis.b = b;\n\t}\n\t\n\tpublic void funcA() {\n\t\tb.funcB();\n\t}\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@Component\nclass A{\n\tprivate final B b;\n\t\n\tpublic A(B b){\n\t\tthis.b = b;\n\t}\n\t\n\tpublic void funcA() {\n\t\tb.funcB();\n\t}\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ae1123df-cf6a-41ed-b38c-273839318277",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:24:00.000Z",
+      "last_edited_time": "2024-07-29T06:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "평소에는 위의 예시와 같이 생성자를 통해 직접 의존성을 주입하는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "평소에는 위의 예시와 같이 생성자를 통해 직접 의존성을 주입하는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2ffcb8d0-127c-4c2a-9e3c-abbb256820c3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:24:00.000Z",
+      "last_edited_time": "2024-07-29T06:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 생성자가 여러개 필요하다면",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 생성자가 여러개 필요하다면",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "158c3a7a-14de-4241-8dfb-a54eac786803",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:24:00.000Z",
+      "last_edited_time": "2024-07-29T06:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Component\nclass A {\n    private final B b;\n\n    // 기본 생성자\n    public A() {\n        this.b = null; // 기본 생성자에서는 b가 주입되지 않음\n    }\n\n    // 의존성을 주입받는 생성자\n    @Autowired\n    public A(B b) {\n        this.b = b;\n    }\n\n    public void funcA() {\n        if (b != null) {\n            b.funcB();\n        } else {\n            System.out.println(\"B is not initialized\");\n        }\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@Component\nclass A {\n    private final B b;\n\n    // 기본 생성자\n    public A() {\n        this.b = null; // 기본 생성자에서는 b가 주입되지 않음\n    }\n\n    // 의존성을 주입받는 생성자\n    @Autowired\n    public A(B b) {\n        this.b = b;\n    }\n\n    public void funcA() {\n        if (b != null) {\n            b.funcB();\n        } else {\n            System.out.println(\"B is not initialized\");\n        }\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "455b8cb8-55c5-4e8a-93dd-809259549734",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:24:00.000Z",
+      "last_edited_time": "2024-07-29T06:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위와 같이 의존성을 주입받는 생성자에 @Autowired 어노테이션을 붙여주는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위와 같이 의존성을 주입받는 생성자에 @Autowired 어노테이션을 붙여주는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6691b930-4fe9-4299-b14f-11e7d0115f0b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:57:00.000Z",
+      "last_edited_time": "2024-07-29T06:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "38368a55-bf55-44ec-870b-39e67c89dff5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:56:00.000Z",
+      "last_edited_time": "2024-07-29T06:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Lombok으로 작성한 생성자 주입",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Lombok으로 작성한 생성자 주입",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ad5e9705-5ce4-4848-84a6-1ade110a2488",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:57:00.000Z",
+      "last_edited_time": "2024-07-29T06:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Component\n@RequiredArgsConstructor\npublic class A {\n\tprivate final B b;\n\t\n\t...\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@Component\n@RequiredArgsConstructor\npublic class A {\n\tprivate final B b;\n\t\n\t...\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "dd1347ea-c465-405a-a15a-2c81355bb6d4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:29:00.000Z",
+      "last_edited_time": "2024-07-29T06:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "b8e4a0d7-ca45-4b5c-a6fa-3e9446c97320",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:29:00.000Z",
+      "last_edited_time": "2024-07-29T06:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "왜 필드, 수정자 주입을 사용하지 말라고 하는가?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "왜 필드, 수정자 주입을 사용하지 말라고 하는가?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "bc899954-e339-4f3f-a9e9-168a922cd98b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:29:00.000Z",
+      "last_edited_time": "2024-07-29T06:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그렇다면 왜 필드, 수정자 주입을 피하고 생성자 주입 방법을 쓰라고 할까?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그렇다면 왜 필드, 수정자 주입을 피하고 생성자 주입 방법을 쓰라고 할까?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "0f56a023-e6b1-4a33-ad5a-48264a03a1ee",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:30:00.000Z",
+      "last_edited_time": "2024-07-29T06:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "f0a19388-3fc4-498d-81d4-acfe873c8d92",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:30:00.000Z",
+      "last_edited_time": "2024-07-29T06:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "필드 주입",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "필드 주입",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c54dd93d-6af4-4865-8af2-35ab0e88bc73",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:06:00.000Z",
+      "last_edited_time": "2024-07-29T06:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "필드 주입을 사용하면 구현이 아주 간단하고, 에러가 생기면 빌드에서 예외가 발생한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "필드 주입을 사용하면 구현이 아주 간단하고, 에러가 생기면 빌드에서 예외가 발생한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "4ef961ef-f6af-4717-9739-9dc794945321",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:07:00.000Z",
+      "last_edited_time": "2024-07-29T06:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 언뜻보면 아주 좋은 방법이라고 생각된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 언뜻보면 아주 좋은 방법이라고 생각된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "76fbb513-3192-4692-9b82-22ac61d6ff2d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:07:00.000Z",
+      "last_edited_time": "2024-07-29T06:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d37b76d7-86ed-4c91-8ae9-f2607c153ba8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:07:00.000Z",
+      "last_edited_time": "2024-07-29T06:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 아래와 같은 경우를 보자.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 아래와 같은 경우를 보자.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "db61075b-8f08-4d17-af73-d90ad8163e84",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:07:00.000Z",
+      "last_edited_time": "2024-07-29T06:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A a = new A();\na.funcA();",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A a = new A();\na.funcA();",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5e40bbb3-9614-4e4b-8f15-9c3bf390c947",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:06:00.000Z",
+      "last_edited_time": "2024-07-29T06:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "여기서 A클래스는 B클래스를 주입받아야 동작할 수 있다. 하지만, 해당 코드는 new로 생성되어 B 객체가 자동으로 주입되지 않아서 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "여기서 A클래스는 B클래스를 주입받아야 동작할 수 있다. 하지만, 해당 코드는 new로 생성되어 B 객체가 자동으로 주입되지 않아서 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "NullPointerException",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "red_background"
+            },
+            "plain_text": "NullPointerException",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이 발생하게 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 발생하게 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1f596f7b-bf12-446c-8fb1-d9ed38db0efa",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:30:00.000Z",
+      "last_edited_time": "2024-07-29T06:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "8c2c39bc-1de7-44fd-9a3a-cc97c82f5d40",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:30:00.000Z",
+      "last_edited_time": "2024-07-29T06:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "수정자 주입",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "수정자 주입",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "b76e1511-70a1-4f22-922e-9def3a6511c3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:30:00.000Z",
+      "last_edited_time": "2024-07-29T06:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위에서 언급했듯이 수정자 주입 방식은 주입받는 객체가 변경될 가능성이 있는 경우에 사용한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위에서 언급했듯이 수정자 주입 방식은 주입받는 객체가 변경될 가능성이 있는 경우에 사용한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "196adb52-0169-488b-812a-ac4227f7dc6e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:30:00.000Z",
+      "last_edited_time": "2024-07-29T06:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 실제 개발에서는 변경이 필요한 상황이 거의 없고, 수정자 주입을 사용하면 불필요하게 객체의 수정 가능성을 열어두게 되는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 실제 개발에서는 변경이 필요한 상황이 거의 없고, 수정자 주입을 사용하면 불필요하게 객체의 수정 가능성을 열어두게 되는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "13439214-25ec-404f-9061-774af392dcb4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:30:00.000Z",
+      "last_edited_time": "2024-07-29T06:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이는 객체 지향 프로그래밍의 개발 원칙 중 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이는 객체 지향 프로그래밍의 개발 원칙 중 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "OCP(Open-Closed Principal) 개방-폐쇄 원칙을 위반",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "red_background"
+            },
+            "plain_text": "OCP(Open-Closed Principal) 개방-폐쇄 원칙을 위반",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하게 된다고 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하게 된다고 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "49dafd26-d706-4a27-b6da-9b40a1f09eec",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:30:00.000Z",
+      "last_edited_time": "2024-07-29T06:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "OCP(Open-Closed Principal) 개방-폐쇄 원칙이란?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray_background"
+            },
+            "plain_text": "OCP(Open-Closed Principal) 개방-폐쇄 원칙이란?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6ea6df06-8bd3-40aa-bd39-9b899727a13b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:30:00.000Z",
+      "last_edited_time": "2024-07-29T06:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "소프트웨어 개체 (클래스, 모듈, 함수 등)는 확장에 대해서는 열려있고, 수정에 대해서는 닫혀있어야 한다는 프로그래밍 원칙이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray_background"
+            },
+            "plain_text": "소프트웨어 개체 (클래스, 모듈, 함수 등)는 확장에 대해서는 열려있고, 수정에 대해서는 닫혀있어야 한다는 프로그래밍 원칙이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d756198-9d64-4eff-bb97-a3d836e357ba",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:30:00.000Z",
+      "last_edited_time": "2024-07-29T06:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "즉, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray_background"
+            },
+            "plain_text": "즉, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "기존의 코드를 변경하지 않으면서, 기능을 추가할 수 있도록 설계가 되어야 한다",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "gray_background"
+            },
+            "plain_text": "기존의 코드를 변경하지 않으면서, 기능을 추가할 수 있도록 설계가 되어야 한다",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray_background"
+            },
+            "plain_text": "는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d930773b-67ea-4d01-bc81-8deca4851992",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:30:00.000Z",
+      "last_edited_time": "2024-07-29T06:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a0cb3a98-89a3-4e4c-a58d-53a35180dc9a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:30:00.000Z",
+      "last_edited_time": "2024-07-29T06:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "따라서, 수정자 주입이 아닌 생성자 주입을 사용함으로써 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "따라서, 수정자 주입이 아닌 생성자 주입을 사용함으로써 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "변경의 가능성을 배제하고 불변성을 보장",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "red_background"
+            },
+            "plain_text": "변경의 가능성을 배제하고 불변성을 보장",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하는 것이 좋다고 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하는 것이 좋다고 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "be08d774-6b26-4716-957d-513264479329",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:31:00.000Z",
+      "last_edited_time": "2024-07-29T06:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "13dc673d-6ab9-4ada-8cb5-0b66558400c5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:31:00.000Z",
+      "last_edited_time": "2024-07-29T06:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "f36473df-68b6-4201-bc3d-f2ec8404ae6d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:31:00.000Z",
+      "last_edited_time": "2024-07-29T06:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "생성자 주입을 사용하는 이유",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "생성자 주입을 사용하는 이유",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1b78aa30-c116-4daa-98ba-17d381c2c9b7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:31:00.000Z",
+      "last_edited_time": "2024-07-29T06:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. SRP (단일 책임의 원칙)을 위반할 확률이 줄어든다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. SRP (단일 책임의 원칙)을 위반할 확률이 줄어든다.",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "60f2ff5e-ee88-4ec8-9594-fb8e32c98ddb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:32:00.000Z",
+      "last_edited_time": "2024-07-29T06:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "우리가 작성하는 클래스는 하나의 비즈니스 로직에 집중되어 있어야 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "우리가 작성하는 클래스는 하나의 비즈니스 로직에 집중되어 있어야 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5985dc04-4ccb-43ee-903d-a1d160867bf9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:32:00.000Z",
+      "last_edited_time": "2024-07-29T06:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 필드 주입 방식을 사용하면 아주 간단하게 사용가능해서 하나의 클래스가 여러 기능을 담당하게 만들기도 쉽다는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 필드 주입 방식을 사용하면 아주 간단하게 사용가능해서 하나의 클래스가 여러 기능을 담당하게 만들기도 쉽다는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a8c6c9bc-34d7-416f-a397-95dca78277f5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:33:00.000Z",
+      "last_edited_time": "2024-07-29T06:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그러나 생성자 주입을 사용하면 생성자 파라미터에 사용하고자 하는 필드를 모두 넣어야하기 때문에 코드가 길어지고, 경각심이 생겨 더 조심해서 코딩을 하게 된다는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그러나 생성자 주입을 사용하면 생성자 파라미터에 사용하고자 하는 필드를 모두 넣어야하기 때문에 코드가 길어지고, 경각심이 생겨 더 조심해서 코딩을 하게 된다는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "891a83dd-03ed-4731-8858-19332df79e82",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:33:00.000Z",
+      "last_edited_time": "2024-07-29T06:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "06791f0b-bf41-4b7f-adc4-05224b668c4b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:33:00.000Z",
+      "last_edited_time": "2024-07-29T06:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "근데 이 말은 Lombok을 사용하면 생성자 주입이 더 간단해지는 느낌이 있어서 일단 넘어가자.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": true,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": "근데 이 말은 Lombok을 사용하면 생성자 주입이 더 간단해지는 느낌이 있어서 일단 넘어가자.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "541c776b-7626-43d6-b0b8-84d103b9b7bf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:34:00.000Z",
+      "last_edited_time": "2024-07-29T06:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "99cdd3f7-e6e0-499e-8153-4049b3dc64d0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:34:00.000Z",
+      "last_edited_time": "2024-07-29T06:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "7fc3c9a1-51c3-49f2-91c1-195b8805bbf8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:34:00.000Z",
+      "last_edited_time": "2024-07-29T06:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. 필드에 final을 선언할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. 필드에 final을 선언할 수 있다.",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "3115e36f-2f9c-4b71-a799-aba2859f74b6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:34:00.000Z",
+      "last_edited_time": "2024-07-29T06:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "필드, 수정자 주입 방식은 final을 선언할 수 없다. 필드에 fina을 붙이기 위해서는 클래스의 객체가 생성될 때 final 이 붙은 필드를 반드시 초기화해야 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "필드, 수정자 주입 방식은 final을 선언할 수 없다. 필드에 fina을 붙이기 위해서는 클래스의 객체가 생성될 때 final 이 붙은 필드를 반드시 초기화해야 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "9ff1316f-d138-4f16-913d-e7c7e7feac50",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:35:00.000Z",
+      "last_edited_time": "2024-07-29T06:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 필드, 수정자 주입 방식은 객체가 먼저 생성되고 해당 필드에 의존성 주입이 진행되므로 final을 붙일 수 없다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 필드, 수정자 주입 방식은 객체가 먼저 생성되고 해당 필드에 의존성 주입이 진행되므로 final을 붙일 수 없다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "531647f7-c54c-4828-92fe-8f77eb056713",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:36:00.000Z",
+      "last_edited_time": "2024-07-29T06:36:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그러나 생성자 주입은 필드를 파라미터로 받는 생성자를 통해 객체가 생성될 때 의존성 주입이 일어나기 때문에 final을 붙일 수 있는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그러나 생성자 주입은 필드를 파라미터로 받는 생성자를 통해 객체가 생성될 때 의존성 주입이 일어나기 때문에 final을 붙일 수 있는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "7f9a6257-6862-42a7-a1d1-ee849472a129",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:36:00.000Z",
+      "last_edited_time": "2024-07-29T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이를 통해 우리는 해당 필드 값이 변경되는 것을 막고 불변성을 가지도록 하는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이를 통해 우리는 해당 필드 값이 변경되는 것을 막고 불변성을 가지도록 하는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "9887c098-be4d-4fb6-88d2-b823803d6d1e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:37:00.000Z",
+      "last_edited_time": "2024-07-29T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "0a1ce0fd-77b8-412a-b45c-e15046900946",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:37:00.000Z",
+      "last_edited_time": "2024-07-29T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3. 순환 참조를 발견하기 쉽다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3. 순환 참조를 발견하기 쉽다.",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "9d26d93c-6f33-481e-9023-405854fe4b2f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:37:00.000Z",
+      "last_edited_time": "2024-07-29T06:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아래와 같은 필드 주입 예시를 보자.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아래와 같은 필드 주입 예시를 보자.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "82f9602e-db05-4faf-96f0-f81b0b55ec9e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:40:00.000Z",
+      "last_edited_time": "2024-07-29T06:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Service\npublic class A{\n\t@Autowired\n\tprivate B b;\n\t\n\tpublic void funcA() {\n\t\tb.funcB();\n\t}\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@Service\npublic class A{\n\t@Autowired\n\tprivate B b;\n\t\n\tpublic void funcA() {\n\t\tb.funcB();\n\t}\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e27e014e-0781-45b2-a3ec-f162a76bc95d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:41:00.000Z",
+      "last_edited_time": "2024-07-29T06:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Service\npublic class B{\n\t@Autowired\n\tprivate A a;\n\t\n\tpublic void funcB() {\n\t\ta.funcA();\n\t}\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@Service\npublic class B{\n\t@Autowired\n\tprivate A a;\n\t\n\tpublic void funcB() {\n\t\ta.funcA();\n\t}\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2172ab55-13a8-4575-845b-cdf177eab8cb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:41:00.000Z",
+      "last_edited_time": "2024-07-29T06:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위와 같은 코드를 실행하면 한쪽의 코드가 실행되면 new A(new B(new A(new B(new A …))) 와 같은 상황이 반복되면서 결국 StackOverflowError가 발생한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위와 같은 코드를 실행하면 한쪽의 코드가 실행되면 new A(new B(new A(new B(new A …))) 와 같은 상황이 반복되면서 결국 StackOverflowError가 발생한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c8a5759f-61e4-42f7-a736-b816f3d527b0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:42:00.000Z",
+      "last_edited_time": "2024-07-29T06:43:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "해당 문제는 둘 중 하나가 호출되기 전에는 찾지 못한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "해당 문제는 둘 중 하나가 호출되기 전에는 찾지 못한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a6f94b0-4724-4b8e-9872-9600529230ed",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:43:00.000Z",
+      "last_edited_time": "2024-07-29T06:43:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "즉, 프로그램이 실행될때는 오류가 발생하지 않고 정상적으로 실행이되다가 어느 한 쪽이 사용될 때 오류가 발생한다는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "즉, 프로그램이 실행될때는 오류가 발생하지 않고 정상적으로 실행이되다가 어느 한 쪽이 사용될 때 오류가 발생한다는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ca38096f-28aa-4e82-af5a-bb8be53799f3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:43:00.000Z",
+      "last_edited_time": "2024-07-29T06:43:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ed7034bd-8ac9-4edf-974a-eae973de58a4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:43:00.000Z",
+      "last_edited_time": "2024-07-29T06:43:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "반면에 생성자 주입은 어떨까?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "반면에 생성자 주입은 어떨까?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5bcbfed3-ce68-4c5d-9fbe-ae75f01f0b64",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:43:00.000Z",
+      "last_edited_time": "2024-07-29T06:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Service\npublic class A{\n\tprivate final B b;\n\t\n\tpublic A(B b){\n\t\tthis.b = b;\n\t}\n\t\n\tpublic void funcA() {\n\t\tb.funcB();\n\t}\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@Service\npublic class A{\n\tprivate final B b;\n\t\n\tpublic A(B b){\n\t\tthis.b = b;\n\t}\n\t\n\tpublic void funcA() {\n\t\tb.funcB();\n\t}\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "408eacbb-535c-4e65-8457-bb0a8af40a65",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:44:00.000Z",
+      "last_edited_time": "2024-07-29T06:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Service\npublic class B{\n\tprivate final A a;\n\t\n\tpublic B(A a){\n\t\tthis.a = a;\n\t}\n\t\n\tpublic void funcB() {\n\t\ta.funcA();\n\t}\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@Service\npublic class B{\n\tprivate final A a;\n\t\n\tpublic B(A a){\n\t\tthis.a = a;\n\t}\n\t\n\tpublic void funcB() {\n\t\ta.funcA();\n\t}\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5bc4df0e-a423-44ce-a8b3-d9510f0fd129",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:44:00.000Z",
+      "last_edited_time": "2024-07-29T06:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위와 같이 생성자를 통해 의존성을 주입하면 아래와 같이 프로그램이 구동조차 되지 않고 예외가 발생한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위와 같이 생성자를 통해 의존성을 주입하면 아래와 같이 프로그램이 구동조차 되지 않고 예외가 발생한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "3dd3376e-ab92-402c-b55b-c7797cc07ed2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:45:00.000Z",
+      "last_edited_time": "2024-07-29T06:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Description:\nThe dependencies of some of the beans in the application context form a cycle:\n┌─────┐\n|  a defined in file [~~~/A.class]\n↑     ↓\n|  b in file [~~~/B.class]\n└─────┘",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Description:\nThe dependencies of some of the beans in the application context form a cycle:\n┌─────┐\n|  a defined in file [~~~/A.class]\n↑     ↓\n|  b in file [~~~/B.class]\n└─────┘",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "9f0e4ab9-5894-4cb2-8530-d5cc6f140fa3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:46:00.000Z",
+      "last_edited_time": "2024-07-29T06:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "077e2a63-154d-4def-bc8d-69d314a9a9dc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:45:00.000Z",
+      "last_edited_time": "2024-07-29T06:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그럼 왜 이렇게 의존성 주입 방법에 따라 차이가 오류를 발견하는 시점의 차이가 생길까?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그럼 왜 이렇게 의존성 주입 방법에 따라 차이가 오류를 발견하는 시점의 차이가 생길까?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "27c6fa33-d495-4745-b42e-ce6033138ec4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:46:00.000Z",
+      "last_edited_time": "2024-07-29T06:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이는 빈 생성 시기가 차이나기 때문이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이는 빈 생성 시기가 차이나기 때문이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "7586070a-1f75-4486-ac86-0867ebb8d54a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:47:00.000Z",
+      "last_edited_time": "2024-07-29T06:47:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5a880d2f-3926-4231-87a1-69626d781d7a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:46:00.000Z",
+      "last_edited_time": "2024-07-29T06:47:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "필드, 수정자 주입 방식은 빈을 먼저 생성하고 어노테이션이 붙은 필드에 해당하는 빈을 찾아서 주입하는 방식이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "필드, 수정자 주입 방식은 빈을 먼저 생성하고 어노테이션이 붙은 필드에 해당하는 빈을 찾아서 주입하는 방식이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "88c22b7e-17e2-42b8-a8ac-793f0623f88b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:47:00.000Z",
+      "last_edited_time": "2024-07-29T06:47:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "즉, 빈을 먼저 생성하고 필드를 주입하기 때문에 빈 객체를 생성한 시점에서는 순환 참조 여부를 알 수 없다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "즉, 빈을 먼저 생성하고 필드를 주입하기 때문에 빈 객체를 생성한 시점에서는 순환 참조 여부를 알 수 없다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "08ac360c-8644-42aa-8550-bad819ee9f0f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:48:00.000Z",
+      "last_edited_time": "2024-07-29T06:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그렇지만 생성자 주입 방식은 생성자로 객체를 생성하는 시점에 필요한 빈을 주입한다. 즉, 더 쉽게 말하자면 빈 객체를 생성하는 시점에 생성자의 파라미터 빈 객체를 찾아서 먼저 주입을 하고, 주입받은 객체를 이용하여 생성한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그렇지만 생성자 주입 방식은 생성자로 객체를 생성하는 시점에 필요한 빈을 주입한다. 즉, 더 쉽게 말하자면 빈 객체를 생성하는 시점에 생성자의 파라미터 빈 객체를 찾아서 먼저 주입을 하고, 주입받은 객체를 이용하여 생성한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "edc128a3-17af-4c0c-b22e-76ce112d6953",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:49:00.000Z",
+      "last_edited_time": "2024-07-29T06:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이런 이유로 순환 참조는 생성자 주입 방식에서만 문제가 생기는 것이다. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이런 이유로 순환 참조는 생성자 주입 방식에서만 문제가 생기는 것이다. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c48bb5e1-d76c-4a1a-8ad1-9b16564a1ad2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:59:00.000Z",
+      "last_edited_time": "2024-07-29T06:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ca3e1d0f-4a37-42ab-abb3-29c4ef16424f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:59:00.000Z",
+      "last_edited_time": "2024-07-29T06:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "4. 테스트 코드 작성이 편하다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "4. 테스트 코드 작성이 편하다.",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "fe747c79-18f9-4511-97c8-096bf8070ed6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T06:59:00.000Z",
+      "last_edited_time": "2024-07-29T07:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "만약 필드 주입, 수정자 주입으로 의존성을 주입했다면 Mockito를 이용해 목킹을 한 후 테스트를 진행해야 한다고 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "만약 필드 주입, 수정자 주입으로 의존성을 주입했다면 Mockito를 이용해 목킹을 한 후 테스트를 진행해야 한다고 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c5a46f0e-4080-4b99-93a0-bed5a464f738",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:02:00.000Z",
+      "last_edited_time": "2024-07-29T07:02:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Component\nclass B {\n    public void funcB() {\n        System.out.println(\"this is b\");\n    }\n}\n\n@Component\nclass A {\n    @Autowired\n    private B b;\n\n    public void funcA() {\n        b.funcB();\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@Component\nclass B {\n    public void funcB() {\n        System.out.println(\"this is b\");\n    }\n}\n\n@Component\nclass A {\n    @Autowired\n    private B b;\n\n    public void funcA() {\n        b.funcB();\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ddc71cf2-4177-44d3-9cad-fac2bf279478",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:02:00.000Z",
+      "last_edited_time": "2024-07-29T07:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public class ATest {\n\n    @Mock //B 클래스 모킹\n    private B b;\n\n    @InjectMocks //A 클래스에 B 클래스 주입\n    private A a;\n\n    @Test\n    void testFuncA() {\n        // Mockito가 위의 어노테이션을 처리하도록 지시\n        MockitoAnnotations.openMocks(this);\n        \n        // 테스트를 위해 메서드 호출\n        a.funcA();\n        \n        // B 클래스의 funcB 메서드가 호출되었는지 확인\n        verify(b).funcB();\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public class ATest {\n\n    @Mock //B 클래스 모킹\n    private B b;\n\n    @InjectMocks //A 클래스에 B 클래스 주입\n    private A a;\n\n    @Test\n    void testFuncA() {\n        // Mockito가 위의 어노테이션을 처리하도록 지시\n        MockitoAnnotations.openMocks(this);\n        \n        // 테스트를 위해 메서드 호출\n        a.funcA();\n        \n        // B 클래스의 funcB 메서드가 호출되었는지 확인\n        verify(b).funcB();\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e2659b27-5e24-41e7-b1d4-d14134ec68bb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:03:00.000Z",
+      "last_edited_time": "2024-07-29T07:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "해당 코드는 자세하게 보지 않고 넘어가겠다. 딱봐도 귀찮아 보이지 않는가?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "해당 코드는 자세하게 보지 않고 넘어가겠다. 딱봐도 귀찮아 보이지 않는가?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ba79c144-f9ef-4b6f-8aeb-d0af2a6ecb7c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:04:00.000Z",
+      "last_edited_time": "2024-07-29T07:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그렇다면 생성자 주입을 사용한 클래스의 테스트는 어떻게 진행될까?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그렇다면 생성자 주입을 사용한 클래스의 테스트는 어떻게 진행될까?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "bee80b53-5af2-4fcc-b7d4-bc72e3b449e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:04:00.000Z",
+      "last_edited_time": "2024-07-29T07:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Component\nclass B {\n    public void funcB() {\n        System.out.println(\"this is b\");\n    }\n}\n\n@Component\nclass A {\n    private final B b;\n\n    public A(B b) {\n        this.b = b;\n    }\n\n    public void funcA() {\n        b.funcB();\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@Component\nclass B {\n    public void funcB() {\n        System.out.println(\"this is b\");\n    }\n}\n\n@Component\nclass A {\n    private final B b;\n\n    public A(B b) {\n        this.b = b;\n    }\n\n    public void funcA() {\n        b.funcB();\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "640e5b77-bfa6-4aa2-a140-e470956268da",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:06:00.000Z",
+      "last_edited_time": "2024-07-29T07:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public class ATest {\n\n    @Test\n    public void testFuncA() {\n        B b = new B();\n        A a = new A(b);\n        a.funcA();\n    }\n}\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public class ATest {\n\n    @Test\n    public void testFuncA() {\n        B b = new B();\n        A a = new A(b);\n        a.funcA();\n    }\n}\n",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "b7324059-31c8-45ba-8971-0f3d0cf42bed",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:06:00.000Z",
+      "last_edited_time": "2024-07-29T07:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "차이가 확실하지 않나?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "차이가 확실하지 않나?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "f0bfff3d-82ed-4dc5-a2e3-16429d98b9eb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:06:00.000Z",
+      "last_edited_time": "2024-07-29T07:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위와 같이 생성자 주입 방식은 단순히 원하는 객체를 생성하고 생성자에 넣어주기만 하면 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위와 같이 생성자 주입 방식은 단순히 원하는 객체를 생성하고 생성자에 넣어주기만 하면 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "0d755db1-6dab-4be0-adc6-d845f62f5180",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:07:00.000Z",
+      "last_edited_time": "2024-07-29T07:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2dd40583-23d7-4b5c-895f-f4eb0350b402",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:07:00.000Z",
+      "last_edited_time": "2024-07-29T07:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1cb0199e-022a-4168-b0fc-43a346c4a4a7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:07:00.000Z",
+      "last_edited_time": "2024-07-29T07:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5f447141-6eac-4f6e-86f3-c8303482c2db",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:07:00.000Z",
+      "last_edited_time": "2024-07-29T07:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이와 같이 생성자 주입을 사용하는 이유에 대해 알아보았다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이와 같이 생성자 주입을 사용하는 이유에 대해 알아보았다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "801d2bb2-251d-4b08-9adc-ab154a100860",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:07:00.000Z",
+      "last_edited_time": "2024-07-29T07:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "정리하자면,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "정리하자면,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "04097d1e-2f38-4d00-93d9-fe082343d8f0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:07:00.000Z",
+      "last_edited_time": "2024-07-29T07:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "단일 책임 원칙 위반 방지",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "단일 책임 원칙 위반 방지",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ad1f6545-61df-436b-b21f-9c524b58bbf1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:07:00.000Z",
+      "last_edited_time": "2024-07-29T07:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "final 선언으로 인한 불변성",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "final 선언으로 인한 불변성",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "0d0ca3b4-d53d-49a1-8c12-aee61252a02c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:08:00.000Z",
+      "last_edited_time": "2024-07-29T07:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "순환 참조 방지",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "순환 참조 방지",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e8a2adea-5a31-4186-b4bd-3f1cd8704e73",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:08:00.000Z",
+      "last_edited_time": "2024-07-29T07:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "테스트 코드 작성 용이",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "테스트 코드 작성 용이",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "747801af-a231-47f7-8b17-ad2594af051e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1b1be4ac-35cd-453e-9e6e-73fd77e142cc"
+      },
+      "created_time": "2024-07-29T07:08:00.000Z",
+      "last_edited_time": "2024-07-29T07:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "가 될 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가 될 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

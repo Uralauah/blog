@@ -1,0 +1,3569 @@
+{
+  "object": "page",
+  "id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8",
+  "created_time": "2024-07-29T05:14:00.000Z",
+  "last_edited_time": "2024-07-29T05:14:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "b2df65bf-3651-4ad7-97dd-58844a6742a7",
+          "name": "스프링부트",
+          "color": "brown"
+        },
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "자바",
+          "color": "pink"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2024-07-23",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "07-24 테스트 코드",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "07-24 테스트 코드",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/07-24-6ca2969d82b5453b9d97c74fb3b369c8",
+  "public_url": "https://codinggroove.notion.site/07-24-6ca2969d82b5453b9d97c74fb3b369c8",
+  "request_id": "f11b5cda-8e9a-400b-9c54-b1e7c1df76f4",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "5acc3eba-9db1-492a-b3dc-67a64db6325f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아직 시큐리티 부분을 제대로 파지 못한 관계로 딱히 새롭게 배운 점은 없는 것 같다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아직 시큐리티 부분을 제대로 파지 못한 관계로 딱히 새롭게 배운 점은 없는 것 같다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "af36ada5-86a4-40d2-acab-b394a1002677",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c9b4f91d-3ed2-4bc8-87f9-6e766e265285",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "사실 지금까지 스프링을 하면서 테스트 코드를 제대로 작성해본 적이 거의 없는데,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "사실 지금까지 스프링을 하면서 테스트 코드를 제대로 작성해본 적이 거의 없는데,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28de01b7-168e-4e68-92e7-f3e461a4332c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이번에 새로 공부하면서 테스트 코드를 작성하는 법도 새롭게 공부할 수 있었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이번에 새로 공부하면서 테스트 코드를 작성하는 법도 새롭게 공부할 수 있었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2510158c-ade2-4500-bd24-e9987c324acd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "990a5046-5593-4a16-8c64-1e9877d1b278",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "테스트 코드에는 다양한 패턴이 있는데,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "테스트 코드에는 다양한 패턴이 있는데,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1e367af5-9f59-4256-a18b-50bcd99f32c7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그 중 given-when-then 패턴이 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그 중 given-when-then 패턴이 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "566e5c80-7517-4a67-9791-64cdc3036457",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a1298c45-dc3d-4d97-a976-6514de96a88b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "given-when-then",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "given-when-then",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ff29d674-46f8-4ff9-adc5-5a9b75208316",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 패턴은 테스트코드를 세 단계로 구분해서 작성하는 방식이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 패턴은 테스트코드를 세 단계로 구분해서 작성하는 방식이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "3bfecbc2-c18b-41ec-b9a9-999b38d7750e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "각 단계는",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "각 단계는",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2396757c-f21f-4ace-ab18-cd4933caa309",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "given - 테스트 실행을 준비하는 단계",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "given - 테스트 실행을 준비하는 단계",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "44a82f0e-a3c1-4ff5-a8e6-848831e44a75",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "when - 테스트를 진행하는 단계",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "when - 테스트를 진행하는 단계",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1a5a9094-ad0d-4743-a403-bafd53c40ba1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "then - 테스트 결과를 검증하는 단계",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "then - 테스트 결과를 검증하는 단계",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "196b7ed4-af4e-4079-9695-14351b8ab670",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "로 나뉘어 진다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로 나뉘어 진다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "95db0c9c-ba1c-41ee-bdd2-1f9951ecabcb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "0a9b084e-6682-446a-9afa-dd374e887c53",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "예를 들어, 카페에서 새로운 메뉴를 저장하는 코드를 테스트한다고 하자.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "예를 들어, 카페에서 새로운 메뉴를 저장하는 코드를 테스트한다고 하자.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "eef700d2-6e99-4f68-a5bc-214d927d4d98",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@DisplayName(\"새로운 메뉴를 저장한다.\")\n@Test\npublic void saveMenuTest(){\n\t//1.given : 메뉴를 저장하기 위한 준비 과정\n\tfinal String name = \"아메리카노\";\n\tfinal int price = 2000;\n\tfinal Menu americano = new Menu(name, price);\n\t\n\t//2.when : 실제로 메뉴를 저장\n\tfinal long savedId = menuService.save(americano);\n\t\n\t//3.then : 메뉴가 잘 추가되었는지 검증\n\tfinal Menu savedMenu = menuService.findById(savedId).get();\n\tassertThat(savedMenu.getName()).isEqualTo(name);\n\tassertThat(savedMenu.getPrice()).isEqualTo(price);\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@DisplayName(\"새로운 메뉴를 저장한다.\")\n@Test\npublic void saveMenuTest(){\n\t//1.given : 메뉴를 저장하기 위한 준비 과정\n\tfinal String name = \"아메리카노\";\n\tfinal int price = 2000;\n\tfinal Menu americano = new Menu(name, price);\n\t\n\t//2.when : 실제로 메뉴를 저장\n\tfinal long savedId = menuService.save(americano);\n\t\n\t//3.then : 메뉴가 잘 추가되었는지 검증\n\tfinal Menu savedMenu = menuService.findById(savedId).get();\n\tassertThat(savedMenu.getName()).isEqualTo(name);\n\tassertThat(savedMenu.getPrice()).isEqualTo(price);\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "45fc1bb3-cf3b-4f48-93f7-55baeb4c0b24",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위와 같이 세 단계로 나누어서 테스트를 진행할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위와 같이 세 단계로 나누어서 테스트를 진행할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "7354ccc9-e838-42e5-805d-03b2ac8b4618",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ece47793-f061-4322-85a9-94f08213cc44",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "근데 분명히 책에서나 다른 블로그들에서 본 바로는 assertThat만 사용해도 코드가 동작하는 것처럼 나오는데.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "근데 분명히 책에서나 다른 블로그들에서 본 바로는 assertThat만 사용해도 코드가 동작하는 것처럼 나오는데.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "87118f29-be5c-4077-bf76-b3212ef76390",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "나는 Assertions.assertThat()으로 해줘야 사용이 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "나는 Assertions.assertThat()으로 해줘야 사용이 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ab003e92-6c02-439b-99e5-7ddf322daf6c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이게 그냥 내 인텔리제이의 문제인건지 내가 무언가 빼먹은게 있는건지 아직도 잘 모르겠다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이게 그냥 내 인텔리제이의 문제인건지 내가 무언가 빼먹은게 있는건지 아직도 잘 모르겠다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7c2530-a371-4b5a-b6ea-c7fe6a256f0e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "혹시 해결방법을 아는 착한 사람은 제보 부탁한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "혹시 해결방법을 아는 착한 사람은 제보 부탁한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d2c301dc-885b-4ffb-acf5-94a97b563dd4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "719b7b0e-aa90-4433-807b-ecc76de05e81",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "AssertJ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "AssertJ",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "3e03d79f-8b70-4708-a0ce-d8fcd23db865",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위 코드에서 사용했던 assertThat은 AssertJ의 메서드이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위 코드에서 사용했던 assertThat은 AssertJ의 메서드이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "fbac45c8-7fcc-4676-b67f-4bd4a64e6849",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Assertions는 두가지가 존재한다. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Assertions는 두가지가 존재한다. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "eecd1297-56c2-4bc0-a526-c8de6fdf2f1f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하나는 JUnit 자체의 Assertions, 다른 하나는 바로 AssertJ의 Assertions이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하나는 JUnit 자체의 Assertions, 다른 하나는 바로 AssertJ의 Assertions이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "bd47a50e-bea7-409a-bc46-6c9300e7e70f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그렇다면 왜 우리는 AssertJ를 사용할까?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그렇다면 왜 우리는 AssertJ를 사용할까?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "7ede8907-73af-433a-b909-5e24ddc9b565",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "f35bd16d-a2e7-4fa1-b21b-ec1219fb004c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. 가독성",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. 가독성",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "05e43527-e2a1-444e-bfae-2adfed591789",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아래와 같은 예시를 보자.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아래와 같은 예시를 보자.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c3ed83c8-dce1-4ad0-bf61-7739324b2550",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "//JUnit\nassertEquals(a, b);\n\n//AssertJ\nassertThat(a).isEqualTo(b);",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "//JUnit\nassertEquals(a, b);\n\n//AssertJ\nassertThat(a).isEqualTo(b);",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5da296fb-6b77-4724-8f64-7ecfef3448e3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "예시와 같이 위의 JUnit 코드는 누가 실제 값이고, 누가 예상값인지 쉽게 예측할 수 없다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "예시와 같이 위의 JUnit 코드는 누가 실제 값이고, 누가 예상값인지 쉽게 예측할 수 없다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a536da10-7c47-44c3-9839-16aec792c7f1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 아래의 AssertJ는 한눈에 봐도 a가 실제 값이고 b가 예상값이라는 것을 쉽게 유추할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 아래의 AssertJ는 한눈에 봐도 a가 실제 값이고 b가 예상값이라는 것을 쉽게 유추할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d0452d4a-2617-48f1-9c97-12519affce9d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6b003602-90aa-4918-bc5b-bdbdd0d5c52c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. 실패 원인 파악 용이",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. 실패 원인 파악 용이",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "14acdbf2-69f7-463d-9653-9f63d2721f32",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "//Junit\nassertTrue(name.contains(\"o\"));",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "//Junit\nassertTrue(name.contains(\"o\"));",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6f86eb75-0a6b-45f3-bab5-9361dcac5a98",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "//실패 메시지\nexpected: <true> but was: <false>\nExpected :true\nActual : false",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "//실패 메시지\nexpected: <true> but was: <false>\nExpected :true\nActual : false",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "312af6d1-58ef-45e0-9c9d-14e85ebb732a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "JUnit으로 테스트를 진행하면 위와 같이 어디서 테스트를 실패했는지, 뭐때문에 실패했는지 알 수가 없다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "JUnit으로 테스트를 진행하면 위와 같이 어디서 테스트를 실패했는지, 뭐때문에 실패했는지 알 수가 없다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "59c42f5c-026b-49c1-b058-cc3bfcc42079",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "(이럴거면 테스트 왜 하냐?)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "(이럴거면 테스트 왜 하냐?)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "4adf0942-ff5a-4cbc-a7d6-b0c4b0408a06",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "8a525369-fe93-47a7-a5f0-13345d7817a4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "//AssertJ\nassertThat(name).contains(\"o\");",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "//AssertJ\nassertThat(name).contains(\"o\");",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "68f7e327-de28-4042-a580-d27afe05343e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "java.lang.AssertionError:\nExpecting actual:\n\t\"lsh\"\nto contain:\n\t\"o\"",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "java.lang.AssertionError:\nExpecting actual:\n\t\"lsh\"\nto contain:\n\t\"o\"",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "4037a06a-9ee6-48d9-91c6-a97363138615",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위와 같이 AssertJ로 테스트를 진행하면 “lsh”라는 이름을 검증하는 과정에서 “o”가 포함되어야 하는데 포함되지 않아서 실패했다는 것을 알 수 있게 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위와 같이 AssertJ로 테스트를 진행하면 “lsh”라는 이름을 검증하는 과정에서 “o”가 포함되어야 하는데 포함되지 않아서 실패했다는 것을 알 수 있게 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "4b7df0e5-fe19-4103-a88c-3f86adb1fd12",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "b58a67b3-9836-4cd3-a09a-27c2392cabdc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "더 자세한 예시를 보자.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "더 자세한 예시를 보자.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "7aa8dc86-14f7-4d1b-8a1b-c48a98c6f90b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Players players = new Players(\"승현\", \"원영\", \"민주\", \"승제\", \"선안\", \"길동\");\nList<String> winners = players.findWinners();\n\n...\n\nassertThat(winners).containsExactlyInAnyOrder(\"승현\", \"선안\");",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Players players = new Players(\"승현\", \"원영\", \"민주\", \"승제\", \"선안\", \"길동\");\nList<String> winners = players.findWinners();\n\n...\n\nassertThat(winners).containsExactlyInAnyOrder(\"승현\", \"선안\");",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "618bbdc3-7383-484b-8d58-228d18256b9d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위의 테스트는 6명의 플레이어 중 승자를 찾는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위의 테스트는 6명의 플레이어 중 승자를 찾는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "b1a3cbe5-0430-4073-a48b-dda4048a7634",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "작성자는 승현과 선안이 우승할 것이라고 예상했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "작성자는 승현과 선안이 우승할 것이라고 예상했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c9f31a71-32ff-4709-8274-4f60a26c6387",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아래의 오류 메시지를 분석해보자.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아래의 오류 메시지를 분석해보자.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "4a33f28f-3a7f-4449-b88e-377ebfdcd5d5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "java.lang.AssertionErro:\nExpecting actual:\n\t[\"승현\", \"길동\"]\nto contain exactly in any order:\n\t[\"승현\", \"선안\"]\nelements not found:\n\t[\"선안\"]\nand elements not expected:\n\t[\"길동\"]",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "java.lang.AssertionErro:\nExpecting actual:\n\t[\"승현\", \"길동\"]\nto contain exactly in any order:\n\t[\"승현\", \"선안\"]\nelements not found:\n\t[\"선안\"]\nand elements not expected:\n\t[\"길동\"]",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "76c3ffc0-f25c-4155-8516-95c3bca82e6d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아주 보기 쉽게 출력해준다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아주 보기 쉽게 출력해준다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ab5a1aa8-8a67-44fd-a576-6983f9d734d2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "실제 우승자는 승현, 길동이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "실제 우승자는 승현, 길동이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e3c1235e-fd3b-473b-9de3-60a5a299be02",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "우리가 예측한 우승자는 승현, 선안이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "우리가 예측한 우승자는 승현, 선안이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "135d4e8f-d6ec-4dc3-9155-32a6de9a382d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "선안은 우승자에 포함되지 않았다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "선안은 우승자에 포함되지 않았다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6cc0af32-978f-4808-9b59-b1609bd65e37",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "길동은 우승자가 아니라고 예상했지만 우승자가 맞았다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "길동은 우승자가 아니라고 예상했지만 우승자가 맞았다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "7d7a3ea3-a971-4c71-b832-639e8a564da8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "9038287f-4daf-45ce-a054-33f9706049ac",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이와 같이 AssertJ를 사용하면 실패 원인을 보다 더 자세하고 정확하게 파악할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이와 같이 AssertJ를 사용하면 실패 원인을 보다 더 자세하고 정확하게 파악할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1939eb5a-97f4-42d9-ba85-73774ce9fa44",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "06537476-e793-46af-9974-bd4f5b652312",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3. 다양한 메서드 제공",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3. 다양한 메서드 제공",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "375f7e15-e9f7-4587-b677-51711e26b045",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아래 예시를 보자.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아래 예시를 보자.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d13b7feb-133a-4f66-8124-b82387594831",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "//JUnit\nassertTrue(winners.containsAll(List.of(\"승현\", \"선안\")) && winners.size() == 2);\nassertArrayEquals(winners.toArray(), new String[]{\"승현\", \"선안\"});\nassertTrue(winners.containsAll(List.of(\"승현\", \"선안\")));\n\n// AssertJ\nassertThat(winners).containsExactlyInAnyOrder(\"승현\", \"선안\");\nassertThat(winners).containsExactly(\"승현\", \"선안\");\nassertThat(winners).contains(\"승현\", \"선안\");",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "//JUnit\nassertTrue(winners.containsAll(List.of(\"승현\", \"선안\")) && winners.size() == 2);\nassertArrayEquals(winners.toArray(), new String[]{\"승현\", \"선안\"});\nassertTrue(winners.containsAll(List.of(\"승현\", \"선안\")));\n\n// AssertJ\nassertThat(winners).containsExactlyInAnyOrder(\"승현\", \"선안\");\nassertThat(winners).containsExactly(\"승현\", \"선안\");\nassertThat(winners).contains(\"승현\", \"선안\");",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "3c3965db-edfd-4499-b082-b1738e936e20",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위와 같이 같은 동작을 하는데 JUnit은 간단한 메서드만 지원을하기 때문에 비교를 위해 많은 작업들이 필요해진다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위와 같이 같은 동작을 하는데 JUnit은 간단한 메서드만 지원을하기 때문에 비교를 위해 많은 작업들이 필요해진다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "67049e02-05e6-4359-b688-4498159a9c96",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "반면에 AssertJ는 다양한 메서드를 지원해서 가독성도 좋아지고 통일성도 좋아지는 효과가 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "반면에 AssertJ는 다양한 메서드를 지원해서 가독성도 좋아지고 통일성도 좋아지는 효과가 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a70de258-e835-40b4-a4a2-78ae75494916",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "b33e612d-37f1-4088-b503-f756d6e0ae71",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "4. 메서드 체이닝",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "4. 메서드 체이닝",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e2332b5a-fea5-4c7c-a09f-f663e9fef807",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "assertThat(\"[TITLE] Hello, My Name is lsh\")\n        .isNotEmpty()\n        .contains(\"[TITLE]\")\n        .containsOnlyOnce(\"ash\")\n        .doesNotStartWith(\"[ERROR]\");\n\nassertThat(score)\n        .isPositive()\n        .isGreaterThan(60)\n        .isLessThanOrEqualTo(75);\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "assertThat(\"[TITLE] Hello, My Name is lsh\")\n        .isNotEmpty()\n        .contains(\"[TITLE]\")\n        .containsOnlyOnce(\"ash\")\n        .doesNotStartWith(\"[ERROR]\");\n\nassertThat(score)\n        .isPositive()\n        .isGreaterThan(60)\n        .isLessThanOrEqualTo(75);\n",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "4104fb1c-c125-459e-82c7-69903763938a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위의 예시와 같이 메서드 체이닝을 통해 여러 테스트를 한 번에 진행할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위의 예시와 같이 메서드 체이닝을 통해 여러 테스트를 한 번에 진행할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ba631265-4610-4bb1-b105-38353212cee7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위 코드를 JUnit으로 테스트한다면 그냥 짜증나서 맥북을 반으로 접어버릴 수도 있을 것이다.(사실 그정돈 아님)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위 코드를 JUnit으로 테스트한다면 그냥 짜증나서 맥북을 반으로 접어버릴 수도 있을 것이다.(사실 그정돈 아님)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "f1ad1461-1aee-41e8-97df-ff318d7b1874",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a362b457-b932-4a59-aba4-02cec87dc85e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 외에도 아주 많은 이유들이 있겠지만, AssertJ를 안쓸 이유가 없는 것 같다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 외에도 아주 많은 이유들이 있겠지만, AssertJ를 안쓸 이유가 없는 것 같다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "81eadba3-50e4-4905-ad41-3b08a1b80b30",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "가독성이 좋아지는 것이 아주아주 마음에 든다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가독성이 좋아지는 것이 아주아주 마음에 든다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2592e901-dfeb-4318-ad46-20dff7fab493",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "JUnit",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "JUnit",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "0cdd3f4b-b00a-4b59-ad60-34eddb1dbf81",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "JUnit은 자바를 위한 단위 테스트 프레임워크이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "JUnit은 자바를 위한 단위 테스트 프레임워크이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "44c8f5eb-7775-4f54-a046-b2f5ca4f704b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "단위 테스트는 코드가 의도대로 작동하는지 작은 단위로 검증하는 것을 의미한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "단위 테스트는 코드가 의도대로 작동하는지 작은 단위로 검증하는 것을 의미한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9bfed1-7ee3-490e-ae92-f2c89b32ab78",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이때 작은 단위는 보통 메서드가 된다고 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이때 작은 단위는 보통 메서드가 된다고 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "083c3d6d-2d88-40db-a5c1-8557ff57b39b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "54f87ba2-0b19-4020-9199-d67dd4333ef2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "JUnit에서는 테스트끼리 영향을 주지 않도록 각 테스트를 실행할 때마다 테스트를 위한 실행 객체를 만들고 테스트가 종료되면 해당 객체를 삭제한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "JUnit에서는 테스트끼리 영향을 주지 않도록 각 테스트를 실행할 때마다 테스트를 위한 실행 객체를 만들고 테스트가 종료되면 해당 객체를 삭제한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "4f14f90a-a67e-4266-b2d9-46977744e6b2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "7937ac4a-b2c1-47e9-ad9f-835e3c914f98",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "JUnit을 이용하여 테스트코드를 작성한 예시를 보자.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "JUnit을 이용하여 테스트코드를 작성한 예시를 보자.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "43faa9b1-30c7-4748-a914-3d5f8ee807d6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@SpringBootTest\n@AutoConfigureMockMvc\nclass TestControllerTest{\n\t@Autowired\n\tprotected MockMvc mockMvc;\n\t\n\t@Autowired\n\tprivate WebApplicationContext context;\n\t\n\t@Autowired\n\tprivate MemberRepository memberRepository;\n\t\n\t@BeforeEach\n\tpublic void mockMvcSetUp(){\n\t\tthis.mockMvc = MockMvcBuilders.webAppContextSetup(context)\n\t\t\t.build();\n\t}\n\t\n\t@AfterEach\n\tpublic void cleanUp(){\n\t\tmemberRepository.deleteAll();\n\t}\n\t\n\t@DisplayName(\"getAllMembers: 아티클 조회에 성공)\n\t@Test\n\tpublic void getAllMembers() throws Exception{\n\t\t//given\n\t\tfinal String url = \"/test\";\n\t\tMember savedMember = memberRepository.save(new Member(1L,\"홍길동\");\n\t\t\n\t\t//when\n\t\tfinal ResultActions result = mockMvc.perform(get(url) \n\t\t//perform()은 요청을 전송하는 역할을 한다. 결과로 ResultActions 객체를 받고 해당 객체는 반환값을 검증하고 확인하는 andExpect() 메서드를 제공한다.\n\t\t\t.accept(MediaType.APPLICATION_JSON);\n\t\t\t//accept()는 요청을 보낼 때 무슨 타입으로 응답을 받을지 결정하는 메서드.\n\t\t\n\t\t//then\n\t\tresult.andExpect(status().isOk())\n\t\t//andExpect는 응답을 검증한다. isOk()를 사용하여 응답 코드가 200인지 확인.\n\t\t\t.andExpect(jsonPath(\"$[0].id\").value(savedMember.getId()))\n\t\t\t//jsonPaht(\"$[0].${필드명}\")은 json 응답의 값을 가져오는 역할. 0번째 배열에 있는 객체의 id, name을 가져와 비교한다.\n\t\t\t.andExpect(jsonPath(\"$[0].name\").value(savedMember.getName()));\n\t}\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@SpringBootTest\n@AutoConfigureMockMvc\nclass TestControllerTest{\n\t@Autowired\n\tprotected MockMvc mockMvc;\n\t\n\t@Autowired\n\tprivate WebApplicationContext context;\n\t\n\t@Autowired\n\tprivate MemberRepository memberRepository;\n\t\n\t@BeforeEach\n\tpublic void mockMvcSetUp(){\n\t\tthis.mockMvc = MockMvcBuilders.webAppContextSetup(context)\n\t\t\t.build();\n\t}\n\t\n\t@AfterEach\n\tpublic void cleanUp(){\n\t\tmemberRepository.deleteAll();\n\t}\n\t\n\t@DisplayName(\"getAllMembers: 아티클 조회에 성공)\n\t@Test\n\tpublic void getAllMembers() throws Exception{\n\t\t//given\n\t\tfinal String url = \"/test\";\n\t\tMember savedMember = memberRepository.save(new Member(1L,\"홍길동\");\n\t\t\n\t\t//when\n\t\tfinal ResultActions result = mockMvc.perform(get(url) \n\t\t//perform()은 요청을 전송하는 역할을 한다. 결과로 ResultActions 객체를 받고 해당 객체는 반환값을 검증하고 확인하는 andExpect() 메서드를 제공한다.\n\t\t\t.accept(MediaType.APPLICATION_JSON);\n\t\t\t//accept()는 요청을 보낼 때 무슨 타입으로 응답을 받을지 결정하는 메서드.\n\t\t\n\t\t//then\n\t\tresult.andExpect(status().isOk())\n\t\t//andExpect는 응답을 검증한다. isOk()를 사용하여 응답 코드가 200인지 확인.\n\t\t\t.andExpect(jsonPath(\"$[0].id\").value(savedMember.getId()))\n\t\t\t//jsonPaht(\"$[0].${필드명}\")은 json 응답의 값을 가져오는 역할. 0번째 배열에 있는 객체의 id, name을 가져와 비교한다.\n\t\t\t.andExpect(jsonPath(\"$[0].name\").value(savedMember.getName()));\n\t}\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "4b8d85db-69d3-40a5-ad83-8d4d0e3fa942",
+      "parent": {
+        "type": "page_id",
+        "page_id": "6ca2969d-82b5-453b-9d97-c74fb3b369c8"
+      },
+      "created_time": "2024-07-29T05:14:00.000Z",
+      "last_edited_time": "2024-07-29T05:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

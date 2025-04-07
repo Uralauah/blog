@@ -1,0 +1,1754 @@
+{
+  "object": "page",
+  "id": "47c51d8a-78e8-4f64-9b92-18db90bee76b",
+  "created_time": "2024-07-29T05:12:00.000Z",
+  "last_edited_time": "2024-07-29T05:13:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4768bae9-93de-4788-8237-416bf24413ea",
+          "name": "코딩테스트",
+          "color": "green"
+        },
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "자바",
+          "color": "pink"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2024-07-09",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "4195번 - 친구 네트워크",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "4195번 - 친구 네트워크",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/4195-47c51d8a78e84f649b9218db90bee76b",
+  "public_url": "https://codinggroove.notion.site/4195-47c51d8a78e84f649b9218db90bee76b",
+  "request_id": "cb97601c-59c1-4eee-ad76-e4dacf5e5e06",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "bfb2bec5-cb76-4b2e-a82d-248ef34eb1c0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://www.acmicpc.net/problem/4195"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://www.acmicpc.net/problem/4195"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "01882454-2ed1-44aa-b2fd-20944b3d990d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 1시간",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 1시간",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a09d884a-7067-4437-80aa-ee9730c0ce68",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "862f891e-ff56-4798-a7df-cd5905ceeb89",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 요약",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 요약",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c6b432d5-11fc-4071-a625-02ade94e5ab7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "어떤 사이트의 친구 관계가 생긴 순서대로 주어진다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "어떤 사이트의 친구 관계가 생긴 순서대로 주어진다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "85550bda-fc99-405d-b2d1-fdab48fd0c71",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "두 사람의 친구 네트워크에 몇 명이 있는지 구하라.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "두 사람의 친구 네트워크에 몇 명이 있는지 구하라.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "6dfb1084-9e21-469d-91e1-3e3b9073d82b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "첫째 줄에 테스트 케이스의 개수가 주어진다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "첫째 줄에 테스트 케이스의 개수가 주어진다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "60190726-aae6-4e69-9342-fe8d05f0a428",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "각 테스트 케이스의 첫째 줄에 친구 관계의 수 F ( ≤ 100,000) 가 주어진다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "각 테스트 케이스의 첫째 줄에 친구 관계의 수 F ( ≤ 100,000) 가 주어진다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a0c6eded-dce2-4971-b3e5-649a2eb8ba38",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "다음 F 개의 줄에는 친구 관계가 생긴 순서대로 주어진다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "다음 F 개의 줄에는 친구 관계가 생긴 순서대로 주어진다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "dee7c31c-720f-4b61-be39-3abb38fc1c41",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19c1ec81-8087-4533-8c64-3ddd5fb2d2b9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 문제는 그냥 골드2에 비해 쉬워보여서 선택했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 문제는 그냥 골드2에 비해 쉬워보여서 선택했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "32f83cf0-f494-464b-9921-5fa75b48dd1c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ae2edbfe-7037-4189-b721-953bde499d5f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "처음에는 무지성으로 해시맵에 그냥 이름, 친구 수 를 넣어서 친구가 추가될 때마다 두 명의 친구 수를 합해서 업데이트 해주면 되는거 아닌가?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "처음에는 무지성으로 해시맵에 그냥 이름, 친구 수 를 넣어서 친구가 추가될 때마다 두 명의 친구 수를 합해서 업데이트 해주면 되는거 아닌가?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "af5afa48-00c8-47f5-9839-946b7eeb2dfb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "라는 생각으로 코드를 짰다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "라는 생각으로 코드를 짰다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "09daaef7-6d17-457e-8a29-a4ae7428b6b4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "08eb0f4c-fd11-424d-8104-9c2e32830fbe",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아래와 같은 코드를 이용해서",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아래와 같은 코드를 이용해서",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "8bbfeaa8-9b01-4eb3-9f39-982c4cca3596",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "network 라는 해시맵에 해당 이름이 있다면 해당 이름의 친구 수를 가져오고,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "network 라는 해시맵에 해당 이름이 있다면 해당 이름의 친구 수를 가져오고,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "b4e7d057-06e2-4455-9fa7-99f72d7f79b2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "없다면 1을 가져와 두 사람의 친구수의 합을 구했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "없다면 1을 가져와 두 사람의 친구수의 합을 구했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20fb2d76-7276-4ac2-8637-b5933c5f26c8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그렇게 구한 새로운 친구 수를 network에 업데이트 하고, 출력하여 아주 쉽게 풀었다고 생각했는데..",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그렇게 구한 새로운 친구 수를 network에 업데이트 하고, 출력하여 아주 쉽게 풀었다고 생각했는데..",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "f7d652d3-76f5-4ca6-965d-79bd76dcfe5d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "num = network.getOrDefault(n1, 1) + network.getOrDefault(n2, 1);",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "num = network.getOrDefault(n1, 1) + network.getOrDefault(n2, 1);",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "057f8498-791e-4e25-ba5a-cc61d3479617",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "초기 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "초기 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "ebfc08e0-e772-411e-9ffb-0b9404217257",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.security.Provider;\nimport java.util.*;\n\npublic class Main {\n    public static int N, F;\n    public static HashMap<String, Integer> network;\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st;\n        N = Integer.parseInt(br.readLine());\n        network = new HashMap<>();\n        for (int i = 0; i < N; i++) {\n            F = Integer.parseInt(br.readLine());\n            network.clear();\n            for (int j = 0; j < F; j++) {\n                String n1, n2;\n                int num;\n                st = new StringTokenizer(br.readLine());\n                n1 = st.nextToken();\n                n2 = st.nextToken();\n                num = network.getOrDefault(n1, 1) + network.getOrDefault(n2, 1);\n                network.put(n1, num);\n                network.put(n2, num);\n                System.out.println(num);\n            }\n        }\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.security.Provider;\nimport java.util.*;\n\npublic class Main {\n    public static int N, F;\n    public static HashMap<String, Integer> network;\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st;\n        N = Integer.parseInt(br.readLine());\n        network = new HashMap<>();\n        for (int i = 0; i < N; i++) {\n            F = Integer.parseInt(br.readLine());\n            network.clear();\n            for (int j = 0; j < F; j++) {\n                String n1, n2;\n                int num;\n                st = new StringTokenizer(br.readLine());\n                n1 = st.nextToken();\n                n2 = st.nextToken();\n                num = network.getOrDefault(n1, 1) + network.getOrDefault(n2, 1);\n                network.put(n1, num);\n                network.put(n2, num);\n                System.out.println(num);\n            }\n        }\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "c4ea2200-301a-4604-851c-ccb5b9147404",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 38%에서 틀렸다 가 떴다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 38%에서 틀렸다 가 떴다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "5ac8b38b-7169-4c97-affc-d46b38c5f470",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "56f73c63-4b50-43e1-a17a-081de69ef518",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이유를 알아봤더니",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이유를 알아봤더니",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "61554725-9de3-48fc-bc5f-7c9b26f1ea7c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "07f1c1c2-ae7b-4bb3-bd8b-c012b152cb84",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "만약 입력이 아래와 같이 주어졌다면",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "만약 입력이 아래와 같이 주어졌다면",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "9193fc68-c309-471d-9e05-4a5874230bae",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "a b\nb c\na c",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "a b\nb c\na c",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "72819fbd-b21b-495d-bf67-5977682d644a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위의 코드에서는 2, 3, 5 를 출력하게 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위의 코드에서는 2, 3, 5 를 출력하게 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "4537e9d8-76f7-4baa-b6ee-a152b15cabbe",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "실제 결과는 2, 3, 3 이 나와야 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "실제 결과는 2, 3, 3 이 나와야 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "210aa8d8-96ae-4a11-a239-2918e64d9543",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위 코드에서는 실제로 친구 관계에 속해있는 것을 구분하지 못하는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위 코드에서는 실제로 친구 관계에 속해있는 것을 구분하지 못하는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "731747b1-6aba-49ee-9241-c556e5c09d15",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "bfcf5a35-e9f8-4395-8897-5ddea33316ba",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "db7f62b2-ee1b-43fa-a6e4-6f2fa4582339",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이걸 해결하기 위해 나는 다시 Union - Find 를 꺼내게 되었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이걸 해결하기 위해 나는 다시 Union - Find 를 꺼내게 되었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "dcc33788-2d7c-40b7-9331-56185a4ce92b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 이번에는 일반 Union - Find 와 달리 배열로 구현을 할 수가 없어서 위의 코드와 같이 해시맵을 사용했는데, 그렇게 하면 친구 수를 저장할 방법이 없어서 아래와 같이 새로운 해시맵을 또 만들었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 이번에는 일반 Union - Find 와 달리 배열로 구현을 할 수가 없어서 위의 코드와 같이 해시맵을 사용했는데, 그렇게 하면 친구 수를 저장할 방법이 없어서 아래와 같이 새로운 해시맵을 또 만들었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "3638a34d-4b45-4f9b-950e-d4c040d03a85",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public static HashMap<String, String> network; //Union-find를 위한 해시맵\npublic static HashMap<String, Integer> friendNum; //친구 수 검색을 위한 해시맵",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public static HashMap<String, String> network; //Union-find를 위한 해시맵\npublic static HashMap<String, Integer> friendNum; //친구 수 검색을 위한 해시맵",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e54a78b7-3584-4114-8fac-d1e1a8af28e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "77cf53e8-b855-47bc-80bf-71f0ac3e845a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "b6fa3174-ff3c-4b9d-ac24-36216289f696",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "35688056-f115-42f1-a48d-e51640f3d521",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "결과 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "결과 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "529231f3-eab3-4ae7-be7b-fa7c677e43b3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "47c51d8a-78e8-4f64-9b92-18db90bee76b"
+      },
+      "created_time": "2024-07-29T05:12:00.000Z",
+      "last_edited_time": "2024-07-29T05:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.util.*;\n\npublic class Main {\n    public static int N, F;\n    public static HashMap<String, String> network;\n    public static HashMap<String, Integer> friendNum;\n\n    public static String find(String name) {\n        if (!network.get(name).equals(name)) { //부모 이름과 자신의 이름이 같지 않으면\n            network.put(name, find(network.get(name))); //부모 찾아서 업데이트\n        }\n        return network.get(name); //부모 리턴하기\n    }\n\n    public static void union(String n1, String n2) { //새로운 친구 관계 맺기\n        String p1 = find(n1); //두 부모 찾기\n        String p2 = find(n2);\n        int num1 = friendNum.get(p1);\n        int num2 = friendNum.get(p2);\n        if (!p1.equals(p2)) {\n            network.put(p2, p1);\n            friendNum.put(p1, num1 + num2); //부모의 친구 수 업데이트\n        }\n    }\n\n    public static int getFriendNum(String name) {\n        String parent = find(name); //부모 찾기\n        return friendNum.get(parent); //부모를 기준으로 친구 수 가져오기\n    }\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st;\n        StringBuffer sb = new StringBuffer();\n        N = Integer.parseInt(br.readLine());\n        network = new HashMap<>();\n        friendNum = new HashMap<>();\n        for (int i = 0; i < N; i++) {\n            F = Integer.parseInt(br.readLine());\n            network.clear();\n            friendNum.clear();\n\n            for (int j = 0; j < F; j++) {\n                String n1, n2;\n                st = new StringTokenizer(br.readLine());\n                n1 = st.nextToken();\n                n2 = st.nextToken();\n\n                if (!network.containsKey(n1)) { //해당 이름이 처음 나왔다면 초기 세팅\n                    network.put(n1, n1); //부모 자신으로\n                    friendNum.put(n1, 1); //친구 수 1\n                }\n\n                if (!network.containsKey(n2)) { //해당 이름이 처음 나왔다면 초기 세팅\n                    network.put(n2, n2); //부모 자신으로\n                    friendNum.put(n2, 1); //친구 수 1\n                }\n\n                String p1 = find(n1);\n                String p2 = find(n2);\n\n                if (!p1.equals(p2)) { //두 부모가 일치하지 않으면 새로운 친구관계 맺기\n                    union(n1, n2);\n                }\n                sb.append(getFriendNum(n1)).append(\"\\n\");\n            }\n        }\n        System.out.println(sb);\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.util.*;\n\npublic class Main {\n    public static int N, F;\n    public static HashMap<String, String> network;\n    public static HashMap<String, Integer> friendNum;\n\n    public static String find(String name) {\n        if (!network.get(name).equals(name)) { //부모 이름과 자신의 이름이 같지 않으면\n            network.put(name, find(network.get(name))); //부모 찾아서 업데이트\n        }\n        return network.get(name); //부모 리턴하기\n    }\n\n    public static void union(String n1, String n2) { //새로운 친구 관계 맺기\n        String p1 = find(n1); //두 부모 찾기\n        String p2 = find(n2);\n        int num1 = friendNum.get(p1);\n        int num2 = friendNum.get(p2);\n        if (!p1.equals(p2)) {\n            network.put(p2, p1);\n            friendNum.put(p1, num1 + num2); //부모의 친구 수 업데이트\n        }\n    }\n\n    public static int getFriendNum(String name) {\n        String parent = find(name); //부모 찾기\n        return friendNum.get(parent); //부모를 기준으로 친구 수 가져오기\n    }\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st;\n        StringBuffer sb = new StringBuffer();\n        N = Integer.parseInt(br.readLine());\n        network = new HashMap<>();\n        friendNum = new HashMap<>();\n        for (int i = 0; i < N; i++) {\n            F = Integer.parseInt(br.readLine());\n            network.clear();\n            friendNum.clear();\n\n            for (int j = 0; j < F; j++) {\n                String n1, n2;\n                st = new StringTokenizer(br.readLine());\n                n1 = st.nextToken();\n                n2 = st.nextToken();\n\n                if (!network.containsKey(n1)) { //해당 이름이 처음 나왔다면 초기 세팅\n                    network.put(n1, n1); //부모 자신으로\n                    friendNum.put(n1, 1); //친구 수 1\n                }\n\n                if (!network.containsKey(n2)) { //해당 이름이 처음 나왔다면 초기 세팅\n                    network.put(n2, n2); //부모 자신으로\n                    friendNum.put(n2, 1); //친구 수 1\n                }\n\n                String p1 = find(n1);\n                String p2 = find(n2);\n\n                if (!p1.equals(p2)) { //두 부모가 일치하지 않으면 새로운 친구관계 맺기\n                    union(n1, n2);\n                }\n                sb.append(getFriendNum(n1)).append(\"\\n\");\n            }\n        }\n        System.out.println(sb);\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    }
+  ]
+}

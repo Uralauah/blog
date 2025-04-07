@@ -1,0 +1,1835 @@
+{
+  "object": "page",
+  "id": "17ba071d-4763-8007-b99d-ee994189c713",
+  "created_time": "2025-01-14T04:20:00.000Z",
+  "last_edited_time": "2025-01-17T05:08:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4768bae9-93de-4788-8237-416bf24413ea",
+          "name": "코딩테스트",
+          "color": "green"
+        },
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "자바",
+          "color": "pink"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-01-14",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "미로 탈출 명령어",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "미로 탈출 명령어",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/17ba071d47638007b99dee994189c713",
+  "public_url": "https://codinggroove.notion.site/17ba071d47638007b99dee994189c713",
+  "request_id": "623be83d-42e0-4d1a-a05d-089020c163b5",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "17ba071d-4763-81d4-a603-f9ca77d8cbc3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:20:00.000Z",
+      "last_edited_time": "2025-01-14T04:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://school.programmers.co.kr/learn/courses/30/lessons/150365"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://school.programmers.co.kr/learn/courses/30/lessons/150365"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-812e-b699-c8ed7c81ef39",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:20:00.000Z",
+      "last_edited_time": "2025-01-14T04:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 2시간",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 2시간",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80b1-8c91-d042dbabe5a6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:33:00.000Z",
+      "last_edited_time": "2025-01-14T04:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 :",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 :",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80b0-b0ad-c7a2d892b6c4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:34:00.000Z",
+      "last_edited_time": "2025-01-14T04:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "처음에는 bfs, dfs로 경로 탐색하면 되는거 아닌가?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "처음에는 bfs, dfs로 경로 탐색하면 되는거 아닌가?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80bd-a1b4-ee487720c37c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:34:00.000Z",
+      "last_edited_time": "2025-01-14T04:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "라고 생각하고 단순하게 풀었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "라고 생각하고 단순하게 풀었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-8032-9ac2-def77e19f61c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:34:00.000Z",
+      "last_edited_time": "2025-01-14T04:36:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "나는 dfs로 d → l → r → u 순으로 탐색하면서 k번의 이동으로 목적지 까지 가면 무조건 사전순으로 빠른 경로가 나온다는 생각으로 문제를 풀었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "나는 dfs로 d → l → r → u 순으로 탐색하면서 k번의 이동으로 목적지 까지 가면 무조건 사전순으로 빠른 경로가 나온다는 생각으로 문제를 풀었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80f0-a67f-f0860e67af11",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:34:00.000Z",
+      "last_edited_time": "2025-01-14T04:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "근데 그렇게 하면 당연하게? 시간초과가 난다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "근데 그렇게 하면 당연하게? 시간초과가 난다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-808b-9ed8-f5b9f28a4cc9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:34:00.000Z",
+      "last_edited_time": "2025-01-14T04:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-800c-a504-c6e8310db4dd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:34:00.000Z",
+      "last_edited_time": "2025-01-14T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 생각했던 방법이 일단 dfs로 최단 경로를 구하고 남은 이동 횟수 만큼 위아래 혹은 좌우 이동을 하면서 경로를 채우는 방식을 생각해서 아래와 같은 코드를 짰다..",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 생각했던 방법이 일단 dfs로 최단 경로를 구하고 남은 이동 횟수 만큼 위아래 혹은 좌우 이동을 하면서 경로를 채우는 방식을 생각해서 아래와 같은 코드를 짰다..",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-808a-9bea-f7027dbcfb50",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:37:00.000Z",
+      "last_edited_time": "2025-01-14T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "초기 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "초기 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-805e-8de7-cadc5901432e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:20:00.000Z",
+      "last_edited_time": "2025-01-14T04:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "class Solution {\n    public boolean[][] visited;\n    public int[][] dir = {{1,0},{0,-1},{0,1},{-1,0}};\n    public String[] dir_char = {\"d\",\"l\",\"r\",\"u\"};\n    public int dest_x, dest_y, bx, by;\n    public String rt;\n    public boolean flag = false;\n    \n    public void find(int x, int y, String route){ //최단 경로 계산 함수\n        if(x == dest_x && y == dest_y){\n            rt = route;\n            flag = true;\n            return;\n        }\n        for(int i=0;i<4;i++){\n            int tx = x+dir[i][0];\n            int ty = y+dir[i][1];\n            \n            if(visited[tx][ty] || !check(tx,ty) || flag){\n                continue;\n            }\n            visited[tx][ty] = true;\n            find(tx,ty,route+dir_char[i]);\n            visited[tx][ty] = false;\n        }\n        \n    }\n    \n    public boolean check(int x, int y){\n        if(x<1||y<1||x>bx||y>by){\n            return false;\n        }\n        return true;\n    }\n    \n    public void rest(int x, int y, String route, int k){ // 남은 경로 이동 함수\n        if(x<bx){\n            while(route.length()!=k){ //아래로 이동할 수 있다면 du가 사전 순으로 가장 빠름\n                route+=\"du\";\n            }\n        }\n        else if(y>1){\n            while(route.length()!=k){ //왼쪽으로 이동할 수 있다면 lr이 사전 순으로 가장 빠름\n                route+=\"lr\";\n            }\n        }\n        else if(y<by){\n            while(route.length()!=k){\n                route+=\"rl\";\n            }\n        }\n        else{\n            while(route.length()!=k){\n                route+=\"ud\";\n            }\n        }\n        rt = route;\n    }\n    \n    public String realign(String route, int x, int y, int r, int c){ // 재정렬 함수\n        int d=0,l=0,r=0,u=0;\n        for(int i=0;i<route.length();i++){\n            if(route.charAt(i)=='d')\n                d++;\n            else if(route.charAt(i)=='l')\n                l++;\n            else if(route.charAt(i)=='r')\n                r++;\n            else if(route.charAt(i)=='u')\n                u++;\n        }\n        \n        String ans = \"\";\n        int t1 = d;\n        int t2 = bx - x;\n        for(int i=0;i<Math.min(t1,t2);i++){\n            ans+=\"d\";\n            d--;\n            x++;\n        }\n        \n        t1 = l;\n        t2 = y-1;\n        for(int i=0;i<Math.min(t1,t2);i++){\n            ans+=\"l\";\n            l--;\n            y--;\n        }\n        \n    }\n    \n    public String solution(int n, int m, int x, int y, int r, int c, int k) {\n        String answer = \"\";\n        bx = n;\n        by = m;\n        dest_x = r;\n        dest_y = c;\n        visited = new boolean[n+2][m+2];\n        visited[x][y] = true;\n        \n        find(x,y,\"\");\n        \n        if(rt.length()>k||(k-rt.length())%2==1){\n            return \"impossible\";\n        }\n        \n        rest(r,c,rt,k);\n        answer = rt;\n        \n        return answer;\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "class Solution {\n    public boolean[][] visited;\n    public int[][] dir = {{1,0},{0,-1},{0,1},{-1,0}};\n    public String[] dir_char = {\"d\",\"l\",\"r\",\"u\"};\n    public int dest_x, dest_y, bx, by;\n    public String rt;\n    public boolean flag = false;\n    \n    public void find(int x, int y, String route){ //최단 경로 계산 함수\n        if(x == dest_x && y == dest_y){\n            rt = route;\n            flag = true;\n            return;\n        }\n        for(int i=0;i<4;i++){\n            int tx = x+dir[i][0];\n            int ty = y+dir[i][1];\n            \n            if(visited[tx][ty] || !check(tx,ty) || flag){\n                continue;\n            }\n            visited[tx][ty] = true;\n            find(tx,ty,route+dir_char[i]);\n            visited[tx][ty] = false;\n        }\n        \n    }\n    \n    public boolean check(int x, int y){\n        if(x<1||y<1||x>bx||y>by){\n            return false;\n        }\n        return true;\n    }\n    \n    public void rest(int x, int y, String route, int k){ // 남은 경로 이동 함수\n        if(x<bx){\n            while(route.length()!=k){ //아래로 이동할 수 있다면 du가 사전 순으로 가장 빠름\n                route+=\"du\";\n            }\n        }\n        else if(y>1){\n            while(route.length()!=k){ //왼쪽으로 이동할 수 있다면 lr이 사전 순으로 가장 빠름\n                route+=\"lr\";\n            }\n        }\n        else if(y<by){\n            while(route.length()!=k){\n                route+=\"rl\";\n            }\n        }\n        else{\n            while(route.length()!=k){\n                route+=\"ud\";\n            }\n        }\n        rt = route;\n    }\n    \n    public String realign(String route, int x, int y, int r, int c){ // 재정렬 함수\n        int d=0,l=0,r=0,u=0;\n        for(int i=0;i<route.length();i++){\n            if(route.charAt(i)=='d')\n                d++;\n            else if(route.charAt(i)=='l')\n                l++;\n            else if(route.charAt(i)=='r')\n                r++;\n            else if(route.charAt(i)=='u')\n                u++;\n        }\n        \n        String ans = \"\";\n        int t1 = d;\n        int t2 = bx - x;\n        for(int i=0;i<Math.min(t1,t2);i++){\n            ans+=\"d\";\n            d--;\n            x++;\n        }\n        \n        t1 = l;\n        t2 = y-1;\n        for(int i=0;i<Math.min(t1,t2);i++){\n            ans+=\"l\";\n            l--;\n            y--;\n        }\n        \n    }\n    \n    public String solution(int n, int m, int x, int y, int r, int c, int k) {\n        String answer = \"\";\n        bx = n;\n        by = m;\n        dest_x = r;\n        dest_y = c;\n        visited = new boolean[n+2][m+2];\n        visited[x][y] = true;\n        \n        find(x,y,\"\");\n        \n        if(rt.length()>k||(k-rt.length())%2==1){\n            return \"impossible\";\n        }\n        \n        rest(r,c,rt,k);\n        answer = rt;\n        \n        return answer;\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-8065-b271-fb02d00de4d5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:37:00.000Z",
+      "last_edited_time": "2025-01-14T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 위와 같은 코드에서는 메모리 초과가 나서 제대로 동작하지 않는다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 위와 같은 코드에서는 메모리 초과가 나서 제대로 동작하지 않는다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-8002-8556-c4add32fb77d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:37:00.000Z",
+      "last_edited_time": "2025-01-14T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 결국 다른 사람의 풀이를 참고해서 문제를 다시 풀어보았다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 결국 다른 사람의 풀이를 참고해서 문제를 다시 풀어보았다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-803a-869c-f0b80d1def91",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:39:00.000Z",
+      "last_edited_time": "2025-01-14T04:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80ea-962f-cf5938a8ca72",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:39:00.000Z",
+      "last_edited_time": "2025-01-14T04:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "일단 내가 생각했던 풀이와 상당히 유사했지만",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "일단 내가 생각했던 풀이와 상당히 유사했지만",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-8019-a8a4-e81c11334878",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:39:00.000Z",
+      "last_edited_time": "2025-01-14T04:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "코드를 작성하는 방법에 큰 차이가 있었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "코드를 작성하는 방법에 큰 차이가 있었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80c8-af29-c53998015b43",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:39:00.000Z",
+      "last_edited_time": "2025-01-14T04:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80fc-a04c-c1d75ee150bd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:39:00.000Z",
+      "last_edited_time": "2025-01-14T04:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "일단 현재 위치에서 목적지 까지의 경로의 거리를 계산한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "일단 현재 위치에서 목적지 까지의 경로의 거리를 계산한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80f1-8b9c-f6766a161671",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:40:00.000Z",
+      "last_edited_time": "2025-01-14T04:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "int diff = Math.abs(x-r) + Math.abs(y-c); //최단 경로 거리 계산\nk -= diff; //이동 횟수에서 차감",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "int diff = Math.abs(x-r) + Math.abs(y-c); //최단 경로 거리 계산\nk -= diff; //이동 횟수에서 차감",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80b7-9f3d-fb7d6f66d246",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:40:00.000Z",
+      "last_edited_time": "2025-01-14T04:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80ff-80eb-d3c6828662a6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:40:00.000Z",
+      "last_edited_time": "2025-01-14T04:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그 후, 남은 이동 횟수가 0보다 작거나 2의 배수가 아니라면 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그 후, 남은 이동 횟수가 0보다 작거나 2의 배수가 아니라면 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "impossible",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "red"
+            },
+            "plain_text": "impossible",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "을 리턴한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "을 리턴한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-808d-be79-cfaa41d52f89",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:41:00.000Z",
+      "last_edited_time": "2025-01-14T04:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "0보다 작다면 최단 경로로도 이동할 수 없다는 말이고,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "0보다 작다면 최단 경로로도 이동할 수 없다는 말이고,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80ef-a4b8-d3b961a39b03",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:42:00.000Z",
+      "last_edited_time": "2025-01-14T04:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2의 배수가 아니라면 아래위, 좌우 이동으로 남은 이동거리를 채울 수 없기 때문이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2의 배수가 아니라면 아래위, 좌우 이동으로 남은 이동거리를 채울 수 없기 때문이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-8070-afee-c2625c4063d4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:40:00.000Z",
+      "last_edited_time": "2025-01-14T04:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "if(k<0 || k%2!=0){\n\treturn \"impossible\";\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "if(k<0 || k%2!=0){\n\treturn \"impossible\";\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80e0-95aa-e757ec8fb078",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:44:00.000Z",
+      "last_edited_time": "2025-01-14T04:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80b5-a2af-f0fa8ca5c74b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:42:00.000Z",
+      "last_edited_time": "2025-01-14T04:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그 후, 최단 경로로 이동한 경로를 구해서 각 이동 횟수를 계산한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그 후, 최단 경로로 이동한 경로를 구해서 각 이동 횟수를 계산한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80a1-be46-da52320e0b5c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:42:00.000Z",
+      "last_edited_time": "2025-01-14T04:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "if(x>r){ //현재 위치의 x좌표가 목적지의 x좌표보다 아래에 있다면 위로 이동\n\tup+=x-r;\n}\nelse{ //위에 있다면 아래로 이동\n\tdown+=r-x;\n}\nif(y>c){ // 현재 위치의 y좌표가 목적지의 y좌표보다 오른쪽에 있다면 왼쪽 이동\n\tleft += y-c;\n}\nelse{ //왼쪽에 있다면 오른쪽 이동\n\tright += c-y;\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "if(x>r){ //현재 위치의 x좌표가 목적지의 x좌표보다 아래에 있다면 위로 이동\n\tup+=x-r;\n}\nelse{ //위에 있다면 아래로 이동\n\tdown+=r-x;\n}\nif(y>c){ // 현재 위치의 y좌표가 목적지의 y좌표보다 오른쪽에 있다면 왼쪽 이동\n\tleft += y-c;\n}\nelse{ //왼쪽에 있다면 오른쪽 이동\n\tright += c-y;\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-8091-a950-f98d4a3e8bc3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:44:00.000Z",
+      "last_edited_time": "2025-01-14T04:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80da-a671-e063f501191f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:44:00.000Z",
+      "last_edited_time": "2025-01-14T04:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "d가 사전순으로 가장 빠르기 때문에 d를 가장 먼저 사용해주기 위해 d에 대한 계산을 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "d가 사전순으로 가장 빠르기 때문에 d를 가장 먼저 사용해주기 위해 d에 대한 계산을 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80c3-92d8-d1f2ef994481",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:44:00.000Z",
+      "last_edited_time": "2025-01-14T04:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "answer.append(\"d\".repeat(down)); //아래로 이동한 횟수만큼 경로에 추가\nint extra_down = Math.min(k/2,n-(x+down)); //남은 이동거리의 반, 아래로 이동할 수 있는 최대 거리 중 작은 값 선택\nanswer.append(\"d\".repeat(extra_down)); //추가 이동거리 만큼 경로에 추가\nup += extra_down; // 아래로 추가로 이동한만큼 위로 이동 횟수 추가\nk-=2*extra_down; //남은 이동거리 계산",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "answer.append(\"d\".repeat(down)); //아래로 이동한 횟수만큼 경로에 추가\nint extra_down = Math.min(k/2,n-(x+down)); //남은 이동거리의 반, 아래로 이동할 수 있는 최대 거리 중 작은 값 선택\nanswer.append(\"d\".repeat(extra_down)); //추가 이동거리 만큼 경로에 추가\nup += extra_down; // 아래로 추가로 이동한만큼 위로 이동 횟수 추가\nk-=2*extra_down; //남은 이동거리 계산",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-8046-ba0d-ebbe164ff427",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:46:00.000Z",
+      "last_edited_time": "2025-01-14T04:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80c0-87af-ce1f2d15045c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:46:00.000Z",
+      "last_edited_time": "2025-01-14T04:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "answer.append(\"l\".repeat(left)); //왼쪽으로 이동한 횟수만큼 경로 추가\nint extra_left = Math.min(k/2,y-left-1); //남은 이동거리의 반, 추가로 왼쪽 이동할 수 있는 최대 거리 중 작은 값 선택\nanswer.append(\"l\".repeat(extra_left)); //추가 이동거리 만큼 경로에 추가\nright += extra_left; // 오른쪽 추가 이동거리 횟수 추가\nk-=2*extra_left; //남은 이동거리 계산",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "answer.append(\"l\".repeat(left)); //왼쪽으로 이동한 횟수만큼 경로 추가\nint extra_left = Math.min(k/2,y-left-1); //남은 이동거리의 반, 추가로 왼쪽 이동할 수 있는 최대 거리 중 작은 값 선택\nanswer.append(\"l\".repeat(extra_left)); //추가 이동거리 만큼 경로에 추가\nright += extra_left; // 오른쪽 추가 이동거리 횟수 추가\nk-=2*extra_left; //남은 이동거리 계산",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80e2-ba0c-e2dd16a288d1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:48:00.000Z",
+      "last_edited_time": "2025-01-14T04:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-8004-88a9-e20cb8a1438e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:48:00.000Z",
+      "last_edited_time": "2025-01-14T04:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "만약 위 과정을 모두 거치고도 이동거리가 남았다면",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "만약 위 과정을 모두 거치고도 이동거리가 남았다면",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-808f-a49e-e3645bca19ea",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:48:00.000Z",
+      "last_edited_time": "2025-01-14T04:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "현재 위치가 가장 왼쪽 아래이므로 ud 혹은 rl 로 이동을 할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "현재 위치가 가장 왼쪽 아래이므로 ud 혹은 rl 로 이동을 할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-8079-9f07-e5fe8da2314e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:49:00.000Z",
+      "last_edited_time": "2025-01-14T04:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 rl이 사전순으로 더 빠르므로 rl을 남은 이동거리만큼 반복해준다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 rl이 사전순으로 더 빠르므로 rl을 남은 이동거리만큼 반복해준다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80ec-b5dc-e4f81a8f30b4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:50:00.000Z",
+      "last_edited_time": "2025-01-14T04:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-8034-82c7-fe6e1985f6eb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:50:00.000Z",
+      "last_edited_time": "2025-01-14T04:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그 후, 오른쪽, 위쪽 이동을 처리해주면 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그 후, 오른쪽, 위쪽 이동을 처리해주면 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-80e5-a8f8-d58dd94e188f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:48:00.000Z",
+      "last_edited_time": "2025-01-14T04:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "answer.append(\"rl\".repeat(k/2)); //남은 이동거리 사용\n        \nanswer.append(\"r\".repeat(right)); //오른쪽 이동 처리\nanswer.append(\"u\".repeat(up)); //위쪽 이동 처리",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "answer.append(\"rl\".repeat(k/2)); //남은 이동거리 사용\n        \nanswer.append(\"r\".repeat(right)); //오른쪽 이동 처리\nanswer.append(\"u\".repeat(up)); //위쪽 이동 처리",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-8026-9b10-de6b0fb05fed",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:50:00.000Z",
+      "last_edited_time": "2025-01-14T04:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-8015-9507-c3c5e8dda8b4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:50:00.000Z",
+      "last_edited_time": "2025-01-14T04:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최종 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최종 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "17ba071d-4763-8093-948e-fa7a6a81e045",
+      "parent": {
+        "type": "page_id",
+        "page_id": "17ba071d-4763-8007-b99d-ee994189c713"
+      },
+      "created_time": "2025-01-14T04:50:00.000Z",
+      "last_edited_time": "2025-01-14T04:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.util.*;\nimport java.io.*;\n\nclass Solution {\n    public String solution(int n, int m, int x, int y, int r, int c, int k) {\n        StringBuilder answer = new StringBuilder();\n        int down = 0, left = 0, up = 0, right = 0;\n        \n        int diff = Math.abs(x-r) + Math.abs(y-c);\n        k -= diff;\n        \n        if(k<0 || k%2!=0){\n            return \"impossible\";\n        }\n        \n        if(x>r){\n            up+=x-r;\n        }\n        else{\n            down+=r-x;\n        }\n        \n        if(y>c){\n            left += y-c;\n        }\n        else{\n            right += c-y;\n        }\n        \n        answer.append(\"d\".repeat(down));\n        int extra_down = Math.min(k/2,n-(x+down));\n        answer.append(\"d\".repeat(extra_down));\n        up += extra_down;\n        k-=2*extra_down;\n        \n        answer.append(\"l\".repeat(left));\n        int extra_left = Math.min(k/2,y-left-1);\n        answer.append(\"l\".repeat(extra_left));\n        right += extra_left;\n        k-=2*extra_left;\n        \n        answer.append(\"rl\".repeat(k/2));\n        \n        answer.append(\"r\".repeat(right));\n        answer.append(\"u\".repeat(up));\n        \n        \n        return answer.toString();\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.util.*;\nimport java.io.*;\n\nclass Solution {\n    public String solution(int n, int m, int x, int y, int r, int c, int k) {\n        StringBuilder answer = new StringBuilder();\n        int down = 0, left = 0, up = 0, right = 0;\n        \n        int diff = Math.abs(x-r) + Math.abs(y-c);\n        k -= diff;\n        \n        if(k<0 || k%2!=0){\n            return \"impossible\";\n        }\n        \n        if(x>r){\n            up+=x-r;\n        }\n        else{\n            down+=r-x;\n        }\n        \n        if(y>c){\n            left += y-c;\n        }\n        else{\n            right += c-y;\n        }\n        \n        answer.append(\"d\".repeat(down));\n        int extra_down = Math.min(k/2,n-(x+down));\n        answer.append(\"d\".repeat(extra_down));\n        up += extra_down;\n        k-=2*extra_down;\n        \n        answer.append(\"l\".repeat(left));\n        int extra_left = Math.min(k/2,y-left-1);\n        answer.append(\"l\".repeat(extra_left));\n        right += extra_left;\n        k-=2*extra_left;\n        \n        answer.append(\"rl\".repeat(k/2));\n        \n        answer.append(\"r\".repeat(right));\n        answer.append(\"u\".repeat(up));\n        \n        \n        return answer.toString();\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    }
+  ]
+}

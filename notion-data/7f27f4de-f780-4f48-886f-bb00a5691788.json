@@ -1,0 +1,434 @@
+{
+  "object": "page",
+  "id": "7f27f4de-f780-4f48-886f-bb00a5691788",
+  "created_time": "2024-07-29T05:07:00.000Z",
+  "last_edited_time": "2024-07-29T05:07:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4768bae9-93de-4788-8237-416bf24413ea",
+          "name": "코딩테스트",
+          "color": "green"
+        },
+        {
+          "id": "84763982-c05d-4310-a5a7-6842e950bd08",
+          "name": "C++",
+          "color": "gray"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2024-01-24",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "12865번 - 평범한 배낭",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "12865번 - 평범한 배낭",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/12865-7f27f4def7804f48886fbb00a5691788",
+  "public_url": "https://codinggroove.notion.site/12865-7f27f4def7804f48886fbb00a5691788",
+  "request_id": "1767f66e-efbd-48d6-a16f-7d8ae7651758",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "af0d6836-1c69-4813-808a-902049f63f26",
+      "parent": {
+        "type": "page_id",
+        "page_id": "7f27f4de-f780-4f48-886f-bb00a5691788"
+      },
+      "created_time": "2024-07-29T05:07:00.000Z",
+      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://www.acmicpc.net/problem/12865"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://www.acmicpc.net/problem/12865"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "8c52c8a4-cbd5-454d-b4b8-41f21764aa65",
+      "parent": {
+        "type": "page_id",
+        "page_id": "7f27f4de-f780-4f48-886f-bb00a5691788"
+      },
+      "created_time": "2024-07-29T05:07:00.000Z",
+      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 1시간",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 1시간",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "a99501ba-b5b3-4a86-8617-d3ce198ad1de",
+      "parent": {
+        "type": "page_id",
+        "page_id": "7f27f4de-f780-4f48-886f-bb00a5691788"
+      },
+      "created_time": "2024-07-29T05:07:00.000Z",
+      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "0ceca5ed-f8fb-4a5d-a37d-20ccce03d18b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "7f27f4de-f780-4f48-886f-bb00a5691788"
+      },
+      "created_time": "2024-07-29T05:07:00.000Z",
+      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 문제는 앞에서 블록 함께 쌓기를 풀면서 배웠던 배낭 문제 알고리즘을 사용하면 간단하게  풀 수 있는 문제였다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 문제는 앞에서 블록 함께 쌓기를 풀면서 배웠던 배낭 문제 알고리즘을 사용하면 간단하게  풀 수 있는 문제였다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "e2ff997d-349a-4d6b-bb40-d2a79321354b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "7f27f4de-f780-4f48-886f-bb00a5691788"
+      },
+      "created_time": "2024-07-29T05:07:00.000Z",
+      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "575897a2-d812-4b7f-b56a-46ef23d89104",
+      "parent": {
+        "type": "page_id",
+        "page_id": "7f27f4de-f780-4f48-886f-bb00a5691788"
+      },
+      "created_time": "2024-07-29T05:07:00.000Z",
+      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "61b81e1e-d5f6-4755-a8f0-8deb68671267",
+      "parent": {
+        "type": "page_id",
+        "page_id": "7f27f4de-f780-4f48-886f-bb00a5691788"
+      },
+      "created_time": "2024-07-29T05:07:00.000Z",
+      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최종 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최종 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "4adcf667-b8c3-4c33-a69e-6c64c47f73d6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "7f27f4de-f780-4f48-886f-bb00a5691788"
+      },
+      "created_time": "2024-07-29T05:07:00.000Z",
+      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "#include <iostream>\n#include <vector>\n\nusing namespace std;\n\nint dp[101][100001] = {0};\n\nint main() {\n    int n, k, w, v, sum;\n    cin >> n >> k;\n    vector<pair<int, int>> vec;\n    for (int i = 1; i <= n; i++) {\n        cin >> w >> v;\n        vec.push_back({w, v});\n    \n\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= k; j++) {\n            if (vec[i - 1].first > j) {\n                dp[i][j] = dp[i - 1][j];\n            } else {\n                dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - vec[i - 1].first] + vec[i - 1].second);\n            }\n        }\n    }\n    cout << dp[n][k];\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "#include <iostream>\n#include <vector>\n\nusing namespace std;\n\nint dp[101][100001] = {0};\n\nint main() {\n    int n, k, w, v, sum;\n    cin >> n >> k;\n    vector<pair<int, int>> vec;\n    for (int i = 1; i <= n; i++) {\n        cin >> w >> v;\n        vec.push_back({w, v});\n    \n\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= k; j++) {\n            if (vec[i - 1].first > j) {\n                dp[i][j] = dp[i - 1][j];\n            } else {\n                dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - vec[i - 1].first] + vec[i - 1].second);\n            }\n        }\n    }\n    cout << dp[n][k];\n}",
+            "href": null
+          }
+        ],
+        "language": "c++"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "13117672-96a0-4f0d-a9d3-408c203dc06a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "7f27f4de-f780-4f48-886f-bb00a5691788"
+      },
+      "created_time": "2024-07-29T05:07:00.000Z",
+      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}
