@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description: '코딩 뽕짝은 즐겁고 신나게 코딩을 배우고 나누는 블로그입니다.',
   openGraph: {
     title: '코딩뽕짝',
-    description: '코딩 뽕짝은 즐겁고 신나게 코딩을 배우고 나누는 블로그입니다..',
+    description: '코딩 뽕짝은 즐겁고 신나게 코딩을 배우고 나누는 블로그입니다.',
     url: baseUrl,
     siteName: '코딩뽕짝',
     locale: 'en_US',

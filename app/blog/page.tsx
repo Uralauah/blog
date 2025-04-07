@@ -3,8 +3,8 @@ import Link from 'next/link'
 import posts from 'content/posts'
 
 export const metadata = {
-  title: 'Blog',
-  description: 'Read my blog.',
+  title: '코딩뽕짝',
+  description: '코딩 뽕짝은 즐겁고 신나게 코딩을 배우고 나누는 블로그입니다.',
 }
 
 export default function Page() {

@@ -154,3 +154,19 @@ table {
 .title {
   text-wrap: balance;
 }
+
+/* 그라데이션으로 fade-out처럼 보이게 하는 하단 border 효과 */
+.gradient-border::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1rem; /* 원하는 fade 높이 */
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), transparent);
+}
+
+.dark .gradient-border::after {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), transparent);
+}
