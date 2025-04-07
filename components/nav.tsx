@@ -10,7 +10,7 @@ const navItems = {
   '/blog/category/codingtest': { name: '코딩테스트' },
   '/blog/category/springboot': { name: '스프링부트' },
   'https://github.com/Uralauah': {
-    name: 'github',
+    name: 'GitHub',
   },
 }
 
