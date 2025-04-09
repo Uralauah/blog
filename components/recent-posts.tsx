@@ -7,23 +7,30 @@ export function RecentPosts() {
     return new Date(b.date).getTime() - new Date(a.date).getTime()
   })
 
+  const categoryMap: Record<string, string> = {
+    codingtest: '코딩테스트',
+    springboot: '스프링부트',
+  }
   // 상위 5개 추출
   const topFive = sortedPosts.slice(0, 5)
 
   return (
     <div>
       <h2 className="font-bold text-lg mb-2">최신 글</h2>
-      {topFive.map((post) => (
-        <Link key={post.slug} href={`/blog/${post.slug}`}>
-          <div className="mb-4">
-          <div className="text-sm text-gray-500">
-            <span>{post.date}</span>
-            <span className="ml-2">· {post.category}</span>
+      {topFive.map((post) => {
+        const categoryName = categoryMap[post.category] ?? post.category
+        return (
+          <Link key={post.slug} href={`/blog/${post.slug}`}>
+            <div className="mb-4">
+              <div className="text-sm text-gray-500">
+                <span>{post.date}</span>
+                <span className="ml-2">· {categoryName}</span>
+              </div>
+              <p className="font-medium">{post.title}</p>
             </div>
-            <p className="font-medium">{post.title}</p>
-          </div>
-        </Link>
-      ))}
+          </Link>
+        )
+      })}
     </div>
   )
 }

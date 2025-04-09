@@ -1,7 +1,3 @@
-import post1 from '../notion-data/1c6a071d-4763-803a-8218-c59c905e3208.json'
-import post2 from '../notion-data/114a071d-4763-809a-8abf-d030eff337e2.json'
-import post3 from '../notion-data/1bba071d-4763-80d5-8587-e0f654cf6c13.json'
-import post4 from '../notion-data/19da071d-4763-80bc-837a-e2189f57b118.json'
 
 const posts = [
   {
@@ -411,8 +407,8 @@ const posts = [
   },
   {
     title: "완전범죄",
-    slug: "codingtest1",
-    content: post1,
+    slug: "1c6a071d-4763-803a-8218-c59c905e3208",
+    content: require('../notion-data/1c6a071d-4763-803a-8218-c59c905e3208.json'),
     date: "2025-04-02",
     description: "정민주배 코딩테스트 1번",
     image: undefined,
@@ -420,8 +416,8 @@ const posts = [
   },
   {
     title: "SSE",
-    slug: "SSE",
-    content: post2,
+    slug: "114a071d-4763-809a-8abf-d030eff337e2",
+    content: require('../notion-data/114a071d-4763-809a-8abf-d030eff337e2.json'),
     date: "2024-10-03",
     description: "스프링부트의 SSE",
     image: undefined,
@@ -429,8 +425,8 @@ const posts = [
   },
   {
     title: "10868번 - 최솟값",
-    slug: "10868",
-    content: post3,
+    slug: "1bba071d-4763-80d5-8587-e0f654cf6c13",
+    content: require('../notion-data/1bba071d-4763-80d5-8587-e0f654cf6c13.json'),
     date: "2025-03-19",
     description: "10868번 - 최솟값",
     image: undefined,
@@ -438,8 +434,8 @@ const posts = [
   },
   {
     title: "20293번 - 연료가 부족해",
-    slug: "20293",
-    content: post4,
+    slug: "19da071d-4763-80bc-837a-e2189f57b118",
+    content: require('../notion-data/19da071d-4763-80bc-837a-e2189f57b118.json'),
     date: "2025-02-17",
     description: "20293번 - 연료가 부족해",
     image: undefined,
