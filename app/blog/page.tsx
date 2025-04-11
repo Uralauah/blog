@@ -14,7 +14,6 @@ const categoryMap: Record<string, string> = {
 
 
 export default function Page() {
-  // 최신순으로 정렬 (날짜 큰 것 먼저)
   const sortedPosts = [...posts].sort((a, b) => {
     return new Date(b.date).getTime() - new Date(a.date).getTime()
   })
@@ -28,21 +27,27 @@ export default function Page() {
         const categoryName = categoryMap[post.category] ?? post.category
         return (
           <Link key={post.slug} href={`/blog/${post.slug}`}>
-            <div className="mb-4"> 
-              <div className="text-sm text-gray-500 flex flex-wrap items-center gap-x-2">
+            <div className="mb-4">
+              {/* 날짜 + 카테고리 */}
+              <div className="text-xs text-gray-500 flex items-center gap-2">
                 <span>{post.date}</span>
-                <span className="ml-2">· {categoryName}</span>
-                {post.tags && post.tags.length > 0 && (
-                  <>
-                    <div className="flex gap-1 flex-wrap">
-                      {post.tags.map((tag, index) => (
-                        <span key={index} className="text-gray-400">#{tag}</span>
-                      ))}
-                    </div>
-                  </>
-                )}
+                <span>· {categoryName}</span>
               </div>
-              <p className="font-medium">{post.title}</p>
+
+              <p className="text-lg font-semibold mt-1">{post.title}</p>
+
+              {post.tags?.length > 0 && (
+                <div className="mt-1 flex flex-wrap gap-1">
+                  {post.tags.map((tag, index) => (
+                    <span
+                      key={index}
+                      className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md"
+                    >
+                      #{tag}
+                    </span>
+                  ))}
+                </div>
+              )}
             </div>
           </Link>
         )
