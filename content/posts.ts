@@ -490,16 +490,6 @@ const posts = [
     category: "codingtest",
     tags: ["C++","백준"]
   },
-  {
-    title: "당구 연습",
-    slug: "programmers-java-당구-연습-프로그래머스-java",
-    content: require('../notion-data/1d1a071d-4763-8023-a977-cc8292312e1d.json'),
-    date: "2025-04-10",
-    description: "당구 연습",
-    image: undefined,
-    category: "codingtest",
-    tags: ["프로그래머스","JAVA"]
-  },
 ] as Post[];
 
 export default posts;
