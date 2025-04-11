@@ -1,0 +1,945 @@
+{
+  "object": "page",
+  "id": "1d1a071d-4763-80f4-94da-c60ef39a1f14",
+  "created_time": "2025-04-10T02:49:00.000Z",
+  "last_edited_time": "2025-04-11T07:41:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4768bae9-93de-4788-8237-416bf24413ea",
+          "name": "코딩테스트",
+          "color": "green"
+        },
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "JAVA",
+          "color": "pink"
+        },
+        {
+          "id": "d40fc4d5-7962-4bbf-a366-7a9e7469728c",
+          "name": "프로그래머스",
+          "color": "orange"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-04-11",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "메뉴 리뉴얼",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "메뉴 리뉴얼",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/1d1a071d476380f494dac60ef39a1f14",
+  "public_url": null,
+  "request_id": "330abf05-034c-4fa4-8110-2ad744614e78",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1d1a071d-4763-8017-8895-f8a7db78a83b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-10T02:49:00.000Z",
+      "last_edited_time": "2025-04-10T02:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://school.programmers.co.kr/learn/courses/30/lessons/72411?language=java"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://school.programmers.co.kr/learn/courses/30/lessons/72411?language=java"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d1a071d-4763-8078-b910-e2d656d29ff1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-10T02:49:00.000Z",
+      "last_edited_time": "2025-04-10T02:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 1시간",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 1시간",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d1a071d-4763-80aa-9156-f09561ca9140",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-10T02:49:00.000Z",
+      "last_edited_time": "2025-04-10T02:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d1a071d-4763-807b-a5a7-faf1cef28733",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-10T02:49:00.000Z",
+      "last_edited_time": "2025-04-10T02:49:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 :",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 :",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d1a071d-4763-80ca-b8f8-d77859cb7a57",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-10T02:49:00.000Z",
+      "last_edited_time": "2025-04-11T06:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 문제는 처음 보고 dp로 풀어야 하나? 라고 고민했었는데 아무리 생각해도 풀이법이 떠오르지 않았다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 문제는 처음 보고 dp로 풀어야 하나? 라고 고민했었는데 아무리 생각해도 풀이법이 떠오르지 않았다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-8042-a8ff-cb8c74f653eb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-11T06:27:00.000Z",
+      "last_edited_time": "2025-04-11T06:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 조합을 생각했는데 조합으로 해도 경우의 수가 엄청나게 많아지지는 않는 것 같아서",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 조합을 생각했는데 조합으로 해도 경우의 수가 엄청나게 많아지지는 않는 것 같아서",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-803d-8370-f14a80f3b79a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-11T06:27:00.000Z",
+      "last_edited_time": "2025-04-11T06:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "조합으로 풀게 되었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "조합으로 풀게 되었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-804d-ba65-c362c9bc40e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-11T06:27:00.000Z",
+      "last_edited_time": "2025-04-11T06:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-8029-b3a8-d2bf19588dcf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-11T06:27:00.000Z",
+      "last_edited_time": "2025-04-11T07:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "먼저, 아래 코드는 특정 주문에 대한 메뉴들의 조합을 만드는 함수이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "먼저, 아래 코드는 특정 주문에 대한 메뉴들의 조합을 만드는 함수이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-8055-8e75-e50c9caedb13",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-11T07:37:00.000Z",
+      "last_edited_time": "2025-04-11T07:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public void find(char[] order, int idx, int len, StringBuilder sb) {\n    if (sb.length() == len) {\n        map.put(sb.toString(), map.getOrDefault(sb.toString(), 0) + 1);\n        return;\n    }\n    \n    for (int i = idx; i < order.length; i++) {\n        sb.append(order[i]);\n        find(order, i + 1, len, sb);\n        sb.deleteCharAt(sb.length() - 1);\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public void find(char[] order, int idx, int len, StringBuilder sb) {\n    if (sb.length() == len) {\n        map.put(sb.toString(), map.getOrDefault(sb.toString(), 0) + 1);\n        return;\n    }\n    \n    for (int i = idx; i < order.length; i++) {\n        sb.append(order[i]);\n        find(order, i + 1, len, sb);\n        sb.deleteCharAt(sb.length() - 1);\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-8085-a413-f45ffb3cfa47",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-11T07:37:00.000Z",
+      "last_edited_time": "2025-04-11T07:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "여기서 order는 주문, idx는 현재 주문에서의 메뉴 인덱스, len은 만들어야 하는 조합의 길이, sb는 만들어진 조합이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "여기서 order는 주문, idx는 현재 주문에서의 메뉴 인덱스, len은 만들어야 하는 조합의 길이, sb는 만들어진 조합이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-8030-b4b9-ea8b7ae07524",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-11T07:39:00.000Z",
+      "last_edited_time": "2025-04-11T07:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-8073-9d4e-cb8a12cf45ec",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-11T07:38:00.000Z",
+      "last_edited_time": "2025-04-11T07:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아래 코드에서 만들어야하는 코스의 길이에 대해 해시맵을 생성하고,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아래 코드에서 만들어야하는 코스의 길이에 대해 해시맵을 생성하고,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-8088-ab4d-e371eaffa975",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-11T07:39:00.000Z",
+      "last_edited_time": "2025-04-11T07:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "각 주문에 대해 조합을 생성한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "각 주문에 대해 조합을 생성한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-80fd-bbb5-c50100d8383d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-11T07:39:00.000Z",
+      "last_edited_time": "2025-04-11T07:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-8011-a590-f49329c78104",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-11T07:39:00.000Z",
+      "last_edited_time": "2025-04-11T07:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그 후, 해당 코스 길이에서 최대로 많이 주문된 횟수를 구한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그 후, 해당 코스 길이에서 최대로 많이 주문된 횟수를 구한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-80a4-8806-e56b3a003eab",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-11T07:40:00.000Z",
+      "last_edited_time": "2025-04-11T07:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그 후, 주문의 수가 2가 넘고 최댓값과 같은 조합을 배열에 추가하면 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그 후, 주문의 수가 2가 넘고 최댓값과 같은 조합을 배열에 추가하면 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-8097-99f3-cdfac18afddd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-11T07:38:00.000Z",
+      "last_edited_time": "2025-04-11T07:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "for (int i = 0; i < course.length; i++) {\n    map = new HashMap<>();\n    for (int j = 0; j < orders.length; j++) {\n        char[] order = orders[j].toCharArray();\n        Arrays.sort(order);\n        find(order, 0, course[i], new StringBuilder()); //조합 생성\n    }\n    \n    int max = 0;\n    for (int val : map.values()) {\n        max = Math.max(max, val);\n    }\n    \n    if (max >= 2) { //주문의 수가 2를 넘어야 함\n        for (Map.Entry<String, Integer> entry : map.entrySet()) {\n            if (entry.getValue() == max) { //최댓값과 같은 조합\n                arr.add(entry.getKey());\n            }\n        }\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "for (int i = 0; i < course.length; i++) {\n    map = new HashMap<>();\n    for (int j = 0; j < orders.length; j++) {\n        char[] order = orders[j].toCharArray();\n        Arrays.sort(order);\n        find(order, 0, course[i], new StringBuilder()); //조합 생성\n    }\n    \n    int max = 0;\n    for (int val : map.values()) {\n        max = Math.max(max, val);\n    }\n    \n    if (max >= 2) { //주문의 수가 2를 넘어야 함\n        for (Map.Entry<String, Integer> entry : map.entrySet()) {\n            if (entry.getValue() == max) { //최댓값과 같은 조합\n                arr.add(entry.getKey());\n            }\n        }\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-806c-81b1-ea97889f9bd4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-11T07:41:00.000Z",
+      "last_edited_time": "2025-04-11T07:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-80b3-b78c-f7cfab9bf338",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-11T07:41:00.000Z",
+      "last_edited_time": "2025-04-11T07:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최종 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최종 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d1a071d-4763-8020-aa30-faa9029157d8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-80f4-94da-c60ef39a1f14"
+      },
+      "created_time": "2025-04-10T02:49:00.000Z",
+      "last_edited_time": "2025-04-11T06:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.util.*;\n\nclass Solution {\n    public Map<String,Integer> map;\n    \n    public void find(char[] order, int idx, int len, StringBuilder sb){\n        if(sb.length() == len){\n            map.put(sb.toString(), map.getOrDefault(sb.toString(),0)+1);\n            return;\n        }\n        \n        for(int i=idx;i<order.length;i++){\n            sb.append(order[i]);\n            find(order, i+1, len, sb);\n            sb.deleteCharAt(sb.length() - 1);\n        }\n    }\n    \n    public String[] solution(String[] orders, int[] course) {\n        String[] answer = {};\n        \n        ArrayList<String> arr = new ArrayList<>();\n        \n        for(int i=0;i<course.length;i++){\n            map = new HashMap<>();\n            for(int j=0;j<orders.length;j++){\n                char[] order = orders[j].toCharArray();\n                Arrays.sort(order);\n                find(order, 0, course[i], new StringBuilder());\n            }\n            \n            int max = 0;\n            for(int val : map.values()){\n                max = Math.max(max, val);\n            }\n            \n            if (max >= 2) {\n                for (Map.Entry<String, Integer> entry : map.entrySet()) {\n                    if (entry.getValue() == max) {\n                        arr.add(entry.getKey());\n                    }\n                }\n            }\n        }\n        \n        answer = arr.toArray(new String[0]);\n        Arrays.sort(answer);\n        return answer;\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.util.*;\n\nclass Solution {\n    public Map<String,Integer> map;\n    \n    public void find(char[] order, int idx, int len, StringBuilder sb){\n        if(sb.length() == len){\n            map.put(sb.toString(), map.getOrDefault(sb.toString(),0)+1);\n            return;\n        }\n        \n        for(int i=idx;i<order.length;i++){\n            sb.append(order[i]);\n            find(order, i+1, len, sb);\n            sb.deleteCharAt(sb.length() - 1);\n        }\n    }\n    \n    public String[] solution(String[] orders, int[] course) {\n        String[] answer = {};\n        \n        ArrayList<String> arr = new ArrayList<>();\n        \n        for(int i=0;i<course.length;i++){\n            map = new HashMap<>();\n            for(int j=0;j<orders.length;j++){\n                char[] order = orders[j].toCharArray();\n                Arrays.sort(order);\n                find(order, 0, course[i], new StringBuilder());\n            }\n            \n            int max = 0;\n            for(int val : map.values()){\n                max = Math.max(max, val);\n            }\n            \n            if (max >= 2) {\n                for (Map.Entry<String, Integer> entry : map.entrySet()) {\n                    if (entry.getValue() == max) {\n                        arr.add(entry.getKey());\n                    }\n                }\n            }\n        }\n        \n        answer = arr.toArray(new String[0]);\n        Arrays.sort(answer);\n        return answer;\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    }
+  ]
+}

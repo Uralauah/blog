@@ -30,11 +30,8 @@ export default function CategoryPage({ params }: { params: { cat: string } }) {
           <div className="mb-4">
             <div className="text-xs text-gray-500 flex items-center gap-2">
               <span>{post.date}</span>
-              {/* 카테고리 정보는 여기선 cat으로 필터링 됐으므로 생략 가능 */}
             </div>
-
             <p className="text-lg font-semibold mt-1">{post.title}</p>
-
             {post.tags && post.tags.length > 0 && (
               <div className="mt-1 flex flex-wrap gap-1">
                 {post.tags.map((tag, index) => (

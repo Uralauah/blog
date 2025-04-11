@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "메뉴 리뉴얼",
+    slug: "programmers-메뉴-리뉴얼-java",
+    content: require('../notion-data/1d1a071d-4763-80f4-94da-c60ef39a1f14.json'),
+    date: "2025-04-11",
+    description: "메뉴 리뉴얼",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "완전범죄",
     slug: "programmers-완전범죄-java",
     content: require('../notion-data/1c6a071d-4763-803a-8218-c59c905e3208.json'),
