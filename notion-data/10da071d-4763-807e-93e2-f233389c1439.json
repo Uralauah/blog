@@ -2,7 +2,7 @@
   "object": "page",
   "id": "10da071d-4763-807e-93e2-f233389c1439",
   "created_time": "2024-09-26T09:22:00.000Z",
-  "last_edited_time": "2024-09-26T10:11:00.000Z",
+  "last_edited_time": "2025-04-11T07:00:00.000Z",
   "created_by": {
     "object": "user",
     "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -26,13 +26,18 @@
       "multi_select": [
         {
           "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
-          "name": "자바",
+          "name": "JAVA",
           "color": "pink"
         },
         {
           "id": "4768bae9-93de-4788-8237-416bf24413ea",
           "name": "코딩테스트",
           "color": "green"
+        },
+        {
+          "id": "d40fc4d5-7962-4bbf-a366-7a9e7469728c",
+          "name": "프로그래머스",
+          "color": "orange"
         }
       ]
     },
@@ -70,8 +75,8 @@
     }
   },
   "url": "https://www.notion.so/2-10da071d4763807e93e2f233389c1439",
-  "public_url": "https://codinggroove.notion.site/2-10da071d4763807e93e2f233389c1439",
-  "request_id": "d82d1daa-5cbe-4425-ab9e-447064f639c1",
+  "public_url": null,
+  "request_id": "330235ed-d386-4346-8500-3ff2628acc4f",
   "blocks": [
     {
       "object": "block",

@@ -2,7 +2,7 @@
   "object": "page",
   "id": "2ccef68b-d878-4581-8cf4-df19af48a432",
   "created_time": "2024-08-11T11:36:00.000Z",
-  "last_edited_time": "2025-04-07T07:23:00.000Z",
+  "last_edited_time": "2025-04-11T06:56:00.000Z",
   "created_by": {
     "object": "user",
     "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -31,7 +31,7 @@
         },
         {
           "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
-          "name": "자바",
+          "name": "JAVA",
           "color": "pink"
         }
       ]
@@ -70,8 +70,8 @@
     }
   },
   "url": "https://www.notion.so/Spring-2ccef68bd87845818cf4df19af48a432",
-  "public_url": "https://codinggroove.notion.site/Spring-2ccef68bd87845818cf4df19af48a432",
-  "request_id": "288351d5-eaed-43a9-a047-1bf0a8db84dd",
+  "public_url": null,
+  "request_id": "010d3321-8ac0-4f11-aac0-4d708e3ecc89",
   "blocks": [
     {
       "object": "block",
@@ -4339,7 +4339,7 @@
         "type": "file",
         "file": {
           "url": "/notion-data/2ccef68b-d878-4581-8cf4-df19af48a432/image_1.png",
-          "expiry_time": "2025-04-07T08:23:30.310Z"
+          "expiry_time": "2025-04-11T08:12:46.114Z"
         }
       },
       "blocks": []

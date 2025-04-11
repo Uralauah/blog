@@ -2,7 +2,7 @@
   "object": "page",
   "id": "144a071d-4763-80a1-9a3e-e9f0e9dab600",
   "created_time": "2024-11-20T09:53:00.000Z",
-  "last_edited_time": "2024-11-20T10:20:00.000Z",
+  "last_edited_time": "2025-04-11T07:00:00.000Z",
   "created_by": {
     "object": "user",
     "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -31,8 +31,13 @@
         },
         {
           "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
-          "name": "자바",
+          "name": "JAVA",
           "color": "pink"
+        },
+        {
+          "id": "10c7fdb1-7bdc-495f-92dc-afad72d5acfb",
+          "name": "백준",
+          "color": "red"
         }
       ]
     },
@@ -70,8 +75,8 @@
     }
   },
   "url": "https://www.notion.so/10159-144a071d476380a19a3ee9f0e9dab600",
-  "public_url": "https://codinggroove.notion.site/10159-144a071d476380a19a3ee9f0e9dab600",
-  "request_id": "3094fdc6-fcd8-40cc-a2fe-f15039ed15fe",
+  "public_url": null,
+  "request_id": "58ed169f-55d2-4265-b289-977dc4ce8e43",
   "blocks": [
     {
       "object": "block",
@@ -3446,7 +3451,7 @@
         "type": "file",
         "file": {
           "url": "/notion-data/144a071d-4763-80a1-9a3e-e9f0e9dab600/image_1.png",
-          "expiry_time": "2025-04-07T08:19:40.889Z"
+          "expiry_time": "2025-04-11T08:14:51.288Z"
         }
       },
       "blocks": []
@@ -3594,7 +3599,7 @@
         "type": "file",
         "file": {
           "url": "/notion-data/144a071d-4763-80a1-9a3e-e9f0e9dab600/image_2.png",
-          "expiry_time": "2025-04-07T08:19:40.983Z"
+          "expiry_time": "2025-04-11T08:14:51.308Z"
         }
       },
       "blocks": []
@@ -3697,7 +3702,7 @@
         "type": "file",
         "file": {
           "url": "/notion-data/144a071d-4763-80a1-9a3e-e9f0e9dab600/image_3.png",
-          "expiry_time": "2025-04-07T08:19:40.985Z"
+          "expiry_time": "2025-04-11T08:14:51.299Z"
         }
       },
       "blocks": []
@@ -3755,7 +3760,7 @@
         "type": "file",
         "file": {
           "url": "/notion-data/144a071d-4763-80a1-9a3e-e9f0e9dab600/image_4.png",
-          "expiry_time": "2025-04-07T08:19:40.965Z"
+          "expiry_time": "2025-04-11T08:14:51.301Z"
         }
       },
       "blocks": []
@@ -3786,7 +3791,7 @@
         "type": "file",
         "file": {
           "url": "/notion-data/144a071d-4763-80a1-9a3e-e9f0e9dab600/image_5.png",
-          "expiry_time": "2025-04-07T08:19:40.974Z"
+          "expiry_time": "2025-04-11T08:14:51.307Z"
         }
       },
       "blocks": []
@@ -3907,7 +3912,7 @@
         "type": "file",
         "file": {
           "url": "/notion-data/144a071d-4763-80a1-9a3e-e9f0e9dab600/image_6.png",
-          "expiry_time": "2025-04-07T08:19:40.965Z"
+          "expiry_time": "2025-04-11T08:14:51.301Z"
         }
       },
       "blocks": []

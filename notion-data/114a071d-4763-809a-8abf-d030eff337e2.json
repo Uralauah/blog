@@ -2,7 +2,7 @@
   "object": "page",
   "id": "114a071d-4763-809a-8abf-d030eff337e2",
   "created_time": "2024-10-03T07:38:00.000Z",
-  "last_edited_time": "2024-10-04T06:15:00.000Z",
+  "last_edited_time": "2025-04-11T06:56:00.000Z",
   "created_by": {
     "object": "user",
     "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -31,7 +31,7 @@
         },
         {
           "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
-          "name": "자바",
+          "name": "JAVA",
           "color": "pink"
         }
       ]
@@ -70,8 +70,8 @@
     }
   },
   "url": "https://www.notion.so/SSE-114a071d4763809a8abfd030eff337e2",
-  "public_url": "https://codinggroove.notion.site/SSE-114a071d4763809a8abfd030eff337e2",
-  "request_id": "75d1593c-056a-412d-90bb-26fd7ea11d32",
+  "public_url": null,
+  "request_id": "80c1d51f-2626-43d9-b25e-373ce37f7472",
   "blocks": [
     {
       "object": "block",
@@ -306,7 +306,7 @@
         "type": "file",
         "file": {
           "url": "/notion-data/114a071d-4763-809a-8abf-d030eff337e2/image_1.png",
-          "expiry_time": "2025-04-06T16:18:55.058Z"
+          "expiry_time": "2025-04-11T08:14:27.555Z"
         }
       },
       "blocks": []
@@ -1739,7 +1739,7 @@
         "type": "file",
         "file": {
           "url": "/notion-data/114a071d-4763-809a-8abf-d030eff337e2/image_2.png",
-          "expiry_time": "2025-04-06T16:18:55.178Z"
+          "expiry_time": "2025-04-11T08:14:27.615Z"
         }
       },
       "blocks": []
@@ -2041,7 +2041,7 @@
         "type": "file",
         "file": {
           "url": "/notion-data/114a071d-4763-809a-8abf-d030eff337e2/image_3.png",
-          "expiry_time": "2025-04-06T16:18:55.075Z"
+          "expiry_time": "2025-04-11T08:14:27.544Z"
         }
       },
       "blocks": []
@@ -3145,7 +3145,7 @@
         "type": "file",
         "file": {
           "url": "/notion-data/114a071d-4763-809a-8abf-d030eff337e2/image_4.png",
-          "expiry_time": "2025-04-06T16:18:55.252Z"
+          "expiry_time": "2025-04-11T08:14:27.675Z"
         }
       },
       "blocks": []
@@ -3956,7 +3956,7 @@
         "type": "file",
         "file": {
           "url": "/notion-data/114a071d-4763-809a-8abf-d030eff337e2/image_5.png",
-          "expiry_time": "2025-04-06T16:18:55.288Z"
+          "expiry_time": "2025-04-11T08:14:27.700Z"
         }
       },
       "blocks": []

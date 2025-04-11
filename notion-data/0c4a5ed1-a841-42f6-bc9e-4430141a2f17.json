@@ -2,7 +2,7 @@
   "object": "page",
   "id": "0c4a5ed1-a841-42f6-bc9e-4430141a2f17",
   "created_time": "2024-07-29T05:10:00.000Z",
-  "last_edited_time": "2024-07-29T05:11:00.000Z",
+  "last_edited_time": "2025-04-11T07:00:00.000Z",
   "created_by": {
     "object": "user",
     "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -31,8 +31,13 @@
         },
         {
           "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
-          "name": "자바",
+          "name": "JAVA",
           "color": "pink"
+        },
+        {
+          "id": "10c7fdb1-7bdc-495f-92dc-afad72d5acfb",
+          "name": "백준",
+          "color": "red"
         }
       ]
     },
@@ -70,8 +75,8 @@
     }
   },
   "url": "https://www.notion.so/17845-0c4a5ed1a84142f6bc9e4430141a2f17",
-  "public_url": "https://codinggroove.notion.site/17845-0c4a5ed1a84142f6bc9e4430141a2f17",
-  "request_id": "145c9985-3c92-4a2b-a493-60a92afb2d30",
+  "public_url": null,
+  "request_id": "d2cbe430-969c-4f77-8a75-268ed170f535",
   "blocks": [
     {
       "object": "block",
@@ -771,7 +776,7 @@
         "type": "file",
         "file": {
           "url": "/notion-data/0c4a5ed1-a841-42f6-bc9e-4430141a2f17/image_1.png",
-          "expiry_time": "2025-04-07T08:25:39.242Z"
+          "expiry_time": "2025-04-11T08:10:16.534Z"
         }
       },
       "blocks": []

@@ -2,7 +2,7 @@
   "object": "page",
   "id": "25d4cf92-3450-4da2-a73e-e9befc0187cb",
   "created_time": "2024-07-29T05:11:00.000Z",
-  "last_edited_time": "2024-07-29T05:11:00.000Z",
+  "last_edited_time": "2025-04-11T07:00:00.000Z",
   "created_by": {
     "object": "user",
     "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -33,6 +33,11 @@
           "id": "84763982-c05d-4310-a5a7-6842e950bd08",
           "name": "C++",
           "color": "gray"
+        },
+        {
+          "id": "10c7fdb1-7bdc-495f-92dc-afad72d5acfb",
+          "name": "백준",
+          "color": "red"
         }
       ]
     },
@@ -70,8 +75,8 @@
     }
   },
   "url": "https://www.notion.so/2186-25d4cf9234504da2a73ee9befc0187cb",
-  "public_url": "https://codinggroove.notion.site/2186-25d4cf9234504da2a73ee9befc0187cb",
-  "request_id": "f955a022-ff1e-476b-b865-5b63559a7e19",
+  "public_url": null,
+  "request_id": "7e24dde8-4627-4e2e-b023-f9e270ed8a67",
   "blocks": [
     {
       "object": "block",
