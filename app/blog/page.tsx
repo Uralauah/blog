@@ -29,9 +29,18 @@ export default function Page() {
         return (
           <Link key={post.slug} href={`/blog/${post.slug}`}>
             <div className="mb-4"> 
-              <div className="text-sm text-gray-500">
+              <div className="text-sm text-gray-500 flex flex-wrap items-center gap-x-2">
                 <span>{post.date}</span>
                 <span className="ml-2">· {categoryName}</span>
+                {post.tags && post.tags.length > 0 && (
+                  <>
+                    <div className="flex gap-1 flex-wrap">
+                      {post.tags.map((tag, index) => (
+                        <span key={index} className="text-gray-400">#{tag}</span>
+                      ))}
+                    </div>
+                  </>
+                )}
               </div>
               <p className="font-medium">{post.title}</p>
             </div>

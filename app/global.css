@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'prismjs/themes/prism.css';              /* light */
+@import 'prismjs/themes/prism-tomorrow.css';     /* dark */
 
 ::selection {
   background-color: #47a3f3;

@@ -49,7 +49,16 @@ if (tags.includes('코딩테스트')) {
   category = 'springboot';
 }
 
-const slug = uuid;
+const allowedTags = ['백준', '프로그래머스', 'JAVA','C++'];
+const postTags = data.properties['태그'].multi_select
+  .map((t: any) => t.name)
+  .filter((name: string) => allowedTags.includes(name));
+
+const slug = generateSlug({
+  title,
+  tags,
+  uuid,
+});
 
 const postsFile = path.resolve(__dirname, '../content/posts.ts');
 const postsContent = fs.readFileSync(postsFile, 'utf-8');
@@ -70,7 +79,8 @@ const newPost = `
     date: ${JSON.stringify(date)},
     description: ${JSON.stringify(title)},
     image: undefined,
-    category: ${JSON.stringify(category)}
+    category: ${JSON.stringify(category)},
+    tags: ${JSON.stringify(postTags)}
   },`;
 
 const updatedContent =
@@ -78,3 +88,57 @@ const updatedContent =
 
 fs.writeFileSync(postsFile, updatedContent);
 console.log(`🚀 게시글 등록 완료: ${title}`);
+
+
+function toKebabCase(str: string): string {
+  return str
+    .replace(/[^\w\s가-힣]/g, '')
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, '-');
+}
+
+function generateSlug({
+  title,
+  tags,
+  uuid,
+}: {
+  title: string
+  tags: string[]
+  uuid: string
+}): string {
+  const platformTags = ['백준', '프로그래머스', '스프링부트'];
+  const languageTags = ['JAVA', 'C++', 'Python', 'JS'];
+
+  // 플랫폼 구분
+  let platform = '';
+  if (tags.includes('백준')) platform = 'baekjoon';
+  else if (tags.includes('프로그래머스')) platform = 'programmers';
+  else if (tags.includes('스프링부트')) platform = 'springboot';
+
+  // 문제 번호
+  const numberMatch = title.match(/(\d+)번/);
+  const problemNumber = numberMatch ? numberMatch[1] : null;
+
+  // 슬러그에 들어갈 태그 = 플랫폼 제외한 언어 태그만
+  const postTags = tags
+    .filter((tag) => languageTags.includes(tag))
+    .map((tag) => tag.toLowerCase().replace(/\+\+/, 'pp')); // C++ → cpp
+
+  const kebabTags = postTags.join('-');
+  const titlePart = toKebabCase(title);
+
+  let slug = '';
+
+  if (platform === 'baekjoon' && problemNumber) {
+    slug = [platform, problemNumber, kebabTags].filter(Boolean).join('-');
+  } else if (platform === 'programmers') {
+    slug = [platform, titlePart, kebabTags].filter(Boolean).join('-');
+  } else if (platform === 'springboot') {
+    slug = [platform, titlePart].filter(Boolean).join('-');
+  } else {
+    slug = uuid;
+  }
+
+  return slug;
+}

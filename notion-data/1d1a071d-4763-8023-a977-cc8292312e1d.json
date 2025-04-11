@@ -1,8 +1,8 @@
 {
   "object": "page",
-  "id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7",
-  "created_time": "2024-07-29T05:07:00.000Z",
-  "last_edited_time": "2025-04-11T07:01:00.000Z",
+  "id": "1d1a071d-4763-8023-a977-cc8292312e1d",
+  "created_time": "2025-04-10T02:47:00.000Z",
+  "last_edited_time": "2025-04-11T06:55:00.000Z",
   "created_by": {
     "object": "user",
     "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -30,14 +30,14 @@
           "color": "green"
         },
         {
-          "id": "84763982-c05d-4310-a5a7-6842e950bd08",
-          "name": "C++",
-          "color": "gray"
+          "id": "d40fc4d5-7962-4bbf-a366-7a9e7469728c",
+          "name": "프로그래머스",
+          "color": "orange"
         },
         {
-          "id": "10c7fdb1-7bdc-495f-92dc-afad72d5acfb",
-          "name": "백준",
-          "color": "red"
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "JAVA",
+          "color": "pink"
         }
       ]
     },
@@ -45,7 +45,7 @@
       "id": "wOPZ",
       "type": "date",
       "date": {
-        "start": "2024-01-31",
+        "start": "2025-04-10",
         "end": null,
         "time_zone": null
       }
@@ -57,7 +57,7 @@
         {
           "type": "text",
           "text": {
-            "content": "1987번 - 알파벳 ",
+            "content": "[JAVA] 당구 연습",
             "link": null
           },
           "annotations": {
@@ -68,25 +68,25 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "1987번 - 알파벳 ",
+          "plain_text": "[JAVA] 당구 연습",
           "href": null
         }
       ]
     }
   },
-  "url": "https://www.notion.so/1987-c8b3b022a46d4ec6a0534b5ec3c997c7",
+  "url": "https://www.notion.so/JAVA-1d1a071d47638023a977cc8292312e1d",
   "public_url": null,
-  "request_id": "97fdf977-c819-4a8c-a3f1-9ccc3d7fa731",
+  "request_id": "ee5230d5-9a9f-4ed9-b887-59687df997ca",
   "blocks": [
     {
       "object": "block",
-      "id": "fe2f6d7f-de95-4b1e-8434-0db458ac2cc0",
+      "id": "1d1a071d-4763-801b-bac4-f4206e444fb2",
       "parent": {
         "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
       },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_time": "2025-04-10T02:47:00.000Z",
+      "last_edited_time": "2025-04-10T02:47:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -106,7 +106,7 @@
             "text": {
               "content": "문제 링크",
               "link": {
-                "url": "https://www.acmicpc.net/problem/1987"
+                "url": "https://school.programmers.co.kr/learn/courses/30/lessons/169198?language=java"
               }
             },
             "annotations": {
@@ -118,7 +118,7 @@
               "color": "default"
             },
             "plain_text": "문제 링크",
-            "href": "https://www.acmicpc.net/problem/1987"
+            "href": "https://school.programmers.co.kr/learn/courses/30/lessons/169198?language=java"
           }
         ],
         "color": "default"
@@ -127,13 +127,13 @@
     },
     {
       "object": "block",
-      "id": "50dd2b50-1618-4016-8728-a98e44be9445",
+      "id": "1d1a071d-4763-80ed-be48-c9f71ed2acfe",
       "parent": {
         "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
       },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_time": "2025-04-10T02:47:00.000Z",
+      "last_edited_time": "2025-04-10T02:48:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -151,7 +151,7 @@
           {
             "type": "text",
             "text": {
-              "content": "문제 풀이 시간 : 1시간",
+              "content": "문제 풀이 시간 : 30분",
               "link": null
             },
             "annotations": {
@@ -162,7 +162,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "문제 풀이 시간 : 1시간",
+            "plain_text": "문제 풀이 시간 : 30분",
             "href": null
           }
         ],
@@ -173,13 +173,13 @@
     },
     {
       "object": "block",
-      "id": "53ff9c6a-3091-4b3b-b567-7ec7af846f6e",
+      "id": "1d1a071d-4763-803f-b85d-eb0056bc0b5e",
       "parent": {
         "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
       },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_time": "2025-04-10T02:48:00.000Z",
+      "last_edited_time": "2025-04-10T02:48:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -200,13 +200,13 @@
     },
     {
       "object": "block",
-      "id": "39076fb6-049d-40eb-a709-8cfb1c6d5840",
+      "id": "1d1a071d-4763-80b9-84dc-ce0cc2f8f422",
       "parent": {
         "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
       },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_time": "2025-04-10T02:48:00.000Z",
+      "last_edited_time": "2025-04-10T02:48:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -224,7 +224,7 @@
           {
             "type": "text",
             "text": {
-              "content": "문제 요약",
+              "content": "문제 풀이 :",
               "link": null
             },
             "annotations": {
@@ -235,7 +235,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "문제 요약",
+            "plain_text": "문제 풀이 :",
             "href": null
           }
         ],
@@ -246,239 +246,13 @@
     },
     {
       "object": "block",
-      "id": "fae1425d-c3d6-4a6a-8681-49897a07798e",
+      "id": "1d2a071d-4763-803c-9bb7-c18845dfea6e",
       "parent": {
         "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
       },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "bulleted_list_item",
-      "bulleted_list_item": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "보드의 각 칸에는 알파벳이 있음",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "보드의 각 칸에는 알파벳이 있음",
-            "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "ebe1175f-ea8c-4d8b-9dfe-356ce15c8ec0",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "bulleted_list_item",
-      "bulleted_list_item": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "주변의 네 칸 중 다른 칸으로 이동한다.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "주변의 네 칸 중 다른 칸으로 이동한다.",
-            "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "fbfac0c2-66bc-4ed2-adf3-81a8adc58bcc",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "bulleted_list_item",
-      "bulleted_list_item": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "새로 이동한 칸은 지금까지 지나온 알파벳이 아니어야 함.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "새로 이동한 칸은 지금까지 지나온 알파벳이 아니어야 함.",
-            "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "fbb51b63-224a-4898-8a92-fb05ef2b8285",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "bulleted_list_item",
-      "bulleted_list_item": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "최대로 갈 수 있는 칸 수 구하기",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "최대로 갈 수 있는 칸 수 구하기",
-            "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "7732fb85-e99d-4c2e-8b65-076a1047eff7",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "heading_2",
-      "heading_2": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "문제 풀이",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "문제 풀이",
-            "href": null
-          }
-        ],
-        "is_toggleable": false,
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "477d30e7-b1a9-4f93-98fe-a719a249b0d1",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_time": "2025-04-11T06:07:00.000Z",
+      "last_edited_time": "2025-04-11T06:08:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -496,7 +270,7 @@
           {
             "type": "text",
             "text": {
-              "content": "이 문제는 간단하게 DFS로 풀 수 있겠다고 생각했다.",
+              "content": "처음에는 어떻게 풀어야지? 라는 생각이 계속 들었는데",
               "link": null
             },
             "annotations": {
@@ -507,7 +281,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "이 문제는 간단하게 DFS로 풀 수 있겠다고 생각했다.",
+            "plain_text": "처음에는 어떻게 풀어야지? 라는 생각이 계속 들었는데",
             "href": null
           }
         ],
@@ -517,13 +291,58 @@
     },
     {
       "object": "block",
-      "id": "96556f00-cfeb-4f63-bf6f-2f002a7f4992",
+      "id": "1d2a071d-4763-8004-ad5d-d95c2c9d634a",
       "parent": {
         "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
       },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_time": "2025-04-11T06:08:00.000Z",
+      "last_edited_time": "2025-04-11T06:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제를 읽다보니 입사각과 반사각이 같다는 걸 보고 그냥 대칭이동 시키면 되지 않을까? 라는 생각으로 접근했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제를 읽다보니 입사각과 반사각이 같다는 걸 보고 그냥 대칭이동 시키면 되지 않을까? 라는 생각으로 접근했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-8031-8d53-f4b9ea81a75b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:08:00.000Z",
+      "last_edited_time": "2025-04-11T06:08:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -544,13 +363,13 @@
     },
     {
       "object": "block",
-      "id": "cad599c8-9512-4332-85b8-f5d7d75e5ed7",
+      "id": "1d2a071d-4763-8025-966b-c87d97a42983",
       "parent": {
         "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
       },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_time": "2025-04-11T06:08:00.000Z",
+      "last_edited_time": "2025-04-11T06:08:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -562,13 +381,13 @@
       "has_children": false,
       "archived": false,
       "in_trash": false,
-      "type": "heading_3",
-      "heading_3": {
+      "type": "paragraph",
+      "paragraph": {
         "rich_text": [
           {
             "type": "text",
             "text": {
-              "content": "초기 코드",
+              "content": "예를 들어, 아래와 같은 상황이 있다면",
               "link": null
             },
             "annotations": {
@@ -579,24 +398,449 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "초기 코드",
+            "plain_text": "예를 들어, 아래와 같은 상황이 있다면",
             "href": null
           }
         ],
-        "is_toggleable": false,
         "color": "default"
       },
       "blocks": []
     },
     {
       "object": "block",
-      "id": "07928aa6-b144-41a8-b0e2-53586f5d8649",
+      "id": "1d2a071d-4763-8045-925f-ce2ce479ee5c",
       "parent": {
         "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
       },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_time": "2025-04-11T06:11:00.000Z",
+      "last_edited_time": "2025-04-11T06:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/1d1a071d-4763-8023-a977-cc8292312e1d/image_1.png",
+          "expiry_time": "2025-04-11T07:56:17.107Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-80d7-aba4-d2654286d271",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:16:00.000Z",
+      "last_edited_time": "2025-04-11T06:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-80c7-967a-ef2cadfdc54f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:11:00.000Z",
+      "last_edited_time": "2025-04-11T06:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "여기서 흰공이 검은공을 맞출 수 있는 경우는 아래와 같이 4가지 경우이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "여기서 흰공이 검은공을 맞출 수 있는 경우는 아래와 같이 4가지 경우이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-808c-a6f5-eeffdea81dae",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:16:00.000Z",
+      "last_edited_time": "2025-04-11T06:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/1d1a071d-4763-8023-a977-cc8292312e1d/image_2.png",
+          "expiry_time": "2025-04-11T07:56:17.099Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-800e-8e6a-dd4f673ceca3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:16:00.000Z",
+      "last_edited_time": "2025-04-11T06:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 여기서 파란 선의 경로는 벽에 튕기기 전 검은공에 닿아버리므로 제외하고, 나머지 3가지 경로에 대해 최소 경로를 구하면 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 여기서 파란 선의 경로는 벽에 튕기기 전 검은공에 닿아버리므로 제외하고, 나머지 3가지 경로에 대해 최소 경로를 구하면 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-80aa-b1f9-d0818e709ef7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:17:00.000Z",
+      "last_edited_time": "2025-04-11T06:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-80cd-a00b-d0af4d57a91b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:17:00.000Z",
+      "last_edited_time": "2025-04-11T06:20:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 상황에서 우리는 검은색 공을 아래 그림처럼 각 벽에 대해 대칭이동 시킨다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 상황에서 우리는 검은색 공을 아래 그림처럼 각 벽에 대해 대칭이동 시킨다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-8095-8c73-c74396d84249",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:20:00.000Z",
+      "last_edited_time": "2025-04-11T06:20:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/1d1a071d-4763-8023-a977-cc8292312e1d/image_3.png",
+          "expiry_time": "2025-04-11T07:56:17.096Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-808f-b1ae-ee092a0246bc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:20:00.000Z",
+      "last_edited_time": "2025-04-11T06:20:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-8074-936d-e8e6523750e9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:16:00.000Z",
+      "last_edited_time": "2025-04-11T06:20:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그리고 흰공과 대칭이동 된 검은 공들에 대해 거리를 구하면 간단하게 구할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그리고 흰공과 대칭이동 된 검은 공들에 대해 거리를 구하면 간단하게 구할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-80c5-ace0-f7772d04ad06",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:20:00.000Z",
+      "last_edited_time": "2025-04-11T06:20:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-80a9-9f40-c78077d8ec85",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:20:00.000Z",
+      "last_edited_time": "2025-04-11T06:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "나는 이걸 구현하기 위해서 각 공에 대해 각 벽과 대칭이동 시킨 위치를 구했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "나는 이걸 구현하기 위해서 각 공에 대해 각 벽과 대칭이동 시킨 위치를 구했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-8002-b1c4-c82e0f187536",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:21:00.000Z",
+      "last_edited_time": "2025-04-11T06:22:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -615,7 +859,7 @@
           {
             "type": "text",
             "text": {
-              "content": "#include <iostream>\n#include <vector>\n#include <string>\n\nusing namespace std;\n\nchar board[21][21];\nint arr[4][2] = {1, 0, -1, 0, 0, 1, 0, -1};\nint r, c, ans;\n\nbool check(int x, int y) { //보드를 넘어가는지 확인\n    if ((x >= 0 && x < r) && (y >= 0 && y < c))\n        return true;\n    else\n        return false;\n}\n\nvoid find(bool visited[21], int x, int y, int sum) { //DFS함수\n    int tx, ty;\n    ans = max(sum, ans); //현재 값이 최댓값보다 크면 교체\n\t\tvisited[board[x][y] - 'A'] = true; //방문 처리\n    for (int i = 0; i < 4; i++) { //주변 칸 탐색\n        tx = x + arr[i][0]; \n        ty = y + arr[i][1];\n\n        if (check(tx, ty)) { //보드를 넘어가지 않으면\n            if (!visited[board[tx][ty] - 'A']) { //방문되지 않았다면\n                find(visited, tx, ty, sum + 1); \n            }\n        }\n    }\n}\n\nint main() {\n    string input;\n    cin >> r >> c;\n    for (int i = 0; i < r; i++) {\n        cin >> input;\n        for (int j = 0; j < c; j++)\n            board[i][j] = input[j];\n    }\n    bool visited[21] = {false};\n    visited[board[0][0] - 'A'] = true;\n    find(visited, 0, 0, 1);\n    cout << ans;\n}",
+              "content": "int[][] candi = {{tarX,2*n-tarY},{tarX,-tarY},{-tarX,tarY},{2*m-tarX,tarY}}; //위쪽 벽, 아래쪽 벽, 왼쪽 벽, 오른쪽 벽",
               "link": null
             },
             "annotations": {
@@ -626,68 +870,23 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "#include <iostream>\n#include <vector>\n#include <string>\n\nusing namespace std;\n\nchar board[21][21];\nint arr[4][2] = {1, 0, -1, 0, 0, 1, 0, -1};\nint r, c, ans;\n\nbool check(int x, int y) { //보드를 넘어가는지 확인\n    if ((x >= 0 && x < r) && (y >= 0 && y < c))\n        return true;\n    else\n        return false;\n}\n\nvoid find(bool visited[21], int x, int y, int sum) { //DFS함수\n    int tx, ty;\n    ans = max(sum, ans); //현재 값이 최댓값보다 크면 교체\n\t\tvisited[board[x][y] - 'A'] = true; //방문 처리\n    for (int i = 0; i < 4; i++) { //주변 칸 탐색\n        tx = x + arr[i][0]; \n        ty = y + arr[i][1];\n\n        if (check(tx, ty)) { //보드를 넘어가지 않으면\n            if (!visited[board[tx][ty] - 'A']) { //방문되지 않았다면\n                find(visited, tx, ty, sum + 1); \n            }\n        }\n    }\n}\n\nint main() {\n    string input;\n    cin >> r >> c;\n    for (int i = 0; i < r; i++) {\n        cin >> input;\n        for (int j = 0; j < c; j++)\n            board[i][j] = input[j];\n    }\n    bool visited[21] = {false};\n    visited[board[0][0] - 'A'] = true;\n    find(visited, 0, 0, 1);\n    cout << ans;\n}",
+            "plain_text": "int[][] candi = {{tarX,2*n-tarY},{tarX,-tarY},{-tarX,tarY},{2*m-tarX,tarY}}; //위쪽 벽, 아래쪽 벽, 왼쪽 벽, 오른쪽 벽",
             "href": null
           }
         ],
-        "language": "c++"
+        "language": "java"
       },
       "blocks": []
     },
     {
       "object": "block",
-      "id": "76a0d1a4-d30b-440c-ba4f-cb65ea6ebc2a",
+      "id": "1d2a071d-4763-8069-a577-c4385a7fb314",
       "parent": {
         "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
       },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "paragraph",
-      "paragraph": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "위 코드는 아쉽게도 바로 틀렸다고 한다.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "위 코드는 아쉽게도 바로 틀렸다고 한다.",
-            "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "6a8beb42-2506-45bc-9028-af2880e58b3f",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_time": "2025-04-11T06:22:00.000Z",
+      "last_edited_time": "2025-04-11T06:22:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -708,13 +907,13 @@
     },
     {
       "object": "block",
-      "id": "df857ff4-7336-4e2c-b594-d06a91fe31f5",
+      "id": "1d2a071d-4763-80fd-a5f7-de3011b6df9e",
       "parent": {
         "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
       },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_time": "2025-04-11T06:21:00.000Z",
+      "last_edited_time": "2025-04-11T06:23:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -732,7 +931,7 @@
           {
             "type": "text",
             "text": {
-              "content": "이유가 무엇일까?",
+              "content": "그 후, 위 사진에서의 파란색 경로와 같이 벽에 부딪히기 전 검은 공에 부딪히는지를 검사해줬다.",
               "link": null
             },
             "annotations": {
@@ -743,7 +942,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "이유가 무엇일까?",
+            "plain_text": "그 후, 위 사진에서의 파란색 경로와 같이 벽에 부딪히기 전 검은 공에 부딪히는지를 검사해줬다.",
             "href": null
           }
         ],
@@ -753,449 +952,13 @@
     },
     {
       "object": "block",
-      "id": "1ea78de5-b971-4887-8f19-a8569439c176",
+      "id": "1d2a071d-4763-80c1-bf71-d145d69e8221",
       "parent": {
         "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
       },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "paragraph",
-      "paragraph": {
-        "rich_text": [],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "9ea3735b-49e8-4b86-b8ab-700f8c6891db",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "paragraph",
-      "paragraph": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "이유는 이미 방문 했더라도 다른 경우가 있을 수 있기 때문에 방문 후 다시 방문하지 않았다고 해주어야 한다.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "이유는 이미 방문 했더라도 다른 경우가 있을 수 있기 때문에 방문 후 다시 방문하지 않았다고 해주어야 한다.",
-            "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "9fcda12e-0be8-4c95-8b11-9deeeef228e8",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "paragraph",
-      "paragraph": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "아래와 같은 경우를 보자.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "아래와 같은 경우를 보자.",
-            "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "e4baf902-f57e-4556-8199-e1ed2216e954",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2025-04-07T07:27:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "image",
-      "image": {
-        "caption": [],
-        "type": "file",
-        "file": {
-          "url": "/notion-data/c8b3b022-a46d-4ec6-a053-4b5ec3c997c7/image_1.png",
-          "expiry_time": "2025-04-11T08:07:18.806Z"
-        }
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "31df1f20-a974-45ef-8a41-ae7cd3b6c9f3",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "paragraph",
-      "paragraph": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "(0,0)에서 시작하므로 갈 수 있는 칸은 (1,0)과 (0,1)이다.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "(0,0)에서 시작하므로 갈 수 있는 칸은 (1,0)과 (0,1)이다.",
-            "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "69005513-a7ae-4da3-ba24-dd8fe079fdfb",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "paragraph",
-      "paragraph": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "이때 만약 (1,0)으로 간다면 (2,0)과 (1,1) 모두 이미 방문한 것이므로 이동 횟수는 2이다.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "이때 만약 (1,0)으로 간다면 (2,0)과 (1,1) 모두 이미 방문한 것이므로 이동 횟수는 2이다.",
-            "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "af0f49b8-3f90-43ee-8805-e93b86de8552",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2025-04-07T07:27:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "image",
-      "image": {
-        "caption": [],
-        "type": "file",
-        "file": {
-          "url": "/notion-data/c8b3b022-a46d-4ec6-a053-4b5ec3c997c7/image_2.png",
-          "expiry_time": "2025-04-11T08:07:18.785Z"
-        }
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "172b1c8c-2ed0-4a35-9a67-3c5e62f43f7a",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "paragraph",
-      "paragraph": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "하지만 (0,0)에서 (0,1)로 이동한다면 아래와 같이 4가 나온다.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "하지만 (0,0)에서 (0,1)로 이동한다면 아래와 같이 4가 나온다.",
-            "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "60de695d-026a-4620-82ab-108dc823aaa0",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2025-04-07T07:27:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "image",
-      "image": {
-        "caption": [],
-        "type": "file",
-        "file": {
-          "url": "/notion-data/c8b3b022-a46d-4ec6-a053-4b5ec3c997c7/image_3.png",
-          "expiry_time": "2025-04-11T08:07:18.794Z"
-        }
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "4ad43d0b-1d45-46f3-bc92-5fe792c3329a",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "paragraph",
-      "paragraph": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "따라서 다른 칸으로 방문한 후 visited를 다시 false로 바꿔주어 주변의 다른 칸에 같은 알파벳이 있어도 방문할 수 있도록 해주어야한다.",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "따라서 다른 칸으로 방문한 후 visited를 다시 false로 바꿔주어 주변의 다른 칸에 같은 알파벳이 있어도 방문할 수 있도록 해주어야한다.",
-            "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "d7493fee-d2b5-4253-8a2e-a8462d2b08b6",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "heading_3",
-      "heading_3": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "최종 코드",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "최종 코드",
-            "href": null
-          }
-        ],
-        "is_toggleable": false,
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "c27874e5-fc86-4980-a19d-f831aeb3dee1",
-      "parent": {
-        "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
-      },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_time": "2025-04-11T06:23:00.000Z",
+      "last_edited_time": "2025-04-11T06:24:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1214,7 +977,7 @@
           {
             "type": "text",
             "text": {
-              "content": "#include <iostream>\n#include <algorithm>\n\nusing namespace std;\n\nchar board[21][21];\nint arr[4][2] = {1, 0, -1, 0, 0, 1, 0, -1};\nint r, c, ans;\n\nbool check(int x, int y) { //보드를 넘어가는지 확인\n    if (x >= 0 && x < r && y >= 0 && y < c)\n        return true;\n    else\n        return false;\n}\n\nvoid find(bool visited[27], int x, int y, int sum) { //DFS함수\n    int tx, ty;\n    if (ans < sum) //현재값이 최댓값보다 크면 교체\n        ans = sum;\n    for (int i = 0; i < 4; i++) { //주변 칸 탐색\n        tx = x + arr[i][0];\n        ty = y + arr[i][1];\n\n        if (check(tx, ty)) { //보드를 넘어가지 않고\n            if (!visited[board[tx][ty] - 'A']) { //방문하지 않았다면\n                visited[board[tx][ty] - 'A'] = true; //방문 처리\n                find(visited, tx, ty, sum + 1); //DFS 호출\n                visited[board[tx][ty] - 'A'] = false; //방문 취소\n            }\n        }\n    }\n}\n\nint main() {\n    ios::sync_with_stdio(false);\n    cin.tie(NULL);\n    cout.tie(NULL);\n    cin >> r >> c;\n    for (int i = 0; i < r; i++) {\n        for (int j = 0; j < c; j++)\n            cin >> board[i][j];\n    }\n    bool visited[27] = {false};\n    visited[board[0][0] - 'A'] = true;\n    find(visited, 0, 0, 1);\n    cout << ans;\n}",
+              "content": "if ((j == 0 && startX == tarX && startY < tarY) || //위쪽\n    (j == 1 && startX == tarX && startY > tarY) || //아래쪽\n    (j == 2 && startY == tarY && startX > tarX) || //왼쪽\n    (j == 3 && startY == tarY && startX < tarX)) { //오른쪽\n    continue;\n}",
               "link": null
             },
             "annotations": {
@@ -1225,23 +988,260 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "#include <iostream>\n#include <algorithm>\n\nusing namespace std;\n\nchar board[21][21];\nint arr[4][2] = {1, 0, -1, 0, 0, 1, 0, -1};\nint r, c, ans;\n\nbool check(int x, int y) { //보드를 넘어가는지 확인\n    if (x >= 0 && x < r && y >= 0 && y < c)\n        return true;\n    else\n        return false;\n}\n\nvoid find(bool visited[27], int x, int y, int sum) { //DFS함수\n    int tx, ty;\n    if (ans < sum) //현재값이 최댓값보다 크면 교체\n        ans = sum;\n    for (int i = 0; i < 4; i++) { //주변 칸 탐색\n        tx = x + arr[i][0];\n        ty = y + arr[i][1];\n\n        if (check(tx, ty)) { //보드를 넘어가지 않고\n            if (!visited[board[tx][ty] - 'A']) { //방문하지 않았다면\n                visited[board[tx][ty] - 'A'] = true; //방문 처리\n                find(visited, tx, ty, sum + 1); //DFS 호출\n                visited[board[tx][ty] - 'A'] = false; //방문 취소\n            }\n        }\n    }\n}\n\nint main() {\n    ios::sync_with_stdio(false);\n    cin.tie(NULL);\n    cout.tie(NULL);\n    cin >> r >> c;\n    for (int i = 0; i < r; i++) {\n        for (int j = 0; j < c; j++)\n            cin >> board[i][j];\n    }\n    bool visited[27] = {false};\n    visited[board[0][0] - 'A'] = true;\n    find(visited, 0, 0, 1);\n    cout << ans;\n}",
+            "plain_text": "if ((j == 0 && startX == tarX && startY < tarY) || //위쪽\n    (j == 1 && startX == tarX && startY > tarY) || //아래쪽\n    (j == 2 && startY == tarY && startX > tarX) || //왼쪽\n    (j == 3 && startY == tarY && startX < tarX)) { //오른쪽\n    continue;\n}",
             "href": null
           }
         ],
-        "language": "c++"
+        "language": "java"
       },
       "blocks": []
     },
     {
       "object": "block",
-      "id": "0f19a074-e862-4de0-bfd4-522e26057e68",
+      "id": "1d2a071d-4763-8054-a9de-e274d934a8ac",
       "parent": {
         "type": "page_id",
-        "page_id": "c8b3b022-a46d-4ec6-a053-4b5ec3c997c7"
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
       },
-      "created_time": "2024-07-29T05:07:00.000Z",
-      "last_edited_time": "2024-07-29T05:07:00.000Z",
+      "created_time": "2025-04-11T06:24:00.000Z",
+      "last_edited_time": "2025-04-11T06:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-809b-8e27-c93721368bf1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:21:00.000Z",
+      "last_edited_time": "2025-04-11T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그리고 가능한 경로에 대해 거리를 계산해주면 된다",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그리고 가능한 경로에 대해 거리를 계산해주면 된다",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-80c0-9b6e-ef4a182dc7e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:25:00.000Z",
+      "last_edited_time": "2025-04-11T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "int dir_x = Math.abs(startX- candi[j][0]);\nint dir_y = Math.abs(startY - candi[j][1]);\nint temp = dir_x * dir_x + dir_y * dir_y;\n                \nmin = Math.min(min, temp);",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "int dir_x = Math.abs(startX- candi[j][0]);\nint dir_y = Math.abs(startY - candi[j][1]);\nint temp = dir_x * dir_x + dir_y * dir_y;\n                \nmin = Math.min(min, temp);",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-80b6-a71f-c93c1d8cf583",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:25:00.000Z",
+      "last_edited_time": "2025-04-11T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d2a071d-4763-805c-955f-e829c15bb74f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-11T06:25:00.000Z",
+      "last_edited_time": "2025-04-11T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "전체 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "전체 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d1a071d-4763-80f5-83de-fe72552924f9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-10T02:48:00.000Z",
+      "last_edited_time": "2025-04-10T02:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.util.*;\n\nclass Solution {\n    \n    public int[] solution(int m, int n, int startX, int startY, int[][] balls) {\n        int[] answer = new int[balls.length];\n        \n        for(int i=0;i<balls.length;i++){\n            int tarX = balls[i][0];\n            int tarY = balls[i][1];\n            int min = Integer.MAX_VALUE;\n            \n            int[][] candi = {{tarX,2*n-tarY},{tarX,-tarY},{-tarX,tarY},{2*m-tarX,tarY}};\n            \n            for(int j=0;j<4;j++){\n                if ((j == 0 && startX == tarX && startY < tarY) ||\n                    (j == 1 && startX == tarX && startY > tarY) ||\n                    (j == 2 && startY == tarY && startX > tarX) ||\n                    (j == 3 && startY == tarY && startX < tarX)) {\n                    continue;\n                }\n                \n                int dir_x = Math.abs(startX- candi[j][0]);\n                int dir_y = Math.abs(startY - candi[j][1]);\n                int temp = dir_x * dir_x + dir_y * dir_y;\n                \n                min = Math.min(min, temp);\n            }\n            answer[i]=min;\n        }\n        \n        return answer;\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.util.*;\n\nclass Solution {\n    \n    public int[] solution(int m, int n, int startX, int startY, int[][] balls) {\n        int[] answer = new int[balls.length];\n        \n        for(int i=0;i<balls.length;i++){\n            int tarX = balls[i][0];\n            int tarY = balls[i][1];\n            int min = Integer.MAX_VALUE;\n            \n            int[][] candi = {{tarX,2*n-tarY},{tarX,-tarY},{-tarX,tarY},{2*m-tarX,tarY}};\n            \n            for(int j=0;j<4;j++){\n                if ((j == 0 && startX == tarX && startY < tarY) ||\n                    (j == 1 && startX == tarX && startY > tarY) ||\n                    (j == 2 && startY == tarY && startX > tarX) ||\n                    (j == 3 && startY == tarY && startX < tarX)) {\n                    continue;\n                }\n                \n                int dir_x = Math.abs(startX- candi[j][0]);\n                int dir_y = Math.abs(startY - candi[j][1]);\n                int temp = dir_x * dir_x + dir_y * dir_y;\n                \n                min = Math.min(min, temp);\n            }\n            answer[i]=min;\n        }\n        \n        return answer;\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d1a071d-4763-80f8-a6f5-da358fe3d1f0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d1a071d-4763-8023-a977-cc8292312e1d"
+      },
+      "created_time": "2025-04-10T02:48:00.000Z",
+      "last_edited_time": "2025-04-10T02:48:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
