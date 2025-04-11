@@ -21,7 +21,7 @@ export function RecentPosts() {
         const categoryName = categoryMap[post.category] ?? post.category
         return (
           <Link key={post.slug} href={`/blog/${post.slug}`}>
-            <div className="mb-6">
+            <div className="mb-4">
               <div className="text-xs text-gray-500 flex items-center gap-2">
                 <span>{post.date}</span>
                 <span>· {categoryName}</span>

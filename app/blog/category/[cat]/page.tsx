@@ -27,7 +27,7 @@ export default function CategoryPage({ params }: { params: { cat: string } }) {
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">{catName}</h1>
       {filtered.map((post) => (
         <Link key={post.slug} href={`/blog/${post.slug}`}>
-          <div className="mb-6">
+          <div className="mb-4">
             <div className="text-xs text-gray-500 flex items-center gap-2">
               <span>{post.date}</span>
               {/* 카테고리 정보는 여기선 cat으로 필터링 됐으므로 생략 가능 */}
