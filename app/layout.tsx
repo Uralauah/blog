@@ -68,10 +68,25 @@ export default function RootLayout({
       )}
     >
       <head>
+        {/* Google Ads 스크립트 */}
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9260700889545229"
           crossOrigin="anonymous"
+        />
+        {/* ✅ Google Analytics (GA4) 스크립트 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FEQKJNH9L"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-6FEQKJNH9L', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
         />
       </head>
       <body className="antialiased max-w-2xl mx-4 mt-8 sm:mx-auto text-black bg-white dark:text-white dark:bg-black">
