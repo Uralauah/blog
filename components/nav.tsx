@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link'
 import ThemeToggle from './theme'
+import VisitorCounter from './visitor-counter'
 
 const navItems = {
   '/': {
@@ -35,7 +36,8 @@ export function Navbar() {
               )
             })}
           </div>
-          <div className='ml-auto'>
+          <div className="ml-auto flex flex-row items-center space-x-2">
+            <VisitorCounter />
             <ThemeToggle />
           </div>
         </nav>
