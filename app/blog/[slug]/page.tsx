@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic';
 
 const Comment = dynamic(() => import('components/comment'), { ssr: false });
 
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 
 export async function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }))
@@ -83,7 +83,14 @@ export default async function Blog({ params }) {
           }),
         }}
       />
-      <NotionRenderer post={post} />
+      <NotionRenderer post={{
+        title: post.title,
+        content: post.content,
+        image: post.image,
+        date: post.date,
+        category: post.category,
+        tags: post.tags,
+      }} />
       <div className="mt-16">
         <Comment />
       </div>
