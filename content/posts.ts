@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "[컴퓨터비전] 2. 영상 처리",
+    slug: "컴퓨터비전-2-영상-처리",
+    content: require('../notion-data/1d7a071d-4763-809f-ab08-f13ef29c2688.json'),
+    date: "2025-04-16",
+    description: "[컴퓨터비전] 2. 영상 처리",
+    image: undefined,
+    category: "cs",
+    tags: ["컴퓨터비전"]
+  },
+  {
     title: "메뉴 리뉴얼",
     slug: "programmers-메뉴-리뉴얼-java",
     content: require('../notion-data/1d1a071d-4763-80f4-94da-c60ef39a1f14.json'),

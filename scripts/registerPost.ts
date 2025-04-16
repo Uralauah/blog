@@ -47,9 +47,13 @@ if (tags.includes('코딩테스트')) {
   category = 'codingtest';
 } else if (tags.includes('스프링부트')) {
   category = 'springboot';
+} else if (tags.includes('CS')){
+  category = 'cs';
+} else if (tags.includes('기타')){
+  category = 'others';
 }
 
-const allowedTags = ['백준', '프로그래머스', 'JAVA','C++'];
+const allowedTags = ['백준', '프로그래머스', 'JAVA','C++','컴퓨터비전'];
 const postTags = data.properties['태그'].multi_select
   .map((t: any) => t.name)
   .filter((name: string) => allowedTags.includes(name));
@@ -110,17 +114,14 @@ function generateSlug({
   const platformTags = ['백준', '프로그래머스', '스프링부트'];
   const languageTags = ['JAVA', 'C++', 'Python', 'JS'];
 
-  // 플랫폼 구분
   let platform = '';
   if (tags.includes('백준')) platform = 'baekjoon';
   else if (tags.includes('프로그래머스')) platform = 'programmers';
   else if (tags.includes('스프링부트')) platform = 'springboot';
 
-  // 문제 번호
   const numberMatch = title.match(/(\d+)번/);
   const problemNumber = numberMatch ? numberMatch[1] : null;
 
-  // 슬러그에 들어갈 태그 = 플랫폼 제외한 언어 태그만
   const postTags = tags
     .filter((tag) => languageTags.includes(tag))
     .map((tag) => tag.toLowerCase().replace(/\+\+/, 'pp')); // C++ → cpp
@@ -137,7 +138,8 @@ function generateSlug({
   } else if (platform === 'springboot') {
     slug = [platform, titlePart].filter(Boolean).join('-');
   } else {
-    slug = uuid;
+    // 🎯 조건에 해당되지 않는 경우 → 제목 기반으로 slug 생성
+    slug = toKebabCase(title);
   }
 
   return slug;

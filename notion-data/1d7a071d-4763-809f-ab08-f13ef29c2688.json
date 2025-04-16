@@ -1,0 +1,4865 @@
+{
+  "object": "page",
+  "id": "1d7a071d-4763-809f-ab08-f13ef29c2688",
+  "created_time": "2025-04-16T00:21:00.000Z",
+  "last_edited_time": "2025-04-16T01:08:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4fb00d83-b26e-494d-8a97-9f9ef14310c9",
+          "name": "CS",
+          "color": "blue"
+        },
+        {
+          "id": "c2604779-0cf0-434a-ac8f-b9b82c856fbb",
+          "name": "컴퓨터비전",
+          "color": "yellow"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-04-16",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "[컴퓨터비전] 2. 영상 처리",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "[컴퓨터비전] 2. 영상 처리",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/2-1d7a071d4763809fab08f13ef29c2688",
+  "public_url": null,
+  "request_id": "16e90258-56c2-4b85-827f-c58db6c90101",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80b4-80d1-ff63bf087ce7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. 디지털 영상이란?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. 디지털 영상이란?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80ad-a9b5-ca6993d75066",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1.1 디지털 영상의 태동",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1.1 디지털 영상의 태동",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80fb-965f-d1b779af771e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1920년대 Bartlane 케이블 사진 전송 시스템이 시초.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1920년대 Bartlane 케이블 사진 전송 시스템이 시초.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8066-8231-f3fd6a840349",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1950년대 영상 처리 기술은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1950년대 영상 처리 기술은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "문자인식(OCR)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문자인식(OCR)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 등 특화 분야에서 시작됨.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 등 특화 분야에서 시작됨.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80d6-a296-ec8b2468416c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "디지털 영상은 컴퓨터로 조작 가능한 형태로 변환된 영상 (2D 배열 형태, 픽셀 단위).",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "디지털 영상은 컴퓨터로 조작 가능한 형태로 변환된 영상 (2D 배열 형태, 픽셀 단위).",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8013-a252-e4df2a58d20d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1.2 획득과 표현",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1.2 획득과 표현",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80d0-a2f7-f0a7114241e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "디지털 영상 = 픽셀들의 이차원 배열",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "디지털 영상 = 픽셀들의 이차원 배열",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8020-9af8-e8a0248a5327",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "일반적으로 흑백 영상은 0~255 명암값 (8bit), 컬러 영상은 RGB 채널 각각 8bit.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "일반적으로 흑백 영상은 0~255 명암값 (8bit), 컬러 영상은 RGB 채널 각각 8bit.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8008-a101-c71257532043",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "픽셀 크기가 작아질수록 (해상도↑) 더 섬세한 표현 가능.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "픽셀 크기가 작아질수록 (해상도↑) 더 섬세한 표현 가능.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8004-9781-d5799f267e47",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "주로 사용하는 구조: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "주로 사용하는 구조: ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "uint8",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "uint8",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "float32",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "float32",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 등.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 등.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8062-a039-ff6bb5d925e6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "영상의 저장 포맷에는 JPEG, PNG, BMP 등이 있음.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "영상의 저장 포맷에는 JPEG, PNG, BMP 등이 있음.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80a5-9c36-cccd9c6026a1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8069-9b8e-cbb9d5212734",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. 히스토그램",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. 히스토그램",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8043-b918-f33a5c2cda97",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2.1 히스토그램 계산",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2.1 히스토그램 계산",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-806d-940d-d26b581e5956",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "각 명암값(0~255)의 픽셀 수를 카운트한 분포도.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "각 명암값(0~255)의 픽셀 수를 카운트한 분포도.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-801e-8162-d6ea7d738b14",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "히스토그램 h(r_k)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "히스토그램 h(r_k)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 밝기값 r_k의 픽셀 수.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 밝기값 r_k의 픽셀 수.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-801e-8169-df06821301b2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2.2 히스토그램 용도",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2.2 히스토그램 용도",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-801c-8085-e4a815a683b8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "명암 분포 파악",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "명암 분포 파악",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 어두운 영상 / 밝은 영상 판단.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 어두운 영상 / 밝은 영상 판단.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80e4-a044-d318a410f9c2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "히스토그램 평활화(Equalization)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "히스토그램 평활화(Equalization)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 전체 명암 범위를 고르게 분포시켜 대비 향상.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 전체 명암 범위를 고르게 분포시켜 대비 향상.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-8051-ae79-e520e4392976",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-80e4-a044-d318a410f9c2"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "누적분포함수(CDF) 이용.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "누적분포함수(CDF) 이용.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80a8-b717-e8f1513ce455",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "명암 변환 함수",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "명암 변환 함수",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 히스토그램을 이용한 비선형 명암 맵핑에 사용.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 히스토그램을 이용한 비선형 명암 맵핑에 사용.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-807f-84c0-d4b341fc4a6f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2.3 히스토그램 역투영과 얼굴 검출",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2.3 히스토그램 역투영과 얼굴 검출",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8064-8920-ca6b403a947f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "역투영(Backprojection)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "역투영(Backprojection)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 색상 히스토그램 기반 객체 검출.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 색상 히스토그램 기반 객체 검출.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-809e-a715-cc69dc33a2ba",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "HSV 컬러공간에서 H와 S 채널 히스토그램을 이용하여 특정 컬러 영역 검출.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "HSV 컬러공간에서 H와 S 채널 히스토그램을 이용하여 특정 컬러 영역 검출.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-808b-a686-e421cc157226",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "OpenCV 함수:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "OpenCV 함수:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-80e9-8b12-d1ad728798f1",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-808b-a686-e421cc157226"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "code",
+          "code": {
+            "caption": [],
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "calcBackProject();",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "calcBackProject();",
+                "href": null
+              }
+            ],
+            "language": "c++"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8098-b865-fe98884806dd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80d6-837a-dd9676bee322",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3. 이진 영상",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3. 이진 영상",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-801f-b0e6-ed12c9a4c50d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3.1 이진화와 오츄 알고리즘",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3.1 이진화와 오츄 알고리즘",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80b0-99e1-c8535953e8b2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "임계값 T를 기준으로 흑/백(0 또는 255)으로 변환:f′(x,y)={2550if f(x,y)≥Totherwise",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "임계값 T를 기준으로 흑/백(0 또는 255)으로 변환:f′(x,y)={2550if f(x,y)≥Totherwise",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-8045-aeed-e6faebf7643e",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-80b0-99e1-c8535953e8b2"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "f′(x,y)={255if f(x,y)≥T0otherwisef'(x, y) = \\begin{cases} 255 & \\text{if } f(x,y) \\ge T \\\\ 0 & \\text{otherwise} \\end{cases}",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "f′(x,y)={255if f(x,y)≥T0otherwisef'(x, y) = \\begin{cases} 255 & \\text{if } f(x,y) \\ge T \\\\ 0 & \\text{otherwise} \\end{cases}",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8004-81b3-cb54b002f290",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "오츄 알고리즘",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "오츄 알고리즘",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 클래스 간 분산(Between-Class Variance)을 최대화하는 T 선택.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 클래스 간 분산(Between-Class Variance)을 최대화하는 T 선택.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80dd-91a2-c2ab1b4238c0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3.2 연결 요소",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3.2 연결 요소",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8026-bc39-ef65704fe9f8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이진 영상에서 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이진 영상에서 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "서로 연결된 영역",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "서로 연결된 영역",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "을 구분.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "을 구분.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80c9-bd21-d2b9b5fc241b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "4-연결성 / 8-연결성 기준 사용.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "4-연결성 / 8-연결성 기준 사용.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80d7-bb9d-c36236ab61cd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "DFS, BFS 기반 레이블링 알고리즘으로 구현.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "DFS, BFS 기반 레이블링 알고리즘으로 구현.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-808b-8138-cfa95fa9057e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Connected Component Labeling (CCL) 사용 예:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Connected Component Labeling (CCL) 사용 예:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-80cf-bbe6-c15b06c31894",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-808b-8138-cfa95fa9057e"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:34:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "code",
+          "code": {
+            "caption": [],
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "connectedComponents();",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "connectedComponents();",
+                "href": null
+              }
+            ],
+            "language": "c++"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8035-8754-ea5dcef32fa3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-809a-9292-ed60c3fdc373",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "4. 영상 처리의 세 가지 기본 연산",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "4. 영상 처리의 세 가지 기본 연산",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80b4-be5d-dbc16256fc31",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "4.1 점 연산 (Point Operation)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "4.1 점 연산 (Point Operation)",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-800d-8195-ceecb627328e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "픽셀 값 하나만 보고 처리:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "픽셀 값 하나만 보고 처리:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-80b5-9291-e2625257beaa",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-800d-8195-ceecb627328e"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "반전: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "반전: ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "255 - f(x, y)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "255 - f(x, y)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-8025-ac8b-c6edbe15c718",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-800d-8195-ceecb627328e"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "명암 조절: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "명암 조절: ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "f'(x, y) = αf(x, y) + β",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "f'(x, y) = αf(x, y) + β",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-8026-930a-e8c9aeaf916d",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-800d-8195-ceecb627328e"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "감마 보정: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "감마 보정: ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "f'(x, y) = c * f(x, y)^γ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "f'(x, y) = c * f(x, y)^γ",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8097-ba98-fbde97cfefe0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "4.2 영역 연산 (Area Operation)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "4.2 영역 연산 (Area Operation)",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-803d-a184-d16edaac9258",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "주변 이웃 픽셀들을 참고하여 처리 (커널 기반 컨볼루션).",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "주변 이웃 픽셀들을 참고하여 처리 (커널 기반 컨볼루션).",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-802d-8a9d-f870cadeb318",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "선형 필터 예:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "선형 필터 예:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-8069-9110-e67d2cf2fce3",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-802d-8a9d-f870cadeb318"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "블러(평균 필터)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "블러(평균 필터)",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 저주파 필터, 노이즈 제거",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 저주파 필터, 노이즈 제거",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-80ab-a6b1-fd4c3936a976",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-802d-8a9d-f870cadeb318"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "샤프닝(라플라시안, 언샤프 마스크)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "샤프닝(라플라시안, 언샤프 마스크)",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 고주파 강조",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 고주파 강조",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-8012-aed6-d648ed20de4b",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-802d-8a9d-f870cadeb318"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "미디언 필터",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "미디언 필터",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 잡음 제거에 강함 (비선형 필터)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 잡음 제거에 강함 (비선형 필터)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8046-86f9-ff8438902d0e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "4.3 기하 연산 (Geometric Operation)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "4.3 기하 연산 (Geometric Operation)",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8098-93b7-e751579cb39a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "픽셀 좌표를 변경하는 연산 (공간 변환):",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "픽셀 좌표를 변경하는 연산 (공간 변환):",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-80cf-b10f-f637031fdc17",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-8098-93b7-e751579cb39a"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "이동",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "이동",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "x' = x + dx",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "x' = x + dx",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ", ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ", ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "y' = y + dy",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "y' = y + dy",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-80b3-a750-e488256e6822",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-8098-93b7-e751579cb39a"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "회전",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "회전",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "R(θ)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "R(θ)",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " 적용",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " 적용",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-8084-96b1-ff580e5c778b",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-8098-93b7-e751579cb39a"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "스케일링",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "스케일링",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "x' = sx * x",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "x' = sx * x",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ", ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ", ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "y' = sy * y",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "y' = sy * y",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8089-a864-f90784700bce",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "변환 행렬 사용 (Affine 또는 Homography):",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "변환 행렬 사용 (Affine 또는 Homography):",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-8024-83a0-fb52be4f0768",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-8089-a864-f90784700bce"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:34:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "code",
+          "code": {
+            "caption": [],
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "warpAffine(), warpPerspective()",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "warpAffine(), warpPerspective()",
+                "href": null
+              }
+            ],
+            "language": "c++"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8070-a1eb-cf93a52d26fd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8036-803e-ec76cc13d474",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "5. 다해상도",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "5. 다해상도",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-808b-b064-dae01f14b36d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "영상 피라미드(Image Pyramid)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "영상 피라미드(Image Pyramid)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ":",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ":",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-805d-8925-dff22b824e86",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-808b-b064-dae01f14b36d"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "영상의 해상도를 점진적으로 낮춰 계층 구조 생성.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "영상의 해상도를 점진적으로 낮춰 계층 구조 생성.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-8061-92f9-f096936b2913",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-808b-b064-dae01f14b36d"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Gaussian Pyramid: 블러링 + 다운샘플링",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Gaussian Pyramid: 블러링 + 다운샘플링",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-8071-8fd4-f7ab9adbfe71",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-808b-b064-dae01f14b36d"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Laplacian Pyramid: 가우시안 피라미드 간 차이",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Laplacian Pyramid: 가우시안 피라미드 간 차이",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80f8-a4c8-d4bbd2de94f5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "주요 활용:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "주요 활용:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-809b-9fe9-c962f62d8710",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-80f8-a4c8-d4bbd2de94f5"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "특징 검출(SIFT), 매칭, 물체 추적, 영상 압축 등",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "특징 검출(SIFT), 매칭, 물체 추적, 영상 압축 등",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-80f6-89b4-cc6a9fdc7e9b",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-80f8-a4c8-d4bbd2de94f5"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "다양한 스케일에 대응하기 위해 필수",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "다양한 스케일에 대응하기 위해 필수",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-801c-bee0-fbe974a2af13",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8000-ad89-de9d9c015b49",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "6. 모폴로지",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "6. 모폴로지",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80af-a2a2-d5ce8da0051f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "6.1 이진 모폴로지",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "6.1 이진 모폴로지",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-807f-88c3-e701e120db20",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "형태 기반 연산",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "형태 기반 연산",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 구조 요소(kernel)를 이용해 이진 영상에서 형태 변경",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 구조 요소(kernel)를 이용해 이진 영상에서 형태 변경",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8047-932e-c01c80724250",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "연산 종류:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "연산 종류:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-80f3-a5dc-c6f1d2e2845c",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-8047-932e-c01c80724250"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "침식(Erosion): 객체 축소 (작은 객체 제거)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "침식(Erosion): 객체 축소 (작은 객체 제거)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-8056-b0bc-ee8ca6f4b09b",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-8047-932e-c01c80724250"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "팽창(Dilation): 객체 확장 (빈 공간 연결)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "팽창(Dilation): 객체 확장 (빈 공간 연결)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-8060-944d-f859687250fa",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-8047-932e-c01c80724250"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "열림(Opening): 침식 후 팽창 (노이즈 제거)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "열림(Opening): 침식 후 팽창 (노이즈 제거)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-80b5-8880-f7507b62fc65",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-8047-932e-c01c80724250"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "닫힘(Closing): 팽창 후 침식 (구멍 메우기)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "닫힘(Closing): 팽창 후 침식 (구멍 메우기)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8032-81ee-c5593d7e5868",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "구현 예:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "구현 예:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-806f-bb42-d61529c19e77",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-8032-81ee-c5593d7e5868"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:34:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "code",
+          "code": {
+            "caption": [],
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "morphologyEx(img, MORPH_OPEN, kernel);",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "morphologyEx(img, MORPH_OPEN, kernel);",
+                "href": null
+              }
+            ],
+            "language": "c++"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8040-94a2-c5cafd3ce18d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "6.2 명암 모폴로지",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "6.2 명암 모폴로지",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-807a-84a4-f4661cdeeabc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이진 영상이 아닌 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이진 영상이 아닌 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "그레이스케일 영상",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그레이스케일 영상",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "에 적용.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "에 적용.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-808f-bf83-f7aa04bf3238",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최대/최소 연산으로 밝기값 조절:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최대/최소 연산으로 밝기값 조절:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-805d-994f-d43e4723df05",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-808f-bf83-f7aa04bf3238"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "밝기 팽창: 주변 픽셀 중 최대값",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "밝기 팽창: 주변 픽셀 중 최대값",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-8064-8bb8-f6a3e1b2daef",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-808f-bf83-f7aa04bf3238"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "밝기 침식: 주변 픽셀 중 최소값",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "밝기 침식: 주변 픽셀 중 최소값",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8067-a670-d5c232793b84",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "명암 열림/닫힘 연산을 통해 밝기 기반 노이즈 제거",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "명암 열림/닫힘 연산을 통해 밝기 기반 노이즈 제거",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-809e-b133-f127551802dd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-800c-b987-c01f6b04388d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "7. 컬러",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "7. 컬러",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8006-afed-c14abe60367c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "RGB",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "RGB",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "는 일반적인 디지털 영상 저장 방식.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "는 일반적인 디지털 영상 저장 방식.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8026-8c4f-d648c1fa9d82",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "HSI/HSV",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "HSI/HSV",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "는 사람의 시각 특성에 더 적합.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "는 사람의 시각 특성에 더 적합.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-8007-aa3d-d9f903e4fa1e",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-8026-8c4f-d648c1fa9d82"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "H: 색상(Hue), S: 채도(Saturation), I: 밝기(Intensity)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "H: 색상(Hue), S: 채도(Saturation), I: 밝기(Intensity)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-8001-aa1c-fee376630922",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-8026-8c4f-d648c1fa9d82"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:33:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "H만 사용하면 조명 변화에 강인한 색상 인식 가능",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "H만 사용하면 조명 변화에 강인한 색상 인식 가능",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-8065-ba18-f3bd6fc1b51a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "컬러 공간 변환:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "컬러 공간 변환:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d7a071d-4763-80e9-a967-ebef19b6a822",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-8065-ba18-f3bd6fc1b51a"
+          },
+          "created_time": "2025-04-16T00:33:00.000Z",
+          "last_edited_time": "2025-04-16T00:34:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "code",
+          "code": {
+            "caption": [],
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "cvtColor(img, img_hsv, COLOR_BGR2HSV);",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "cvtColor(img, img_hsv, COLOR_BGR2HSV);",
+                "href": null
+              }
+            ],
+            "language": "c++"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80de-99d1-f4aaab541598",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:33:00.000Z",
+      "last_edited_time": "2025-04-16T00:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "컬러 히스토그램",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "컬러 히스토그램",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "을 활용한 얼굴 검출, 물체 추적에 자주 사용됨.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "을 활용한 얼굴 검출, 물체 추적에 자주 사용됨.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80dc-997a-f308332aeab4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-809f-ab08-f13ef29c2688"
+      },
+      "created_time": "2025-04-16T00:34:00.000Z",
+      "last_edited_time": "2025-04-16T00:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}
