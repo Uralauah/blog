@@ -10,6 +10,8 @@ export function RecentPosts() {
   const categoryMap: Record<string, string> = {
     codingtest: '코딩테스트',
     springboot: '스프링부트',
+    cs: 'CS',
+    others: '기타'
   }
 
   const topFive = sortedPosts.slice(0, 5)
