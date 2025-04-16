@@ -1,8 +1,22 @@
-// app/blog/category/[cat]/page.tsx
+'use client'
+
+import { useSearchParams } from 'next/navigation'
 import posts from 'content/posts'
 import Link from 'next/link'
 
 export const runtime = 'edge'
+
+const slugMap: Record<string, string> = {
+  '컴퓨터비전': 'computer-vision',
+  '백준': 'baekjoon',
+  '프로그래머스': 'programmers',
+  '회고': 'diary',
+  '잡생각': 'random',
+}
+
+const tagMap: Record<string, string> = Object.fromEntries(
+  Object.entries(slugMap).map(([k, v]) => [v, k])
+)
 
 const categoryMap: Record<string, string> = {
   all: '전체글',
@@ -14,14 +28,23 @@ const categoryMap: Record<string, string> = {
 
 export default function CategoryPage({ params }: { params: { cat: string } }) {
   const { cat } = params
+  const searchParams = useSearchParams()
+  const tagSlug = searchParams.get('tag')
 
-  const filtered = posts.filter(post => post.category === cat)
-  filtered.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-  const catName = categoryMap[cat] ?? cat
+  const tagName = tagSlug ? tagMap[tagSlug] ?? tagSlug : null
+  const categoryName = categoryMap[cat] ?? cat
+
+  const filtered = posts.filter(post => {
+    const categoryMatch = post.category === cat
+    const tagMatch = tagName ? post.tags?.includes(tagName) : true
+    return categoryMatch && tagMatch
+  })
 
   return (
     <section>
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">{catName}</h1>
+      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">
+        {categoryName}{tagName ? ` - ${tagName}` : ''}
+      </h1>
       {filtered.length === 0 ? (
         <p className="text-sm text-neutral-500">게시글이 없습니다.</p>
       ) : (
@@ -30,7 +53,7 @@ export default function CategoryPage({ params }: { params: { cat: string } }) {
             <div className="mb-4">
               <div className="text-xs text-gray-500 flex items-center gap-2">
                 <span>{post.date}</span>
-                <span>· {catName}</span>
+                <span>· {categoryMap[post.category] ?? post.category}</span>
               </div>
               <p className="text-lg font-semibold mt-1">{post.title}</p>
               {post.tags && post.tags.length > 0 && (

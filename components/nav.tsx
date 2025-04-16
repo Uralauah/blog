@@ -11,30 +11,28 @@ type NavItem = {
   }
 }
 
-
-
 const navItems: Record<string, NavItem> = {
   '/': { name: '홈' },
   '/blog': { name: '전체글' },
-  '/blog/category/codingtest': { 
-    name: '코딩테스트' ,
+  '/blog/category/codingtest': {
+    name: '코딩테스트',
     children: {
-      '/blog/tag/baekjoon' : {name:'백준'},
-      '/blog/tag/programmers' : {name:'프로그래머스'}
-    }
+      '/blog/category/codingtest?tag=baekjoon': { name: '백준' },
+      '/blog/category/codingtest?tag=programmers': { name: '프로그래머스' },
+    },
   },
   '/blog/category/springboot': { name: '스프링부트' },
   '/blog/category/cs': {
     name: 'CS',
     children: {
-      '/blog/tag/computer-vision': { name: '컴퓨터비전' },
+      '/blog/category/cs?tag=computer-vision': { name: '컴퓨터비전' },
     },
   },
   '/blog/category/others': {
     name: '기타',
     children: {
-      '/blog/tag/diary': { name: '회고' },
-      '/blog/tag/random': { name: '잡생각' },
+      '/blog/category/others?tag=diary': { name: '회고' },
+      '/blog/category/others?tag=random': { name: '잡생각' },
     },
   },
   'https://github.com/Uralauah': { name: 'GitHub' },
