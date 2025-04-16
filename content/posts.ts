@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "[컴퓨터비전] 2. 영상 처리",
+    slug: "컴퓨터비전-2-영상-처리",
+    content: require('../notion-data/1d7a071d-4763-809f-ab08-f13ef29c2688.json'),
+    date: "2025-04-16",
+    description: "[컴퓨터비전] 2. 영상 처리",
+    image: undefined,
+    category: "cs",
+    tags: ["컴퓨터비전"]
+  },
+  {
     title: "[컴퓨터비전] 6. 특징 기술",
     slug: "컴퓨터비전-6-특징-기술",
     content: require('../notion-data/1d7a071d-4763-80fb-b894-d37098d1f75d.json'),
@@ -36,16 +46,6 @@ const posts = [
     content: require('../notion-data/1d7a071d-4763-80d2-a399-fc5a61033670.json'),
     date: "2025-04-17",
     description: "[컴퓨터비전] 3. 에지 검출",
-    image: undefined,
-    category: "cs",
-    tags: ["컴퓨터비전"]
-  },
-  {
-    title: "[컴퓨터비전] 2. 영상 처리",
-    slug: "컴퓨터비전-2-영상-처리",
-    content: require('../notion-data/1d7a071d-4763-809f-ab08-f13ef29c2688.json'),
-    date: "2025-04-16",
-    description: "[컴퓨터비전] 2. 영상 처리",
     image: undefined,
     category: "cs",
     tags: ["컴퓨터비전"]
