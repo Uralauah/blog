@@ -68,12 +68,15 @@ const postsFile = path.resolve(__dirname, '../content/posts.ts');
 const postsContent = fs.readFileSync(postsFile, 'utf-8');
 
 // 기존 항목 제거 (slug로 기존 글 찾아서 제거)
-const postRegex = new RegExp(`\\{[^}]*slug:\\s*${JSON.stringify(slug)}[^}]*\\},?`, 'gs');
+const escapedSlug = slug.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&'); // 안전하게 escape 처리
+const postRegex = new RegExp(
+  `\\s*\\{[^}]*?slug:\\s*"${escapedSlug}"[^}]*?\\},?\\s*`,
+  'gs'
+);
 const cleanedContent = postsContent.replace(postRegex, '');
 
-
 // 새 게시글 항목 추가 (맨 앞에 넣는 방식)
-const insertIndex = postsContent.indexOf('const posts = [') + 'const posts = ['.length;
+const insertIndex = cleanedContent.indexOf('const posts = [') + 'const posts = ['.length;
 const newPost = `
   {
     title: ${JSON.stringify(title)},
@@ -87,10 +90,10 @@ const newPost = `
   },`;
 
 const updatedContent =
-  postsContent.slice(0, insertIndex) + newPost + postsContent.slice(insertIndex);
+  cleanedContent.slice(0, insertIndex) + newPost + cleanedContent.slice(insertIndex);
 
 fs.writeFileSync(postsFile, updatedContent);
-console.log(`🚀 게시글 등록 완료: ${title}`);
+console.log(`🚀 게시글 등록 완료 (덮어쓰기 적용): ${title}`);
 
 
 function toKebabCase(str: string): string {
