@@ -67,11 +67,10 @@ const slug = generateSlug({
 const postsFile = path.resolve(__dirname, '../content/posts.ts');
 const postsContent = fs.readFileSync(postsFile, 'utf-8');
 
-// 이미 등록된 슬러그인지 확인
-if (postsContent.includes(`"${slug}"`)) {
-  console.log(`⚠️ 이미 등록된 게시글입니다: ${slug}`);
-  process.exit(0);
-}
+// 기존 항목 제거 (slug로 기존 글 찾아서 제거)
+const postRegex = new RegExp(`\\{[^}]*slug:\\s*${JSON.stringify(slug)}[^}]*\\},?`, 'gs');
+const cleanedContent = postsContent.replace(postRegex, '');
+
 
 // 새 게시글 항목 추가 (맨 앞에 넣는 방식)
 const insertIndex = postsContent.indexOf('const posts = [') + 'const posts = ['.length;

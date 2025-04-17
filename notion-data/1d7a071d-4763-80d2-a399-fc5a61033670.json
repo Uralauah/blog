@@ -2,7 +2,7 @@
   "object": "page",
   "id": "1d7a071d-4763-80d2-a399-fc5a61033670",
   "created_time": "2025-04-16T01:16:00.000Z",
-  "last_edited_time": "2025-04-16T01:20:00.000Z",
+  "last_edited_time": "2025-04-17T01:39:00.000Z",
   "created_by": {
     "object": "user",
     "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -71,7 +71,7 @@
   },
   "url": "https://www.notion.so/3-1d7a071d476380d2a399fc5a61033670",
   "public_url": null,
-  "request_id": "94d45e15-f3a1-4a76-a5ae-dd059d603017",
+  "request_id": "ba6b10aa-4f3d-480e-b4f3-7678fd174e3e",
   "blocks": [
     {
       "object": "block",
@@ -81,7 +81,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -127,7 +127,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -173,7 +173,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -191,7 +191,7 @@
           {
             "type": "text",
             "text": {
-              "content": "에지(edge): 영상 내에서 ",
+              "content": "에지: 영상 내에서 ",
               "link": null
             },
             "annotations": {
@@ -202,7 +202,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "에지(edge): 영상 내에서 ",
+            "plain_text": "에지: 영상 내에서 ",
             "href": null
           },
           {
@@ -252,7 +252,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -297,7 +297,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -343,7 +343,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -388,7 +388,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:18:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -433,7 +433,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:18:00.000Z",
-      "last_edited_time": "2025-04-16T01:18:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -459,7 +459,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:18:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -504,7 +504,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:18:00.000Z",
-      "last_edited_time": "2025-04-16T01:18:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -530,7 +530,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -609,7 +609,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -633,7 +633,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -679,7 +679,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -725,7 +725,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -787,7 +787,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -833,7 +833,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -878,7 +878,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -923,7 +923,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -985,7 +985,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1031,7 +1031,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:18:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1076,7 +1076,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:18:00.000Z",
-      "last_edited_time": "2025-04-16T01:19:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1102,7 +1102,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1147,7 +1147,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1193,7 +1193,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1238,7 +1238,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1262,7 +1262,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1302,13 +1302,194 @@
     },
     {
       "object": "block",
+      "id": "1d7a071d-4763-8068-a555-fc5b44694eee",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-16T05:31:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "좋은 에지 알고리즘이 갖추어야 할 세 가지 기준",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "좋은 에지 알고리즘이 갖추어야 할 세 가지 기준",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80ff-b16d-eb6bcaea6ca7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-16T05:31:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최소 오류율",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최소 오류율",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-800f-b701-c9a56b427c13",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-16T05:31:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "위치 정확도",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "위치 정확도",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d7a071d-4763-80e9-b49b-c269c8d42938",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-16T05:31:00.000Z",
+      "last_edited_time": "2025-04-16T05:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "에지 두께",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "에지 두께",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
       "id": "1d7a071d-4763-800c-985e-da2ee40a0677",
       "parent": {
         "type": "page_id",
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1354,7 +1535,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1399,7 +1580,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1461,7 +1642,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1507,7 +1688,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:34:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1525,7 +1706,7 @@
           {
             "type": "text",
             "text": {
-              "content": "가우시안 필터로 ",
+              "content": "가우시안 스무딩으로 ",
               "link": null
             },
             "annotations": {
@@ -1536,7 +1717,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "가우시안 필터로 ",
+            "plain_text": "가우시안 스무딩으로 ",
             "href": null
           },
           {
@@ -1569,69 +1750,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "numbered_list_item",
-      "numbered_list_item": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "소벨(Sobel) 마스크로 ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "소벨(Sobel) 마스크로 ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "그레이디언트 벡터 계산",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "그레이디언트 벡터 계산",
-            "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "1d7a071d-4763-8005-a75a-feda46f58d1e",
-      "parent": {
-        "type": "page_id",
-        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
-      },
-      "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:19:00.000Z",
+      "last_edited_time": "2025-04-16T05:34:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1649,7 +1768,7 @@
           {
             "type": "text",
             "text": {
-              "content": "에지 강도(Magnitude), 방향(Direction) 계산:",
+              "content": "소벨 연산자 적용으로 에지 강도와 에지 방향 맵",
               "link": null
             },
             "annotations": {
@@ -1660,7 +1779,24 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "에지 강도(Magnitude), 방향(Direction) 계산:",
+            "plain_text": "소벨 연산자 적용으로 에지 강도와 에지 방향 맵",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 계산",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 계산",
             "href": null
           }
         ],
@@ -1669,13 +1805,58 @@
       "blocks": [
         {
           "object": "block",
+          "id": "1d7a071d-4763-8005-a75a-feda46f58d1e",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d7a071d-4763-805a-a094-e08baf85fd1f"
+          },
+          "created_time": "2025-04-16T01:17:00.000Z",
+          "last_edited_time": "2025-04-16T05:35:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "에지 강도(Magnitude), 방향(Direction) 계산:",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "에지 강도(Magnitude), 방향(Direction) 계산:",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
           "id": "1d7a071d-4763-80c8-943c-f2ca1f72e0c0",
           "parent": {
             "type": "block_id",
-            "block_id": "1d7a071d-4763-8005-a75a-feda46f58d1e"
+            "block_id": "1d7a071d-4763-805a-a094-e08baf85fd1f"
           },
           "created_time": "2025-04-16T01:19:00.000Z",
-          "last_edited_time": "2025-04-16T01:19:00.000Z",
+          "last_edited_time": "2025-04-16T05:34:00.000Z",
           "created_by": {
             "object": "user",
             "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1703,7 +1884,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:34:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1721,24 +1902,7 @@
           {
             "type": "text",
             "text": {
-              "content": "Non-maximum suppression",
-              "link": null
-            },
-            "annotations": {
-              "bold": true,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "Non-maximum suppression",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "으로 극댓값만 남김",
+              "content": "비최대 억제로 지역 최대점만 남김 → 얇은 두께의 에지 영상 생성",
               "link": null
             },
             "annotations": {
@@ -1749,7 +1913,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "으로 극댓값만 남김",
+            "plain_text": "비최대 억제로 지역 최대점만 남김 → 얇은 두께의 에지 영상 생성",
             "href": null
           }
         ],
@@ -1765,7 +1929,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1826,7 +1990,7 @@
             "block_id": "1d7a071d-4763-80c2-b772-ef160bb2f9ea"
           },
           "created_time": "2025-04-16T01:17:00.000Z",
-          "last_edited_time": "2025-04-16T01:17:00.000Z",
+          "last_edited_time": "2025-04-16T05:33:00.000Z",
           "created_by": {
             "object": "user",
             "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1842,9 +2006,25 @@
           "bulleted_list_item": {
             "rich_text": [
               {
+                "type": "equation",
+                "equation": {
+                  "expression": "T_{high}"
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "T_{high}",
+                "href": null
+              },
+              {
                 "type": "text",
                 "text": {
-                  "content": "T_high 이상: 강한 에지",
+                  "content": " 이상: 강한 에지",
                   "link": null
                 },
                 "annotations": {
@@ -1855,7 +2035,7 @@
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "T_high 이상: 강한 에지",
+                "plain_text": " 이상: 강한 에지",
                 "href": null
               }
             ],
@@ -1871,7 +2051,7 @@
             "block_id": "1d7a071d-4763-80c2-b772-ef160bb2f9ea"
           },
           "created_time": "2025-04-16T01:17:00.000Z",
-          "last_edited_time": "2025-04-16T01:17:00.000Z",
+          "last_edited_time": "2025-04-16T05:33:00.000Z",
           "created_by": {
             "object": "user",
             "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1887,9 +2067,25 @@
           "bulleted_list_item": {
             "rich_text": [
               {
+                "type": "equation",
+                "equation": {
+                  "expression": "T_{low}"
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "T_{low}",
+                "href": null
+              },
+              {
                 "type": "text",
                 "text": {
-                  "content": "T_low 이상: 약한 에지",
+                  "content": " 이상: 약한 에지",
                   "link": null
                 },
                 "annotations": {
@@ -1900,7 +2096,7 @@
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "T_low 이상: 약한 에지",
+                "plain_text": " 이상: 약한 에지",
                 "href": null
               }
             ],
@@ -1916,7 +2112,7 @@
             "block_id": "1d7a071d-4763-80c2-b772-ef160bb2f9ea"
           },
           "created_time": "2025-04-16T01:17:00.000Z",
-          "last_edited_time": "2025-04-16T01:17:00.000Z",
+          "last_edited_time": "2025-04-16T05:31:00.000Z",
           "created_by": {
             "object": "user",
             "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -1963,7 +2159,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2009,7 +2205,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2054,7 +2250,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2099,7 +2295,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2123,7 +2319,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2169,7 +2365,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2215,7 +2411,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2259,7 +2455,7 @@
             "block_id": "1d7a071d-4763-8072-b5ea-fb6e4784530e"
           },
           "created_time": "2025-04-16T01:17:00.000Z",
-          "last_edited_time": "2025-04-16T01:17:00.000Z",
+          "last_edited_time": "2025-04-16T05:37:00.000Z",
           "created_by": {
             "object": "user",
             "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2277,7 +2473,7 @@
               {
                 "type": "text",
                 "text": {
-                  "content": "RGB → Grayscale 변환 후 기존 에지 검출기 적용 (간단하지만 정보 손실 가능)",
+                  "content": "컬러 → 명암 변환 후 기존 에지 검출기 적용 (간단하지만 정보 손실 가능)",
                   "link": null
                 },
                 "annotations": {
@@ -2288,7 +2484,7 @@
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "RGB → Grayscale 변환 후 기존 에지 검출기 적용 (간단하지만 정보 손실 가능)",
+                "plain_text": "컬러 → 명암 변환 후 기존 에지 검출기 적용 (간단하지만 정보 손실 가능)",
                 "href": null
               }
             ],
@@ -2306,7 +2502,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2350,7 +2546,7 @@
             "block_id": "1d7a071d-4763-8095-801d-cd35839013f7"
           },
           "created_time": "2025-04-16T01:17:00.000Z",
-          "last_edited_time": "2025-04-16T01:17:00.000Z",
+          "last_edited_time": "2025-04-16T05:37:00.000Z",
           "created_by": {
             "object": "user",
             "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2368,7 +2564,7 @@
               {
                 "type": "text",
                 "text": {
-                  "content": "RGB 채널별로 그레이디언트 계산 후 통합",
+                  "content": "RGB 채널별로 그레이디언트 계산 후 OR연산자를 통해 통합",
                   "link": null
                 },
                 "annotations": {
@@ -2379,7 +2575,7 @@
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "RGB 채널별로 그레이디언트 계산 후 통합",
+                "plain_text": "RGB 채널별로 그레이디언트 계산 후 OR연산자를 통해 통합",
                 "href": null
               }
             ],
@@ -2395,7 +2591,7 @@
             "block_id": "1d7a071d-4763-8095-801d-cd35839013f7"
           },
           "created_time": "2025-04-16T01:17:00.000Z",
-          "last_edited_time": "2025-04-16T01:17:00.000Z",
+          "last_edited_time": "2025-04-16T05:31:00.000Z",
           "created_by": {
             "object": "user",
             "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2436,176 +2632,13 @@
     },
     {
       "object": "block",
-      "id": "1d7a071d-4763-8068-9022-c822c0ac3a96",
-      "parent": {
-        "type": "page_id",
-        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
-      },
-      "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "heading_3",
-      "heading_3": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "벡터 그레이디언트 방식",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "벡터 그레이디언트 방식",
-            "href": null
-          }
-        ],
-        "is_toggleable": false,
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "1d7a071d-4763-8034-8a2a-d29e15ba8de5",
-      "parent": {
-        "type": "page_id",
-        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
-      },
-      "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:20:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": true,
-      "archived": false,
-      "in_trash": false,
-      "type": "bulleted_list_item",
-      "bulleted_list_item": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "각 채널의 그레이디언트를 벡터로 묶어 처리:V=[∇R,∇G,∇B]",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "각 채널의 그레이디언트를 벡터로 묶어 처리:V=[∇R,∇G,∇B]",
-            "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": [
-        {
-          "object": "block",
-          "id": "1d7a071d-4763-8032-b015-c085be9bd608",
-          "parent": {
-            "type": "block_id",
-            "block_id": "1d7a071d-4763-8034-8a2a-d29e15ba8de5"
-          },
-          "created_time": "2025-04-16T01:20:00.000Z",
-          "last_edited_time": "2025-04-16T01:20:00.000Z",
-          "created_by": {
-            "object": "user",
-            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-          },
-          "last_edited_by": {
-            "object": "user",
-            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-          },
-          "has_children": false,
-          "archived": false,
-          "in_trash": false,
-          "type": "equation",
-          "equation": {
-            "expression": "\\vec{V} = \\left[ \\nabla R, \\nabla G, \\nabla B \\right]"
-          },
-          "blocks": []
-        }
-      ]
-    },
-    {
-      "object": "block",
-      "id": "1d7a071d-4763-8021-a200-ee46301528ca",
-      "parent": {
-        "type": "page_id",
-        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
-      },
-      "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "bulleted_list_item",
-      "bulleted_list_item": {
-        "rich_text": [
-          {
-            "type": "text",
-            "text": {
-              "content": "색 대비(색상 차이)에 민감한 에지 검출 가능",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": "색 대비(색상 차이)에 민감한 에지 검출 가능",
-            "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
       "id": "1d7a071d-4763-80a1-a6a4-ff07ac11f189",
       "parent": {
         "type": "page_id",
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2629,7 +2662,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2675,7 +2708,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2721,7 +2754,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2800,7 +2833,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2845,7 +2878,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2891,7 +2924,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2953,7 +2986,7 @@
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
       "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "last_edited_time": "2025-04-16T05:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -2992,13 +3025,83 @@
     },
     {
       "object": "block",
-      "id": "1d7a071d-4763-80e0-90f5-f645a99fa1c7",
+      "id": "1d8a071d-4763-8057-8e56-f019c13c2262",
       "parent": {
         "type": "page_id",
         "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
       },
-      "created_time": "2025-04-16T01:17:00.000Z",
-      "last_edited_time": "2025-04-16T01:17:00.000Z",
+      "created_time": "2025-04-17T01:39:00.000Z",
+      "last_edited_time": "2025-04-17T01:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-806f-83ab-dcebd9a7d56f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "허프 변환",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "허프 변환",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-80dd-aff9-fce4f73dce9f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:32:00.000Z",
       "created_by": {
         "object": "user",
         "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -3016,7 +3119,7 @@
           {
             "type": "text",
             "text": {
-              "content": "OpenCV의 ",
+              "content": "허프 변환은 전체 에지 공간을 전역적으로 탐색하여 직선을 찾는 기법이다.",
               "link": null
             },
             "annotations": {
@@ -3027,64 +3130,41 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "OpenCV의 ",
+            "plain_text": "허프 변환은 전체 에지 공간을 전역적으로 탐색하여 직선을 찾는 기법이다.",
             "href": null
-          },
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-80c4-9b86-ecdb18ad2695",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
           {
             "type": "text",
             "text": {
-              "content": "HoughLines()",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "HoughLines()",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": ", ",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": false,
-              "color": "default"
-            },
-            "plain_text": ", ",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": "HoughLinesP()",
-              "link": null
-            },
-            "annotations": {
-              "bold": false,
-              "italic": false,
-              "strikethrough": false,
-              "underline": false,
-              "code": true,
-              "color": "default"
-            },
-            "plain_text": "HoughLinesP()",
-            "href": null
-          },
-          {
-            "type": "text",
-            "text": {
-              "content": " 함수 등과 연계 가능",
+              "content": "에지가 불완전하거나 잡음이 많은 경우에도 선의 방향성과 교차를 기반으로 직선을 추정할 수 있다.",
               "link": null
             },
             "annotations": {
@@ -3095,7 +3175,1306 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": " 함수 등과 연계 가능",
+            "plain_text": "에지가 불완전하거나 잡음이 많은 경우에도 선의 방향성과 교차를 기반으로 직선을 추정할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-80b8-a777-f4c63ba0bb57",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "기본 아이디어",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기본 아이디어",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-80fb-9aa3-e334d523a4a6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이미지의 각 점 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이미지의 각 점 ",
+            "href": null
+          },
+          {
+            "type": "equation",
+            "equation": {
+              "expression": "(x, y)"
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "(x, y)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "를 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "를 ",
+            "href": null
+          },
+          {
+            "type": "equation",
+            "equation": {
+              "expression": "(\\rho, \\theta)"
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "(\\rho, \\theta)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 공간으로 변환하고, 같은 직선 위에 있는 점들은 동일한 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 공간으로 변환하고, 같은 직선 위에 있는 점들은 동일한 ",
+            "href": null
+          },
+          {
+            "type": "equation",
+            "equation": {
+              "expression": "(\\rho, \\theta)"
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "(\\rho, \\theta)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 값을 갖는다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 값을 갖는다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-8074-8a1e-c95c6b1b9482",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "equation",
+            "equation": {
+              "expression": "\\rho = x \\cos \\theta + y \\sin \\theta"
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "\\rho = x \\cos \\theta + y \\sin \\theta",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 식을 사용하여 누적 행렬 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 식을 사용하여 누적 행렬 ",
+            "href": null
+          },
+          {
+            "type": "equation",
+            "equation": {
+              "expression": "A(\\rho, \\theta)"
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A(\\rho, \\theta)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 에 카운트를 증가시킨다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 에 카운트를 증가시킨다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-80b1-8046-c7089d022ce7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "equation",
+            "equation": {
+              "expression": "A"
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "에서 높은 값을 가지는 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "에서 높은 값을 가지는 ",
+            "href": null
+          },
+          {
+            "type": "equation",
+            "equation": {
+              "expression": "(\\rho, \\theta)"
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "(\\rho, \\theta)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 쌍이 직선을 의미한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 쌍이 직선을 의미한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-8060-b471-ef862759ef43",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "장단점",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "장단점",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-80b8-a6a2-ef0dab293b4a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "장점",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "장점",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 전체적으로 선을 탐색하므로 잡음에 강하고 연결되지 않은 선분도 잘 찾는다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 전체적으로 선을 탐색하므로 잡음에 강하고 연결되지 않은 선분도 잘 찾는다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-806b-9d95-f7780c2d64a5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "단점",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "단점",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 누적 배열 해상도에 따라 검출 정밀도가 좌우되며 계산량이 많고 메모리 소모가 큼",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 누적 배열 해상도에 따라 검출 정밀도가 좌우되며 계산량이 많고 메모리 소모가 큼",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-80b4-8759-f8554333f893",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-80c2-879b-c7a5939701bf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "RANSAC ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "RANSAC ",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-809d-a820-e7cbb9448b3a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "허프 변환과 달리 RANSAC은 확률적 방식으로 일부 표본을 선택하여 모델을 반복적으로 추정한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "허프 변환과 달리 RANSAC은 확률적 방식으로 일부 표본을 선택하여 모델을 반복적으로 추정한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-80a3-bae8-dc93c7d6d5de",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "전체 데이터를 사용하지 않고 일부 데이터만을 사용하므로 계산이 효율적이며, 노이즈에 강하다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "전체 데이터를 사용하지 않고 일부 데이터만을 사용하므로 계산이 효율적이며, 노이즈에 강하다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-80ce-9c8c-e0d29cd3c076",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "기본 과정",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기본 과정",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-809d-a307-d0889beacb74",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "임의의 두 점을 선택하여 직선 모델을 추정",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "임의의 두 점을 선택하여 직선 모델을 추정",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-80ef-9956-c53dd3226b5f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "추정된 직선에 가까운 점들을 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "추정된 직선에 가까운 점들을 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "inlier",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "inlier",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "로 판단",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로 판단",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-8030-8ac5-cff1ba6743d2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "inlier가 충분히 많으면 모델을 유지, 아니면 버리고 반복",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "inlier가 충분히 많으면 모델을 유지, 아니면 버리고 반복",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-8046-b237-cb422f027a33",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "여러 번 반복 후 가장 inlier 수가 많거나 적합도가 높은 모델 선택",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "여러 번 반복 후 가장 inlier 수가 많거나 적합도가 높은 모델 선택",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-801e-8b3a-e09132905084",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "특징",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "특징",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-8054-8596-d21773f7c04b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "비결정성",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "비결정성",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 실행마다 결과가 달라질 수 있음",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 실행마다 결과가 달라질 수 있음",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-8054-8442-cdd2541931f0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "유연성",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "유연성",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 직선뿐 아니라 원, 곡선 등 다양한 형태 검출 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 직선뿐 아니라 원, 곡선 등 다양한 형태 검출 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d8a071d-4763-8095-8dde-de3b5988125e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d7a071d-4763-80d2-a399-fc5a61033670"
+      },
+      "created_time": "2025-04-17T01:32:00.000Z",
+      "last_edited_time": "2025-04-17T01:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "파라미터 설정",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "파라미터 설정",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 반복 횟수 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 반복 횟수 ",
+            "href": null
+          },
+          {
+            "type": "equation",
+            "equation": {
+              "expression": "n"
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "n",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", 임계 거리 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", 임계 거리 ",
+            "href": null
+          },
+          {
+            "type": "equation",
+            "equation": {
+              "expression": "e"
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "e",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", inlier 최소 수 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", inlier 최소 수 ",
+            "href": null
+          },
+          {
+            "type": "equation",
+            "equation": {
+              "expression": "d"
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "d",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 등 조정 필요",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 등 조정 필요",
             "href": null
           }
         ],
