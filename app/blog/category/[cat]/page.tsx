@@ -39,6 +39,7 @@ export default function CategoryPage({ params }: { params: { cat: string } }) {
     const tagMatch = tagName ? post.tags?.includes(tagName) : true
     return categoryMatch && tagMatch
   })
+  .sort((a, b) => b.date.localeCompare(a.date))
 
   return (
     <section>
