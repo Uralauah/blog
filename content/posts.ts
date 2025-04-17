@@ -1,6 +1,15 @@
 
 const posts = [
   {
+    title: "[컴퓨터비전] 4. 지역 특징 검출",
+    slug: "컴퓨터비전-4-지역-특징-검출",
+    content: require('../notion-data/1d7a071d-4763-80eb-acf5-d6538b8d9ecb.json'),
+    date: "2025-04-17",
+    description: "[컴퓨터비전] 4. 지역 특징 검출",
+    image: undefined,
+    category: "cs",
+    tags: ["컴퓨터비전"]
+  },{
     title: "[컴퓨터비전] 3. 에지 검출",
     slug: "컴퓨터비전-3-에지-검출",
     content: require('../notion-data/1d7a071d-4763-80d2-a399-fc5a61033670.json'),
@@ -38,18 +47,7 @@ const posts = [
     image: undefined,
     category: "cs",
     tags: ["컴퓨터비전"]
-  },
-  {
-    title: "[컴퓨터비전] 4. 지역 특징 검출",
-    slug: "컴퓨터비전-4-지역-특징-검출",
-    content: require('../notion-data/1d7a071d-4763-80eb-acf5-d6538b8d9ecb.json'),
-    date: "2025-04-17",
-    description: "[컴퓨터비전] 4. 지역 특징 검출",
-    image: undefined,
-    category: "cs",
-    tags: ["컴퓨터비전"]
-  },
-  {
+  },{
     title: "메뉴 리뉴얼",
     slug: "programmers-메뉴-리뉴얼-java",
     content: require('../notion-data/1d1a071d-4763-80f4-94da-c60ef39a1f14.json'),
