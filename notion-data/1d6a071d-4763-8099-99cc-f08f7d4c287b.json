@@ -1,0 +1,3663 @@
+{
+  "object": "page",
+  "id": "1d6a071d-4763-8099-99cc-f08f7d4c287b",
+  "created_time": "2025-04-15T06:33:00.000Z",
+  "last_edited_time": "2025-04-18T06:49:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "카테고리": {
+      "id": "%40IYg",
+      "type": "select",
+      "select": {
+        "id": "324cd09d-6983-43d3-a2c4-6fd278c990f8",
+        "name": "스프링부트",
+        "color": "green"
+      }
+    },
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "JAVA",
+          "color": "pink"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-04-18",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Spring Boot에서 JWT + Redis로 게스트 로그인 시스템 구현하기",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Spring Boot에서 JWT + Redis로 게스트 로그인 시스템 구현하기",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/Spring-Boot-JWT-Redis-1d6a071d4763809999ccf08f7d4c287b",
+  "public_url": null,
+  "request_id": "ab2a69f2-b89e-40c5-9d2c-2345e6e1ea1c",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80d8-8e2b-c374195947f7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이번에 웹게임 프로젝트를 진행하면서 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이번에 웹게임 프로젝트를 진행하면서 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "비회원도 게스트 계정으로 게임을 플레이할 수 있게 하는 기능",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "비회원도 게스트 계정으로 게임을 플레이할 수 있게 하는 기능",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이 필요했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 필요했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-800c-94e9-fec300b1f2d8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "따라서 평소엔 항상 회원만 관리했지만 이번에는 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "따라서 평소엔 항상 회원만 관리했지만 이번에는 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "비회원을 관리하는 로직",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "비회원을 관리하는 로직",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이 필요해졌다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 필요해졌다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80c7-b2c6-e256945d368c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 구글링을 해도 내가 원하는 방식의 게스트 로그인은 보이지 않았다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 구글링을 해도 내가 원하는 방식의 게스트 로그인은 보이지 않았다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8076-ad48-fff27f07baa8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 나는 직접 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 나는 직접 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "게스트 로그인 시스템을 설계",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "게스트 로그인 시스템을 설계",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하고, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하고, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "JWT + Redis",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "JWT + Redis",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "를 활용해서 구현해보았다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "를 활용해서 구현해보았다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80fa-9312-f7c8f7eef4a9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8083-98a5-f8bec7448d77",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "목표",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "목표",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8075-8476-d5cb38087814",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "비회원도 로그인 없이 게임 이용 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "비회원도 로그인 없이 게임 이용 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-804e-bf34-e1916bb64eeb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "별도 회원가입 없이 “게스트 계정”으로 임시 토큰 발급",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "별도 회원가입 없이 “게스트 계정”으로 임시 토큰 발급",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8020-8908-da4cdc407ccd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "일정 시간 동안 유효한 로그인 상태 유지",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "일정 시간 동안 유효한 로그인 상태 유지",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80b4-b37e-f440387a7300",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "게스트가 임시 회원이므로 DB가 아닌 Redis에 게스트 정보 저장",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "게스트가 임시 회원이므로 DB가 아닌 Redis에 게스트 정보 저장",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8034-83bc-c65d86573fda",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "토큰 기반 인증 시스템 그대로 활용",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "토큰 기반 인증 시스템 그대로 활용",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8028-9c70-f01b0dd1d2b6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80da-9b8c-e7191db9ee8b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "전반적인 흐름",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "전반적인 흐름",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80c5-a676-df9b5fabfb23",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. 게스트 로그인 요청 → ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. 게스트 로그인 요청 → ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "/auth/guest/sign-in",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "/auth/guest/sign-in",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-806a-8031-c7a0927f7b3d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "게스트 로그인 API를 호출하면 아래와 같은 흐름으로 처리된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "게스트 로그인 API를 호출하면 아래와 같은 흐름으로 처리된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8015-980e-d0916fd0d1f1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "UUID 기반 무작위 게스트 ID와 닉네임 생성",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "UUID 기반 무작위 게스트 ID와 닉네임 생성",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-804c-881d-cdd7c4867513",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "해당 정보를 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "해당 정보를 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Redis",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Redis",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "에 저장하고 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "에 저장하고 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "TTL",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "TTL",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 설정",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 설정",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80c9-bac4-ecfded25c67e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "JWT 토큰 발급 (Access + Refresh)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "JWT 토큰 발급 (Access + Refresh)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-802f-af18-d6364c0ae0e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "클라이언트는 일반 회원처럼 토큰을 받아 게임을 이용할 수 있음",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "클라이언트는 일반 회원처럼 토큰을 받아 게임을 이용할 수 있음",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8088-93f7-feca6395ca0a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public TokenDto guestSignIn() {\n    Long guestId;\n    do {\n        guestId = UUID.randomUUID().getMostSignificantBits() & Long.MAX_VALUE;\n    } while(redisUtil.existed(GUEST_KEY_PREFIX + guestId));\n\n    String nickname = RandomNicknameGenerator.generateNickname();\n\n    User guestUser = User.builder()\n            .id(guestId)\n            .nickname(nickname)\n            .role(Role.GUEST)\n            .build();\n\n    redisUtil.setData(GUEST_KEY_PREFIX + guestId, guestUser);\n    redisUtil.setDataExpire(GUEST_KEY_PREFIX + guestId, GUEST_TTL_SECONDS);\n\n    return jwtHelper.createGuestToken(guestUser);\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public TokenDto guestSignIn() {\n    Long guestId;\n    do {\n        guestId = UUID.randomUUID().getMostSignificantBits() & Long.MAX_VALUE;\n    } while(redisUtil.existed(GUEST_KEY_PREFIX + guestId));\n\n    String nickname = RandomNicknameGenerator.generateNickname();\n\n    User guestUser = User.builder()\n            .id(guestId)\n            .nickname(nickname)\n            .role(Role.GUEST)\n            .build();\n\n    redisUtil.setData(GUEST_KEY_PREFIX + guestId, guestUser);\n    redisUtil.setDataExpire(GUEST_KEY_PREFIX + guestId, GUEST_TTL_SECONDS);\n\n    return jwtHelper.createGuestToken(guestUser);\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80b5-87f4-da6d348dc561",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "RandomNicknameGenerator",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "RandomNicknameGenerator",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "는 \"귀여운고양이\", \"졸린펭귄\"처럼 무작위로 형용사와 명사가 조합된 닉네임을 생성해준다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "는 \"귀여운고양이\", \"졸린펭귄\"처럼 무작위로 형용사와 명사가 조합된 닉네임을 생성해준다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8041-8dc3-e2bd80a9a9ea",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "게스트 유저는 DB에 저장하지 않고 Redis에서만 관리하며 일정 시간 후에는 자동 만료된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "게스트 유저는 DB에 저장하지 않고 Redis에서만 관리하며 일정 시간 후에는 자동 만료된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8077-a7c2-d257917c5706",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-801f-86cf-e1ea5cf67de3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. 인증 요청 시 → ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. 인증 요청 시 → ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "JwtAuthenticationFilter",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "JwtAuthenticationFilter",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " + ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " + ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "GuestDetailsService",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "GuestDetailsService",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80ae-bc72-f7f4d77a9e56",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "게스트 유저도 JWT 토큰 기반으로 인증을 받는다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "게스트 유저도 JWT 토큰 기반으로 인증을 받는다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8073-88b1-f66696b52a69",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Spring Security의 커스텀 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Spring Security의 커스텀 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "UserDetailsService",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "UserDetailsService",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "를 통해 Redis에서 정보를 불러온다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "를 통해 Redis에서 정보를 불러온다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8084-bcc0-d8e06de1949a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "UserDetails userDetails = guestDetailsService.loadUserByUsername(guestId.toString());",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "UserDetails userDetails = guestDetailsService.loadUserByUsername(guestId.toString());",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80aa-849b-f68a49ba2392",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "User guest = Optional.ofNullable((User) redisUtil.getData(GUEST_KEY_PREFIX + guestId))\n        .orElseThrow(() -> new UsernameNotFoundException(\"Guest not found : \" + guestId));\n\nredisUtil.setDataExpire(GUEST_KEY_PREFIX + guestId, GUEST_TTL_SECONDS); // TTL 연장\nreturn new SecurityUserDetails(guest);",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "User guest = Optional.ofNullable((User) redisUtil.getData(GUEST_KEY_PREFIX + guestId))\n        .orElseThrow(() -> new UsernameNotFoundException(\"Guest not found : \" + guestId));\n\nredisUtil.setDataExpire(GUEST_KEY_PREFIX + guestId, GUEST_TTL_SECONDS); // TTL 연장\nreturn new SecurityUserDetails(guest);",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8076-a00e-ed668049c113",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Redis에 정보가 있으면 TTL을 연장하면서 인증",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Redis에 정보가 있으면 TTL을 연장하면서 인증",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d9a071d-4763-800e-a027-e202fcabd6bb",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d9a071d-4763-8076-a00e-ed668049c113"
+          },
+          "created_time": "2025-04-18T06:39:00.000Z",
+          "last_edited_time": "2025-04-18T06:40:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "게스트의 TTL이 짧기 때문에 게임 중 TTL이 만료되면 안되기 때문에 계속해서 연장해주는 방식으로 하게 됨",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "게스트의 TTL이 짧기 때문에 게임 중 TTL이 만료되면 안되기 때문에 계속해서 연장해주는 방식으로 하게 됨",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80f1-833a-c72c7add05fc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "정보가 없으면 만료된 계정이므로 재로그인을 유도",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "정보가 없으면 만료된 계정이므로 재로그인을 유도",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8093-885d-dcbf0dfde2bc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8057-b67d-c1157eaab3b8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3. 게스트 회원 전환 → ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3. 게스트 회원 전환 → ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "/auth/guest/sign-up",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "/auth/guest/sign-up",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80f3-a999-ed1fe2252609",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "게스트가 마음에 들어 게임을 더 즐기고 싶을 때, 회원 전환을 할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "게스트가 마음에 들어 게임을 더 즐기고 싶을 때, 회원 전환을 할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8049-8960-f732e316c225",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "게스트 토큰을 가진 상태에서 회원가입 요청",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "게스트 토큰을 가진 상태에서 회원가입 요청",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8025-a47a-faebb884d378",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Redis에서 해당 게스트 정보를 불러와 새로운 유저로 전환",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Redis에서 해당 게스트 정보를 불러와 새로운 유저로 전환",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8075-bd37-dd8d0982afa9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "DB에 저장하고 Redis에서는 해당 정보 삭제",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "DB에 저장하고 Redis에서는 해당 정보 삭제",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8089-9920-cfd9072311ea",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public TokenDto guestSignUp(SignUpReq signUpReq, SecurityUserDetails userDetails){\n    if (!userDetails.getRole().equals(Role.GUEST)) {\n        throw new CustomException(AuthExceptionCode.INVALID_GUEST);\n    }\n\n    Long guestId = userDetails.getId();\n\n    User guest = Optional.ofNullable((User) redisUtil.getData(GUEST_KEY_PREFIX + guestId))\n            .orElseThrow(() -> new CustomException(AuthExceptionCode.INVALID_USERID));\n\n    String encodedPassword = passwordEncoder.encode(signUpReq.password());\n    User newUser = userRepository.save(signUpReq.toEntityFromGuest(encodedPassword, guest));\n\n    redisUtil.deleteData(GUEST_KEY_PREFIX + guestId);\n\n    return jwtHelper.createToken(newUser, false);\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public TokenDto guestSignUp(SignUpReq signUpReq, SecurityUserDetails userDetails){\n    if (!userDetails.getRole().equals(Role.GUEST)) {\n        throw new CustomException(AuthExceptionCode.INVALID_GUEST);\n    }\n\n    Long guestId = userDetails.getId();\n\n    User guest = Optional.ofNullable((User) redisUtil.getData(GUEST_KEY_PREFIX + guestId))\n            .orElseThrow(() -> new CustomException(AuthExceptionCode.INVALID_USERID));\n\n    String encodedPassword = passwordEncoder.encode(signUpReq.password());\n    User newUser = userRepository.save(signUpReq.toEntityFromGuest(encodedPassword, guest));\n\n    redisUtil.deleteData(GUEST_KEY_PREFIX + guestId);\n\n    return jwtHelper.createToken(newUser, false);\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8097-b9f5-c064fea83ce5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 과정에서 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 과정에서 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "기존 게스트 경험치/스코어를 그대로 이전",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기존 게스트 경험치/스코어를 그대로 이전",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "할 수 있도록 ID를 유지한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "할 수 있도록 ID를 유지한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80fa-adcd-ef7820854367",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "회원 전환 후, 일반 유저로서 Access/Refresh 토큰이 재발급된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "회원 전환 후, 일반 유저로서 Access/Refresh 토큰이 재발급된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80e6-a6f7-c06bdbe1e3e4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80dd-8668-c1beae292a5a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "인증 필터는 어떻게 구성했는가?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "인증 필터는 어떻게 구성했는가?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-801f-ba96-d5bc9214ae60",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "JwtAuthenticationFilter",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "JwtAuthenticationFilter",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "에서 토큰을 읽고, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "에서 토큰을 읽고, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "GUEST인지 USER인지 구분",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GUEST인지 USER인지 구분",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하여 적절한 인증 서비스를 호출한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하여 적절한 인증 서비스를 호출한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80a4-8136-ec43a6f0ca9b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "String role = tokenProvider.getRole(accessToken);\nUserDetails userDetails;\nif (role.equals(String.valueOf(Role.GUEST))) {\n    Long guestId = tokenProvider.getUserId(accessToken);\n    userDetails = guestDetailsService.loadUserByUsername(guestId.toString());\n} else {\n    String username = tokenProvider.getUsername(accessToken);\n    userDetails = userDetailsService.loadUserByUsername(username);\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "String role = tokenProvider.getRole(accessToken);\nUserDetails userDetails;\nif (role.equals(String.valueOf(Role.GUEST))) {\n    Long guestId = tokenProvider.getUserId(accessToken);\n    userDetails = guestDetailsService.loadUserByUsername(guestId.toString());\n} else {\n    String username = tokenProvider.getUsername(accessToken);\n    userDetails = userDetailsService.loadUserByUsername(username);\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80e4-a39c-f9aa2ca796c2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8070-8bb8-d9b6247ae2eb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Redis TTL은 왜 필요한가?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Redis TTL은 왜 필요한가?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-803a-b8f6-f87a96219791",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:44:00.000Z",
+      "last_edited_time": "2025-04-18T06:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "게스트 계정은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "게스트 계정은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "임시로 생성되는 계정",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "임시로 생성되는 계정",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이기 때문에, 굳이 DB에 영구적으로 저장할 필요성을 느끼지 못했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이기 때문에, 굳이 DB에 영구적으로 저장할 필요성을 느끼지 못했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80bf-b3a0-e228cfd9601a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:44:00.000Z",
+      "last_edited_time": "2025-04-18T06:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "오히려 DB에 저장하는 순간부터 불필요한 데이터가 쌓일 수 있고 짧은 시간 사용하고 사라지는 계정 특성상 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "오히려 DB에 저장하는 순간부터 불필요한 데이터가 쌓일 수 있고 짧은 시간 사용하고 사라지는 계정 특성상 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "가벼운 저장소인 Redis",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가벼운 저장소인 Redis",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "가 더 적합하다고 판단했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가 더 적합하다고 판단했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8017-8dd6-c03157c82a93",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:44:00.000Z",
+      "last_edited_time": "2025-04-18T06:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 게스트 계정은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 게스트 계정은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "로그인 시점부터 일정 시간 동안만 Redis에 존재",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로그인 시점부터 일정 시간 동안만 Redis에 존재",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하며 그 이후엔 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하며 그 이후엔 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "TTL",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "TTL",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 설정을 통해 자동으로 만료된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 설정을 통해 자동으로 만료된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80c0-b8a0-edbdce2a53ea",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:44:00.000Z",
+      "last_edited_time": "2025-04-18T06:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "redisUtil.setDataExpire(GUEST_KEY_PREFIX + guestId, GUEST_TTL_SECONDS);",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "redisUtil.setDataExpire(GUEST_KEY_PREFIX + guestId, GUEST_TTL_SECONDS);",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8045-b6e3-d2701c558986",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:44:00.000Z",
+      "last_edited_time": "2025-04-18T06:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "또한, 사용자가 계속해서 활동 중이라면 TTL을 갱신하여 접속 상태를 유지시킬 수 있다. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "또한, 사용자가 계속해서 활동 중이라면 TTL을 갱신하여 접속 상태를 유지시킬 수 있다. ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "일정 시간 이상 아무 활동이 없다면",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "일정 시간 이상 아무 활동이 없다면",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 자동으로 로그아웃되며 Redis에서도 정보가 삭제된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 자동으로 로그아웃되며 Redis에서도 정보가 삭제된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80e5-a946-d26ed45be147",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:44:00.000Z",
+      "last_edited_time": "2025-04-18T06:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "다만, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "다만, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Redis 역시 메모리 기반 저장소이기 때문에 게스트 사용자가 많아질 경우 부담이 될 수 있다",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Redis 역시 메모리 기반 저장소이기 때문에 게스트 사용자가 많아질 경우 부담이 될 수 있다",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "는 점도 문제가 될 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "는 점도 문제가 될 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80b6-aa79-e290b681fd82",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:44:00.000Z",
+      "last_edited_time": "2025-04-18T06:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "앞으로 캐시 용량이나 구조를 조정하거나 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "앞으로 캐시 용량이나 구조를 조정하거나 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "게스트 상태를 더 가볍게 유지할 수 있는 다른 대안",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "게스트 상태를 더 가볍게 유지할 수 있는 다른 대안",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "들도 고려해볼 예정이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "들도 고려해볼 예정이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80ba-8ed0-f04ffb7f6495",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8016-abe5-ea8730159198",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "정리하며",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "정리하며",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8023-a3a8-c81b97041860",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "비회원 사용자의 흐름을 \"게스트\"라는 개념으로 통합하고,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "비회원 사용자의 흐름을 \"게스트\"라는 개념으로 통합하고,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8075-8fca-d8fe4aec0ced",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:37:00.000Z",
+      "last_edited_time": "2025-04-18T06:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "회원과 동일한 JWT 인증 시스템을 재사용",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "회원과 동일한 JWT 인증 시스템을 재사용",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하면서 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하면서 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "DB가 아닌 Redis로 부담을 줄인 구조",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "DB가 아닌 Redis로 부담을 줄인 구조",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "를 만들 수 있었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "를 만들 수 있었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8041-babb-f1b78bd6a060",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:46:00.000Z",
+      "last_edited_time": "2025-04-18T06:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "빠른 체험 진입",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "빠른 체험 진입",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d9a071d-4763-8063-8c98-f63641ac0b5b",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d9a071d-4763-8041-babb-f1b78bd6a060"
+          },
+          "created_time": "2025-04-18T06:46:00.000Z",
+          "last_edited_time": "2025-04-18T06:46:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "회원가입 없이도 바로 게임에 입장할 수 있어 진입 장벽이 낮다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "회원가입 없이도 바로 게임에 입장할 수 있어 진입 장벽이 낮다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8055-b2d2-ce46512fb068",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:46:00.000Z",
+      "last_edited_time": "2025-04-18T06:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "적당한 보안 수준 유지",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "적당한 보안 수준 유지",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d9a071d-4763-8063-8dbe-c49e9c6afad6",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d9a071d-4763-8055-b2d2-ce46512fb068"
+          },
+          "created_time": "2025-04-18T06:46:00.000Z",
+          "last_edited_time": "2025-04-18T06:46:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "JWT + Redis TTL을 통해 기본적인 인증 및 만료 처리를 할 수 있다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "JWT + Redis TTL을 통해 기본적인 인증 및 만료 처리를 할 수 있다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8068-aab0-e1d5c97d7da4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:46:00.000Z",
+      "last_edited_time": "2025-04-18T06:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "전환율 증가 유도",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "전환율 증가 유도",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1d9a071d-4763-80bb-b58b-db87b0328b32",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1d9a071d-4763-8068-aab0-e1d5c97d7da4"
+          },
+          "created_time": "2025-04-18T06:46:00.000Z",
+          "last_edited_time": "2025-04-18T06:46:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "먼저 체험해보고 재미를 느낀 후 자연스럽게 회원 가입으로 이어질 가능성이 높다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "먼저 체험해보고 재미를 느낀 후 자연스럽게 회원 가입으로 이어질 가능성이 높다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8075-bd76-ca9b736e0846",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:46:00.000Z",
+      "last_edited_time": "2025-04-18T06:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-8037-947b-e79d7bc01cb6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:39:00.000Z",
+      "last_edited_time": "2025-04-18T06:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이번에 구현한 게스트 로그인 시스템이 완벽하거나 정답이라고 생각하지는 않는다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이번에 구현한 게스트 로그인 시스템이 완벽하거나 정답이라고 생각하지는 않는다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80f8-b1c6-e79605dc82a3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:39:00.000Z",
+      "last_edited_time": "2025-04-18T06:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아직 부족한 부분도 많고, 더 나은 구조로 개선할 여지도 충분히 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아직 부족한 부분도 많고, 더 나은 구조로 개선할 여지도 충분히 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1d9a071d-4763-80c4-bb44-e0f7b4142dc6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1d6a071d-4763-8099-99cc-f08f7d4c287b"
+      },
+      "created_time": "2025-04-18T06:39:00.000Z",
+      "last_edited_time": "2025-04-18T06:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "앞으로도 계속 리팩토링하고 발전시켜 나가면서 더 나은 방식으로 다듬어갈 계획이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "앞으로도 계속 리팩토링하고 발전시켜 나가면서 더 나은 방식으로 다듬어갈 계획이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

@@ -1,6 +1,15 @@
 
 const posts = [
   {
+    title: "Spring Boot에서 JWT + Redis로 게스트 로그인 시스템 구현하기",
+    slug: "spring-boot에서-jwt-redis로-게스트-로그인-시스템-구현하기",
+    content: require('../notion-data/1d6a071d-4763-8099-99cc-f08f7d4c287b.json'),
+    date: "2025-04-18",
+    description: "Spring Boot에서 JWT + Redis로 게스트 로그인 시스템 구현하기",
+    image: undefined,
+    category: "springboot",
+    tags: ["JAVA"]
+  },{
     title: "[컴퓨터비전] 5. 영상 분할",
     slug: "컴퓨터비전-5-영상-분할",
     content: require('../notion-data/1d7a071d-4763-8015-8aff-e555fcd9738c.json'),

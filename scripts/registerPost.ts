@@ -36,20 +36,20 @@ const result = execSync(`npresso --page ${notionUrl} --auth ${authToken}`, {
   encoding: 'utf-8'
 });
 
-
 const data = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
 const title = data.properties['제목'].title[0].plain_text;
 const date = data.properties['게시일'].date.start;
+const categoryValue = data.properties['카테고리'].select?.name ?? 'uncategorized';
 const tags = data.properties['태그'].multi_select.map((t: any) => t.name);
 
 let category = 'uncategorized';
-if (tags.includes('코딩테스트')) {
+if (categoryValue.includes('코딩테스트')) {
   category = 'codingtest';
-} else if (tags.includes('스프링부트')) {
+} else if (categoryValue.includes('스프링부트')) {
   category = 'springboot';
-} else if (tags.includes('CS')){
+} else if (categoryValue.includes('CS')){
   category = 'cs';
-} else if (tags.includes('기타')){
+} else if (categoryValue.includes('기타')){
   category = 'others';
 }
 
