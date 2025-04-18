@@ -1,6 +1,7 @@
 // app/blog/page.tsx
 import Link from 'next/link'
 import posts from 'content/posts'
+import PostList from 'components/post-list'
 
 export const metadata = {
   title: '코딩뽕짝',
@@ -24,35 +25,7 @@ export default function Page() {
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">
         전체글
       </h1>
-      {sortedPosts.map((post) => {
-        const categoryName = categoryMap[post.category] ?? post.category
-        return (
-          <Link key={post.slug} href={`/blog/${post.slug}`}>
-            <div className="mb-4">
-              {/* 날짜 + 카테고리 */}
-              <div className="text-xs text-gray-500 flex items-center gap-2">
-                <span>{post.date}</span>
-                <span>· {categoryName}</span>
-              </div>
-
-              <p className="text-lg font-semibold mt-1">{post.title}</p>
-
-              {post.tags?.length > 0 && (
-                <div className="mt-1 flex flex-wrap gap-1">
-                  {post.tags.map((tag, index) => (
-                    <span
-                      key={index}
-                      className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md"
-                    >
-                      #{tag}
-                    </span>
-                  ))}
-                </div>
-              )}
-            </div>
-          </Link>
-        )
-      })}
+      <PostList posts={sortedPosts} />
     </section>
   )
 }
