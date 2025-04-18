@@ -9,6 +9,106 @@ const posts = [
     image: undefined,
     category: "springboot",
     tags: ["JAVA"]
+  },
+  {
+    title: "MySQL LIKE 대신 Full-Text Index 쓰는 이유",
+    slug: "mysql-like-대신-fulltext-index-쓰는-이유",
+    content: require('../notion-data/11aa071d-4763-80ad-9966-fccfcb276f2a.json'),
+    date: "2024-10-09",
+    description: "MySQL LIKE 대신 Full-Text Index 쓰는 이유",
+    image: undefined,
+    category: "springboot",
+    tags: ["JAVA"]
+  },
+  {
+    title: "Spring SSE로 실시간 알림 구현하기",
+    slug: "spring-sse로-실시간-알림-구현하기",
+    content: require('../notion-data/114a071d-4763-809a-8abf-d030eff337e2.json'),
+    date: "2024-10-03",
+    description: "Spring SSE로 실시간 알림 구현하기",
+    image: undefined,
+    category: "springboot",
+    tags: ["JAVA"]
+  },
+  {
+    title: "REST API가 RESTful하지 않은 이유",
+    slug: "rest-api가-restful하지-않은-이유",
+    content: require('../notion-data/105a071d-4763-80b1-aa53-ea785cb21e97.json'),
+    date: "2024-09-18",
+    description: "REST API가 RESTful하지 않은 이유",
+    image: undefined,
+    category: "springboot",
+    tags: ["JAVA"]
+  },
+  {
+    title: "Spring API 성능 최적화 — 병렬 처리, 트랜잭션 분리, 캐시 적용",
+    slug: "spring-api-성능-최적화-병렬-처리-트랜잭션-분리-캐시-적용",
+    content: require('../notion-data/92399f6e-c037-432d-a4de-9a9917e27d02.json'),
+    date: "2024-09-11",
+    description: "Spring API 성능 최적화 — 병렬 처리, 트랜잭션 분리, 캐시 적용",
+    image: undefined,
+    category: "springboot",
+    tags: ["JAVA"]
+  },
+  {
+    title: "Java에서 null을 안전하게 다루는 방법",
+    slug: "java에서-null을-안전하게-다루는-방법",
+    content: require('../notion-data/f194801b-249e-4149-930d-5f97cbff5286.json'),
+    date: "2024-09-04",
+    description: "Java에서 null을 안전하게 다루는 방법",
+    image: undefined,
+    category: "springboot",
+    tags: ["JAVA"]
+  },
+  {
+    title: "Spring JPA Soft Delete : @SQLDelete, @Where, @SoftDelete",
+    slug: "spring-jpa-soft-delete-sqldelete-where-softdelete",
+    content: require('../notion-data/cbd52867-cb38-4944-8a7f-dca3d5b11bf6.json'),
+    date: "2024-08-26",
+    description: "Spring JPA Soft Delete : @SQLDelete, @Where, @SoftDelete",
+    image: undefined,
+    category: "springboot",
+    tags: ["JAVA"]
+  },
+  {
+    title: "Spring 서비스 간 의존, 어디까지 허용될까? Service vs Repository vs Facade",
+    slug: "spring-서비스-간-의존-어디까지-허용될까-service-vs-repository-vs-facade",
+    content: require('../notion-data/2ccef68b-d878-4581-8cf4-df19af48a432.json'),
+    date: "2024-08-11",
+    description: "Spring 서비스 간 의존, 어디까지 허용될까? Service vs Repository vs Facade",
+    image: undefined,
+    category: "springboot",
+    tags: ["JAVA"]
+  },
+  {
+    title: "Spring Data JPA 페이징 : Page, Slice, List 차이와 사용법",
+    slug: "spring-data-jpa-페이징-page-slice-list-차이와-사용법",
+    content: require('../notion-data/d83541a7-8d6a-4b78-8b16-f39405cd4da8.json'),
+    date: "2024-08-05",
+    description: "Spring Data JPA 페이징 : Page, Slice, List 차이와 사용법",
+    image: undefined,
+    category: "springboot",
+    tags: ["JAVA"]
+  },
+  {
+    title: "Spring 의존성 주입 방식 정리: 필드 주입 vs 생성자 주입 vs 수정자 주입",
+    slug: "spring-의존성-주입-방식-정리-필드-주입-vs-생성자-주입-vs-수정자-주입",
+    content: require('../notion-data/1b1be4ac-35cd-453e-9e6e-73fd77e142cc.json'),
+    date: "2024-07-29",
+    description: "Spring 의존성 주입 방식 정리: 필드 주입 vs 생성자 주입 vs 수정자 주입",
+    image: undefined,
+    category: "springboot",
+    tags: ["JAVA"]
+  },
+  {
+    title: "Spring Boot 테스트 코드 작성법 정리 (JUnit, AssertJ, Given-When-Then)",
+    slug: "spring-boot-테스트-코드-작성법-정리-junit-assertj-givenwhenthen",
+    content: require('../notion-data/6ca2969d-82b5-453b-9d97-c74fb3b369c8.json'),
+    date: "2024-07-23",
+    description: "Spring Boot 테스트 코드 작성법 정리 (JUnit, AssertJ, Given-When-Then)",
+    image: undefined,
+    category: "springboot",
+    tags: ["JAVA"]
   },{
     title: "[컴퓨터비전] 5. 영상 분할",
     slug: "컴퓨터비전-5-영상-분할",
@@ -177,16 +277,6 @@ const posts = [
     tags: ["JAVA","백준"]
   },
   {
-    title: "Full-Text Index",
-    slug: "springboot-fulltext-index",
-    content: require('../notion-data/11aa071d-4763-80ad-9966-fccfcb276f2a.json'),
-    date: "2024-10-09",
-    description: "Full-Text Index",
-    image: undefined,
-    category: "springboot",
-    tags: ["JAVA"]
-  },
-  {
     title: "2157번 - 여행",
     slug: "baekjoon-2157-java",
     content: require('../notion-data/11aa071d-4763-80a8-bd38-cb5d51b20363.json'),
@@ -195,16 +285,6 @@ const posts = [
     image: undefined,
     category: "codingtest",
     tags: ["JAVA","백준"]
-  },
-  {
-    title: "SSE",
-    slug: "springboot-sse",
-    content: require('../notion-data/114a071d-4763-809a-8abf-d030eff337e2.json'),
-    date: "2024-10-03",
-    description: "SSE",
-    image: undefined,
-    category: "springboot",
-    tags: ["JAVA"]
   },
   {
     title: "2011번 - 암호코드",
@@ -227,16 +307,6 @@ const posts = [
     tags: ["JAVA","프로그래머스"]
   },
   {
-    title: "09-27 REST",
-    slug: "springboot-0927-rest",
-    content: require('../notion-data/105a071d-4763-80b1-aa53-ea785cb21e97.json'),
-    date: "2024-09-18",
-    description: "09-27 REST",
-    image: undefined,
-    category: "springboot",
-    tags: ["JAVA"]
-  },
-  {
     title: "21606번 - 아침 산책",
     slug: "baekjoon-21606-java",
     content: require('../notion-data/87c1a6ea-66b5-40c1-9e4e-b8c8cb12bb3a.json'),
@@ -247,26 +317,6 @@ const posts = [
     tags: ["JAVA","백준"]
   },
   {
-    title: "09-13 API 성능 최적화",
-    slug: "springboot-0913-api-성능-최적화",
-    content: require('../notion-data/92399f6e-c037-432d-a4de-9a9917e27d02.json'),
-    date: "2024-09-11",
-    description: "09-13 API 성능 최적화",
-    image: undefined,
-    category: "springboot",
-    tags: ["JAVA"]
-  },
-  {
-    title: "09-06 Null",
-    slug: "springboot-0906-null",
-    content: require('../notion-data/f194801b-249e-4149-930d-5f97cbff5286.json'),
-    date: "2024-09-04",
-    description: "09-06 Null",
-    image: undefined,
-    category: "springboot",
-    tags: ["JAVA"]
-  },
-  {
     title: "11066번 - 파일 합치기",
     slug: "baekjoon-11066-java",
     content: require('../notion-data/1e67f365-e721-440a-9347-f4af2caef354.json'),
@@ -275,16 +325,6 @@ const posts = [
     image: undefined,
     category: "codingtest",
     tags: ["JAVA","백준"]
-  },
-  {
-    title: "08-28 Soft Delete",
-    slug: "springboot-0828-soft-delete",
-    content: require('../notion-data/cbd52867-cb38-4944-8a7f-dca3d5b11bf6.json'),
-    date: "2024-08-26",
-    description: "08-28 Soft Delete",
-    image: undefined,
-    category: "springboot",
-    tags: ["JAVA"]
   },
   {
     title: "12781 - PIZZA ALVOLOC",
@@ -317,16 +357,6 @@ const posts = [
     tags: ["JAVA","프로그래머스"]
   },
   {
-    title: "Spring 구조 설계, 정답은 없다 – 상황에 따라 결정하자",
-    slug: "springboot-spring-구조-설계-정답은-없다-상황에-따라-결정하자",
-    content: require('../notion-data/2ccef68b-d878-4581-8cf4-df19af48a432.json'),
-    date: "2024-08-11",
-    description: "Spring 구조 설계, 정답은 없다 – 상황에 따라 결정하자",
-    image: undefined,
-    category: "springboot",
-    tags: ["JAVA"]
-  },
-  {
     title: "10942번 - 팰린드롬?",
     slug: "baekjoon-10942-java",
     content: require('../notion-data/c6cc7109-bf75-449b-a8e4-982066eb9e3e.json'),
@@ -337,26 +367,6 @@ const posts = [
     tags: ["JAVA","백준"]
   },
   {
-    title: "08-07 페이지",
-    slug: "springboot-0807-페이지",
-    content: require('../notion-data/d83541a7-8d6a-4b78-8b16-f39405cd4da8.json'),
-    date: "2024-08-05",
-    description: "08-07 페이지",
-    image: undefined,
-    category: "springboot",
-    tags: ["JAVA"]
-  },
-  {
-    title: "07-31 의존성 주입",
-    slug: "springboot-0731-의존성-주입",
-    content: require('../notion-data/1b1be4ac-35cd-453e-9e6e-73fd77e142cc.json'),
-    date: "2024-07-29",
-    description: "07-31 의존성 주입",
-    image: undefined,
-    category: "springboot",
-    tags: ["JAVA"]
-  },
-  {
     title: "11401번 - 이항 계수 3",
     slug: "baekjoon-11401-java",
     content: require('../notion-data/9d267cd6-1081-4d25-af52-08cbd596a341.json'),
@@ -365,16 +375,6 @@ const posts = [
     image: undefined,
     category: "codingtest",
     tags: ["JAVA","백준"]
-  },
-  {
-    title: "07-24 테스트 코드",
-    slug: "springboot-0724-테스트-코드",
-    content: require('../notion-data/6ca2969d-82b5-453b-9d97-c74fb3b369c8.json'),
-    date: "2024-07-23",
-    description: "07-24 테스트 코드",
-    image: undefined,
-    category: "springboot",
-    tags: ["JAVA"]
   },
   {
     title: "1655번 - 가운데를 말해요",

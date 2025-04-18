@@ -2,7 +2,7 @@
   "object": "page",
   "id": "105a071d-4763-80b1-aa53-ea785cb21e97",
   "created_time": "2024-09-18T06:28:00.000Z",
-  "last_edited_time": "2025-04-11T06:56:00.000Z",
+  "last_edited_time": "2025-04-18T07:00:00.000Z",
   "created_by": {
     "object": "user",
     "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -20,15 +20,19 @@
   "archived": false,
   "in_trash": false,
   "properties": {
+    "카테고리": {
+      "id": "%40IYg",
+      "type": "select",
+      "select": {
+        "id": "324cd09d-6983-43d3-a2c4-6fd278c990f8",
+        "name": "스프링부트",
+        "color": "green"
+      }
+    },
     "태그": {
       "id": "T%5Cnr",
       "type": "multi_select",
       "multi_select": [
-        {
-          "id": "b2df65bf-3651-4ad7-97dd-58844a6742a7",
-          "name": "스프링부트",
-          "color": "brown"
-        },
         {
           "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
           "name": "JAVA",
@@ -52,7 +56,7 @@
         {
           "type": "text",
           "text": {
-            "content": "09-27 REST",
+            "content": "REST API가 RESTful하지 않은 이유",
             "link": null
           },
           "annotations": {
@@ -63,15 +67,15 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "09-27 REST",
+          "plain_text": "REST API가 RESTful하지 않은 이유",
           "href": null
         }
       ]
     }
   },
-  "url": "https://www.notion.so/09-27-REST-105a071d476380b1aa53ea785cb21e97",
+  "url": "https://www.notion.so/REST-API-RESTful-105a071d476380b1aa53ea785cb21e97",
   "public_url": null,
-  "request_id": "3eb0ee0f-02e4-4832-b8d0-0c36bda721c2",
+  "request_id": "d685a4ea-3462-4a1e-aa1d-173c08ca3739",
   "blocks": [
     {
       "object": "block",

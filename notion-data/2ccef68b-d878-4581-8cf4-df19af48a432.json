@@ -2,7 +2,7 @@
   "object": "page",
   "id": "2ccef68b-d878-4581-8cf4-df19af48a432",
   "created_time": "2024-08-11T11:36:00.000Z",
-  "last_edited_time": "2025-04-11T06:56:00.000Z",
+  "last_edited_time": "2025-04-18T06:55:00.000Z",
   "created_by": {
     "object": "user",
     "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -20,15 +20,19 @@
   "archived": false,
   "in_trash": false,
   "properties": {
+    "카테고리": {
+      "id": "%40IYg",
+      "type": "select",
+      "select": {
+        "id": "324cd09d-6983-43d3-a2c4-6fd278c990f8",
+        "name": "스프링부트",
+        "color": "green"
+      }
+    },
     "태그": {
       "id": "T%5Cnr",
       "type": "multi_select",
       "multi_select": [
-        {
-          "id": "b2df65bf-3651-4ad7-97dd-58844a6742a7",
-          "name": "스프링부트",
-          "color": "brown"
-        },
         {
           "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
           "name": "JAVA",
@@ -52,7 +56,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Spring 구조 설계, 정답은 없다 – 상황에 따라 결정하자",
+            "content": "Spring 서비스 간 의존, 어디까지 허용될까? Service vs Repository vs Facade",
             "link": null
           },
           "annotations": {
@@ -63,15 +67,15 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Spring 구조 설계, 정답은 없다 – 상황에 따라 결정하자",
+          "plain_text": "Spring 서비스 간 의존, 어디까지 허용될까? Service vs Repository vs Facade",
           "href": null
         }
       ]
     }
   },
-  "url": "https://www.notion.so/Spring-2ccef68bd87845818cf4df19af48a432",
+  "url": "https://www.notion.so/Spring-Service-vs-Repository-vs-Facade-2ccef68bd87845818cf4df19af48a432",
   "public_url": null,
-  "request_id": "010d3321-8ac0-4f11-aac0-4d708e3ecc89",
+  "request_id": "1d70a07b-4d54-4a8a-8ec8-bfc81e9bedf7",
   "blocks": [
     {
       "object": "block",
@@ -4339,7 +4343,7 @@
         "type": "file",
         "file": {
           "url": "/notion-data/2ccef68b-d878-4581-8cf4-df19af48a432/image_1.png",
-          "expiry_time": "2025-04-11T08:12:46.114Z"
+          "expiry_time": "2025-04-18T08:04:08.125Z"
         }
       },
       "blocks": []
