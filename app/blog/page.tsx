@@ -1,4 +1,4 @@
-// app/blog/page.tsx
+import { Suspense } from 'react'
 import Link from 'next/link'
 import posts from 'content/posts'
 import PostList from 'components/post-list'
@@ -8,13 +8,6 @@ export const metadata = {
   description: '코딩 뽕짝은 즐겁고 신나게 코딩을 배우고 나누는 블로그입니다.',
 }
 
-const categoryMap: Record<string, string> = {
-  codingtest: '코딩테스트',
-  springboot: '스프링부트',
-  cs: 'CS'
-}
-
-
 export default function Page() {
   const sortedPosts = [...posts].sort((a, b) => {
     return new Date(b.date).getTime() - new Date(a.date).getTime()
@@ -22,10 +15,12 @@ export default function Page() {
 
   return (
     <section>
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">
-        전체글
-      </h1>
-      <PostList posts={sortedPosts} />
+      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">전체글</h1>
+
+      {/* Suspense로 감싸기 (필수!) */}
+      <Suspense fallback={<p>로딩 중...</p>}>
+        <PostList posts={sortedPosts} />
+      </Suspense>
     </section>
   )
 }
