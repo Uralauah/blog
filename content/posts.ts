@@ -1,6 +1,26 @@
 
 const posts = [
   {
+    title: "[컴퓨터비전] 5. 영상 분할",
+    slug: "컴퓨터비전-5-영상-분할",
+    content: require('../notion-data/1d7a071d-4763-8015-8aff-e555fcd9738c.json'),
+    date: "2025-04-18",
+    description: "[컴퓨터비전] 5. 영상 분할",
+    image: undefined,
+    category: "cs",
+    tags: ["컴퓨터비전"]
+  },
+  {
+    title: "[컴퓨터비전] 2. 영상 처리",
+    slug: "컴퓨터비전-2-영상-처리",
+    content: require('../notion-data/1d7a071d-4763-809f-ab08-f13ef29c2688.json'),
+    date: "2025-04-16",
+    description: "[컴퓨터비전] 2. 영상 처리",
+    image: undefined,
+    category: "cs",
+    tags: ["컴퓨터비전"]
+  },
+  {
     title: "[컴퓨터비전] 4. 지역 특징 검출",
     slug: "컴퓨터비전-4-지역-특징-검출",
     content: require('../notion-data/1d7a071d-4763-80eb-acf5-d6538b8d9ecb.json'),
@@ -18,32 +38,12 @@ const posts = [
     image: undefined,
     category: "cs",
     tags: ["컴퓨터비전"]
-  },
-  {
-    title: "[컴퓨터비전] 2. 영상 처리",
-    slug: "컴퓨터비전-2-영상-처리",
-    content: require('../notion-data/1d7a071d-4763-809f-ab08-f13ef29c2688.json'),
-    date: "2025-04-16",
-    description: "[컴퓨터비전] 2. 영상 처리",
-    image: undefined,
-    category: "cs",
-    tags: ["컴퓨터비전"]
   },{
     title: "[컴퓨터비전] 6. 특징 기술",
     slug: "컴퓨터비전-6-특징-기술",
     content: require('../notion-data/1d7a071d-4763-80fb-b894-d37098d1f75d.json'),
     date: "2025-04-18",
     description: "[컴퓨터비전] 6. 특징 기술",
-    image: undefined,
-    category: "cs",
-    tags: ["컴퓨터비전"]
-  },
-  {
-    title: "[컴퓨터비전] 5. 영상 분할",
-    slug: "컴퓨터비전-5-영상-분할",
-    content: require('../notion-data/1d7a071d-4763-8015-8aff-e555fcd9738c.json'),
-    date: "2025-04-18",
-    description: "[컴퓨터비전] 5. 영상 분할",
     image: undefined,
     category: "cs",
     tags: ["컴퓨터비전"]

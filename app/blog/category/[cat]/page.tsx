@@ -6,6 +6,8 @@ import Link from 'next/link'
 
 export const runtime = 'edge'
 
+const POSTS_PER_PAGE = 10;
+
 const slugMap: Record<string, string> = {
   '컴퓨터비전': 'computer-vision',
   '백준': 'baekjoon',
@@ -30,26 +32,36 @@ export default function CategoryPage({ params }: { params: { cat: string } }) {
   const { cat } = params
   const searchParams = useSearchParams()
   const tagSlug = searchParams.get('tag')
+  const pageParam = parseInt(searchParams.get('page') || '1', 10)
+  const currentPage = isNaN(pageParam) || pageParam < 1 ? 1 : pageParam
 
   const tagName = tagSlug ? tagMap[tagSlug] ?? tagSlug : null
   const categoryName = categoryMap[cat] ?? cat
 
-  const filtered = posts.filter(post => {
-    const categoryMatch = post.category === cat
-    const tagMatch = tagName ? post.tags?.includes(tagName) : true
-    return categoryMatch && tagMatch
-  })
-  .sort((a, b) => b.date.localeCompare(a.date))
+  const filtered = posts
+    .filter(post => {
+      const categoryMatch = post.category === cat
+      const tagMatch = tagName ? post.tags?.includes(tagName) : true
+      return categoryMatch && tagMatch
+    })
+    .sort((a, b) => b.date.localeCompare(a.date))
+
+  const totalPages = Math.ceil(filtered.length / POSTS_PER_PAGE)
+  const paginated = filtered.slice(
+    (currentPage - 1) * POSTS_PER_PAGE,
+    currentPage * POSTS_PER_PAGE
+  )
 
   return (
     <section>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">
         {categoryName}{tagName ? ` - ${tagName}` : ''}
       </h1>
-      {filtered.length === 0 ? (
+
+      {paginated.length === 0 ? (
         <p className="text-sm text-neutral-500">게시글이 없습니다.</p>
       ) : (
-        filtered.map((post) => (
+        paginated.map((post) => (
           <Link key={post.slug} href={`/blog/${post.slug}`}>
             <div className="mb-4">
               <div className="text-xs text-gray-500 flex items-center gap-2">
@@ -72,6 +84,25 @@ export default function CategoryPage({ params }: { params: { cat: string } }) {
             </div>
           </Link>
         ))
+      )}
+
+      {/* 페이지네이션 */}
+      {totalPages > 1 && (
+        <div className="mt-8 flex gap-2 text-sm">
+          {Array.from({ length: totalPages }, (_, i) => (
+            <Link
+              key={i}
+              href={`?tag=${tagSlug ?? ''}&page=${i + 1}`}
+              className={`px-3 py-1 border rounded ${
+                currentPage === i + 1
+                  ? 'bg-black text-white'
+                  : 'bg-white text-black'
+              }`}
+            >
+              {i + 1}
+            </Link>
+          ))}
+        </div>
       )}
     </section>
   )
