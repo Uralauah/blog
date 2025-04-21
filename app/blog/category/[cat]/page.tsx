@@ -3,6 +3,7 @@
 import { useSearchParams } from 'next/navigation'
 import posts from 'content/posts'
 import Link from 'next/link'
+import PageContainer from 'components/page-container'
 
 export const runtime = 'edge'
 
@@ -53,6 +54,7 @@ export default function CategoryPage({ params }: { params: { cat: string } }) {
   )
 
   return (
+    <PageContainer size='narrow'>
     <section>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">
         {categoryName}{tagName ? ` - ${tagName}` : ''}
@@ -105,5 +107,6 @@ export default function CategoryPage({ params }: { params: { cat: string } }) {
         </div>
       )}
     </section>
+    </PageContainer>
   )
 }

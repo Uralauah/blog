@@ -51,6 +51,7 @@ export const metadata: Metadata = {
   },
 }
 
+
 const cx = (...classes) => classes.filter(Boolean).join(' ')
 
 export default function RootLayout({
@@ -68,8 +69,8 @@ export default function RootLayout({
       )}
     >
       <head>
-        {/* Google Ads 스크립트 */}
-        <script
+       {/* Google Ads 스크립트 */}
+       <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9260700889545229"
           crossOrigin="anonymous"
@@ -89,11 +90,17 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="antialiased max-w-2xl mx-4 mt-8 sm:mx-auto text-black bg-white dark:text-white dark:bg-black">
+      <body className="antialiased mx-4 mt-8 sm:mx-auto text-black bg-white dark:text-white dark:bg-black">
         <ThemeProvider attribute='class' defaultTheme='light' >
-          <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+          <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0 relative">
             <Navbar />
-            {children}
+            
+            <div className="w-full grid grid-cols-1 xl:grid-cols-[1fr_240px] gap-8">
+              {/* 본문 */}
+              <div>{children}</div>
+              
+            </div>
+
             <Footer />
           </main>
         </ThemeProvider>

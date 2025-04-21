@@ -1,31 +1,30 @@
+// app/blog/[slug]/page.tsx
+import dynamic from 'next/dynamic'
 import { notFound } from 'next/navigation'
-import { baseUrl } from 'app/sitemap'
 import posts from 'content/posts'
+import { baseUrl } from 'app/sitemap'
+
 import NotionRenderer from 'components/notion-renderer'
-import dynamic from 'next/dynamic';
+import TOC from 'components/toc'
+import { extractHeadings } from 'lib/extract-headings'
+import PageContainer from 'components/page-container'
 
-const Comment = dynamic(() => import('components/comment'), { ssr: false });
+const Comment = dynamic(() => import('components/comment'), { ssr: false })
 
-export const runtime = 'nodejs';
+export const runtime = 'nodejs'
 
+/* ────────── SSG 파라미터 ────────── */
 export async function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }))
 }
 
+/* ────────── SEO 메타데이터 ────────── */
 export function generateMetadata({ params }) {
-  let post = posts.find((post) => post.slug === params.slug)
-  if (!post) {
-    return
-  }
-  let {
-    title,
-    date: publishedTime,
-    description,
-    image,
-  } = post
-  let ogImage = image
-    ? image
-    : `${baseUrl}/og?title=${encodeURIComponent(title)}`
+  const post = posts.find((p) => p.slug === params.slug)
+  if (!post) return
+
+  const { title, date: publishedTime, description, image } = post
+  const ogImage = image ?? '${baseUrl}/og?title=${encodeURIComponent(title)}'
 
   return {
     title,
@@ -35,12 +34,8 @@ export function generateMetadata({ params }) {
       description,
       type: 'article',
       publishedTime,
-      url: `${baseUrl}/blog/${post.slug}`,
-      images: [
-        {
-          url: ogImage,
-        },
-      ],
+      url: '${baseUrl}/blog/${post.slug}',
+      images: [{ url: ogImage }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -51,16 +46,20 @@ export function generateMetadata({ params }) {
   }
 }
 
-export default async function Blog({ params }) {
+/* ────────── 본문 + TOC 페이지 ────────── */
+export default function Blog({ params }: { params: { slug: string } }) {
   const decodedSlug = decodeURIComponent(params.slug)
-  const post = posts.find((post) => post.slug === decodedSlug)
-  // let post = posts.find((post) => post.slug === slug)
-  if (!post) {
-    notFound()
-  }
+  const post = posts.find((p) => p.slug === decodedSlug)
+  if (!post) notFound()
+
+  const headings = extractHeadings(post.content.blocks)
 
   return (
-    <section>
+    <section className="grid grid-cols-[minmax(0,400px)_768px_240px] gap-12 w-full px-4 md:px-8">
+  {/* 왼쪽 여백 1fr → 가운데 정렬 역할 */}
+  <div ></div>
+  {/* ── 글 본문 ─────── */}
+  <article className="max-w-3xl w-full mx-auto">
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -76,24 +75,20 @@ export default async function Blog({ params }) {
               ? `${baseUrl}${post.image}`
               : `/og?title=${encodeURIComponent(post.title)}`,
             url: `${baseUrl}/blog/${post.slug}`,
-            author: {
-              '@type': 'Person',
-              name: 'My Portfolio',
-            },
+            author: { '@type': 'Person', name: 'My Portfolio' },
           }),
         }}
       />
-      <NotionRenderer post={{
-        title: post.title,
-        content: post.content,
-        image: post.image,
-        date: post.date,
-        category: post.category,
-        tags: post.tags,
-      }} />
+      <NotionRenderer post={post} />
       <div className="mt-16">
         <Comment />
       </div>
-    </section>
+    </article>
+
+    {/* ── TOC ───────────── */}
+    <aside className="sticky top-28 self-start lg:block">
+      <TOC items={headings} />
+    </aside>
+  </section>
   )
 }

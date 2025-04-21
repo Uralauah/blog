@@ -2,6 +2,7 @@ import { Suspense } from 'react'
 import Link from 'next/link'
 import posts from 'content/posts'
 import PostList from 'components/post-list'
+import PageContainer from 'components/page-container'
 
 export const metadata = {
   title: '코딩뽕짝',
@@ -14,13 +15,15 @@ export default function Page() {
   })
 
   return (
-    <section>
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">전체글</h1>
+    <PageContainer size="narrow">
+      <section>
+        <h1 className="font-semibold text-2xl mb-8 tracking-tighter">전체글</h1>
 
-      {/* Suspense로 감싸기 (필수!) */}
-      <Suspense fallback={<p>로딩 중...</p>}>
-        <PostList posts={sortedPosts} />
-      </Suspense>
-    </section>
+        {/* Suspense로 감싸기 (필수!) */}
+        <Suspense fallback={<p>로딩 중...</p>}>
+          <PostList posts={sortedPosts} />
+        </Suspense>
+      </section>
+    </PageContainer>
   )
 }

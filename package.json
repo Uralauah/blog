@@ -21,6 +21,7 @@
     "@notionpresso/react": "^0.0.5",
     "@types/react": "18.2.55",
     "@types/react-dom": "18.2.19",
+    "clsx": "^2.1.1",
     "dotenv": "^16.4.7",
     "geist": "1.2.2",
     "next": "canary",

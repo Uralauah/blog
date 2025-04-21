@@ -33,6 +33,7 @@
 html {
   min-width: 360px;
   transition: background-color 0.5s ease, color 0.5s ease;
+  scroll-behavior: smooth;
 }
 
 body {
