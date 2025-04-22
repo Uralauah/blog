@@ -11,6 +11,7 @@ const POSTS_PER_PAGE = 10;
 
 const slugMap: Record<string, string> = {
   '컴퓨터비전': 'computer-vision',
+  '데이터베이스': 'database',
   '백준': 'baekjoon',
   '프로그래머스': 'programmers',
   '회고': 'diary',

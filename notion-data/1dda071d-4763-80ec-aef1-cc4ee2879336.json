@@ -1,0 +1,6481 @@
+{
+  "object": "page",
+  "id": "1dda071d-4763-80ec-aef1-cc4ee2879336",
+  "created_time": "2025-04-22T06:22:00.000Z",
+  "last_edited_time": "2025-04-22T06:27:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "카테고리": {
+      "id": "%40IYg",
+      "type": "select",
+      "select": {
+        "id": "a031cca4-f6b2-426e-98fd-4b768990f3cf",
+        "name": "CS",
+        "color": "pink"
+      }
+    },
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "3edb9e77-e951-45f5-9013-28ea5ef1d95b",
+          "name": "데이터베이스",
+          "color": "blue"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-04-22",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "[데이터베이스] 고급 SQL",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "[데이터베이스] 고급 SQL",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/SQL-1dda071d476380ecaef1cc4ee2879336",
+  "public_url": null,
+  "request_id": "a7066575-52cb-49ea-8d78-3fcaddbc2be0",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8027-962e-ed3fc223162f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. 프로그래밍 언어에서 SQL 접근",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. 프로그래밍 언어에서 SQL 접근",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-809e-9d41-c99f331472f6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1.1 SQL과 프로그래밍 언어 통합 이유",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1.1 SQL과 프로그래밍 언어 통합 이유",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8053-bd38-eaeddba1133e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SQL",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SQL",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "선언형 질의어",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "선언형 질의어",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "로 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "데이터 처리",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "데이터 처리",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "에 강력하지만",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "에 강력하지만",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1dda071d-4763-8020-a245-c3179a76ecb2",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1dda071d-4763-8053-bd38-eaeddba1133e"
+          },
+          "created_time": "2025-04-22T06:25:00.000Z",
+          "last_edited_time": "2025-04-22T06:25:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "보고서 출력",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "보고서 출력",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ", ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ", ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "사용자 인터페이스와의 통신",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "사용자 인터페이스와의 통신",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ",",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ",",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1dda071d-4763-8027-a209-f3761bdc22d0",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1dda071d-4763-8053-bd38-eaeddba1133e"
+          },
+          "created_time": "2025-04-22T06:25:00.000Z",
+          "last_edited_time": "2025-04-22T06:25:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "특정 질의 로직",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "특정 질의 로직",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " 구현은 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " 구현은 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "범용 프로그래밍 언어",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "범용 프로그래밍 언어",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "가 필요함",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "가 필요함",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8057-bce5-e55c4116e3b3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SQL 접근 방식 두 가지:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SQL 접근 방식 두 가지:",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80a5-a196-e84d02d546f7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "동적 SQL (Dynamic SQL)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "동적 SQL (Dynamic SQL)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ":",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ":",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1dda071d-4763-80ba-8365-e2d4f56fc3a6",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1dda071d-4763-80a5-a196-e84d02d546f7"
+          },
+          "created_time": "2025-04-22T06:25:00.000Z",
+          "last_edited_time": "2025-04-22T06:25:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "프로그램 실행 중",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "프로그램 실행 중",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " SQL 문자열 생성 및 실행",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " SQL 문자열 생성 및 실행",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1dda071d-4763-809d-b252-c55a1f9dcc35",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1dda071d-4763-80a5-a196-e84d02d546f7"
+          },
+          "created_time": "2025-04-22T06:25:00.000Z",
+          "last_edited_time": "2025-04-22T06:25:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "결과를 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "결과를 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "한 튜플씩 변수로",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "한 튜플씩 변수로",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " 받아올 수 있음",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " 받아올 수 있음",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80ee-ae28-de441e937d46",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "내장 SQL (Embedded SQL)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "내장 SQL (Embedded SQL)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ":",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ":",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1dda071d-4763-800c-a703-c19f13f9ccff",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1dda071d-4763-80ee-ae28-de441e937d46"
+          },
+          "created_time": "2025-04-22T06:25:00.000Z",
+          "last_edited_time": "2025-04-22T06:25:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "전처리기",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "전처리기",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "가 SQL 구문을 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "가 SQL 구문을 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "함수 호출로 변환",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "함수 호출로 변환",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1dda071d-4763-804c-a045-f99fa75802e3",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1dda071d-4763-80ee-ae28-de441e937d46"
+          },
+          "created_time": "2025-04-22T06:25:00.000Z",
+          "last_edited_time": "2025-04-22T06:25:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "컴파일 시점",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "컴파일 시점",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "에 처리",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "에 처리",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8073-8b1c-cf6bfd1d79a0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80d1-a449-fd29dcfa825c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1.2 JDBC",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1.2 JDBC",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8022-be68-f7201de3629c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Java",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Java",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "에서 데이터베이스 접근을 위한 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "에서 데이터베이스 접근을 위한 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "표준 API",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "표준 API",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80d1-a17a-e789532075a0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1) 데이터베이스 접속:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1) 데이터베이스 접속:",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8037-869d-e16d7d3e8800",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "DriverManager.getConnection()",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "DriverManager.getConnection()",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 사용",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 사용",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80c5-9e37-e3f7e8e130e3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "매개변수:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "매개변수:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1dda071d-4763-805f-9371-e9b2f724eea4",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1dda071d-4763-80c5-9e37-e3f7e8e130e3"
+          },
+          "created_time": "2025-04-22T06:25:00.000Z",
+          "last_edited_time": "2025-04-22T06:25:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "JDBC URL",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "JDBC URL",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "jdbc:oracle:thin:@db.yale.edu:2000:univdb",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "jdbc:oracle:thin:@db.yale.edu:2000:univdb",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1dda071d-4763-8093-97da-f5253bedf59b",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1dda071d-4763-80c5-9e37-e3f7e8e130e3"
+          },
+          "created_time": "2025-04-22T06:25:00.000Z",
+          "last_edited_time": "2025-04-22T06:25:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "사용자명",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "사용자명",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ", ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ", ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "비밀번호",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "비밀번호",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8087-b312-e915406e92a8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8043-aac1-c7e240994779",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2) SQL 구문 전달:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2) SQL 구문 전달:",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8076-80b1-f0dfc081e297",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Statement 객체",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Statement 객체",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "로 SQL 실행",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로 SQL 실행",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-801f-a20b-c9f230955ec1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "executeQuery()",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "executeQuery()",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "질의 (select)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "질의 (select)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 실행",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 실행",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80b5-a5e4-cc74742d55d5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "executeUpdate()",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "executeUpdate()",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "삽입, 수정, 삭제",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "삽입, 수정, 삭제",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 실행",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 실행",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8009-8413-fc946ae6475d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8083-a0d0-d1f14d02367f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3) 예외 및 자원 관리:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3) 예외 및 자원 관리:",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8058-8cf5-d2043da788c0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "try-catch",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "try-catch",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "로 예외 처리",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로 예외 처리",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-803a-a0f0-f6f001dc8afa",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SQL 예외",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SQL 예외",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "SQLException",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "SQLException",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8063-a551-f80afe4b7075",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "자원 반환",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "자원 반환",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "close()",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "close()",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 메소드로 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 메소드로 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "접속 종료",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "접속 종료",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8015-8ccc-c3446827b763",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "try-with-resources",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "try-with-resources",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 구문으로 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 구문으로 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "자동 자원 반환",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "자동 자원 반환",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80f7-905d-c87e9d5b6343",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80df-928b-d73104d2ed25",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "4) 질의 결과 검색:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "4) 질의 결과 검색:",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80c2-a16c-f7e3e5f714c6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "ResultSet",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "ResultSet",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 객체에 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 객체에 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "질의 결과 저장",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "질의 결과 저장",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8005-9c13-f41d0b67b070",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "next()",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "next()",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 메소드로 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 메소드로 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "다음 튜플 이동",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "다음 튜플 이동",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-803e-bf84-e398db93e210",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "getString()",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "getString()",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "getFloat()",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "getFloat()",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 등으로 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 등으로 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "속성 값 추출",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "속성 값 추출",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-807f-85f4-e0f517331a83",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-809d-804a-fe14f533287c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "5) 준비된 구문 (Prepared Statement):",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "5) 준비된 구문 (Prepared Statement):",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8018-9516-f66f01f6448d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "?",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "?",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "로 값 대체 후 실행",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로 값 대체 후 실행",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80a8-bcd0-cf85d87b3056",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "setString()",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "setString()",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "setInt()",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "setInt()",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "로 값 지정",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로 값 지정",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8081-99a5-caa76536e65f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "재사용 시 효율성 증가",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "재사용 시 효율성 증가",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "SQL 인젝션 방지",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SQL 인젝션 방지",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-801e-b677-d279dacdbada",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80be-be3e-e4a62a4847f9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1.3 ODBC",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1.3 ODBC",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-801d-a7ec-ce784f79018d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "데이터베이스 독립적인 API",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "데이터베이스 독립적인 API",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80b2-a320-ce5bd1f08520",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "C 언어",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "C 언어",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 등에서 사용 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 등에서 사용 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-805d-8fc0-eafc591b80c9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "자동 커밋 기능 해제",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "자동 커밋 기능 해제",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ":",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ":",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80b9-8c9c-f82badca3db2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SQLSetConnectOption(conn, SQL_AUTOCOMMIT, 0);",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SQLSetConnectOption(conn, SQL_AUTOCOMMIT, 0);",
+            "href": null
+          }
+        ],
+        "language": "c"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8009-978e-f61452b8dfa5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "명시적 커밋/롤백",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "명시적 커밋/롤백",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ":",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ":",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8046-a103-da7912b4107f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SQLTransact(conn, SQL_COMMIT);\nSQLTransact(conn, SQL_ROLLBACK);",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SQLTransact(conn, SQL_COMMIT);\nSQLTransact(conn, SQL_ROLLBACK);",
+            "href": null
+          }
+        ],
+        "language": "c"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8009-93fe-ffb849b30edd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8056-bc76-fc554642112c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1.4 내장 SQL",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1.4 내장 SQL",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8016-8f7e-c53a5fb78574",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "C, C++, Java",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "C, C++, Java",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 등에서 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 등에서 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "SQL 구문",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SQL 구문",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 삽입 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 삽입 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80fe-a05f-d80461658e1b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "전처리기",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "전처리기",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "가 SQL 구문을 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가 SQL 구문을 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "함수 호출",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "함수 호출",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "로 변환",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로 변환",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8003-855d-e450b904369c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "구문:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "구문:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-802b-af88-ce29aba72281",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "EXEC SQL <embedded SQL statement>;",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "EXEC SQL <embedded SQL statement>;",
+            "href": null
+          }
+        ],
+        "language": "sql"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80d4-81bb-d944d87272f2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "호스트 변수",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "호스트 변수",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 사용 시 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 사용 시 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ":변수명",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": ":변수명",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "으로 표시",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "으로 표시",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80a8-9fc7-ce020ac59b36",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "커서(cursor)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "커서(cursor)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "를 통해 질의 결과 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "를 통해 질의 결과 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "반복 처리",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "반복 처리",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-807a-b803-dc5d62779d93",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8068-beb6-d54f7df57a45",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. 함수와 프로시저",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. 함수와 프로시저",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8010-ae2b-e660d1029ed3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2.1 사용자 정의 함수",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2.1 사용자 정의 함수",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8038-a48b-efbb5a8f13c1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "복잡한 데이터 타입",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "복잡한 데이터 타입",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " (예: 이미지, 지리정보) 처리 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " (예: 이미지, 지리정보) 처리 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80b0-b5a6-d3cd317db6e5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "학과 교수 수 반환 함수",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "학과 교수 수 반환 함수",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 예시:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 예시:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80ce-ae7c-ce08840eca32",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "create function dept_count(dept_name varchar(20)) returns integer ...",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "create function dept_count(dept_name varchar(20)) returns integer ...",
+            "href": null
+          }
+        ],
+        "language": "sql"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-807a-8d68-f8a04a8c3b51",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "테이블 함수",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "테이블 함수",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "릴레이션 반환",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "릴레이션 반환",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-809a-8aeb-f9b85af3c0da",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80ec-8d84-dc880af4a887",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2.2 프로시저",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2.2 프로시저",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8093-98e7-daccb9ac33fa",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "입출력 매개변수 (in, out)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "입출력 매개변수 (in, out)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 사용",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 사용",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80ad-a80a-de659a0db07d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "예:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "예:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8056-aeb3-de7e26d117b1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "create procedure dept_count_proc(in dept_name varchar(20), out count integer) ...",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "create procedure dept_count_proc(in dept_name varchar(20), out count integer) ...",
+            "href": null
+          }
+        ],
+        "language": "sql"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-802c-b81a-e352b1ce05f7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "call",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "call",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 구문으로 호출",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 구문으로 호출",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8009-b762-d285a013233e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8096-92b9-c50a0ecd84ba",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2.3 프로시저 언어 구문",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2.3 프로시저 언어 구문",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-803d-92bc-e22548ee9cf4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "변수 선언",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "변수 선언",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "declare",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "declare",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80f7-90cb-e369154e4029",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "값 할당",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "값 할당",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "set",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "set",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-803b-8a8f-f79a37bb8417",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "복합문",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "복합문",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "begin ... end",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "begin ... end",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8003-a636-fe8ae8d17ec9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "반복문",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "반복문",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "while",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "while",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "repeat",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "repeat",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "for",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "for",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8036-8b85-f581f65b083c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "조건문",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "조건문",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "if ... then ... elseif ... else ... end if",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "if ... then ... elseif ... else ... end if",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-802a-adee-d782e77d8606",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "예외 처리",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "예외 처리",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ":",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ":",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-806f-9296-d2f880a18428",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "declare out_of_classroom_seats condition;\ndeclare exit handler for out_of_classroom_seats ...",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "declare out_of_classroom_seats condition;\ndeclare exit handler for out_of_classroom_seats ...",
+            "href": null
+          }
+        ],
+        "language": "sql"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80c3-8eba-e86d019c6e57",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80d7-854a-edf1e9143ced",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2.4 외부 언어 루틴",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2.4 외부 언어 루틴",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80f1-840f-e9ec52f8b16e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "C, Java, C#",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "C, Java, C#",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 등으로 함수/프로시저 작성 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 등으로 함수/프로시저 작성 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-808c-9f65-cfcb7ced8594",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "예:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "예:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-807f-b5ca-c003684e3ea8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "create function dept_count(dept_name varchar(20))\nreturns integer\nlanguage C\nexternal name '/usr/avi/bin/dept_count';",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "create function dept_count(dept_name varchar(20))\nreturns integer\nlanguage C\nexternal name '/usr/avi/bin/dept_count';",
+            "href": null
+          }
+        ],
+        "language": "sql"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8020-abfe-c33a45643bd8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "샌드박스(sandbox)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "샌드박스(sandbox)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 환경에서 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 환경에서 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "보안 실행",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "보안 실행",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80b8-b210-f688c6d247be",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80a0-931e-eedb68ec5e48",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3. 트리거 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3. 트리거 ",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8076-933d-e01917243ae1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3.1 트리거 개념",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3.1 트리거 개념",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80c6-ac7d-c5600f5030c0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "특정 사건",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "특정 사건",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "(삽입, 삭제, 갱신)에 대해 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "(삽입, 삭제, 갱신)에 대해 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "자동 실행되는 SQL 구문",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "자동 실행되는 SQL 구문",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-801c-984b-fd41b220a015",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "무결성 제약조건",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "무결성 제약조건",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "을 보완하거나 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "을 보완하거나 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "자동화 작업",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "자동화 작업",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "에 사용",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "에 사용",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8035-a589-d8c7b5193d3e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80e1-8821-ecb0402ce4d0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3.2 트리거 예시",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3.2 트리거 예시",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-806e-8271-fed293c6974f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1) 참조 무결성 보장:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1) 참조 무결성 보장:",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8085-88c9-f0cde25a225c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "section.time_slot_id",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "section.time_slot_id",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "가 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "time_slot",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "time_slot",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "에 존재하는지 검사:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "에 존재하는지 검사:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80b9-b335-e69fb3bf2560",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "create trigger timeslot_check1 after insert on section\nreferencing new row as nrow\nwhen (nrow.time_slot_id not in (select time_slot_id from time_slot))\nbegin rollback; end;",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "create trigger timeslot_check1 after insert on section\nreferencing new row as nrow\nwhen (nrow.time_slot_id not in (select time_slot_id from time_slot))\nbegin rollback; end;",
+            "href": null
+          }
+        ],
+        "language": "sql"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8072-8b5b-fc21aff204ca",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80d0-a508-c3f6146dcb45",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2) 재고 관리:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2) 재고 관리:",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80e1-a6e3-dff2fbbe1fdb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "재고량이 최소량 이하",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "재고량이 최소량 이하",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "로 내려가면 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로 내려가면 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "orders",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "orders",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 릴레이션에 주문 추가:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 릴레이션에 주문 추가:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80ba-83aa-f02c90dbb237",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "create trigger reorder after update of level on inventory\nreferencing old row as orow, new row as nrow\nwhen nrow.level <= (select level from minlevel where item = orow.item)\nand orow.level > (select level from minlevel where item = orow.item)\nbegin atomic\ninsert into orders (select item, amount from reorder where item = orow.item);\nend;",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "create trigger reorder after update of level on inventory\nreferencing old row as orow, new row as nrow\nwhen nrow.level <= (select level from minlevel where item = orow.item)\nand orow.level > (select level from minlevel where item = orow.item)\nbegin atomic\ninsert into orders (select item, amount from reorder where item = orow.item);\nend;",
+            "href": null
+          }
+        ],
+        "language": "sql"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80a8-af4d-d8dfa063f937",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-80bb-9a70-f59979e906f4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3.3 트리거의 한계와 부적합한 경우",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3.3 트리거의 한계와 부적합한 경우",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8002-b0f5-fd8d189052dd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "on delete cascade",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "on delete cascade",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 기능 대신 트리거 사용 시 복잡성 증가",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 기능 대신 트리거 사용 시 복잡성 증가",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8045-a29c-d31b411cbc8a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "실체화 뷰 유지",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "실체화 뷰 유지",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "는 트리거 대신 DBMS 지원 기능 활용 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "는 트리거 대신 DBMS 지원 기능 활용 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-8066-870c-de901b215916",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "데이터베이스 복제",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "데이터베이스 복제",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 시 트리거 동작 방지 필요 (",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 시 트리거 동작 방지 필요 (",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "not for replication",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "not for replication",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ")",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ")",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1dda071d-4763-806e-a658-ee63eb2edd23",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1dda071d-4763-80ec-aef1-cc4ee2879336"
+      },
+      "created_time": "2025-04-22T06:25:00.000Z",
+      "last_edited_time": "2025-04-22T06:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "트리거 무한 루프 방지",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "트리거 무한 루프 방지",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 연결고리 길이 제한 (예: 16)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 연결고리 길이 제한 (예: 16)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

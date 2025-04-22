@@ -1,6 +1,56 @@
 
 const posts = [
   {
+    title: "[데이터베이스] 고급 SQL",
+    slug: "데이터베이스-고급-sql",
+    content: require('../notion-data/1dda071d-4763-80ec-aef1-cc4ee2879336.json'),
+    date: "2025-04-22",
+    description: "[데이터베이스] 고급 SQL",
+    image: undefined,
+    category: "cs",
+    tags: ["데이터베이스"]
+  },
+  {
+    title: "[데이터베이스] 중급 SQL",
+    slug: "데이터베이스-중급-sql",
+    content: require('../notion-data/1dda071d-4763-805c-8160-ea443d413647.json'),
+    date: "2025-04-22",
+    description: "[데이터베이스] 중급 SQL",
+    image: undefined,
+    category: "cs",
+    tags: ["데이터베이스"]
+  },
+  {
+    title: "[데이터베이스] SQL",
+    slug: "데이터베이스-sql",
+    content: require('../notion-data/1dda071d-4763-8019-ba01-e99344a6992d.json'),
+    date: "2025-04-22",
+    description: "[데이터베이스] SQL",
+    image: undefined,
+    category: "cs",
+    tags: ["데이터베이스"]
+  },
+  {
+    title: "[데이터베이스] 관계형 모델 소개",
+    slug: "데이터베이스-관계형-모델-소개",
+    content: require('../notion-data/1dda071d-4763-80ac-bc0e-daa8a5eb12da.json'),
+    date: "2025-04-22",
+    description: "[데이터베이스] 관계형 모델 소개",
+    image: undefined,
+    category: "cs",
+    tags: ["데이터베이스"]
+  },
+  {
+    title: "[데이터베이스] 데이터베이스 기본 개념",
+    slug: "데이터베이스-데이터베이스-기본-개념",
+    content: require('../notion-data/1dda071d-4763-80bd-9bfa-c6e9d3b0e5b0.json'),
+    date: "2025-04-22",
+    description: "[데이터베이스] 데이터베이스 기본 개념",
+    image: undefined,
+    category: "cs",
+    tags: ["데이터베이스"]
+  },
+  {
     title: "Spring Boot에서 JWT + Redis로 게스트 로그인 시스템 구현하기",
     slug: "spring-boot에서-jwt-redis로-게스트-로그인-시스템-구현하기",
     content: require('../notion-data/1d6a071d-4763-8099-99cc-f08f7d4c287b.json'),

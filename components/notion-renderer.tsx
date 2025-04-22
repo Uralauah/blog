@@ -33,7 +33,19 @@ export default function NotionRenderer({
           ? 'text-2xl font-bold scroll-mt-24'
           : 'text-xl font-semibold scroll-mt-24'
 
-      return React.createElement(`h${level}`, { id, className: cls }, text)
+          return (
+            <div
+              className={
+                level === 1
+                  ? 'pt-6 pb-3' // h1: 위 3rem, 아래 1.5rem
+                  : level === 2
+                  ? 'pt-5 pb-2' // h2: 위 2.5rem, 아래 1.25rem
+                  : 'pt-4 pb-2'  // h3: 위 2rem, 아래 1rem
+              }
+            >
+              {React.createElement(`h${level}`, { id, className: cls }, text)}
+            </div>
+          )     
     }
 
   const text = getTextFromBlocks(post.content.blocks)
