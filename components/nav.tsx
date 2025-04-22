@@ -37,7 +37,6 @@ const navItems: Record<string, NavItem> = {
       '/blog/category/others?tag=random': { name: '잡생각' },
     },
   },
-  'https://github.com/Uralauah': { name: 'GitHub' },
 }
 
 export function Navbar() {

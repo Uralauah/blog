@@ -38,32 +38,39 @@ export default function TOC({ items }: { items: TOCItem[] }) {
   return (
     <nav className="text-sm leading-6 top-1/2 -translate-y-1/2 fixed space-y-1">
       {items.map(({ id, text, level }) => (
-        <a
-          key={id}
-          href={`#${id}`}
-          className={`
-            block
+        <button
+            key={id}
+            onClick={() => {
+            const el = document.getElementById(id)
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+            }
+            }}
+            className={`
+            block text-left w-full
             rounded-sm
             transition-all duration-300 ease-in-out
             hover:text-black dark:hover:text-white
             hover:translate-x-1 hover:font-medium
             ${level === 2 ? 'pl-4' : level === 1 ? 'pl-0' : ''}
             ${
-              activeId === id
+                activeId === id
                 ? 'text-black dark:text-white font-bold border-l-2 border-black dark:border-white bg-gray-100 dark:bg-neutral-800'
                 : 'text-gray-500'
             }
-          `}
-        >
-          {text}
-        </a>
+            `}>
+            {text}
+        </button>
+      
       ))}
-      <a
-        href="#top"
+      <button
+        onClick={() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' })
+        }}
         className="block pt-4 text-gray-400 text-xs hover:text-black dark:hover:text-white transition-colors"
-      >
+        >
         ↑ 맨 위로
-      </a>
+        </button>
     </nav>
   )
 }
