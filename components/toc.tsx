@@ -31,7 +31,7 @@ export default function TOC({ items }: { items: TOCItem[] }) {
   }, [])
 
   return (
-    <nav className="text-sm leading-6 space-y-1">
+    <nav className="text-sm leading-6 top-1/2 -translate-y-1/2 fixed space-y-1">
       {items.map(({ id, text, level }) => (
         <a
           key={id}
