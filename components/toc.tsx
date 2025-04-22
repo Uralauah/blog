@@ -7,27 +7,32 @@ export default function TOC({ items }: { items: TOCItem[] }) {
   const [activeId, setActiveId] = useState<string | null>(null)
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => a.target.getBoundingClientRect().top - b.target.getBoundingClientRect().top)
+    const headings = Array.from(document.querySelectorAll('h1[id], h2[id]')) as HTMLElement[]
 
-        if (visible.length > 0) {
-          const id = visible[0].target.getAttribute('id')
-          if (id) setActiveId(id)
+    const handleScroll = () => {
+      const offset = 300 // 조정 가능한 상단 여유값
+      let currentId: string | null = null
+
+      for (let i = 0; i < headings.length; i++) {
+        const heading = headings[i]
+        const rect = heading.getBoundingClientRect()
+
+        if (rect.top - offset <= 0) {
+          currentId = heading.id
+        } else {
+          break
         }
-      },
-      {
-        rootMargin: '0px 0px -30% 0px', // 조금 더 빠르게 감지
-        threshold: [0.25, 0.5, 0.75],
       }
-    )
 
-    const headings = document.querySelectorAll('h1[id], h2[id]') // 사용하는 heading 모두 포함!
-    headings.forEach((el) => observer.observe(el))
+      setActiveId(currentId)
+    }
 
-    return () => observer.disconnect()
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    handleScroll() // 초기 상태 업데이트
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
   }, [])
 
   return (

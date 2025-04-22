@@ -7,17 +7,17 @@ export default function Page() {
     <PageContainer size="narrow">
       <section>
         <div className="flex items-center mb-8">
-          <Image
-            src="/profile.png"
-            alt="profile image"
-            width={100}
-            height={100}
-            className="rounded-full mr-4"
-          />
-          <h1 className="text-2xl font-semibold tracking-tighter">
-            💻 코딩뽕짝
-          </h1>
-        </div>
+            <Image
+              src="/profile.png"
+              alt="profile image"
+              width={100}
+              height={100}
+              className="rounded-full mr-4"
+            />
+            <h1 className="text-2xl font-semibold tracking-tighter">
+              💻 코딩뽕짝
+            </h1>
+          </div>
         <p className="mb-4">
           {`👋 안녕하세요! 저는 `}
           <strong>컴퓨터공학을 전공 중인 </strong>
