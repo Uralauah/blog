@@ -9,8 +9,7 @@ const posts = [
     image: undefined,
     category: "cs",
     tags: ["컴퓨터비전"]
-  },
-  {
+  },{
     title: "[데이터베이스] 고급 SQL",
     slug: "데이터베이스-고급-sql",
     content: require('../notion-data/1dda071d-4763-80ec-aef1-cc4ee2879336.json'),
