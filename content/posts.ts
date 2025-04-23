@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "[컴퓨터비전] 2. 영상 처리",
+    slug: "컴퓨터비전-2-영상-처리",
+    content: require('../notion-data/1d7a071d-4763-809f-ab08-f13ef29c2688.json'),
+    date: "2025-04-16",
+    description: "[컴퓨터비전] 2. 영상 처리",
+    image: undefined,
+    category: "cs",
+    tags: ["컴퓨터비전"]
+  },
+  {
     title: "[데이터베이스] 고급 SQL",
     slug: "데이터베이스-고급-sql",
     content: require('../notion-data/1dda071d-4763-80ec-aef1-cc4ee2879336.json'),
@@ -168,18 +178,7 @@ const posts = [
     image: undefined,
     category: "cs",
     tags: ["컴퓨터비전"]
-  },
-  {
-    title: "[컴퓨터비전] 2. 영상 처리",
-    slug: "컴퓨터비전-2-영상-처리",
-    content: require('../notion-data/1d7a071d-4763-809f-ab08-f13ef29c2688.json'),
-    date: "2025-04-16",
-    description: "[컴퓨터비전] 2. 영상 처리",
-    image: undefined,
-    category: "cs",
-    tags: ["컴퓨터비전"]
-  },
-  {
+  },{
     title: "[컴퓨터비전] 4. 지역 특징 검출",
     slug: "컴퓨터비전-4-지역-특징-검출",
     content: require('../notion-data/1d7a071d-4763-80eb-acf5-d6538b8d9ecb.json'),
