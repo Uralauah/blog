@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "억억단을 외우자",
+    slug: "programmers-억억단을-외우자-java",
+    content: require('../notion-data/1e5a071d-4763-803e-bb57-ca6f2cea8cb7.json'),
+    date: "2025-04-30",
+    description: "억억단을 외우자",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "[컴퓨터비전] 2. 영상 처리",
     slug: "컴퓨터비전-2-영상-처리",
     content: require('../notion-data/1d7a071d-4763-809f-ab08-f13ef29c2688.json'),
