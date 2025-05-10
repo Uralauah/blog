@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "지형 이동",
+    slug: "programmers-지형-이동-java",
+    content: require('../notion-data/1eea071d-4763-80c2-b63f-ca9e06ed7330.json'),
+    date: "2025-05-09",
+    description: "지형 이동",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "억억단을 외우자",
     slug: "programmers-억억단을-외우자-java",
     content: require('../notion-data/1e5a071d-4763-803e-bb57-ca6f2cea8cb7.json'),

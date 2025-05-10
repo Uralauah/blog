@@ -1,0 +1,1923 @@
+{
+  "object": "page",
+  "id": "1eea071d-4763-80c2-b63f-ca9e06ed7330",
+  "created_time": "2025-05-09T02:13:00.000Z",
+  "last_edited_time": "2025-05-10T06:14:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "카테고리": {
+      "id": "%40IYg",
+      "type": "select",
+      "select": {
+        "id": "e238869e-b403-4fed-81d5-f58c1b00c59e",
+        "name": "코딩테스트",
+        "color": "red"
+      }
+    },
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "JAVA",
+          "color": "pink"
+        },
+        {
+          "id": "d40fc4d5-7962-4bbf-a366-7a9e7469728c",
+          "name": "프로그래머스",
+          "color": "orange"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-05-09",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "지형 이동",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "지형 이동",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/1eea071d476380c2b63fca9e06ed7330",
+  "public_url": null,
+  "request_id": "2d8fc032-78a9-4edd-b843-2da1cfd61973",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1eea071d-4763-80bd-97d4-f9276885dd66",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T02:13:00.000Z",
+      "last_edited_time": "2025-05-09T02:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://www.acmicpc.net/problem/11401"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://www.acmicpc.net/problem/11401"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-80c8-8043-cab27ddc075d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T02:13:00.000Z",
+      "last_edited_time": "2025-05-09T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 1시간",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 1시간",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-8019-8e0e-d9d57ea7b0b2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:37:00.000Z",
+      "last_edited_time": "2025-05-09T04:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 요약",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 요약",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-80da-9cac-c0f654baa187",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:38:00.000Z",
+      "last_edited_time": "2025-05-09T04:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "N x N 크기의 격자 지형이 주어짐. 각 칸은 높이를 나타내는 숫자를 가짐",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "N x N 크기의 격자 지형이 주어짐. 각 칸은 높이를 나타내는 숫자를 가짐",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-808d-8eb3-f80ec82886c5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:38:00.000Z",
+      "last_edited_time": "2025-05-09T04:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "상, 하, 좌, 우로 이동 가능하며, 인접 칸의 높이 차가 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "상, 하, 좌, 우로 이동 가능하며, 인접 칸의 높이 차가 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "height 이하",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "height 이하",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "일 경우 사다리 없이 이동 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "일 경우 사다리 없이 이동 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-8057-b996-c964b4a2ecb9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:38:00.000Z",
+      "last_edited_time": "2025-05-09T04:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "높이 차가 height를 초과하면 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "높이 차가 height를 초과하면 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "사다리를 설치",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "사다리를 설치",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "해야 하며, 비용은 두 칸의 높이 차와 같음",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "해야 하며, 비용은 두 칸의 높이 차와 같음",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-8067-be8f-dfebe47374e5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:38:00.000Z",
+      "last_edited_time": "2025-05-09T04:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "목표: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "목표: ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "모든 칸을 방문",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "모든 칸을 방문",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하기 위해 설치해야 하는 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하기 위해 설치해야 하는 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "사다리 비용의 최소값",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "사다리 비용의 최소값",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "을 구함",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "을 구함",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-80aa-aa9b-d78660753821",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:38:00.000Z",
+      "last_edited_time": "2025-05-09T04:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "사다리 설치 개수에는 제한이 없음",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "사다리 설치 개수에는 제한이 없음",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-8025-b26b-c111f79feb20",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:38:00.000Z",
+      "last_edited_time": "2025-05-09T04:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-80c8-83f4-cb31c04d111e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:39:00.000Z",
+      "last_edited_time": "2025-05-09T04:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제를 읽고 바로 일단 각 영역을 분류를 해야겠다는 생각을 했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제를 읽고 바로 일단 각 영역을 분류를 해야겠다는 생각을 했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-8017-b09a-e8bb1de8999b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:39:00.000Z",
+      "last_edited_time": "2025-05-09T04:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "영역을 분류하기 위해 각 칸을 bfs로 돌면서 높이 차가 height 이하인 경우를 다 합쳐주면서",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "영역을 분류하기 위해 각 칸을 bfs로 돌면서 높이 차가 height 이하인 경우를 다 합쳐주면서",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-80cf-9a48-c7756d508fa4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:40:00.000Z",
+      "last_edited_time": "2025-05-09T04:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "map 배열에 저장했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "map 배열에 저장했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-8034-b30a-eb2a59800263",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:42:00.000Z",
+      "last_edited_time": "2025-05-09T04:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "영역 분류 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "영역 분류 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-8042-ae1c-d3dc5d407955",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:41:00.000Z",
+      "last_edited_time": "2025-05-10T06:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public void find(int x, int y, int num) {\n        Queue<Node> q = new LinkedList<>();\n        q.add(new Node(x, y));\n        map[x][y] = num;\n\n        while(!q.isEmpty()) {\n            Node now = q.poll();\n            for(int i = 0; i < 4; i++) {\n\t\t            // 각 칸에 대해 주위 탐색\n                int tx = now.x + dir[i][0];\n                int ty = now.y + dir[i][1];\n                \n                //격자를 넘어가는지\n                if(!check(tx, ty))\n                 continue;\n                //이미 영역이 있다면 넘어감\n                if(map[tx][ty] != 0) \n\t                continue;\n\t                \n\t              //두 칸의 차이가 최대 높이차보다 크다면 다른 영역\n                if(Math.abs(LAND[now.x][now.y] - LAND[tx][ty]) > HEIGHT) \n\t                continue;\n\t              //영역 표시\n                map[tx][ty] = num;\n                q.add(new Node(tx, ty));\n            }\n        }\n    }",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public void find(int x, int y, int num) {\n        Queue<Node> q = new LinkedList<>();\n        q.add(new Node(x, y));\n        map[x][y] = num;\n\n        while(!q.isEmpty()) {\n            Node now = q.poll();\n            for(int i = 0; i < 4; i++) {\n\t\t            // 각 칸에 대해 주위 탐색\n                int tx = now.x + dir[i][0];\n                int ty = now.y + dir[i][1];\n                \n                //격자를 넘어가는지\n                if(!check(tx, ty))\n                 continue;\n                //이미 영역이 있다면 넘어감\n                if(map[tx][ty] != 0) \n\t                continue;\n\t                \n\t              //두 칸의 차이가 최대 높이차보다 크다면 다른 영역\n                if(Math.abs(LAND[now.x][now.y] - LAND[tx][ty]) > HEIGHT) \n\t                continue;\n\t              //영역 표시\n                map[tx][ty] = num;\n                q.add(new Node(tx, ty));\n            }\n        }\n    }",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-8081-88b3-d741e87e2014",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:42:00.000Z",
+      "last_edited_time": "2025-05-09T04:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-8026-b780-dd2892b5762d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:08:00.000Z",
+      "last_edited_time": "2025-05-10T06:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-80ba-bc8f-d940022cbdf3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:42:00.000Z",
+      "last_edited_time": "2025-05-09T04:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "다음으로 분류된 영역들이 만나는 부분을 찾아 연결을 해줘야 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "다음으로 분류된 영역들이 만나는 부분을 찾아 연결을 해줘야 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-80cc-90df-c21653a3dbe2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:46:00.000Z",
+      "last_edited_time": "2025-05-10T05:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "우리는 최소의 값으로 사다리를 연결해야 하기 때문에 각 영역들의 연결에 대해 가장 작은 값만 맵에 저장해준다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "우리는 최소의 값으로 사다리를 연결해야 하기 때문에 각 영역들의 연결에 대해 가장 작은 값만 맵에 저장해준다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-8054-a3ef-d046dfa8af5d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T05:57:00.000Z",
+      "last_edited_time": "2025-05-10T05:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "예를 들어 2,3 영역이 연결된 부분의 가중치가 5, 7, 9 가 있다면 이 중에서 5의 가중치만 저장해 주는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "예를 들어 2,3 영역이 연결된 부분의 가중치가 5, 7, 9 가 있다면 이 중에서 5의 가중치만 저장해 주는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-8089-9ab8-dada73bb74b8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:08:00.000Z",
+      "last_edited_time": "2025-05-10T06:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "영역 간 최소 높이 저장 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "영역 간 최소 높이 저장 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-80f9-b73f-c11b7d0a3914",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T05:58:00.000Z",
+      "last_edited_time": "2025-05-10T06:02:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Map<String, Integer> edgeMap = new HashMap<>();\nfor(int i = 0; i < max_x; i++) {\n    for(int j = 0; j < max_y; j++) {\n        for(int k = 0; k < 4; k++) {\n\t\t        //각 칸에 대해 주변 탐색\n            int tx = i + dir[k][0];\n            int ty = j + dir[k][1];\n            \n            //격자를 넘어가는지\n            if(!check(tx, ty)) \n                continue;\n            \n            //현재 위치의 영역 번호\n            int from = map[i][j];\n            //주위 칸의 영역 번호\n            int to = map[tx][ty];\n            \n            //두 칸의 영역이 같다면 넘어감\n            if(from == to) \n                continue;\n            \n            //두 영역 사이의 가중치 구함\n            int cost = Math.abs(LAND[i][j] - LAND[tx][ty]);\n            \n            //맵에 낮은 영역 번호, 높은 영역 번호 순으로 통일 시키기 위한 정리\n            if(from > to) { \n                int tmp = from; \n                from = to; \n                to = tmp; \n            }\n            \n            //두 영역을 이용해 key 생성\n            String key = from + \",\" + to;\n            //맵에 최솟값만 저장함\n            edgeMap.put(key, Math.min(edgeMap.getOrDefault(key, Integer.MAX_VALUE), cost));\n        }\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Map<String, Integer> edgeMap = new HashMap<>();\nfor(int i = 0; i < max_x; i++) {\n    for(int j = 0; j < max_y; j++) {\n        for(int k = 0; k < 4; k++) {\n\t\t        //각 칸에 대해 주변 탐색\n            int tx = i + dir[k][0];\n            int ty = j + dir[k][1];\n            \n            //격자를 넘어가는지\n            if(!check(tx, ty)) \n                continue;\n            \n            //현재 위치의 영역 번호\n            int from = map[i][j];\n            //주위 칸의 영역 번호\n            int to = map[tx][ty];\n            \n            //두 칸의 영역이 같다면 넘어감\n            if(from == to) \n                continue;\n            \n            //두 영역 사이의 가중치 구함\n            int cost = Math.abs(LAND[i][j] - LAND[tx][ty]);\n            \n            //맵에 낮은 영역 번호, 높은 영역 번호 순으로 통일 시키기 위한 정리\n            if(from > to) { \n                int tmp = from; \n                from = to; \n                to = tmp; \n            }\n            \n            //두 영역을 이용해 key 생성\n            String key = from + \",\" + to;\n            //맵에 최솟값만 저장함\n            edgeMap.put(key, Math.min(edgeMap.getOrDefault(key, Integer.MAX_VALUE), cost));\n        }\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-806a-a1ed-cb1a805fc77d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:08:00.000Z",
+      "last_edited_time": "2025-05-10T06:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-8092-8e73-f11501957a01",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:08:00.000Z",
+      "last_edited_time": "2025-05-10T06:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-8042-90c5-e54355657535",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:46:00.000Z",
+      "last_edited_time": "2025-05-10T06:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "다음으로는 이렇게 맵에 저장된 영역 간의 최소 높이차를 이용해서 연결을 해줘야 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "다음으로는 이렇게 맵에 저장된 영역 간의 최소 높이차를 이용해서 연결을 해줘야 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-803b-882f-e98fe12ab0e8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:09:00.000Z",
+      "last_edited_time": "2025-05-10T06:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "나는 연결을 위해서 union-find를 사용했는데,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "나는 연결을 위해서 union-find를 사용했는데,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-8092-8ee6-e8899f9ecf19",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:09:00.000Z",
+      "last_edited_time": "2025-05-10T06:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "union-find를 하기 위해 먼저 우선순위 큐에 위의 값들을 넣어주었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "union-find를 하기 위해 먼저 우선순위 큐에 위의 값들을 넣어주었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-80be-bffe-fcfa16bf85d4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:09:00.000Z",
+      "last_edited_time": "2025-05-10T06:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "우선순위 큐 저장 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "우선순위 큐 저장 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-800d-895c-d59677fd200b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:09:00.000Z",
+      "last_edited_time": "2025-05-10T06:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "PriorityQueue<Bridge> pq = new PriorityQueue<>((a, b) -> a.len - b.len);\n\nfor(Map.Entry<String, Integer> entry : edgeMap.entrySet()) {\n    String[] parts = entry.getKey().split(\",\");\n    int from = Integer.parseInt(parts[0]);\n    int to = Integer.parseInt(parts[1]);\n    pq.add(new Bridge(from, to, entry.getValue()));\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "PriorityQueue<Bridge> pq = new PriorityQueue<>((a, b) -> a.len - b.len);\n\nfor(Map.Entry<String, Integer> entry : edgeMap.entrySet()) {\n    String[] parts = entry.getKey().split(\",\");\n    int from = Integer.parseInt(parts[0]);\n    int to = Integer.parseInt(parts[1]);\n    pq.add(new Bridge(from, to, entry.getValue()));\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-8077-823e-da6a75d65ade",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:10:00.000Z",
+      "last_edited_time": "2025-05-10T06:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-8010-a254-c176dd8aee3b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T04:42:00.000Z",
+      "last_edited_time": "2025-05-10T06:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "우선순위 큐에 넣은 값들을 이용해 이제 최소 높이 차인 값들을 꺼내오면서 모든 영역이 연결될 때까지 연결해주면 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "우선순위 큐에 넣은 값들을 이용해 이제 최소 높이 차인 값들을 꺼내오면서 모든 영역이 연결될 때까지 연결해주면 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-80fe-a608-c0122a7aa06f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:10:00.000Z",
+      "last_edited_time": "2025-05-10T06:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-80f5-a668-e892b56cb688",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:11:00.000Z",
+      "last_edited_time": "2025-05-10T06:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "영역 연결 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "영역 연결 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-8063-a302-fef4f5600fee",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:11:00.000Z",
+      "last_edited_time": "2025-05-10T06:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Union-Find 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Union-Find 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-80e9-8221-d80e3f886fb5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:11:00.000Z",
+      "last_edited_time": "2025-05-10T06:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public int findParent(int x) {\n\tif(uf[x] != x) uf[x] = findParent(uf[x]);\n\treturn uf[x];\n}\n\npublic void union(int x, int y) {\n\tint px = findParent(x);\n\tint py = findParent(y);\n\tif(px != py) uf[py] = px;\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public int findParent(int x) {\n\tif(uf[x] != x) uf[x] = findParent(uf[x]);\n\treturn uf[x];\n}\n\npublic void union(int x, int y) {\n\tint px = findParent(x);\n\tint py = findParent(y);\n\tif(px != py) uf[py] = px;\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-80bd-a91f-ecf0ab347801",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:14:00.000Z",
+      "last_edited_time": "2025-05-10T06:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-804e-be88-dc6f1c1970e7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:12:00.000Z",
+      "last_edited_time": "2025-05-10T06:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "영역 연결 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "영역 연결 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-80ad-83aa-e3ad2b32e726",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:12:00.000Z",
+      "last_edited_time": "2025-05-10T06:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "// 각 영역의 부모를 저장하기 위한 배열\nuf = new int[num];\n//초기의 각 영역의 부모는 자기 자신\nfor(int i = 0; i < num; i++) \n\tuf[i] = i;\n\nwhile(!pq.isEmpty()) {\n\tBridge now = pq.poll();\n\t//서로의 부모가 다르면 아직 연결되지 않은 영역들이기 때문에 연결\n\tif(findParent(now.from) != findParent(now.to)) {\n\t\tunion(now.from, now.to);\n\t\tanswer += now.len; //연결을 위해 사다리를 놓은 높이 저장\n\t}\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "// 각 영역의 부모를 저장하기 위한 배열\nuf = new int[num];\n//초기의 각 영역의 부모는 자기 자신\nfor(int i = 0; i < num; i++) \n\tuf[i] = i;\n\nwhile(!pq.isEmpty()) {\n\tBridge now = pq.poll();\n\t//서로의 부모가 다르면 아직 연결되지 않은 영역들이기 때문에 연결\n\tif(findParent(now.from) != findParent(now.to)) {\n\t\tunion(now.from, now.to);\n\t\tanswer += now.len; //연결을 위해 사다리를 놓은 높이 저장\n\t}\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-8071-82d9-ea5986bc8b53",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:14:00.000Z",
+      "last_edited_time": "2025-05-10T06:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-8038-a2f0-cd7e34962624",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:14:00.000Z",
+      "last_edited_time": "2025-05-10T06:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1efa071d-4763-8011-9716-fd428411c965",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-10T06:14:00.000Z",
+      "last_edited_time": "2025-05-10T06:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최종 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최종 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1eea071d-4763-807c-b5b5-d390942af6a4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1eea071d-4763-80c2-b63f-ca9e06ed7330"
+      },
+      "created_time": "2025-05-09T02:13:00.000Z",
+      "last_edited_time": "2025-05-10T05:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.util.*;\n\nclass Solution {\n    public int[][] dir = {{0,1},{0,-1},{1,0},{-1,0}};\n    public int[][] LAND, map;\n    public int[] uf;\n    public int HEIGHT;\n    public int max_x, max_y;\n\n    public class Node {\n        int x, y;\n        public Node(int x, int y) { this.x = x; this.y = y; }\n    }\n\n    public class Bridge {\n        int from, to, len;\n        public Bridge(int from, int to, int len) {\n            this.from = from;\n            this.to = to;\n            this.len = len;\n        }\n    }\n\n    public boolean check(int x, int y) {\n        return !(x < 0 || x >= max_x || y < 0 || y >= max_y);\n    }\n\n    public void find(int x, int y, int num) {\n        Queue<Node> q = new LinkedList<>();\n        q.add(new Node(x, y));\n        map[x][y] = num;\n\n        while(!q.isEmpty()) {\n            Node now = q.poll();\n            for(int i = 0; i < 4; i++) {\n                int tx = now.x + dir[i][0];\n                int ty = now.y + dir[i][1];\n                if(!check(tx, ty)) continue;\n                if(map[tx][ty] != 0) continue;\n                if(Math.abs(LAND[now.x][now.y] - LAND[tx][ty]) > HEIGHT) continue;\n                map[tx][ty] = num;\n                q.add(new Node(tx, ty));\n            }\n        }\n    }\n\n    public int findParent(int x) {\n        if(uf[x] != x) uf[x] = findParent(uf[x]);\n        return uf[x];\n    }\n\n    public void union(int x, int y) {\n        int px = findParent(x);\n        int py = findParent(y);\n        if(px != py) uf[py] = px;\n    }\n\n    public int solution(int[][] land, int height) {\n        int answer = 0;\n        LAND = land;\n        HEIGHT = height;\n        max_x = land.length;\n        max_y = land[0].length;\n        map = new int[max_x][max_y];\n\n        int num = 1;\n        for(int i = 0; i < max_x; i++) {\n            for(int j = 0; j < max_y; j++) {\n                if(map[i][j] == 0) find(i, j, num++);\n            }\n        }\n\n        Map<String, Integer> edgeMap = new HashMap<>();\n        for(int i = 0; i < max_x; i++) {\n            for(int j = 0; j < max_y; j++) {\n                for(int k = 0; k < 4; k++) {\n                    int tx = i + dir[k][0];\n                    int ty = j + dir[k][1];\n                    \n                    if(!check(tx, ty)) \n\t                    continue;\n\t                    \n                    int from = map[i][j];\n                    int to = map[tx][ty];\n                    \n                    if(from == to) \n\t                    continue;\n\t                    \n                    int cost = Math.abs(LAND[i][j] - LAND[tx][ty]);\n                    \n                    if(from > to){ \n\t                    int tmp = from; from = to; to = tmp; \n\t                  }\n\t                  \n                    String key = from + \",\" + to;\n                    edgeMap.put(key, Math.min(edgeMap.getOrDefault(key, Integer.MAX_VALUE), cost));\n                }\n            }\n        }\n\n        PriorityQueue<Bridge> pq = new PriorityQueue<>((a, b) -> a.len - b.len);\n        for(Map.Entry<String, Integer> entry : edgeMap.entrySet()) {\n            String[] parts = entry.getKey().split(\",\");\n            int from = Integer.parseInt(parts[0]);\n            int to = Integer.parseInt(parts[1]);\n            pq.add(new Bridge(from, to, entry.getValue()));\n        }\n\n        uf = new int[num];\n        for(int i = 0; i < num; i++) uf[i] = i;\n\n        while(!pq.isEmpty()) {\n            Bridge now = pq.poll();\n            if(findParent(now.from) != findParent(now.to)) {\n                union(now.from, now.to);\n                answer += now.len;\n            }\n        }\n\n        return answer;\n    }\n}\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.util.*;\n\nclass Solution {\n    public int[][] dir = {{0,1},{0,-1},{1,0},{-1,0}};\n    public int[][] LAND, map;\n    public int[] uf;\n    public int HEIGHT;\n    public int max_x, max_y;\n\n    public class Node {\n        int x, y;\n        public Node(int x, int y) { this.x = x; this.y = y; }\n    }\n\n    public class Bridge {\n        int from, to, len;\n        public Bridge(int from, int to, int len) {\n            this.from = from;\n            this.to = to;\n            this.len = len;\n        }\n    }\n\n    public boolean check(int x, int y) {\n        return !(x < 0 || x >= max_x || y < 0 || y >= max_y);\n    }\n\n    public void find(int x, int y, int num) {\n        Queue<Node> q = new LinkedList<>();\n        q.add(new Node(x, y));\n        map[x][y] = num;\n\n        while(!q.isEmpty()) {\n            Node now = q.poll();\n            for(int i = 0; i < 4; i++) {\n                int tx = now.x + dir[i][0];\n                int ty = now.y + dir[i][1];\n                if(!check(tx, ty)) continue;\n                if(map[tx][ty] != 0) continue;\n                if(Math.abs(LAND[now.x][now.y] - LAND[tx][ty]) > HEIGHT) continue;\n                map[tx][ty] = num;\n                q.add(new Node(tx, ty));\n            }\n        }\n    }\n\n    public int findParent(int x) {\n        if(uf[x] != x) uf[x] = findParent(uf[x]);\n        return uf[x];\n    }\n\n    public void union(int x, int y) {\n        int px = findParent(x);\n        int py = findParent(y);\n        if(px != py) uf[py] = px;\n    }\n\n    public int solution(int[][] land, int height) {\n        int answer = 0;\n        LAND = land;\n        HEIGHT = height;\n        max_x = land.length;\n        max_y = land[0].length;\n        map = new int[max_x][max_y];\n\n        int num = 1;\n        for(int i = 0; i < max_x; i++) {\n            for(int j = 0; j < max_y; j++) {\n                if(map[i][j] == 0) find(i, j, num++);\n            }\n        }\n\n        Map<String, Integer> edgeMap = new HashMap<>();\n        for(int i = 0; i < max_x; i++) {\n            for(int j = 0; j < max_y; j++) {\n                for(int k = 0; k < 4; k++) {\n                    int tx = i + dir[k][0];\n                    int ty = j + dir[k][1];\n                    \n                    if(!check(tx, ty)) \n\t                    continue;\n\t                    \n                    int from = map[i][j];\n                    int to = map[tx][ty];\n                    \n                    if(from == to) \n\t                    continue;\n\t                    \n                    int cost = Math.abs(LAND[i][j] - LAND[tx][ty]);\n                    \n                    if(from > to){ \n\t                    int tmp = from; from = to; to = tmp; \n\t                  }\n\t                  \n                    String key = from + \",\" + to;\n                    edgeMap.put(key, Math.min(edgeMap.getOrDefault(key, Integer.MAX_VALUE), cost));\n                }\n            }\n        }\n\n        PriorityQueue<Bridge> pq = new PriorityQueue<>((a, b) -> a.len - b.len);\n        for(Map.Entry<String, Integer> entry : edgeMap.entrySet()) {\n            String[] parts = entry.getKey().split(\",\");\n            int from = Integer.parseInt(parts[0]);\n            int to = Integer.parseInt(parts[1]);\n            pq.add(new Bridge(from, to, entry.getValue()));\n        }\n\n        uf = new int[num];\n        for(int i = 0; i < num; i++) uf[i] = i;\n\n        while(!pq.isEmpty()) {\n            Bridge now = pq.poll();\n            if(findParent(now.from) != findParent(now.to)) {\n                union(now.from, now.to);\n                answer += now.len;\n            }\n        }\n\n        return answer;\n    }\n}\n",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    }
+  ]
+}
