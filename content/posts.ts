@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "24042번 - 횡단보도",
+    slug: "baekjoon-24042-java",
+    content: require('../notion-data/201a071d-4763-80b7-b5bf-f8cd1ee2640f.json'),
+    date: "2025-05-28",
+    description: "24042번 - 횡단보도",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","백준"]
+  },
+  {
     title: "지형 이동",
     slug: "programmers-지형-이동-java",
     content: require('../notion-data/1eea071d-4763-80c2-b63f-ca9e06ed7330.json'),
@@ -9,8 +19,7 @@ const posts = [
     image: undefined,
     category: "codingtest",
     tags: ["JAVA","프로그래머스"]
-  },
-  {
+  },{
     title: "억억단을 외우자",
     slug: "programmers-억억단을-외우자-java",
     content: require('../notion-data/1e5a071d-4763-803e-bb57-ca6f2cea8cb7.json'),

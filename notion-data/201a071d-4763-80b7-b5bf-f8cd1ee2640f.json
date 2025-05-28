@@ -1,0 +1,1371 @@
+{
+  "object": "page",
+  "id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f",
+  "created_time": "2025-05-28T11:26:00.000Z",
+  "last_edited_time": "2025-05-28T11:40:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "카테고리": {
+      "id": "%40IYg",
+      "type": "select",
+      "select": {
+        "id": "e238869e-b403-4fed-81d5-f58c1b00c59e",
+        "name": "코딩테스트",
+        "color": "red"
+      }
+    },
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "JAVA",
+          "color": "pink"
+        },
+        {
+          "id": "10c7fdb1-7bdc-495f-92dc-afad72d5acfb",
+          "name": "백준",
+          "color": "red"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-05-28",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "24042번 - 횡단보도",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "24042번 - 횡단보도",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/24042-201a071d476380b7b5bff8cd1ee2640f",
+  "public_url": null,
+  "request_id": "7941cf49-4fbc-4be7-8c0b-ccd7434f2e55",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "201a071d-4763-80cf-94f3-ed17717f4f4f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:26:00.000Z",
+      "last_edited_time": "2025-05-28T11:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://www.acmicpc.net/problem/24042"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://www.acmicpc.net/problem/24042"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-80fd-8f5f-c769a525cb8f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:26:00.000Z",
+      "last_edited_time": "2025-05-28T11:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 1시간",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 1시간",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-80b0-9bbc-c64d5956db9b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:27:00.000Z",
+      "last_edited_time": "2025-05-28T11:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 요약",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 요약",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-805a-808a-c970f8893e8a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:27:00.000Z",
+      "last_edited_time": "2025-05-28T11:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "N개의 지역(1번부터 N번까지)이 있고, 이들을 잇는 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "N개의 지역(1번부터 N번까지)이 있고, 이들을 잇는 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "M개의 횡단보도",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "M개의 횡단보도",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "가 있음",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가 있음",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-80ec-8922-d6d1446ee056",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:27:00.000Z",
+      "last_edited_time": "2025-05-28T11:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "각 횡단보도는 1분간 파란불이 들어오고, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "각 횡단보도는 1분간 파란불이 들어오고, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "M분 주기로 반복됨",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "M분 주기로 반복됨",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-80a7-8b18-f298bafa8e03",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:27:00.000Z",
+      "last_edited_time": "2025-05-28T11:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "i번째 입력은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "i번째 입력은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "i, i+M, i+2M, ...",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "i, i+M, i+2M, ...",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 분에 해당 횡단보도에 파란불이 들어옴",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 분에 해당 횡단보도에 파란불이 들어옴",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-805b-b943-c31f9910b42b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:27:00.000Z",
+      "last_edited_time": "2025-05-28T11:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "사람이 횡단보도를 건널 수 있는 시간은 오직 파란불이 들어온 순간부터 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "사람이 횡단보도를 건널 수 있는 시간은 오직 파란불이 들어온 순간부터 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "1분 간",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1분 간",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "뿐임",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "뿐임",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-80e5-9989-ef07d29e315c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:27:00.000Z",
+      "last_edited_time": "2025-05-28T11:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "시작 지점은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "시작 지점은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "1번 지역",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1번 지역",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", 도착 지점은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", 도착 지점은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "N번 지역",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "N번 지역",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-80a5-bed7-ecad4d157d5f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:27:00.000Z",
+      "last_edited_time": "2025-05-28T11:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "0분부터 출발",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "0분부터 출발",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하여 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하여 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "최소 시간으로 도착",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최소 시간으로 도착",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "해야 함",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "해야 함",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-8026-a039-dda3f442ac04",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:27:00.000Z",
+      "last_edited_time": "2025-05-28T11:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-8063-a4e1-f28e1d1512ec",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:28:00.000Z",
+      "last_edited_time": "2025-05-28T11:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 문제는 보자마자 다익스트라가 떠오르는 문제였다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 문제는 보자마자 다익스트라가 떠오르는 문제였다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-80ee-b138-d8fcacbcf681",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:28:00.000Z",
+      "last_edited_time": "2025-05-28T11:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 일반적인 다익스트라와는 다르게 간선을 특정 시간에만 사용할 수 있기 때문에 간선을 사용할 수 있는 조건을 만족하도록 대기 시간을 적절하게 계산해야 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 일반적인 다익스트라와는 다르게 간선을 특정 시간에만 사용할 수 있기 때문에 간선을 사용할 수 있는 조건을 만족하도록 대기 시간을 적절하게 계산해야 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-808d-a896-ed6f02e7e8f7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:28:00.000Z",
+      "last_edited_time": "2025-05-28T11:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-809e-a80a-e7a7d71d681a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:28:00.000Z",
+      "last_edited_time": "2025-05-28T11:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "횡단보도 연결 정보",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "횡단보도 연결 정보",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-8065-843d-e9bebcbc5544",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:29:00.000Z",
+      "last_edited_time": "2025-05-28T11:29:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "for (int i = 0; i < M; i++) {\n    st = new StringTokenizer(br.readLine());\n    int u = Integer.parseInt(st.nextToken());\n    int v = Integer.parseInt(st.nextToken());\n\n    graph.get(u).add(new Node(v, i));\n    graph.get(v).add(new Node(u, i));\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "for (int i = 0; i < M; i++) {\n    st = new StringTokenizer(br.readLine());\n    int u = Integer.parseInt(st.nextToken());\n    int v = Integer.parseInt(st.nextToken());\n\n    graph.get(u).add(new Node(v, i));\n    graph.get(v).add(new Node(u, i));\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-8013-9362-fad6f576243c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:29:00.000Z",
+      "last_edited_time": "2025-05-28T11:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "i번째 입력의 횡단보도에 대해 파란불이 들어오는 시간은 i+k*M 이다. (k는 임의의 정수)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "i번째 입력의 횡단보도에 대해 파란불이 들어오는 시간은 i+k*M 이다. (k는 임의의 정수)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-8047-b5d3-f128007d5560",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:30:00.000Z",
+      "last_edited_time": "2025-05-28T11:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "따라서 i를 해당 횡단보도의 파란불 시작 시간으로 저장해두었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "따라서 i를 해당 횡단보도의 파란불 시작 시간으로 저장해두었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-8040-bfc0-de09d8daba1f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:31:00.000Z",
+      "last_edited_time": "2025-05-28T11:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-8073-9a64-f0f3bc5b4901",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:31:00.000Z",
+      "last_edited_time": "2025-05-28T11:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최소 시간 계산(다익스트라 + 대기 시간)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최소 시간 계산(다익스트라 + 대기 시간)",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-800f-97e1-e376ab0e4b04",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:31:00.000Z",
+      "last_edited_time": "2025-05-28T11:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public static void find() {\n    PriorityQueue<State> pq = new PriorityQueue<>(Comparator.comparingLong(s -> s.time));\n    pq.offer(new State(1, 0)); // 시작 지역 1번, 시간 0\n    dist[1] = 0;\n\n    while (!pq.isEmpty()) {\n        State now = pq.poll();\n\n        if (now.time > dist[now.index]) continue;\n\n        for (Node next : graph.get(now.index)) {\n            long nextTime;\n\n            // 현재 시간이 신호 시간보다 이르면 기다릴 필요 없음\n            if (now.time <= next.signalTime) {\n                nextTime = next.signalTime + 1; //이동하는 시간 1분을 더함\n            } else {\n                // 기다려야 하는 경우: 다음 파란불 시간을 계산\n                long wait = ((now.time - next.signalTime + M - 1) / M) * M;\n                nextTime = wait + next.signalTime + 1; //이동 시간 1분 더함\n            }\n\n            // 더 짧은 경로를 발견하면 갱신\n            if (nextTime < dist[next.to]) {\n                dist[next.to] = nextTime;\n                pq.offer(new State(next.to, nextTime));\n            }\n        }\n    }\n}\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public static void find() {\n    PriorityQueue<State> pq = new PriorityQueue<>(Comparator.comparingLong(s -> s.time));\n    pq.offer(new State(1, 0)); // 시작 지역 1번, 시간 0\n    dist[1] = 0;\n\n    while (!pq.isEmpty()) {\n        State now = pq.poll();\n\n        if (now.time > dist[now.index]) continue;\n\n        for (Node next : graph.get(now.index)) {\n            long nextTime;\n\n            // 현재 시간이 신호 시간보다 이르면 기다릴 필요 없음\n            if (now.time <= next.signalTime) {\n                nextTime = next.signalTime + 1; //이동하는 시간 1분을 더함\n            } else {\n                // 기다려야 하는 경우: 다음 파란불 시간을 계산\n                long wait = ((now.time - next.signalTime + M - 1) / M) * M;\n                nextTime = wait + next.signalTime + 1; //이동 시간 1분 더함\n            }\n\n            // 더 짧은 경로를 발견하면 갱신\n            if (nextTime < dist[next.to]) {\n                dist[next.to] = nextTime;\n                pq.offer(new State(next.to, nextTime));\n            }\n        }\n    }\n}\n",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-80b5-8dad-c50e9f40c104",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:31:00.000Z",
+      "last_edited_time": "2025-05-28T11:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "신호가 들어오는 다음 시간을 (현재 시간 - 신호 시작 시간) / M 을 통해 계산한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "신호가 들어오는 다음 시간을 (현재 시간 - 신호 시작 시간) / M 을 통해 계산한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-8057-b831-dcbaa37a14bd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:33:00.000Z",
+      "last_edited_time": "2025-05-28T11:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-801e-9817-f161b8cd80cb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:33:00.000Z",
+      "last_edited_time": "2025-05-28T11:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-804c-9686-f8d5d9745371",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:33:00.000Z",
+      "last_edited_time": "2025-05-28T11:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "전체 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "전체 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "201a071d-4763-805a-bd10-dd4d51d196f3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "201a071d-4763-80b7-b5bf-f8cd1ee2640f"
+      },
+      "created_time": "2025-05-28T11:33:00.000Z",
+      "last_edited_time": "2025-05-28T11:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.io.*;\nimport java.util.*;\n\nclass Main {\n    public static int n, m;\n    public static List<List<Node>> graph;\n    public static long[] dist;\n\n    static class Node {\n        int to; //도착 노드 번호\n        int signalTime; // 횡단 보도에 처음 파란불이 들어오는 시간\n\n        public Node(int to, int signalTime) {\n            this.to = to;\n            this.signalTime = signalTime;\n        }\n\n    }\n    static class State { \n        int index; //현재 번호\n        long time; //현재까지 걸린 시간\n\n        public State(int index, long time) {\n            this.index = index;\n            this.time = time;\n        }\n\n    }\n\n    public static void find() {\n        PriorityQueue<State> pq = new PriorityQueue<>(Comparator.comparingLong(s -> s.time));\n        pq.offer(new State(1, 0));\n        dist[1] = 0;\n\n        while (!pq.isEmpty()) {\n            State now = pq.poll();\n\t          // 이미 더 짧은 경로로 방문되었다면 패스\n            if (now.time > dist[now.index]) continue;\n            // 현재 노드에서 이동 가능한 모든 이웃 체크\n            for (Node next : graph.get(now.index)) {\n                long nextTime;\n                // 현재 시간이 signalTime 이전이라면 다음 파란불 시각 이전이라 해당 시간까지 기다렸다 출발\n                if (now.time <= next.signalTime) {\n                    nextTime = next.signalTime + 1; //이동 시간 1 더해줌\n                } else { //현재 시간이 signalTime 이후라면 파란불이 지났으므로 다음 파란불을 기다려야 함\n                    long wait = ((now.time - next.signalTime + m - 1) / m) * m; // 다음 파란불까지의 시간 계산\n                    nextTime = wait + next.signalTime + 1; //이동 시간 계산\n                }\n\t\t\t\t\t\t\t\t//더 짧은 시간으로 업데이트\n                if (dist[next.to] > nextTime) {\n                    dist[next.to] = nextTime;\n                    pq.offer(new State(next.to, nextTime));\n                }\n            }\n        }\n    }\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n\n        n = Integer.parseInt(st.nextToken());\n        m = Integer.parseInt(st.nextToken());\n\n        graph = new ArrayList<>();\n        for (int i = 0; i <= n; i++) {\n            graph.add(new ArrayList<>());\n        }\n\n        for (int i = 0; i < m; i++) {\n            st = new StringTokenizer(br.readLine());\n            int a = Integer.parseInt(st.nextToken());\n            int b = Integer.parseInt(st.nextToken());\n\n            graph.get(a).add(new Node(b, i));\n            graph.get(b).add(new Node(a, i));\n        }\n\n        dist = new long[n + 1];\n        Arrays.fill(dist, Long.MAX_VALUE);\n\n        find();\n        System.out.println(dist[n]);\n    }\n}\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.io.*;\nimport java.util.*;\n\nclass Main {\n    public static int n, m;\n    public static List<List<Node>> graph;\n    public static long[] dist;\n\n    static class Node {\n        int to; //도착 노드 번호\n        int signalTime; // 횡단 보도에 처음 파란불이 들어오는 시간\n\n        public Node(int to, int signalTime) {\n            this.to = to;\n            this.signalTime = signalTime;\n        }\n\n    }\n    static class State { \n        int index; //현재 번호\n        long time; //현재까지 걸린 시간\n\n        public State(int index, long time) {\n            this.index = index;\n            this.time = time;\n        }\n\n    }\n\n    public static void find() {\n        PriorityQueue<State> pq = new PriorityQueue<>(Comparator.comparingLong(s -> s.time));\n        pq.offer(new State(1, 0));\n        dist[1] = 0;\n\n        while (!pq.isEmpty()) {\n            State now = pq.poll();\n\t          // 이미 더 짧은 경로로 방문되었다면 패스\n            if (now.time > dist[now.index]) continue;\n            // 현재 노드에서 이동 가능한 모든 이웃 체크\n            for (Node next : graph.get(now.index)) {\n                long nextTime;\n                // 현재 시간이 signalTime 이전이라면 다음 파란불 시각 이전이라 해당 시간까지 기다렸다 출발\n                if (now.time <= next.signalTime) {\n                    nextTime = next.signalTime + 1; //이동 시간 1 더해줌\n                } else { //현재 시간이 signalTime 이후라면 파란불이 지났으므로 다음 파란불을 기다려야 함\n                    long wait = ((now.time - next.signalTime + m - 1) / m) * m; // 다음 파란불까지의 시간 계산\n                    nextTime = wait + next.signalTime + 1; //이동 시간 계산\n                }\n\t\t\t\t\t\t\t\t//더 짧은 시간으로 업데이트\n                if (dist[next.to] > nextTime) {\n                    dist[next.to] = nextTime;\n                    pq.offer(new State(next.to, nextTime));\n                }\n            }\n        }\n    }\n\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n        StringTokenizer st = new StringTokenizer(br.readLine());\n\n        n = Integer.parseInt(st.nextToken());\n        m = Integer.parseInt(st.nextToken());\n\n        graph = new ArrayList<>();\n        for (int i = 0; i <= n; i++) {\n            graph.add(new ArrayList<>());\n        }\n\n        for (int i = 0; i < m; i++) {\n            st = new StringTokenizer(br.readLine());\n            int a = Integer.parseInt(st.nextToken());\n            int b = Integer.parseInt(st.nextToken());\n\n            graph.get(a).add(new Node(b, i));\n            graph.get(b).add(new Node(a, i));\n        }\n\n        dist = new long[n + 1];\n        Arrays.fill(dist, Long.MAX_VALUE);\n\n        find();\n        System.out.println(dist[n]);\n    }\n}\n",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    }
+  ]
+}
