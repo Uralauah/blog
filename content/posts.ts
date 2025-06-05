@@ -9,8 +9,7 @@ const posts = [
     image: undefined,
     category: "springboot",
     tags: ["JAVA"]
-  },
-  {
+  },{
     title: "24042번 - 횡단보도",
     slug: "baekjoon-24042-java",
     content: require('../notion-data/201a071d-4763-80b7-b5bf-f8cd1ee2640f.json'),

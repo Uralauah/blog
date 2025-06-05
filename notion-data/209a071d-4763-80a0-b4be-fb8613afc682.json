@@ -2,7 +2,7 @@
   "object": "page",
   "id": "209a071d-4763-80a0-b4be-fb8613afc682",
   "created_time": "2025-06-05T02:33:00.000Z",
-  "last_edited_time": "2025-06-05T02:45:00.000Z",
+  "last_edited_time": "2025-06-05T03:06:00.000Z",
   "created_by": {
     "object": "user",
     "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
@@ -75,7 +75,7 @@
   },
   "url": "https://www.notion.so/Redis-209a071d476380a0b4befb8613afc682",
   "public_url": null,
-  "request_id": "186ac4eb-79c9-4e28-a8de-c710e510ec0a",
+  "request_id": "f40eae4e-7d6e-4474-97c7-091433422e33",
   "blocks": [
     {
       "object": "block",
@@ -804,6 +804,693 @@
         "is_toggleable": false,
         "color": "default"
       },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80ed-8cac-f6e062c4758f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T03:05:00.000Z",
+      "last_edited_time": "2025-06-05T03:05:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "채팅 로그 저장 방식",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "채팅 로그 저장 방식",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-803a-8c8e-d56f06c94a3f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T03:05:00.000Z",
+      "last_edited_time": "2025-06-05T03:05:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "채팅 메시지는 Redis의 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "채팅 메시지는 Redis의 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Sorted Set(ZSet)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sorted Set(ZSet)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 구조를 활용해 저장된다. 각 메시지는 다음과 같은 방식으로 저장된다:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 구조를 활용해 저장된다. 각 메시지는 다음과 같은 방식으로 저장된다:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8056-813c-e560c48d28ab",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T03:05:00.000Z",
+      "last_edited_time": "2025-06-05T03:05:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Redis 키는 채팅 유형에 따라 다음과 같이 구분된다:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Redis 키는 채팅 유형에 따라 다음과 같이 구분된다:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "209a071d-4763-8036-9ea8-d408bef8541a",
+          "parent": {
+            "type": "block_id",
+            "block_id": "209a071d-4763-8056-813c-e560c48d28ab"
+          },
+          "created_time": "2025-06-05T03:05:00.000Z",
+          "last_edited_time": "2025-06-05T03:05:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "전체 채팅: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "전체 채팅: ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "chat:all:log",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "chat:all:log",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "209a071d-4763-8072-bbae-fb1a632d9f8c",
+          "parent": {
+            "type": "block_id",
+            "block_id": "209a071d-4763-8056-813c-e560c48d28ab"
+          },
+          "created_time": "2025-06-05T03:05:00.000Z",
+          "last_edited_time": "2025-06-05T03:05:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "방 채팅: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "방 채팅: ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "chat:room:{roomId}:log",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "chat:room:{roomId}:log",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "209a071d-4763-805f-afd4-e19c0825e83f",
+          "parent": {
+            "type": "block_id",
+            "block_id": "209a071d-4763-8056-813c-e560c48d28ab"
+          },
+          "created_time": "2025-06-05T03:05:00.000Z",
+          "last_edited_time": "2025-06-05T03:05:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "개인 채팅: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "개인 채팅: ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "chat:private:{user1}:{user2}:log",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "chat:private:{user1}:{user2}:log",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " (두 유저 ID를 정렬하여 키 일관성 유지)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " (두 유저 ID를 정렬하여 키 일관성 유지)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-808e-9cd0-db9f1ac16dad",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T03:05:00.000Z",
+      "last_edited_time": "2025-06-05T03:05:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "메시지는 직렬화(serialize)된 후, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "메시지는 직렬화(serialize)된 후, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "sentAt",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "sentAt",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 시점을 기준으로 score에 현재 timestamp(millisecond)를 부여",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 시점을 기준으로 score에 현재 timestamp(millisecond)를 부여",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하여 저장된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하여 저장된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8077-adec-d81249606a7e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T03:05:00.000Z",
+      "last_edited_time": "2025-06-05T03:05:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 구조 덕분에 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 구조 덕분에 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "시간순 정렬",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "시간순 정렬",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "범위 기반 조회",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "범위 기반 조회",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "시간 기반 삭제 처리",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "시간 기반 삭제 처리",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "가 가능하다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가 가능하다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80a4-9a8f-d327e6cfaa0c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T03:05:00.000Z",
+      "last_edited_time": "2025-06-05T03:05:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public void saveChatMessage(ChatType chatType, String identifier, ChatMessage message, String senderId) {\n    String key = chatKey(chatType, identifier, senderId);\n    String serialized = jsonSerializer.serialize(message, CHAT_ERROR);\n    double score = Instant.now().toEpochMilli();\n\n    redisTemplate.opsForZSet().add(key, serialized, score);\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public void saveChatMessage(ChatType chatType, String identifier, ChatMessage message, String senderId) {\n    String key = chatKey(chatType, identifier, senderId);\n    String serialized = jsonSerializer.serialize(message, CHAT_ERROR);\n    double score = Instant.now().toEpochMilli();\n\n    redisTemplate.opsForZSet().add(key, serialized, score);\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8084-98ca-de0dc5bf673f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T03:05:00.000Z",
+      "last_edited_time": "2025-06-05T03:05:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
       "blocks": []
     },
     {
@@ -1785,6 +2472,52 @@
               "color": "default"
             },
             "plain_text": "List<ChatMessage> chatLog = chatLogService.getSurroundingMessages(\n    reportReq.chatType(),\n    reportReq.identifier(),\n    userDetails.getUuid(),\n    reportReq.reportedChatTime(),\n    10\n);",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80de-8473-fa4ad0ff6ff3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T03:06:00.000Z",
+      "last_edited_time": "2025-06-05T03:06:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "//신고한 채팅을 기준으로 앞뒤 10개의 채팅 가져오기\npublic List<ChatMessage> getSurroundingMessages(ChatType chatType, String identifier, String senderId, LocalDateTime baseTime, int range) {\n    String key = chatKey(chatType, identifier, senderId);\n    long baseTimestamp = baseTime.atZone(ZoneId.systemDefault()).toInstant().toEpochMilli();\n\n    // 기준 메시지\n    Set<String> baseMessageRaw = redisTemplate.opsForZSet()\n            .rangeByScore(key, baseTimestamp, baseTimestamp);\n\n    // 앞쪽 메시지 (기준 이전 메시지들)\n    Set<String> beforeRaw = redisTemplate.opsForZSet()\n            .reverseRangeByScore(key, 0, baseTimestamp - 1, 0, range);\n\n    // 뒤쪽 메시지 (기준 이후 메시지들)\n    Set<String> afterRaw = redisTemplate.opsForZSet()\n            .rangeByScore(key, baseTimestamp + 1, Double.MAX_VALUE, 0, range);\n\n    // 병합 후 정렬 (총 20개)\n    List<String> combined = new ArrayList<>(beforeRaw);\n    combined.addAll(baseMessageRaw);\n    combined.addAll(afterRaw);\n\n    return combined.stream()\n            .map(raw -> jsonSerializer.deserialize(raw, ChatMessage.class, CHAT_ERROR))\n            .sorted(Comparator.comparing(ChatMessage::sentAt))\n            .collect(Collectors.toList());\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "//신고한 채팅을 기준으로 앞뒤 10개의 채팅 가져오기\npublic List<ChatMessage> getSurroundingMessages(ChatType chatType, String identifier, String senderId, LocalDateTime baseTime, int range) {\n    String key = chatKey(chatType, identifier, senderId);\n    long baseTimestamp = baseTime.atZone(ZoneId.systemDefault()).toInstant().toEpochMilli();\n\n    // 기준 메시지\n    Set<String> baseMessageRaw = redisTemplate.opsForZSet()\n            .rangeByScore(key, baseTimestamp, baseTimestamp);\n\n    // 앞쪽 메시지 (기준 이전 메시지들)\n    Set<String> beforeRaw = redisTemplate.opsForZSet()\n            .reverseRangeByScore(key, 0, baseTimestamp - 1, 0, range);\n\n    // 뒤쪽 메시지 (기준 이후 메시지들)\n    Set<String> afterRaw = redisTemplate.opsForZSet()\n            .rangeByScore(key, baseTimestamp + 1, Double.MAX_VALUE, 0, range);\n\n    // 병합 후 정렬 (총 20개)\n    List<String> combined = new ArrayList<>(beforeRaw);\n    combined.addAll(baseMessageRaw);\n    combined.addAll(afterRaw);\n\n    return combined.stream()\n            .map(raw -> jsonSerializer.deserialize(raw, ChatMessage.class, CHAT_ERROR))\n            .sorted(Comparator.comparing(ChatMessage::sentAt))\n            .collect(Collectors.toList());\n}",
             "href": null
           }
         ],
