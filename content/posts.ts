@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "[컴퓨터비전] 7. 매칭",
+    slug: "컴퓨터비전-7-매칭",
+    content: require('../notion-data/209a071d-4763-8006-84df-c8eb15732be2.json'),
+    date: "2025-06-05",
+    description: "[컴퓨터비전] 7. 매칭",
+    image: undefined,
+    category: "cs",
+    tags: ["컴퓨터비전"]
+  },
+  {
     title: "유저 신고 기능을 위한 Redis 채팅 로그 관리",
     slug: "유저-신고-기능을-위한-redis-채팅-로그-관리",
     content: require('../notion-data/209a071d-4763-80a0-b4be-fb8613afc682.json'),
