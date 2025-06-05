@@ -59,7 +59,7 @@ export default function TOC({ items }: { items: TOCItem[] }) {
                 : 'text-gray-500'
             }
             `}>
-            {text}
+            <span dangerouslySetInnerHTML={{ __html: '&nbsp;' }} />{text}
         </button>
       
       ))}
