@@ -1,0 +1,3911 @@
+{
+  "object": "page",
+  "id": "209a071d-4763-80a0-b4be-fb8613afc682",
+  "created_time": "2025-06-05T02:33:00.000Z",
+  "last_edited_time": "2025-06-05T02:45:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "카테고리": {
+      "id": "%40IYg",
+      "type": "select",
+      "select": {
+        "id": "324cd09d-6983-43d3-a2c4-6fd278c990f8",
+        "name": "스프링부트",
+        "color": "green"
+      }
+    },
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "JAVA",
+          "color": "pink"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-06-03",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "유저 신고 기능을 위한 Redis 채팅 로그 관리",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "유저 신고 기능을 위한 Redis 채팅 로그 관리",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/Redis-209a071d476380a0b4befb8613afc682",
+  "public_url": null,
+  "request_id": "186ac4eb-79c9-4e28-a8de-c710e510ec0a",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "209a071d-4763-80de-b47a-e6d256f20d9f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "유저 신고를 위한 채팅 로그 관리",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "유저 신고를 위한 채팅 로그 관리",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80d5-ba83-e13986431efc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:39:00.000Z",
+      "last_edited_time": "2025-06-05T02:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "게임 내 실시간 채팅 기능을 제공하면서, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "게임 내 실시간 채팅 기능을 제공하면서, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "유저 신고 기능",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "유저 신고 기능",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "도 자연스럽게 필요해졌다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "도 자연스럽게 필요해졌다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80bb-9db6-e8a11bc10fc8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:39:00.000Z",
+      "last_edited_time": "2025-06-05T02:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "단순히 채팅 한 줄만 저장해서 신고하는 방식은 정확한 맥락 파악이 어렵기 때문에, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "단순히 채팅 한 줄만 저장해서 신고하는 방식은 정확한 맥락 파악이 어렵기 때문에, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "신고된 메시지를 기준으로 앞뒤의 대화 흐름까지 함께 저장하는 구조",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "신고된 메시지를 기준으로 앞뒤의 대화 흐름까지 함께 저장하는 구조",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "가 필수적이었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가 필수적이었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80de-b727-e0553aec749b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:39:00.000Z",
+      "last_edited_time": "2025-06-05T02:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이를 위해 나는 Redis를 활용한 채팅 로그 저장 시스템을 설계했고, 그 과정에서 여러 가지 현실적인 문제에 직면하게 되었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이를 위해 나는 Redis를 활용한 채팅 로그 저장 시스템을 설계했고, 그 과정에서 여러 가지 현실적인 문제에 직면하게 되었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8007-a46d-ee3b1b5c620b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80ce-a07c-d50b19497046",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Redis TTL 방식의 한계",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Redis TTL 방식의 한계",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80d3-970d-d17e18aa1189",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "처음에는 Redis를 활용해 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "처음에는 Redis를 활용해 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "각 채팅 로그에 TTL을 설정하고, 일정 시간이 지나면 자동으로 삭제",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "각 채팅 로그에 TTL을 설정하고, 일정 시간이 지나면 자동으로 삭제",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "되도록 구현했다. 이 방식은 메모리 누수를 방지하고 효율적인 리소스 관리를 가능하게 해주는 좋은 방법이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "되도록 구현했다. 이 방식은 메모리 누수를 방지하고 효율적인 리소스 관리를 가능하게 해주는 좋은 방법이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-806d-b0b5-d759e8900514",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 직접 테스트하면서 아래와 같은 문제점들을 발견했다:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 직접 테스트하면서 아래와 같은 문제점들을 발견했다:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8013-842a-c84f7f4563ec",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "시간 기반 TTL의 경우 신고 직전에 채팅 로그가 삭제되는 문제",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "시간 기반 TTL의 경우 신고 직전에 채팅 로그가 삭제되는 문제",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "209a071d-4763-80cc-86b2-ee79b66ca880",
+          "parent": {
+            "type": "block_id",
+            "block_id": "209a071d-4763-8013-842a-c84f7f4563ec"
+          },
+          "created_time": "2025-06-05T02:37:00.000Z",
+          "last_edited_time": "2025-06-05T02:37:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "예를 들어 누군가 불쾌한 채팅을 보낸 뒤 얼마 지나지 않아 TTL로 인해 로그가 삭제되면, 신고를 하려고 해도 근거가 사라지는 문제가 생긴다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "예를 들어 누군가 불쾌한 채팅을 보낸 뒤 얼마 지나지 않아 TTL로 인해 로그가 삭제되면, 신고를 하려고 해도 근거가 사라지는 문제가 생긴다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80a0-b6b7-c18636742f95",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "수량 기반의 경우 채팅이 폭주할 때 필요한 채팅로그가 삭제되는 문제",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "수량 기반의 경우 채팅이 폭주할 때 필요한 채팅로그가 삭제되는 문제",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "209a071d-4763-8037-b153-f911d60d41fd",
+          "parent": {
+            "type": "block_id",
+            "block_id": "209a071d-4763-80a0-b6b7-c18636742f95"
+          },
+          "created_time": "2025-06-05T02:37:00.000Z",
+          "last_edited_time": "2025-06-05T02:37:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "게임 중에 채팅이 폭주하는 경우, 1시간 이내라도 굉장히 많은 채팅이 쌓일 수 있다. 이때 시간 기준 삭제는 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "게임 중에 채팅이 폭주하는 경우, 1시간 이내라도 굉장히 많은 채팅이 쌓일 수 있다. 이때 시간 기준 삭제는 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "필요한 로그가 사라질 가능성",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "필요한 로그가 사라질 가능성",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "이 더 커진다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "이 더 커진다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80bc-a7cd-dd89cc0f8c9c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-800d-b4f2-cea83d0465aa",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 이렇게 설계했다",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 이렇게 설계했다",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80b6-bc8f-c2f4d6bebd18",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "시간 기준 TTL 삭제는 유지하되, 정기적인 청소 방식으로 보완",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "시간 기준 TTL 삭제는 유지하되, 정기적인 청소 방식으로 보완",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8040-b27e-f773ab8f1de7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "나는 Redis의 TTL을 단순히 설정해놓고 자동 삭제되도록 내버려두기보다는, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "나는 Redis의 TTL을 단순히 설정해놓고 자동 삭제되도록 내버려두기보다는, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "내가 직접 삭제 시점을 컨트롤",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "내가 직접 삭제 시점을 컨트롤",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "할 수 있도록 변경했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "할 수 있도록 변경했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-802e-93d9-d64d9d322c22",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이를 위해 아래처럼 구성했다:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이를 위해 아래처럼 구성했다:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80f4-8661-ef65d3bbf8dc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "ChatLogService",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "ChatLogService",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "에서 Redis Sorted Set을 사용해 메시지를 저장 (score: timestamp)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "에서 Redis Sorted Set을 사용해 메시지를 저장 (score: timestamp)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8070-a0f7-e650eb3cd7c4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "메시지 저장 시 TTL이 아닌 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "메시지 저장 시 TTL이 아닌 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "타임스탬프 기반으로 수동 정리",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "타임스탬프 기반으로 수동 정리",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8095-9cb8-d051fd5e986c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Scheduled",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "@Scheduled",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "로 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "1분마다 만료 메시지 삭제 작업",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1분마다 만료 메시지 삭제 작업",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 실행",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 실행",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-809a-ba06-f05a17fd5c06",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@Scheduled(fixedRate = 60000)\npublic void cleanExpiredChatLogs() {\n    // 전체 채팅 로그\n    chatLogService.removeExpiredMessages(ChatType.ALL, null);\n\n    // 방별 채팅 로그\n    Set<String> roomIds = roomRepository.getAllRoomIds();\n    for (String roomId : roomIds) {\n        chatLogService.removeExpiredMessages(ChatType.ROOM, roomId);\n    }\n\n    // 개인 채팅 로그\n    Set<String> privateKeys = chatLogService.getPrivateChatKeys();\n    for (String key : privateKeys) {\n        chatLogService.removeExpiredMessagesByKey(key);\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@Scheduled(fixedRate = 60000)\npublic void cleanExpiredChatLogs() {\n    // 전체 채팅 로그\n    chatLogService.removeExpiredMessages(ChatType.ALL, null);\n\n    // 방별 채팅 로그\n    Set<String> roomIds = roomRepository.getAllRoomIds();\n    for (String roomId : roomIds) {\n        chatLogService.removeExpiredMessages(ChatType.ROOM, roomId);\n    }\n\n    // 개인 채팅 로그\n    Set<String> privateKeys = chatLogService.getPrivateChatKeys();\n    for (String key : privateKeys) {\n        chatLogService.removeExpiredMessagesByKey(key);\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8092-8b11-e842a2e25f57",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 방식의 장점은 다음과 같다:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 방식의 장점은 다음과 같다:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8089-8058-e0e5f19db799",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "삭제 주기를 세밀하게 제어할 수 있음",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "삭제 주기를 세밀하게 제어할 수 있음",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80cc-89f5-f99dfeb3167d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "데이터가 필요할 때는 TTL과 상관없이 조회 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "데이터가 필요할 때는 TTL과 상관없이 조회 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8038-b7c1-fb0a0ff8368d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Redis 자체 TTL보다 유연하게 동작",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Redis 자체 TTL보다 유연하게 동작",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80a8-9aab-d2d5b8891fc6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8098-9090-d9cc7a4d0190",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "유저 신고 흐름",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "유저 신고 흐름",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80c1-b2ae-ef5a25e2a52b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "사용자가 유저를 신고하면, 해당 채팅의 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "사용자가 유저를 신고하면, 해당 채팅의 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "sentAt",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "sentAt",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 기준 앞뒤 10개 채팅 로그",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 기준 앞뒤 10개 채팅 로그",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "를 Redis에서 가져온다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "를 Redis에서 가져온다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8065-be11-f6f76b6e56ad",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 때 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 때 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "ChatLogService.getSurroundingMessages()",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "ChatLogService.getSurroundingMessages()",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "를 통해 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "를 통해 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "문맥을 함께 저장",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문맥을 함께 저장",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8076-b417-c9de36e56831",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이후 해당 데이터를 기반으로 신고 DB에 저장되고, 관리자 검토로 이어진다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이후 해당 데이터를 기반으로 신고 DB에 저장되고, 관리자 검토로 이어진다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-808c-9746-e291e057c95e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "List<ChatMessage> chatLog = chatLogService.getSurroundingMessages(\n    reportReq.chatType(),\n    reportReq.identifier(),\n    userDetails.getUuid(),\n    reportReq.reportedChatTime(),\n    10\n);",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "List<ChatMessage> chatLog = chatLogService.getSurroundingMessages(\n    reportReq.chatType(),\n    reportReq.identifier(),\n    userDetails.getUuid(),\n    reportReq.reportedChatTime(),\n    10\n);",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8027-8ab1-c8347d3b3e5e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:37:00.000Z",
+      "last_edited_time": "2025-06-05T02:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 방식 덕분에 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 방식 덕분에 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "한 줄짜리 채팅만으로 신고 여부를 판단하는 것이 아니라, 대화 흐름 전체를 고려",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "한 줄짜리 채팅만으로 신고 여부를 판단하는 것이 아니라, 대화 흐름 전체를 고려",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "할 수 있게 되었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "할 수 있게 되었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8004-9320-e824a4360fb2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-805e-b374-d7f24805bf5f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그러나, 이 방식도 완벽하진 않다",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그러나, 이 방식도 완벽하진 않다",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8035-8466-f93b92c6a33c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "현재 설계 방식은 기존 TTL 방식보다 유연하지만, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "현재 설계 방식은 기존 TTL 방식보다 유연하지만, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "여전히 몇 가지 단점과 개선 여지",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "여전히 몇 가지 단점과 개선 여지",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "가 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80f8-a6bf-e0b444f4b80a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. Redis 메모리 사용 증가",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. Redis 메모리 사용 증가",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-803e-80a1-f15e7b012c2e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "채팅 로그가 TTL 없이 Redis에 계속 쌓이기 때문에 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "채팅 로그가 TTL 없이 Redis에 계속 쌓이기 때문에 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "활성 유저 수가 많거나 대화량이 많은 상황에서는 Redis 메모리를 빠르게 소비",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "활성 유저 수가 많거나 대화량이 많은 상황에서는 Redis 메모리를 빠르게 소비",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8068-8137-efe282c8cc97",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "정리 주기가 짧다 해도 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "정리 주기가 짧다 해도 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "고속으로 채팅이 쌓이면 처리 지연 혹은 메모리 부족 문제가 생길 가능성",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "고속으로 채팅이 쌓이면 처리 지연 혹은 메모리 부족 문제가 생길 가능성",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80dc-8bde-fb530a3daa8e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "🔧 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "🔧 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "개선 방향",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "개선 방향",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8043-88eb-c82895b91b25",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "채팅 로그에 대해 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "채팅 로그에 대해 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "유저 단위, 방 단위의 최대 저장 개수 제한",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "유저 단위, 방 단위의 최대 저장 개수 제한",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "을 두고 초과 시 오래된 메시지부터 제거하는 방식 고려",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "을 두고 초과 시 오래된 메시지부터 제거하는 방식 고려",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80e1-a5f3-f2efa82161fa",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Redis 외에 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Redis 외에 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "ElasticSearch, Kafka + S3 등 로그 전용 스토리지로 이관",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "ElasticSearch, Kafka + S3 등 로그 전용 스토리지로 이관",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하는 방안도 중장기적으로 검토할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하는 방안도 중장기적으로 검토할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80b5-b99d-d0c1a0662ece",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-802d-b1c9-f9ab390d08a8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. 1분 주기의 정리 간격 문제",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. 1분 주기의 정리 간격 문제",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-800f-9bd7-da934d665197",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "정리 주기가 1분이기 때문에 정리 직전의 시점에 저장된 채팅은 여전히 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "정리 주기가 1분이기 때문에 정리 직전의 시점에 저장된 채팅은 여전히 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "최대 59초간 유지",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최대 59초간 유지",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80e1-bb94-ee02b2a150b3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "엄밀히 말해 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "엄밀히 말해 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "완전히 실시간 삭제는 아니기 때문에",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "완전히 실시간 삭제는 아니기 때문에",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 민감한 이슈(욕설, 불법 채팅 등)에 대해 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 민감한 이슈(욕설, 불법 채팅 등)에 대해 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "즉각 반응이 어려울 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "즉각 반응이 어려울 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8038-acfb-c876a7f7035e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "🔧 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "🔧 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "개선 방향",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "개선 방향",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-805f-a26b-cc148d9b8662",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "중요도가 높은 채팅 로그에 한해 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "중요도가 높은 채팅 로그에 한해 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "별도 채널로 실시간 필터링 + 로그 저장 처리",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "별도 채널로 실시간 필터링 + 로그 저장 처리",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8001-900c-d511d6ad143a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "신고 발생 시 해당 키에 대해 TTL을 일시 중지하거나 일정 시간 동안 강제로 보존하는 기능 도입",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "신고 발생 시 해당 키에 대해 TTL을 일시 중지하거나 일정 시간 동안 강제로 보존하는 기능 도입",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80c8-8ec5-f16853a71d50",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80ac-bfd7-c26dbed33253",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3. 채팅 키 수 증가로 인한 키 관리 부담",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3. 채팅 키 수 증가로 인한 키 관리 부담",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80ee-8db5-ca82c08bc5e0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "chat:room:{roomId}:log",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "chat:room:{roomId}:log",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "chat:private:{user1}:{user2}:log",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "chat:private:{user1}:{user2}:log",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 등으로 다양한 키가 생성되는데,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 등으로 다양한 키가 생성되는데,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "209a071d-4763-804b-84e4-e8bb625c7f29",
+          "parent": {
+            "type": "block_id",
+            "block_id": "209a071d-4763-80ee-8db5-ca82c08bc5e0"
+          },
+          "created_time": "2025-06-05T02:40:00.000Z",
+          "last_edited_time": "2025-06-05T02:41:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "활성 유저 수가 많을수록 Redis 키 수가 급증",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "활성 유저 수가 많을수록 Redis 키 수가 급증",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "하고 이로 인해 성능 저하가 발생할 수 있다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "하고 이로 인해 성능 저하가 발생할 수 있다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-802e-a42e-f4de82e73b0a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "🔧 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "🔧 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "개선 방향",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "개선 방향",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8003-8239-d4df60e8457d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Redis Cluster 환경으로 확장하거나 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Redis Cluster 환경으로 확장하거나 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "비활성 키를 주기적으로 모니터링 및 제거",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "비활성 키를 주기적으로 모니터링 및 제거",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하는 유지 관리 루틴 추가",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하는 유지 관리 루틴 추가",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8015-a285-d5d2f7ff99ba",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "비중이 낮은 채널은 저장 주기 또는 정리 빈도를 줄여 분산 처리",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "비중이 낮은 채널은 저장 주기 또는 정리 빈도를 줄여 분산 처리",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-804d-93f1-d9bcfcd6722e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8001-a61d-f4ab53736c22",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "정리하며",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "정리하며",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-809c-97e3-dcbc7a0ece39",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "신고 기능의 신뢰성과 사용성 확보를 위해 단순 TTL이 아닌 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "신고 기능의 신뢰성과 사용성 확보를 위해 단순 TTL이 아닌 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "수동 삭제 기반의 정리 방식",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "수동 삭제 기반의 정리 방식",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "을 도입했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "을 도입했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-803f-a217-df0753458d4d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이를 통해 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이를 통해 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "데이터 유실을 최소화",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "데이터 유실을 최소화",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하고 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하고 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "정확한 채팅 흐름 보존이 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "정확한 채팅 흐름 보존이 가능",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "해졌다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "해졌다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8036-95e7-ce3be91ed062",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그러나 여전히 Redis 특성상 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그러나 여전히 Redis 특성상 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "메모리 관리",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "메모리 관리",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "키 수 관리",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "키 수 관리",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "삭제 주기 최적화",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "삭제 주기 최적화",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 등의 과제는 존재하며",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 등의 과제는 존재하며",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8062-99e5-fc0532618ec1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이를 해결하기 위해 다음과 같은 방향으로 계속 개선해 나갈 계획이다:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이를 해결하기 위해 다음과 같은 방향으로 계속 개선해 나갈 계획이다:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80ff-b6a3-e27728e32add",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "저장량 제한 및 우선순위 기반 보존 정책 도입",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "저장량 제한 및 우선순위 기반 보존 정책 도입",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-8009-9d14-e94f952ca9ab",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "로그 저장소 분리 (e.g., DB, 로그 전용 스토리지)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로그 저장소 분리 (e.g., DB, 로그 전용 스토리지)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-804c-992b-f401567f1715",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "정리 스케줄 최적화 및 키 정리 로직 개선",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "정리 스케줄 최적화 및 키 정리 로직 개선",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "209a071d-4763-80f3-8368-f5afab28de47",
+      "parent": {
+        "type": "page_id",
+        "page_id": "209a071d-4763-80a0-b4be-fb8613afc682"
+      },
+      "created_time": "2025-06-05T02:40:00.000Z",
+      "last_edited_time": "2025-06-05T02:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "운영 환경에서의 경험을 통해 얻은 교훈들을 바탕으로 더 효율적이고 견고한 구조로 리팩토링해나갈 예정이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "운영 환경에서의 경험을 통해 얻은 교훈들을 바탕으로 더 효율적이고 견고한 구조로 리팩토링해나갈 예정이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

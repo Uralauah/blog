@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "유저 신고 기능을 위한 Redis 채팅 로그 관리",
+    slug: "유저-신고-기능을-위한-redis-채팅-로그-관리",
+    content: require('../notion-data/209a071d-4763-80a0-b4be-fb8613afc682.json'),
+    date: "2025-06-03",
+    description: "유저 신고 기능을 위한 Redis 채팅 로그 관리",
+    image: undefined,
+    category: "springboot",
+    tags: ["JAVA"]
+  },
+  {
     title: "24042번 - 횡단보도",
     slug: "baekjoon-24042-java",
     content: require('../notion-data/201a071d-4763-80b7-b5bf-f8cd1ee2640f.json'),
