@@ -1,6 +1,56 @@
 
 const posts = [
   {
+    title: "[컴퓨터비전] 12. 장면 이해",
+    slug: "컴퓨터비전-12-장면-이해",
+    content: require('../notion-data/20ea071d-4763-80bc-b814-dc95c48b2756.json'),
+    date: "2025-06-10",
+    description: "[컴퓨터비전] 12. 장면 이해",
+    image: undefined,
+    category: "cs",
+    tags: ["컴퓨터비전"]
+  },
+  {
+    title: "[컴퓨터비전] 11. 3차원 비전",
+    slug: "컴퓨터비전-11-3차원-비전",
+    content: require('../notion-data/20ea071d-4763-80ba-8636-de881a5162e8.json'),
+    date: "2025-06-10",
+    description: "[컴퓨터비전] 11. 3차원 비전",
+    image: undefined,
+    category: "cs",
+    tags: ["컴퓨터비전"]
+  },
+  {
+    title: "[컴퓨터비전] 10. 모션",
+    slug: "컴퓨터비전-10-모션",
+    content: require('../notion-data/20ea071d-4763-801e-943b-c1a467d61ab0.json'),
+    date: "2025-06-09",
+    description: "[컴퓨터비전] 10. 모션",
+    image: undefined,
+    category: "cs",
+    tags: ["컴퓨터비전"]
+  },
+  {
+    title: "[컴퓨터비전] 9. 인식",
+    slug: "컴퓨터비전-9-인식",
+    content: require('../notion-data/20ea071d-4763-806b-bbe2-f90276858caf.json'),
+    date: "2025-06-08",
+    description: "[컴퓨터비전] 9. 인식",
+    image: undefined,
+    category: "cs",
+    tags: ["컴퓨터비전"]
+  },
+  {
+    title: "[컴퓨터비전] 8. 기계 학습",
+    slug: "컴퓨터비전-8-기계-학습",
+    content: require('../notion-data/20ea071d-4763-805b-a8c2-d0f52cfcf0c8.json'),
+    date: "2025-06-07",
+    description: "[컴퓨터비전] 8. 기계 학습",
+    image: undefined,
+    category: "cs",
+    tags: ["컴퓨터비전"]
+  },
+  {
     title: "[컴퓨터비전] 7. 매칭",
     slug: "컴퓨터비전-7-매칭",
     content: require('../notion-data/209a071d-4763-8006-84df-c8eb15732be2.json'),

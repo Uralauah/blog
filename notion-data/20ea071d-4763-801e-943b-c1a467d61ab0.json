@@ -1,0 +1,2108 @@
+{
+  "object": "page",
+  "id": "20ea071d-4763-801e-943b-c1a467d61ab0",
+  "created_time": "2025-06-10T23:44:00.000Z",
+  "last_edited_time": "2025-06-10T23:45:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "카테고리": {
+      "id": "%40IYg",
+      "type": "select",
+      "select": {
+        "id": "a031cca4-f6b2-426e-98fd-4b768990f3cf",
+        "name": "CS",
+        "color": "pink"
+      }
+    },
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "c2604779-0cf0-434a-ac8f-b9b82c856fbb",
+          "name": "컴퓨터비전",
+          "color": "yellow"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-06-09",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "[컴퓨터비전] 10. 모션",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "[컴퓨터비전] 10. 모션",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/10-20ea071d4763801e943bc1a467d61ab0",
+  "public_url": null,
+  "request_id": "3844536e-2857-4faa-ac1a-f8a626a63388",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80b0-b70d-da32de1e133d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "10.1 움직이는 상황",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "10.1 움직이는 상황",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80e1-8ce3-de7f3f1dd1b9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "현실 세계는 정적인 이미지보다 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "현실 세계는 정적인 이미지보다 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "움직이는 장면",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "움직이는 장면",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이 훨씬 많음",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 훨씬 많음",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8000-918b-d5eb19927665",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "움직임은 두 가지로 나뉨:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "움직임은 두 가지로 나뉨:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-8081-8925-e818388508df",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-8000-918b-d5eb19927665"
+          },
+          "created_time": "2025-06-10T23:45:00.000Z",
+          "last_edited_time": "2025-06-10T23:45:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "카메라의 움직임",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "카메라의 움직임",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 시점 변화에 따른 장면 이동",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 시점 변화에 따른 장면 이동",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-8002-8592-feec494f1160",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-8000-918b-d5eb19927665"
+          },
+          "created_time": "2025-06-10T23:45:00.000Z",
+          "last_edited_time": "2025-06-10T23:45:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "물체의 움직임",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "물체의 움직임",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 장면 내 개체의 실제 이동",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 장면 내 개체의 실제 이동",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80fb-afed-e4ebea54edc1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "움직임 분석을 통해 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "움직임 분석을 통해 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "동작 인식, 물체 추적, 장면 이해",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "동작 인식, 물체 추적, 장면 이해",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 등 다양한 작업이 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 등 다양한 작업이 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80fc-ac57-cee88f233aad",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "대표적인 응용:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "대표적인 응용:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-8091-a002-e18945c716ee",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80fc-ac57-cee88f233aad"
+          },
+          "created_time": "2025-06-10T23:45:00.000Z",
+          "last_edited_time": "2025-06-10T23:45:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "감시 시스템",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "감시 시스템",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 이상 행동 탐지",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 이상 행동 탐지",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-808f-addb-c957d2a9890a",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80fc-ac57-cee88f233aad"
+          },
+          "created_time": "2025-06-10T23:45:00.000Z",
+          "last_edited_time": "2025-06-10T23:45:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "게임",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "게임",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 사용자의 제스처를 인식하여 조작 (예: Kinect, EyeToy)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 사용자의 제스처를 인식하여 조작 (예: Kinect, EyeToy)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-8046-ad20-fabbe10ba53e",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80fc-ac57-cee88f233aad"
+          },
+          "created_time": "2025-06-10T23:45:00.000Z",
+          "last_edited_time": "2025-06-10T23:45:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "자율 주행",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "자율 주행",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 도로 위 물체 감지 및 예측",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 도로 위 물체 감지 및 예측",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-804a-8b48-ec047f894158",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8061-a4b7-da36360f20c3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "10.2 광류 (Optical Flow)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "10.2 광류 (Optical Flow)",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8007-a7c0-d6c384deaf34",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "광류",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "광류",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 연속된 영상 프레임 사이에서 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 연속된 영상 프레임 사이에서 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "화소의 움직임",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "화소의 움직임",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "을 추정하는 기법",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "을 추정하는 기법",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80cb-9013-cdfe58a4699d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "기본 가정: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기본 가정: ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "밝기 불변 가정",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "밝기 불변 가정",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " (같은 물체는 시간에 따라 밝기가 일정함)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " (같은 물체는 시간에 따라 밝기가 일정함)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80e3-94cc-e0a8bce1d661",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "출력: 각 화소의 이동을 나타내는 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "출력: 각 화소의 이동을 나타내는 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "모션 벡터 필드",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "모션 벡터 필드",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8058-ba0c-cba2062b0650",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "주요 알고리즘:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "주요 알고리즘:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-80f5-a085-c7148f04f598",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-8058-ba0c-cba2062b0650"
+          },
+          "created_time": "2025-06-10T23:45:00.000Z",
+          "last_edited_time": "2025-06-10T23:45:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": true,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Lucas-Kanade 알고리즘",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Lucas-Kanade 알고리즘",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ":",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ":",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": [
+            {
+              "object": "block",
+              "id": "20ea071d-4763-80d5-b772-e0fbcce4e71d",
+              "parent": {
+                "type": "block_id",
+                "block_id": "20ea071d-4763-80f5-a085-c7148f04f598"
+              },
+              "created_time": "2025-06-10T23:45:00.000Z",
+              "last_edited_time": "2025-06-10T23:45:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "지역 기반 방식",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "지역 기반 방식",
+                    "href": null
+                  }
+                ],
+                "color": "default"
+              },
+              "blocks": []
+            },
+            {
+              "object": "block",
+              "id": "20ea071d-4763-8048-9945-f9c0e328a05c",
+              "parent": {
+                "type": "block_id",
+                "block_id": "20ea071d-4763-80f5-a085-c7148f04f598"
+              },
+              "created_time": "2025-06-10T23:45:00.000Z",
+              "last_edited_time": "2025-06-10T23:45:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "작은 윈도우 내 모든 화소가 같은 속도로 움직인다고 가정",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "작은 윈도우 내 모든 화소가 같은 속도로 움직인다고 가정",
+                    "href": null
+                  }
+                ],
+                "color": "default"
+              },
+              "blocks": []
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-8092-9568-c3c7c26a2295",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-8058-ba0c-cba2062b0650"
+          },
+          "created_time": "2025-06-10T23:45:00.000Z",
+          "last_edited_time": "2025-06-10T23:45:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": true,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Horn-Schunck 알고리즘",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Horn-Schunck 알고리즘",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ":",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ":",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": [
+            {
+              "object": "block",
+              "id": "20ea071d-4763-80f6-ba69-c3ca4f85dad0",
+              "parent": {
+                "type": "block_id",
+                "block_id": "20ea071d-4763-8092-9568-c3c7c26a2295"
+              },
+              "created_time": "2025-06-10T23:45:00.000Z",
+              "last_edited_time": "2025-06-10T23:45:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "전역 기반 방식",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "전역 기반 방식",
+                    "href": null
+                  }
+                ],
+                "color": "default"
+              },
+              "blocks": []
+            },
+            {
+              "object": "block",
+              "id": "20ea071d-4763-808e-9916-f1601c1857e2",
+              "parent": {
+                "type": "block_id",
+                "block_id": "20ea071d-4763-8092-9568-c3c7c26a2295"
+              },
+              "created_time": "2025-06-10T23:45:00.000Z",
+              "last_edited_time": "2025-06-10T23:45:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "전체 영상의 부드러운 흐름을 전제로 함",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "전체 영상의 부드러운 흐름을 전제로 함",
+                    "href": null
+                  }
+                ],
+                "color": "default"
+              },
+              "blocks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-806c-b95d-c40d06951b00",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "광류는 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "광류는 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "물체 추적, 동작 인식, 장면 분할",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "물체 추적, 동작 인식, 장면 분할",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 등에 널리 활용됨",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 등에 널리 활용됨",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80ee-8874-c5b10529d3ba",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-801c-ab6e-d182c27dc752",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "10.3 물체 추적",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "10.3 물체 추적",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-802e-ae0c-f226840228c4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "물체 추적(object tracking)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "물체 추적(object tracking)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 영상에서 특정 물체가 시간에 따라 어떻게 움직이는지를 지속적으로 추적",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 영상에서 특정 물체가 시간에 따라 어떻게 움직이는지를 지속적으로 추적",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-803c-a2c4-d945072b2810",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "초기 위치가 주어졌을 때, 이후 프레임에서 동일한 물체를 찾는 것이 핵심",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "초기 위치가 주어졌을 때, 이후 프레임에서 동일한 물체를 찾는 것이 핵심",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-806f-b5f3-cbe167333b19",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "주요 기법:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "주요 기법:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-80df-b8ea-e3b8b3e82ead",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-806f-b5f3-cbe167333b19"
+          },
+          "created_time": "2025-06-10T23:45:00.000Z",
+          "last_edited_time": "2025-06-10T23:45:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": true,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "KLT 추적 알고리즘",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "KLT 추적 알고리즘",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ":",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ":",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": [
+            {
+              "object": "block",
+              "id": "20ea071d-4763-80d4-bbd3-ff023eb1b0d4",
+              "parent": {
+                "type": "block_id",
+                "block_id": "20ea071d-4763-80df-b8ea-e3b8b3e82ead"
+              },
+              "created_time": "2025-06-10T23:45:00.000Z",
+              "last_edited_time": "2025-06-10T23:45:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "특징점을 추적",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "특징점을 추적",
+                    "href": null
+                  }
+                ],
+                "color": "default"
+              },
+              "blocks": []
+            },
+            {
+              "object": "block",
+              "id": "20ea071d-4763-8055-afe8-da5ce59c0207",
+              "parent": {
+                "type": "block_id",
+                "block_id": "20ea071d-4763-80df-b8ea-e3b8b3e82ead"
+              },
+              "created_time": "2025-06-10T23:45:00.000Z",
+              "last_edited_time": "2025-06-10T23:45:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "광류 기반으로 빠르고 효율적",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "광류 기반으로 빠르고 효율적",
+                    "href": null
+                  }
+                ],
+                "color": "default"
+              },
+              "blocks": []
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-8071-984a-dcb262cafaf9",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-806f-b5f3-cbe167333b19"
+          },
+          "created_time": "2025-06-10T23:45:00.000Z",
+          "last_edited_time": "2025-06-10T23:45:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": true,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "템플릿 매칭 기반 추적",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "템플릿 매칭 기반 추적",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ":",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ":",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": [
+            {
+              "object": "block",
+              "id": "20ea071d-4763-8029-8f5d-ed727fba9a32",
+              "parent": {
+                "type": "block_id",
+                "block_id": "20ea071d-4763-8071-984a-dcb262cafaf9"
+              },
+              "created_time": "2025-06-10T23:45:00.000Z",
+              "last_edited_time": "2025-06-10T23:45:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "기준 영상(템플릿)과 유사한 영역을 검색",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "기준 영상(템플릿)과 유사한 영역을 검색",
+                    "href": null
+                  }
+                ],
+                "color": "default"
+              },
+              "blocks": []
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-803e-aa96-c7b86e811b29",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-806f-b5f3-cbe167333b19"
+          },
+          "created_time": "2025-06-10T23:45:00.000Z",
+          "last_edited_time": "2025-06-10T23:45:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": true,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "분할 기반 추적",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "분할 기반 추적",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ":",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ":",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": [
+            {
+              "object": "block",
+              "id": "20ea071d-4763-804d-94ff-e24e39dccba1",
+              "parent": {
+                "type": "block_id",
+                "block_id": "20ea071d-4763-803e-aa96-c7b86e811b29"
+              },
+              "created_time": "2025-06-10T23:45:00.000Z",
+              "last_edited_time": "2025-06-10T23:45:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "bulleted_list_item",
+              "bulleted_list_item": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "물체의 형태나 색상을 활용하여 배경과 분리",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "물체의 형태나 색상을 활용하여 배경과 분리",
+                    "href": null
+                  }
+                ],
+                "color": "default"
+              },
+              "blocks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8061-bc34-d50ec555f8e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-801e-943b-c1a467d61ab0"
+      },
+      "created_time": "2025-06-10T23:45:00.000Z",
+      "last_edited_time": "2025-06-10T23:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "도전 과제:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "도전 과제:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-805e-bf7c-d25d5fda9167",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-8061-bc34-d50ec555f8e2"
+          },
+          "created_time": "2025-06-10T23:45:00.000Z",
+          "last_edited_time": "2025-06-10T23:45:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "조명 변화, 물체의 회전·크기 변화, 가림 현상 등",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "조명 변화, 물체의 회전·크기 변화, 가림 현상 등",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2470 @@
+{
+  "object": "page",
+  "id": "20ea071d-4763-806b-bbe2-f90276858caf",
+  "created_time": "2025-06-10T23:42:00.000Z",
+  "last_edited_time": "2025-06-10T23:44:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "카테고리": {
+      "id": "%40IYg",
+      "type": "select",
+      "select": {
+        "id": "a031cca4-f6b2-426e-98fd-4b768990f3cf",
+        "name": "CS",
+        "color": "pink"
+      }
+    },
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "c2604779-0cf0-434a-ac8f-b9b82c856fbb",
+          "name": "컴퓨터비전",
+          "color": "yellow"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-06-08",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "[컴퓨터비전] 9. 인식",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "[컴퓨터비전] 9. 인식",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/9-20ea071d4763806bbbe2f90276858caf",
+  "public_url": null,
+  "request_id": "1af0f9e8-1cd7-4000-8762-ef0875f88ebd",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80d9-b6ba-dbeb6e1035e7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "9.1 도전",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "9.1 도전",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8060-ad98-ca0324ea30f4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "인식",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "인식",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "은 컴퓨터 비전의 핵심 목표로, 사람처럼 물체를 구별하고 인식하는 기능을 의미함",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "은 컴퓨터 비전의 핵심 목표로, 사람처럼 물체를 구별하고 인식하는 기능을 의미함",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80e9-ba5d-e2940e85b532",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "인식 기술의 성능을 평가하고 경쟁하기 위한 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "인식 기술의 성능을 평가하고 경쟁하기 위한 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "표준 데이터베이스",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "표준 데이터베이스",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "와 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "와 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "국제 대회",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "국제 대회",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 존재",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 존재",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80cc-b4e7-fbdc6712e4c1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "대표적인 대회:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "대표적인 대회:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-8070-a4dd-cb838d17ec95",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80cc-b4e7-fbdc6712e4c1"
+          },
+          "created_time": "2025-06-10T23:42:00.000Z",
+          "last_edited_time": "2025-06-10T23:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "PASCAL VOC",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "PASCAL VOC",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 20개 부류로 영상 분류 및 물체 탐지 등 다양한 문제 출제",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 20개 부류로 영상 분류 및 물체 탐지 등 다양한 문제 출제",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-801a-be8f-f40015e4e8c0",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80cc-b4e7-fbdc6712e4c1"
+          },
+          "created_time": "2025-06-10T23:42:00.000Z",
+          "last_edited_time": "2025-06-10T23:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "ImageNet ILSVRC",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "ImageNet ILSVRC",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 대규모 이미지 분류 및 탐지 대회",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 대규모 이미지 분류 및 탐지 대회",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-8096-bdf8-e0eace6bc851",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80cc-b4e7-fbdc6712e4c1"
+          },
+          "created_time": "2025-06-10T23:42:00.000Z",
+          "last_edited_time": "2025-06-10T23:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "ICDAR RRC",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "ICDAR RRC",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 문자인식 관련 문제를 다룸",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 문자인식 관련 문제를 다룸",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80d1-b317-d55b3ea70da4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "인식 기술은 아직 어린아이보다 못한 수준이며, 지속적인 연구와 경쟁이 필요한 분야",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "인식 기술은 아직 어린아이보다 못한 수준이며, 지속적인 연구와 경쟁이 필요한 분야",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8082-ae37-c54c13a8cbf4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80d7-b9d3-e4d0ed62ea4c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "9.2 사례 인식",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "9.2 사례 인식",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8033-a30e-f29f8da26af6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "사례 인식(instance recognition)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "사례 인식(instance recognition)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 특정 물체(예: 내 차, 내 고양이)를 인식하는 문제",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 특정 물체(예: 내 차, 내 고양이)를 인식하는 문제",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80a5-a787-ebd60784cab5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "보통 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "보통 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "기하 정렬",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기하 정렬",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 및 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 및 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "단어 가방(Bag of Words)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "단어 가방(Bag of Words)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 기법 사용",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 기법 사용",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80d9-841f-d93f285083d4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "기하 정렬",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기하 정렬",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ":",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ":",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-8035-9e0f-e11e6ced3e34",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80d9-841f-d93f285083d4"
+          },
+          "created_time": "2025-06-10T23:42:00.000Z",
+          "last_edited_time": "2025-06-10T23:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "물체의 특징점 간의 대응 관계를 정렬하여 정확한 위치 파악",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "물체의 특징점 간의 대응 관계를 정렬하여 정확한 위치 파악",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8059-a2dd-c5a8f9ebadaa",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "단어 가방",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "단어 가방",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ":",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ":",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-80b8-ad91-e0576fbcb1d7",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-8059-a2dd-c5a8f9ebadaa"
+          },
+          "created_time": "2025-06-10T23:42:00.000Z",
+          "last_edited_time": "2025-06-10T23:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "영상에서 추출한 특징을 시각 단어로 양자화하고, 빈도수 기반으로 인식",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "영상에서 추출한 특징을 시각 단어로 양자화하고, 빈도수 기반으로 인식",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80cb-86af-eef5a306196a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "비교적 정해진 대상이므로 분류보다 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "비교적 정해진 대상이므로 분류보다 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "매칭 방식",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "매칭 방식",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "으로 처리",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "으로 처리",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8064-96c0-c76600eb68ef",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-806a-a076-cc6aa6262248",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "9.3 범주 인식",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "9.3 범주 인식",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8040-877b-d1f080e6e457",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "범주 인식(category recognition)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "범주 인식(category recognition)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": ‘자동차’, ‘고양이’처럼 여러 사례가 포함된 부류를 인식",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": ‘자동차’, ‘고양이’처럼 여러 사례가 포함된 부류를 인식",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8045-ba93-c6e29d60af84",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "부류 내 다양성(intra-class variation)이 크기 때문에 어려움이 큼",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "부류 내 다양성(intra-class variation)이 크기 때문에 어려움이 큼",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8036-a8f0-e03b8bfc08b3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "세 가지 주요 방법:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "세 가지 주요 방법:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-80e4-9f2c-c695f426745b",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-8036-a8f0-e03b8bfc08b3"
+          },
+          "created_time": "2025-06-10T23:42:00.000Z",
+          "last_edited_time": "2025-06-10T23:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "단어 가방(Bag of Words)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "단어 가방(Bag of Words)",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 시각 단어의 빈도 기반 특징 벡터 생성. 외관 중심 방식",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 시각 단어의 빈도 기반 특징 벡터 생성. 외관 중심 방식",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-8074-b8c0-c0a6a37ac262",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-8036-a8f0-e03b8bfc08b3"
+          },
+          "created_time": "2025-06-10T23:42:00.000Z",
+          "last_edited_time": "2025-06-10T23:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "부품 모델(Part-based Model)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "부품 모델(Part-based Model)",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 물체의 부품 간 위치 관계 고려",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 물체의 부품 간 위치 관계 고려",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-80f5-96d4-ef934e7c7f68",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-8036-a8f0-e03b8bfc08b3"
+          },
+          "created_time": "2025-06-10T23:42:00.000Z",
+          "last_edited_time": "2025-06-10T23:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "컨볼루션 신경망(CNN)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "컨볼루션 신경망(CNN)",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 최근 대세. 대규모 데이터로 학습, 인식 정확도 높음",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 최근 대세. 대규모 데이터로 학습, 인식 정확도 높음",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80a4-9ba7-f574e00dbcae",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "지도 수준에 따라 강한 지도(strong supervision)와 약한 지도(weak supervision)로 나뉨",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "지도 수준에 따라 강한 지도(strong supervision)와 약한 지도(weak supervision)로 나뉨",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80e4-9d1c-ee4fdf6a1f9e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80df-a3f4-c26a67ce3e47",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "9.4 사람 인식",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "9.4 사람 인식",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8022-b452-ddc41d4467d6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "사람 인식",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "사람 인식",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "은 가장 활발히 연구되고 있는 주제",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "은 가장 활발히 연구되고 있는 주제",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8030-8b25-e73965a696c3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "다양한 응용 분야: 감시, 보안, 광고, 재활, 엔터테인먼트 등",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "다양한 응용 분야: 감시, 보안, 광고, 재활, 엔터테인먼트 등",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80a4-9b40-e0ff18dc8af7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "주요 인식 분야:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "주요 인식 분야:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-802a-9e9a-e331075e0491",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80a4-9b40-e0ff18dc8af7"
+          },
+          "created_time": "2025-06-10T23:42:00.000Z",
+          "last_edited_time": "2025-06-10T23:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "생체 인식",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "생체 인식",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 지문, 홍채, 손 모양 등",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 지문, 홍채, 손 모양 등",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-80c1-a937-d84680dac02e",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80a4-9b40-e0ff18dc8af7"
+          },
+          "created_time": "2025-06-10T23:42:00.000Z",
+          "last_edited_time": "2025-06-10T23:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "얼굴 인식",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "얼굴 인식",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 가장 많이 연구됨",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 가장 많이 연구됨",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-807a-853d-f56cc5e08633",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80a4-9b40-e0ff18dc8af7"
+          },
+          "created_time": "2025-06-10T23:42:00.000Z",
+          "last_edited_time": "2025-06-10T23:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "나이/성별/인종 인식",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "나이/성별/인종 인식",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 얼굴 특징 및 걸음걸이 분석",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 얼굴 특징 및 걸음걸이 분석",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-80ec-9eb5-d55b115455d5",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80a4-9b40-e0ff18dc8af7"
+          },
+          "created_time": "2025-06-10T23:42:00.000Z",
+          "last_edited_time": "2025-06-10T23:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "표정 인식",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "표정 인식",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": LBP 특징 + SVM 등으로 6가지 감정 구분",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": LBP 특징 + SVM 등으로 6가지 감정 구분",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8078-b8b4-d8a1ba0e83b1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80d6-8fc3-de8d0b4bf8a6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "9.5 모바일 기기에 적용된 인식 기술",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "9.5 모바일 기기에 적용된 인식 기술",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80f0-9985-fba40a963065",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "스마트폰, 태블릿, 구글 글래스 등 모바일 장치에서 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "스마트폰, 태블릿, 구글 글래스 등 모바일 장치에서 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "비전 기술의 활용",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "비전 기술의 활용",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이 증가",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 증가",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80e1-a922-f1dc3905c299",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "다양한 센서(GPS, 자이로, 마이크 등)와 고성능 CPU/GPU 덕분에 실시간 인식 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "다양한 센서(GPS, 자이로, 마이크 등)와 고성능 CPU/GPU 덕분에 실시간 인식 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80c7-b498-f3af63df087b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "주요 응용 예:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "주요 응용 예:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-8033-ab6b-ee036ed41d88",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80c7-b498-f3af63df087b"
+          },
+          "created_time": "2025-06-10T23:42:00.000Z",
+          "last_edited_time": "2025-06-10T23:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Face Unlock",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Face Unlock",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 얼굴 인식으로 스마트폰 잠금 해제",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 얼굴 인식으로 스마트폰 잠금 해제",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-80c6-9a9b-f245ac5a26d0",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80c7-b498-f3af63df087b"
+          },
+          "created_time": "2025-06-10T23:42:00.000Z",
+          "last_edited_time": "2025-06-10T23:42:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "식물/상품 인식 앱",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "식물/상품 인식 앱",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 카메라로 촬영 후 정보 제공",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 카메라로 촬영 후 정보 제공",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-804d-9b8a-e868a279fb12",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-806b-bbe2-f90276858caf"
+      },
+      "created_time": "2025-06-10T23:42:00.000Z",
+      "last_edited_time": "2025-06-10T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "모바일 비전 기술",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "모바일 비전 기술",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "은 이동성과 센서 융합으로 새로운 응용 가능성 창출",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "은 이동성과 센서 융합으로 새로운 응용 가능성 창출",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

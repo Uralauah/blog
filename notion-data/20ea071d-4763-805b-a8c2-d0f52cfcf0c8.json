@@ -1,0 +1,2302 @@
+{
+  "object": "page",
+  "id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8",
+  "created_time": "2025-06-10T23:39:00.000Z",
+  "last_edited_time": "2025-06-10T23:40:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "카테고리": {
+      "id": "%40IYg",
+      "type": "select",
+      "select": {
+        "id": "a031cca4-f6b2-426e-98fd-4b768990f3cf",
+        "name": "CS",
+        "color": "pink"
+      }
+    },
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "c2604779-0cf0-434a-ac8f-b9b82c856fbb",
+          "name": "컴퓨터비전",
+          "color": "yellow"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-06-07",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "[컴퓨터비전] 8. 기계 학습",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "[컴퓨터비전] 8. 기계 학습",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/8-20ea071d4763805ba8c2d0f52cfcf0c8",
+  "public_url": null,
+  "request_id": "54a93cca-ede4-47f3-b200-5331262a6fb4",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8046-8980-d543de39ff25",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "8.1 기계학습의 기초",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "8.1 기계학습의 기초",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8017-bc3c-eac05587ca87",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "기계 학습(Machine Learning)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기계 학습(Machine Learning)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 경험(E)을 통해 주어진 작업(T)에 대한 성능(P)이 향상되면 학습이 이루어진 것으로 간주",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 경험(E)을 통해 주어진 작업(T)에 대한 성능(P)이 향상되면 학습이 이루어진 것으로 간주",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-80b7-a345-f3969036fbb4",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-8017-bc3c-eac05587ca87"
+          },
+          "created_time": "2025-06-10T23:39:00.000Z",
+          "last_edited_time": "2025-06-10T23:39:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "→ 예: 분류 문제에서 학습 집합(E)을 통해 인식률(P)이 향상되면 학습이 일어난 것",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "→ 예: 분류 문제에서 학습 집합(E)을 통해 인식률(P)이 향상되면 학습이 일어난 것",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80bc-9f4f-d8d0e81d183b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "지도 학습 vs 비지도 학습",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "지도 학습 vs 비지도 학습",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-80d8-91f0-d42a943f4078",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80bc-9f4f-d8d0e81d183b"
+          },
+          "created_time": "2025-06-10T23:39:00.000Z",
+          "last_edited_time": "2025-06-10T23:39:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "지도 학습",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "지도 학습",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 정답(라벨)이 주어진 데이터를 학습",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 정답(라벨)이 주어진 데이터를 학습",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-8048-adc2-d03ca4a19df8",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80bc-9f4f-d8d0e81d183b"
+          },
+          "created_time": "2025-06-10T23:39:00.000Z",
+          "last_edited_time": "2025-06-10T23:39:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "비지도 학습",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "비지도 학습",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ": 라벨 없이 데이터 간의 패턴을 학습",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ": 라벨 없이 데이터 간의 패턴을 학습",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-801e-8fd6-dd97b3b08c43",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "재샘플링 기법",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "재샘플링 기법",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 학습 집합이 적을 때 성능 평가를 위해 사용하는 방법",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 학습 집합이 적을 때 성능 평가를 위해 사용하는 방법",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-80f9-81cc-c9ac8a4144b4",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-801e-8fd6-dd97b3b08c43"
+          },
+          "created_time": "2025-06-10T23:39:00.000Z",
+          "last_edited_time": "2025-06-10T23:39:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "교차 검증",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "교차 검증",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "과 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "과 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "붓스트랩",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "붓스트랩",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " 방식 등이 있음",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " 방식 등이 있음",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8006-b32f-c86adf303878",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8084-a5b2-d17c41dc492a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "8.2 신경망",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "8.2 신경망",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-809f-9c75-c7c6aee0f40e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "퍼셉트론",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "퍼셉트론",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 가장 기초적인 신경망 구조. 입력층과 출력층으로 구성된 이진 분류기",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 가장 기초적인 신경망 구조. 입력층과 출력층으로 구성된 이진 분류기",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-800a-82fd-c27d59fbf219",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "다층 퍼셉트론 (MLP)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "다층 퍼셉트론 (MLP)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 여러 은닉층을 추가한 구조. 퍼셉트론의 한계를 극복",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 여러 은닉층을 추가한 구조. 퍼셉트론의 한계를 극복",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80d9-9cc5-c6871699d0c5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "활성 함수",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "활성 함수",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 노드 출력을 비선형으로 변환하는 함수 (예: Sigmoid, ReLU)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 노드 출력을 비선형으로 변환하는 함수 (예: Sigmoid, ReLU)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80cc-b0f5-dda555acef38",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "역전파 알고리즘 (Backpropagation)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "역전파 알고리즘 (Backpropagation)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 오차를 출력에서 입력으로 역전달하며 가중치를 조정",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 오차를 출력에서 입력으로 역전달하며 가중치를 조정",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8098-a8c4-d8715132cba0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "딥러닝(Deep Learning)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "딥러닝(Deep Learning)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 은닉층이 많은 신경망 구조. 영상 인식 등에서 강력한 성능 발휘",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 은닉층이 많은 신경망 구조. 영상 인식 등에서 강력한 성능 발휘",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-802f-8d4b-e84b95a84adf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80f2-9704-ca105782f0f5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "8.3 SVM (Support Vector Machine)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "8.3 SVM (Support Vector Machine)",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-801b-b4f0-fb9b1ea5225f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "기본 개념",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기본 개념",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 두 부류를 가장 잘 구분하는 결정 초평면을 찾는 분류기",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 두 부류를 가장 잘 구분하는 결정 초평면을 찾는 분류기",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80ad-8d28-eeea6055c6d4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "여백(Margin)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "여백(Margin)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 분류 경계와 가장 가까운 샘플 간의 거리. 이를 최대화하는 것이 목표",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 분류 경계와 가장 가까운 샘플 간의 거리. 이를 최대화하는 것이 목표",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80b5-879e-e629d1be5091",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "선형 SVM",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "선형 SVM",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 선형 초평면으로 분류",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 선형 초평면으로 분류",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-803f-a62f-faaf7bd41173",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "비선형 SVM",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "비선형 SVM",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 커널 트릭(Kernel Trick)을 통해 비선형 분류 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 커널 트릭(Kernel Trick)을 통해 비선형 분류 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-800b-8cd6-ca5ffe1ff90c",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-803f-a62f-faaf7bd41173"
+          },
+          "created_time": "2025-06-10T23:39:00.000Z",
+          "last_edited_time": "2025-06-10T23:39:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "예: RBF 커널, 다항 커널 등",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "예: RBF 커널, 다항 커널 등",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8088-956c-eddf061e9914",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "다중 클래스 확장",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "다중 클래스 확장",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "1대 M-1",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1대 M-1",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 방식이나 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 방식이나 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "1대1",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1대1",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 방식으로 다중 분류 구현",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 방식으로 다중 분류 구현",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8000-89be-d1e8a1ce21f0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80d8-af6f-d805915ba588",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "8.4 분류기 앙상블",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "8.4 분류기 앙상블",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-805b-9efc-f5d73b9b5403",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "앙상블 기법",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "앙상블 기법",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 여러 개의 분류기를 조합하여 더 나은 성능을 얻는 방법",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 여러 개의 분류기를 조합하여 더 나은 성능을 얻는 방법",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80a0-8d8b-fbdac0624706",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "에이다부스트 (AdaBoost)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "에이다부스트 (AdaBoost)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-808a-bb85-c80a5a29c616",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80a0-8d8b-fbdac0624706"
+          },
+          "created_time": "2025-06-10T23:39:00.000Z",
+          "last_edited_time": "2025-06-10T23:39:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "약한 분류기를 반복 학습하며 가중치 조정",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "약한 분류기를 반복 학습하며 가중치 조정",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-801a-b9a4-c572911c8ff1",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80a0-8d8b-fbdac0624706"
+          },
+          "created_time": "2025-06-10T23:39:00.000Z",
+          "last_edited_time": "2025-06-10T23:39:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "오류가 큰 샘플에 더 집중",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "오류가 큰 샘플에 더 집중",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8042-b2d6-f1368a2e524f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "임의 숲 (Random Forest)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "임의 숲 (Random Forest)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-80d2-bba1-e78168626c33",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-8042-b2d6-f1368a2e524f"
+          },
+          "created_time": "2025-06-10T23:39:00.000Z",
+          "last_edited_time": "2025-06-10T23:39:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "여러 개의 트리 분류기를 무작위로 학습하여 결합",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "여러 개의 트리 분류기를 무작위로 학습하여 결합",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-8092-8eaa-cc2af4fd50b6",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-8042-b2d6-f1368a2e524f"
+          },
+          "created_time": "2025-06-10T23:39:00.000Z",
+          "last_edited_time": "2025-06-10T23:39:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "데이터와 특성의 선택에서 무작위성을 부여",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "데이터와 특성의 선택에서 무작위성을 부여",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-801b-b8da-d393e137e280",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-8042-b2d6-f1368a2e524f"
+          },
+          "created_time": "2025-06-10T23:39:00.000Z",
+          "last_edited_time": "2025-06-10T23:39:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "높은 정확도와 과적합 방지 효과",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "높은 정확도와 과적합 방지 효과",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80ca-bd39-ea8e143de81e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80e1-81c5-de00a7c3b04c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "8.5 기계 학습을 이용한 얼굴 검출",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "8.5 기계 학습을 이용한 얼굴 검출",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-808b-bb0c-d98cf6c4ecbe",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "비올라-존스 얼굴 검출기",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "비올라-존스 얼굴 검출기",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 대표적인 실시간 얼굴 검출 알고리즘",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 대표적인 실시간 얼굴 검출 알고리즘",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-80cd-8a73-dfac8e568fde",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-808b-bb0c-d98cf6c4ecbe"
+          },
+          "created_time": "2025-06-10T23:39:00.000Z",
+          "last_edited_time": "2025-06-10T23:39:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Haar-like 특징",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Haar-like 특징",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "과 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "과 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "아다부스트",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "아다부스트",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ", ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ", ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "캐스케이드 구조",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": true,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "캐스케이드 구조",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "를 조합",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "를 조합",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "20ea071d-4763-8016-b892-f8e75c10e7a2",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-808b-bb0c-d98cf6c4ecbe"
+          },
+          "created_time": "2025-06-10T23:39:00.000Z",
+          "last_edited_time": "2025-06-10T23:39:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "빠른 검출 속도와 높은 정확도",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "빠른 검출 속도와 높은 정확도",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8088-8420-f8007ab26c74",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "얼굴 검출 → 얼굴 인식",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "얼굴 검출 → 얼굴 인식",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "의 전처리 단계",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "의 전처리 단계",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80d6-911f-c85053096ccc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-805b-a8c2-d0f52cfcf0c8"
+      },
+      "created_time": "2025-06-10T23:39:00.000Z",
+      "last_edited_time": "2025-06-10T23:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "기타 얼굴 검출 알고리즘들도 연구되고 있으며 성능 비교 논문도 존재",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기타 얼굴 검출 알고리즘들도 연구되고 있으며 성능 비교 논문도 존재",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

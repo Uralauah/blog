@@ -1,0 +1,1864 @@
+{
+  "object": "page",
+  "id": "20ea071d-4763-80bc-b814-dc95c48b2756",
+  "created_time": "2025-06-10T23:50:00.000Z",
+  "last_edited_time": "2025-06-10T23:52:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "카테고리": {
+      "id": "%40IYg",
+      "type": "select",
+      "select": {
+        "id": "a031cca4-f6b2-426e-98fd-4b768990f3cf",
+        "name": "CS",
+        "color": "pink"
+      }
+    },
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "c2604779-0cf0-434a-ac8f-b9b82c856fbb",
+          "name": "컴퓨터비전",
+          "color": "yellow"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-06-10",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "[컴퓨터비전] 12. 장면 이해",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "[컴퓨터비전] 12. 장면 이해",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/12-20ea071d476380bcb814dc95c48b2756",
+  "public_url": null,
+  "request_id": "80e75dfc-9e4f-43c6-8a68-3d5e226db4f4",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80e5-a7be-ed8260660b3d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "12.1 동물은 어떻게 보나?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "12.1 동물은 어떻게 보나?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80b4-b0c8-fefcac26cf24",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1981년 노벨의학상은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1981년 노벨의학상은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Hubel과 Wiesel",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Hubel과 Wiesel",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "의 시각 신경망 연구에 수여됨",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "의 시각 신경망 연구에 수여됨",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80b7-b279-d38554fedb9a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이들은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이들은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "고양이의 시각 피질",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "고양이의 시각 피질",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "에 마이크로 전극을 삽입하여, 특정 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "에 마이크로 전극을 삽입하여, 특정 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "에지 방향에 반응하는 뉴런",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "에지 방향에 반응하는 뉴런",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이 존재함을 발견",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 존재함을 발견",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-80cb-ae99-f8482e7ada76",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80b7-b279-d38554fedb9a"
+          },
+          "created_time": "2025-06-10T23:50:00.000Z",
+          "last_edited_time": "2025-06-10T23:50:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "같은 방향에 반응하는 뉴런은 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "같은 방향에 반응하는 뉴런은 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "열(column)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "열(column)",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " 형태로 배열됨",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " 형태로 배열됨",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8077-b4d4-fb5a069e81fc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이는 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이는 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "시각 피질이 에지 정보를 추출",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "시각 피질이 에지 정보를 추출",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하는 구조로 되어 있음을 의미",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하는 구조로 되어 있음을 의미",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80d2-b1a7-d9e7765e735f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "깡충 거미",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "깡충 거미",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "는 네 쌍의 눈으로 360° 시야 확보, 특정 패턴(예: 다리 형태의 직선)에 반응하여 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "는 네 쌍의 눈으로 360° 시야 확보, 특정 패턴(예: 다리 형태의 직선)에 반응하여 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "먹이와 동료를 구별",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "먹이와 동료를 구별",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "함",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "함",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8031-841c-dbf315569564",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이들 동물 실험은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이들 동물 실험은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "시각 시스템의 정보 처리 구조와 특징 추출 기능",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "시각 시스템의 정보 처리 구조와 특징 추출 기능",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "을 밝히는 데 중요한 기여를 함",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "을 밝히는 데 중요한 기여를 함",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80d7-9617-ca3a7c6f5a16",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "사람의 시각 시스템",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "사람의 시각 시스템",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "은 신경생리학적으로 분석되며, 빛은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "은 신경생리학적으로 분석되며, 빛은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "수정체 → 망막 → 시신경 → 시각 피질",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "수정체 → 망막 → 시신경 → 시각 피질",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "로 전달됨",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로 전달됨",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-8005-ad42-c3c22dd96e39",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80d7-9617-ca3a7c6f5a16"
+          },
+          "created_time": "2025-06-10T23:50:00.000Z",
+          "last_edited_time": "2025-06-10T23:50:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "시각 피질 손상 시에도, 위둔덕(superior colliculus)의 도움으로 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "시각 피질 손상 시에도, 위둔덕(superior colliculus)의 도움으로 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "움직이는 물체 추적 가능",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "움직이는 물체 추적 가능",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80d3-8904-ea700220a39f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-803d-9bf0-ceaa5b721979",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "12.2 이해로 가는 길",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "12.2 이해로 가는 길",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80e7-ab4b-c1f90611b002",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "영상 이해는 지금까지 다룬 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "영상 이해는 지금까지 다룬 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "저수준 기술(2~11장)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "저수준 기술(2~11장)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "만으로는 불충분",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "만으로는 불충분",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80fc-91b8-e858b0d2aca9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "장면 이해를 위해 다음과 같은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "장면 이해를 위해 다음과 같은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "고수준 인지 기법",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "고수준 인지 기법",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "들이 필요함:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "들이 필요함:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8059-862a-f5d89bbba30c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. 선택적 주의 집중",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. 선택적 주의 집중",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80a4-92ef-d77ac7cc6d98",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Yarbus",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Yarbus",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "의 연구: 관찰자의 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "의 연구: 관찰자의 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "임무에 따라 주의의 초점이 달라짐",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "임무에 따라 주의의 초점이 달라짐",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8003-be42-d5cfd97ed358",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "시선 추적 실험 결과, 특정 과제가 주어졌을 때 시선이 집중되는 영역이 달라짐",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "시선 추적 실험 결과, 특정 과제가 주어졌을 때 시선이 집중되는 영역이 달라짐",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-804d-97cb-f91ab4af5edf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이는 시각 시스템이 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이는 시각 시스템이 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "인지적 제어",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "인지적 제어",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "에 의해 작동함을 시사",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "에 의해 작동함을 시사",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-805e-8ce5-dc0e601fcbf1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. 문맥(context)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. 문맥(context)",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80e7-8f84-c36415d7b8c8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:51:00.000Z",
+      "last_edited_time": "2025-06-10T23:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/20ea071d-4763-80bc-b814-dc95c48b2756/image_1.png",
+          "expiry_time": "2025-06-11T00:53:13.518Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-80dd-8cf2-f1dec305b598",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "동일한 시각 정보라도 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "동일한 시각 정보라도 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "주변 정보에 따라 인식이 달라짐",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "주변 정보에 따라 인식이 달라짐",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "20ea071d-4763-80b7-baf4-e636dbbca27b",
+          "parent": {
+            "type": "block_id",
+            "block_id": "20ea071d-4763-80dd-8cf2-f1dec305b598"
+          },
+          "created_time": "2025-06-10T23:50:00.000Z",
+          "last_edited_time": "2025-06-10T23:50:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "예: 글자 “거지”와 “꺼지지”는 문맥이 없으면 구별 불가",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "예: 글자 “거지”와 “꺼지지”는 문맥이 없으면 구별 불가",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-806a-8844-fc2d5c448224",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문맥은 인식의 정확성과 속도를 향상",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문맥은 인식의 정확성과 속도를 향상",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "시킴",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "시킴",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-808a-8352-d27a86f6f32f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "예시: 이미지 조각만 보면 해석이 어렵지만 전체 장면을 보면 금문교(Golden Gate Bridge)임을 인식 가능",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "예시: 이미지 조각만 보면 해석이 어렵지만 전체 장면을 보면 금문교(Golden Gate Bridge)임을 인식 가능",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-805f-bd6f-fbc5a3804848",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3. 영상 파싱(image parsing)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3. 영상 파싱(image parsing)",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8038-9917-cfad45199594",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "장면을 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "장면을 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "의미 단위로 분해",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "의미 단위로 분해",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하여 이해하려는 시도",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하여 이해하려는 시도",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-8065-87b6-f4c2557a5093",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "물체 간의 관계 (예: occlude, support 등)와 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "물체 간의 관계 (예: occlude, support 등)와 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "부품 간의 관계",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "부품 간의 관계",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " (예: attach, part-of 등)를 모델링함",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " (예: attach, part-of 등)를 모델링함",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "20ea071d-4763-803f-a6c6-c65d61bd2fa3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "20ea071d-4763-80bc-b814-dc95c48b2756"
+      },
+      "created_time": "2025-06-10T23:50:00.000Z",
+      "last_edited_time": "2025-06-10T23:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "영상 파싱의 결과로, 장면을 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "영상 파싱의 결과로, 장면을 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "문장으로 표현하는 기술",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문장으로 표현하는 기술",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "까지 발전됨",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "까지 발전됨",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}
