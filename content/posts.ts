@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "Manacher 알고리즘",
+    slug: "manacher-알고리즘",
+    content: require('../notion-data/285a071d-4763-80a3-818c-ef1dc3d83057.json'),
+    date: "2025-10-05",
+    description: "Manacher 알고리즘",
+    image: undefined,
+    category: "cs",
+    tags: ["알고리즘"]
+  },
+  {
     title: "N으로 표현",
     slug: "programmers-n으로-표현-java",
     content: require('../notion-data/285a071d-4763-80d9-9354-c934b532ffdc.json'),

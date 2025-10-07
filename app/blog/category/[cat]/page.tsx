@@ -16,6 +16,7 @@ const slugMap: Record<string, string> = {
   '프로그래머스': 'programmers',
   '회고': 'diary',
   '잡생각': 'random',
+  '알고리즘': 'algorithm',
 }
 
 const tagMap: Record<string, string> = Object.fromEntries(

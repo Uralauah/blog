@@ -26,6 +26,7 @@ const navItems: Record<string, NavItem> = {
   '/blog/category/cs': {
     name: 'CS',
     children: {
+      '/blog/category/cs?tag=algorithm': { name: '알고리즘' },
       '/blog/category/cs?tag=computer-vision': { name: '컴퓨터비전' },
       '/blog/category/cs?tag=database': { name: '데이터베이스' },
     },
