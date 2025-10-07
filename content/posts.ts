@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "N으로 표현",
+    slug: "programmers-n으로-표현-java",
+    content: require('../notion-data/285a071d-4763-80d9-9354-c934b532ffdc.json'),
+    date: "2025-10-07",
+    description: "N으로 표현",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "[컴퓨터비전] 12. 장면 이해",
     slug: "컴퓨터비전-12-장면-이해",
     content: require('../notion-data/20ea071d-4763-80bc-b814-dc95c48b2756.json'),
