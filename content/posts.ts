@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "Kadane 알고리즘",
+    slug: "kadane-알고리즘",
+    content: require('../notion-data/286a071d-4763-80ff-9be8-c9593b794325.json'),
+    date: "2025-10-08",
+    description: "Kadane 알고리즘",
+    image: undefined,
+    category: "cs",
+    tags: ["알고리즘"]
+  },
+  {
     title: "가장 긴 팰린드롬",
     slug: "programmers-가장-긴-팰린드롬-java",
     content: require('../notion-data/285a071d-4763-807e-966c-da5f9740e7a8.json'),
