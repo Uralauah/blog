@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "연속 펄스 부분 수열의 합",
+    slug: "programmers-연속-펄스-부분-수열의-합-java",
+    content: require('../notion-data/286a071d-4763-8035-8617-e163c7225837.json'),
+    date: "2025-10-08",
+    description: "연속 펄스 부분 수열의 합",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "Kadane 알고리즘",
     slug: "kadane-알고리즘",
     content: require('../notion-data/286a071d-4763-80ff-9be8-c9593b794325.json'),
