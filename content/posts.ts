@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "등대",
+    slug: "programmers-등대-java",
+    content: require('../notion-data/287a071d-4763-8072-8dc2-c6120122654b.json'),
+    date: "2025-10-09",
+    description: "등대",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "연속 펄스 부분 수열의 합",
     slug: "programmers-연속-펄스-부분-수열의-합-java",
     content: require('../notion-data/286a071d-4763-8035-8617-e163c7225837.json'),
