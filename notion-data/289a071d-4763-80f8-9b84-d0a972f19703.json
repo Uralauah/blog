@@ -1,0 +1,1380 @@
+{
+  "object": "page",
+  "id": "289a071d-4763-80f8-9b84-d0a972f19703",
+  "created_time": "2025-10-11T05:28:00.000Z",
+  "last_edited_time": "2025-10-11T05:45:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "is_locked": false,
+  "properties": {
+    "카테고리": {
+      "id": "%40IYg",
+      "type": "select",
+      "select": {
+        "id": "e238869e-b403-4fed-81d5-f58c1b00c59e",
+        "name": "코딩테스트",
+        "color": "red"
+      }
+    },
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "JAVA",
+          "color": "pink"
+        },
+        {
+          "id": "d40fc4d5-7962-4bbf-a366-7a9e7469728c",
+          "name": "프로그래머스",
+          "color": "orange"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-10-11",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "2차원 동전 뒤집기",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "2차원 동전 뒤집기",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/2-289a071d476380f89b84d0a972f19703",
+  "public_url": null,
+  "request_id": "e948133a-d7b6-47b7-a5fe-a068c7586095",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "289a071d-4763-8050-a533-dd7f614cb586",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:28:00.000Z",
+      "last_edited_time": "2025-10-11T05:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://school.programmers.co.kr/learn/courses/30/lessons/131703"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://school.programmers.co.kr/learn/courses/30/lessons/131703"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-8082-9cda-db36d8e25a91",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:28:00.000Z",
+      "last_edited_time": "2025-10-11T05:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 1시간 30분",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 1시간 30분",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-8006-9112-dbf7f8a92f7d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:28:00.000Z",
+      "last_edited_time": "2025-10-11T05:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 요약",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 요약",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-80a3-8a7e-e233f073922a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:28:00.000Z",
+      "last_edited_time": "2025-10-11T05:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-803a-a461-f476fe470915",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:28:00.000Z",
+      "last_edited_time": "2025-10-11T05:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-80a4-8b5e-f631687fb363",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:28:00.000Z",
+      "last_edited_time": "2025-10-11T05:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 문제를 보면서 꽤 오랜시간 풀이 방향성을 고민해보았다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 문제를 보면서 꽤 오랜시간 풀이 방향성을 고민해보았다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-805f-bbbc-f214c3f5c93a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:42:00.000Z",
+      "last_edited_time": "2025-10-11T05:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그러다가 든 생각이 초기 상태와 목표 상태의 차이를 구해보는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그러다가 든 생각이 초기 상태와 목표 상태의 차이를 구해보는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-8080-960c-e05dc0937cd3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:42:00.000Z",
+      "last_edited_time": "2025-10-11T05:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "즉, 각 위치의 동전이 서로 다른 경우를 1, 같은 경우를 0으로 표시하여 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "즉, 각 위치의 동전이 서로 다른 경우를 1, 같은 경우를 0으로 표시하여 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "뒤집어야 하는 위치",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "뒤집어야 하는 위치",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "를 구분하였다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "를 구분하였다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-8094-942e-e3a6cf5531be",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:29:00.000Z",
+      "last_edited_time": "2025-10-11T05:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "예를 들어, 아래 그림과 같은 상황이 있다고 할 때,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "예를 들어, 아래 그림과 같은 상황이 있다고 할 때,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-80cf-8bce-c24e8e1b9a13",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:33:00.000Z",
+      "last_edited_time": "2025-10-11T05:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/289a071d-4763-80f8-9b84-d0a972f19703/image_1.png",
+          "expiry_time": "2025-10-11T07:03:45.724Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-8056-a13a-d6045a7d93ff",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:34:00.000Z",
+      "last_edited_time": "2025-10-11T05:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-8092-badd-c58d71c443fe",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:34:00.000Z",
+      "last_edited_time": "2025-10-11T05:43:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "초기 상태와 목표 상태를 XOR 연산과 같이 비교하면 뒤집어야 하는 위치를 1, 뒤집지 않아도 되는 위치를 0으로 표시할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "초기 상태와 목표 상태를 XOR 연산과 같이 비교하면 뒤집어야 하는 위치를 1, 뒤집지 않아도 되는 위치를 0으로 표시할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-80ff-ad15-db1ae9b56506",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:43:00.000Z",
+      "last_edited_time": "2025-10-11T05:43:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이렇게 얻은 차이 행렬은 아래와 같다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이렇게 얻은 차이 행렬은 아래와 같다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-80f7-a4c9-d016d2556a7a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:35:00.000Z",
+      "last_edited_time": "2025-10-11T05:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/289a071d-4763-80f8-9b84-d0a972f19703/image_2.png",
+          "expiry_time": "2025-10-11T07:03:45.738Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-80ae-990a-e575a1e56733",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:35:00.000Z",
+      "last_edited_time": "2025-10-11T05:43:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이제 목표는 이 차이 행렬을 전부 0으로 만드는 최소 뒤집기 횟수를 찾으면 되는 것이다!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이제 목표는 이 차이 행렬을 전부 0으로 만드는 최소 뒤집기 횟수를 찾으면 되는 것이다!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-800e-abe5-ff73eb28154a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:35:00.000Z",
+      "last_edited_time": "2025-10-11T05:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-80ef-852d-cb00410f0bf0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:35:00.000Z",
+      "last_edited_time": "2025-10-11T05:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 문제에서는 행과 열을 한번씩 뒤집는 두가지 연산만 가능하기 때문에 각 행, 열을 뒤집을지 말지를 선택하는 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 문제에서는 행과 열을 한번씩 뒤집는 두가지 연산만 가능하기 때문에 각 행, 열을 뒤집을지 말지를 선택하는 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "완전탐색",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "완전탐색",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "으로 접근했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "으로 접근했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-8049-bfc0-ce6000d7c6a0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:44:00.000Z",
+      "last_edited_time": "2025-10-11T05:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-805d-82bc-f83f642d1dd2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:37:00.000Z",
+      "last_edited_time": "2025-10-11T05:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "행을 모두 탐색하고, 열을 탐색하는 방식으로 모든 조합을 탐색하면서 최종적으로 차이 행렬이 전부 0이 되는 경우의 최소 횟수를 구했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "행을 모두 탐색하고, 열을 탐색하는 방식으로 모든 조합을 탐색하면서 최종적으로 차이 행렬이 전부 0이 되는 경우의 최소 횟수를 구했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-80df-ac63-d92f90c081de",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:37:00.000Z",
+      "last_edited_time": "2025-10-11T05:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "핵심 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "핵심 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-807f-81c9-e7782b16b030",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:38:00.000Z",
+      "last_edited_time": "2025-10-11T05:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "모든 동전이 0인지 확인해주는 함수",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "모든 동전이 0인지 확인해주는 함수",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-8040-af9c-c91f265572a9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:38:00.000Z",
+      "last_edited_time": "2025-10-11T05:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public boolean check(){\n        for(int i=0;i<row;i++){\n            for(int j=0;j<col;j++){\n                if(diff[i][j]!=0)\n                    return false;\n            }\n        }\n        return true;\n    }",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public boolean check(){\n        for(int i=0;i<row;i++){\n            for(int j=0;j<col;j++){\n                if(diff[i][j]!=0)\n                    return false;\n            }\n        }\n        return true;\n    }",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-806c-860f-e14f8f98fb91",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:38:00.000Z",
+      "last_edited_time": "2025-10-11T05:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "aixs에 따라 한 행, 열을 모두 뒤집어 주는 함수",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "aixs에 따라 한 행, 열을 모두 뒤집어 주는 함수",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-80ec-8457-c1b4fcff4812",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:38:00.000Z",
+      "last_edited_time": "2025-10-11T05:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public void flip(int x, int axis){\n        if(axis == 0){ //행 뒤집기\n            for(int i=0;i<col;i++){\n                diff[x][i] = diff[x][i] == 0 ? 1 : 0;\n            }\n        }\n        else{ //열 뒤집기\n            for(int i=0;i<row;i++){\n                diff[i][x] = diff[i][x] == 0 ? 1 : 0;\n            }\n        }\n    }",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public void flip(int x, int axis){\n        if(axis == 0){ //행 뒤집기\n            for(int i=0;i<col;i++){\n                diff[x][i] = diff[x][i] == 0 ? 1 : 0;\n            }\n        }\n        else{ //열 뒤집기\n            for(int i=0;i<row;i++){\n                diff[i][x] = diff[i][x] == 0 ? 1 : 0;\n            }\n        }\n    }",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-80f3-a8c1-ec16b79c2521",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:39:00.000Z",
+      "last_edited_time": "2025-10-11T05:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "모든 조합을 백트래킹으로 탐색하며 최소 뒤집기 횟수 구하는 함수",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "모든 조합을 백트래킹으로 탐색하며 최소 뒤집기 횟수 구하는 함수",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-8057-b06e-f03d821d7c2c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:39:00.000Z",
+      "last_edited_time": "2025-10-11T05:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "public void calc(int r, int c, int sum){\n        if(r==row){\n            if(c==col){\n                if(check())\n                    ans = Math.min(ans, sum);\n                return;    \n            }\n            \n            calc(r, c+1, sum);\n            \n            flip(c,1);\n            calc(r,c+1, sum+1);\n            flip(c,1);\n            \n            return;\n        }\n        \n        calc(r+1, c, sum);\n            \n        flip(r,0);\n        calc(r+1,c,sum+1);\n        flip(r,0);\n    }",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "public void calc(int r, int c, int sum){\n        if(r==row){\n            if(c==col){\n                if(check())\n                    ans = Math.min(ans, sum);\n                return;    \n            }\n            \n            calc(r, c+1, sum);\n            \n            flip(c,1);\n            calc(r,c+1, sum+1);\n            flip(c,1);\n            \n            return;\n        }\n        \n        calc(r+1, c, sum);\n            \n        flip(r,0);\n        calc(r+1,c,sum+1);\n        flip(r,0);\n    }",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-805b-815f-d1bbcd909dd2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:38:00.000Z",
+      "last_edited_time": "2025-10-11T05:38:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-802f-90f2-dde492b0f7fb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:28:00.000Z",
+      "last_edited_time": "2025-10-11T05:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최종 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최종 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-8058-86bd-f05c3a9b7085",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:40:00.000Z",
+      "last_edited_time": "2025-10-11T05:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "class Solution {\n    public int ans = Integer.MAX_VALUE;\n    public int col, row;\n    public int[][] diff;\n    \n    public void calc(int r, int c, int sum){\n        if(r==row){\n            if(c==col){\n                if(check())\n                    ans = Math.min(ans, sum);\n                return;    \n            }\n            \n            calc(r, c+1, sum);\n            \n            flip(c,1);\n            calc(r,c+1, sum+1);\n            flip(c,1);\n            \n            return;\n        }\n        \n        calc(r+1, c, sum);\n            \n        flip(r,0);\n        calc(r+1,c,sum+1);\n        flip(r,0);\n    }\n    \n    public void flip(int x, int axis){\n        if(axis == 0){\n            for(int i=0;i<col;i++){\n                diff[x][i] = diff[x][i] == 0 ? 1 : 0;\n            }\n        }\n        else{\n            for(int i=0;i<row;i++){\n                diff[i][x] = diff[i][x] == 0 ? 1 : 0;\n            }\n        }\n    }\n    \n    public boolean check(){\n        for(int i=0;i<row;i++){\n            for(int j=0;j<col;j++){\n                if(diff[i][j]!=0)\n                    return false;\n            }\n        }\n        return true;\n    }\n    \n    public int solution(int[][] beginning, int[][] target) {\n        int answer = 0;\n        col = beginning[0].length;\n        row = beginning.length;\n        diff = new int[row][col];\n        \n        for(int i=0;i<row;i++){\n            for(int j=0;j<col;j++){\n                diff[i][j] = beginning[i][j]==target[i][j] ? 0 : 1;\n            }\n        }\n        \n        calc(0,0,0);\n        \n        return ans == Integer.MAX_VALUE ? -1 : ans;\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "class Solution {\n    public int ans = Integer.MAX_VALUE;\n    public int col, row;\n    public int[][] diff;\n    \n    public void calc(int r, int c, int sum){\n        if(r==row){\n            if(c==col){\n                if(check())\n                    ans = Math.min(ans, sum);\n                return;    \n            }\n            \n            calc(r, c+1, sum);\n            \n            flip(c,1);\n            calc(r,c+1, sum+1);\n            flip(c,1);\n            \n            return;\n        }\n        \n        calc(r+1, c, sum);\n            \n        flip(r,0);\n        calc(r+1,c,sum+1);\n        flip(r,0);\n    }\n    \n    public void flip(int x, int axis){\n        if(axis == 0){\n            for(int i=0;i<col;i++){\n                diff[x][i] = diff[x][i] == 0 ? 1 : 0;\n            }\n        }\n        else{\n            for(int i=0;i<row;i++){\n                diff[i][x] = diff[i][x] == 0 ? 1 : 0;\n            }\n        }\n    }\n    \n    public boolean check(){\n        for(int i=0;i<row;i++){\n            for(int j=0;j<col;j++){\n                if(diff[i][j]!=0)\n                    return false;\n            }\n        }\n        return true;\n    }\n    \n    public int solution(int[][] beginning, int[][] target) {\n        int answer = 0;\n        col = beginning[0].length;\n        row = beginning.length;\n        diff = new int[row][col];\n        \n        for(int i=0;i<row;i++){\n            for(int j=0;j<col;j++){\n                diff[i][j] = beginning[i][j]==target[i][j] ? 0 : 1;\n            }\n        }\n        \n        calc(0,0,0);\n        \n        return ans == Integer.MAX_VALUE ? -1 : ans;\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "289a071d-4763-80ab-8196-fba48127de26",
+      "parent": {
+        "type": "page_id",
+        "page_id": "289a071d-4763-80f8-9b84-d0a972f19703"
+      },
+      "created_time": "2025-10-11T05:40:00.000Z",
+      "last_edited_time": "2025-10-11T05:40:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

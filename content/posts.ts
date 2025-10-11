@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "2차원 동전 뒤집기",
+    slug: "programmers-2차원-동전-뒤집기-java",
+    content: require('../notion-data/289a071d-4763-80f8-9b84-d0a972f19703.json'),
+    date: "2025-10-11",
+    description: "2차원 동전 뒤집기",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "등대",
     slug: "programmers-등대-java",
     content: require('../notion-data/287a071d-4763-8072-8dc2-c6120122654b.json'),
