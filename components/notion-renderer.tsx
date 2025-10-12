@@ -10,43 +10,71 @@ export default function NotionRenderer({
   post: {
     title: string
     content: { blocks: any[] }
-    image?: string
+    image?: string  
     date?: string
     category?: string
     tags?: string[]
   }
 }) {
   /** h1‧h2‧h3 공통 커스텀 */
-  const makeHeading =
-    (level: 1 | 2 | 3) =>
-    (props: any) => {
-      const type = `heading_${level}` as const
-      const data = props[type]
-      const text = data?.rich_text?.[0]?.plain_text ?? ''
-      if (!text) return null
+const makeHeading =
+  (level: 1 | 2 | 3) =>
+  (props: any) => {
+    const type = `heading_${level}` as const
+    const data = props[type]
+    const text = data?.rich_text?.[0]?.plain_text ?? ''
+    if (!text) return null
 
-      const id = props.id.replace(/-/g, '')
-      const cls =
-        level === 1
-          ? 'text-4xl font-bold scroll-mt-24'
-          : level === 2
-          ? 'text-2xl font-bold scroll-mt-24'
-          : 'text-xl font-semibold scroll-mt-24'
+    const id = (props.id ?? '').replace(/-/g, '')
+    const cls =
+      level === 1
+        ? 'text-4xl font-bold scroll-mt-24'
+        : level === 2
+        ? 'text-2xl font-bold scroll-mt-24'
+        : 'text-xl font-semibold scroll-mt-24'
 
-          return (
-            <div
-              className={
-                level === 1
-                  ? 'pt-6 pb-3' // h1: 위 3rem, 아래 1.5rem
-                  : level === 2
-                  ? 'pt-5 pb-2' // h2: 위 2.5rem, 아래 1.25rem
-                  : 'pt-4 pb-2'  // h3: 위 2rem, 아래 1rem
-              }
+    // ✅ is_toggleable 이면 접는 헤더로 렌더
+    if (data?.is_toggleable) {
+      const [open, setOpen] = React.useState(false)
+      const blocks = (props as any).blocks ?? []
+
+      return (
+        <div className={level === 1 ? 'pt-6 pb-3' : level === 2 ? 'pt-5 pb-2' : 'pt-4 pb-2'}>
+          <button
+            type="button"
+            aria-expanded={open}
+            onClick={() => setOpen(o => !o)}
+            className={`${cls} inline-flex items-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded`}
+            id={id}
+            style={{ background: 'transparent' }}
+          >
+            <span
+              className="inline-block"
+              style={{ width: '1em', transition: 'transform .2s ease', transform: open ? 'rotate(90deg)' : 'rotate(0deg)' }}
             >
-              {React.createElement(`h${level}`, { id, className: cls }, text)}
+              ▶
+            </span>
+            <span>{text}</span>
+          </button>
+
+          {open && (
+            <div className="mt-2 pl-4 border-l border-neutral-200 dark:border-neutral-700">
+              {/* 자식 블록 렌더 */}
+              <Notion.Blocks blocks={blocks} />
             </div>
-          )     
+          )}
+        </div>
+      )
     }
+
+    // 평소(토글 아님)는 기존처럼 제목만
+    return (
+      <div className={level === 1 ? 'pt-6 pb-3' : level === 2 ? 'pt-5 pb-2' : 'pt-4 pb-2'}>
+        {React.createElement(`h${level}`, { id, className: cls }, text)}
+      </div>
+    )
+  }
+
 
   const text = getTextFromBlocks(post.content.blocks)
   const readingTime = calculateReadingTime(text)
