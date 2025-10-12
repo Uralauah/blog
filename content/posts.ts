@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "표 편집",
+    slug: "programmers-표-편집-java",
+    content: require('../notion-data/28aa071d-4763-80ad-bf4d-e0f1ac6021c4.json'),
+    date: "2025-10-12",
+    description: "표 편집",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "2차원 동전 뒤집기",
     slug: "programmers-2차원-동전-뒤집기-java",
     content: require('../notion-data/289a071d-4763-80f8-9b84-d0a972f19703.json'),
