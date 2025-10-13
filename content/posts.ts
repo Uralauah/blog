@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "부대복귀",
+    slug: "programmers-부대복귀-java",
+    content: require('../notion-data/28ba071d-4763-800f-8a98-cf411b9f2038.json'),
+    date: "2025-10-13",
+    description: "부대복귀",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "표 편집",
     slug: "programmers-표-편집-java",
     content: require('../notion-data/28aa071d-4763-80ad-bf4d-e0f1ac6021c4.json'),
