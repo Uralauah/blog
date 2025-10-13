@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "파괴되지 않은 건물",
+    slug: "programmers-파괴되지-않은-건물-java",
+    content: require('../notion-data/28ba071d-4763-80bf-b925-f0e6d35288be.json'),
+    date: "2025-10-13",
+    description: "파괴되지 않은 건물",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "부대복귀",
     slug: "programmers-부대복귀-java",
     content: require('../notion-data/28ba071d-4763-800f-8a98-cf411b9f2038.json'),
