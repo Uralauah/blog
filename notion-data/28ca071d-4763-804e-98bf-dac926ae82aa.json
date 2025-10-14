@@ -1,0 +1,1854 @@
+{
+  "object": "page",
+  "id": "28ca071d-4763-804e-98bf-dac926ae82aa",
+  "created_time": "2025-10-14T04:07:00.000Z",
+  "last_edited_time": "2025-10-14T04:17:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "is_locked": false,
+  "properties": {
+    "카테고리": {
+      "id": "%40IYg",
+      "type": "select",
+      "select": {
+        "id": "e238869e-b403-4fed-81d5-f58c1b00c59e",
+        "name": "코딩테스트",
+        "color": "red"
+      }
+    },
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "JAVA",
+          "color": "pink"
+        },
+        {
+          "id": "d40fc4d5-7962-4bbf-a366-7a9e7469728c",
+          "name": "프로그래머스",
+          "color": "orange"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-10-14",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "디스크 컨트롤러",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "디스크 컨트롤러",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/28ca071d4763804e98bfdac926ae82aa",
+  "public_url": null,
+  "request_id": "521ac1fe-ea3f-4c60-b089-74df77a98590",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "28ca071d-4763-80fc-89c1-cdaf15d6d6b4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:07:00.000Z",
+      "last_edited_time": "2025-10-14T04:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://school.programmers.co.kr/learn/courses/30/lessons/42627#"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://school.programmers.co.kr/learn/courses/30/lessons/42627#"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-80e7-82af-e0d2de9ce518",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:07:00.000Z",
+      "last_edited_time": "2025-10-14T04:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 50분",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 50분",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-8038-bbc5-d399173589f5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:07:00.000Z",
+      "last_edited_time": "2025-10-14T04:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 요약",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 요약",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-8059-a305-dc997483a706",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:11:00.000Z",
+      "last_edited_time": "2025-10-14T04:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하드디스크는 한 번에 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하드디스크는 한 번에 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "하나의 작업만 수행",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하나의 작업만 수행",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-8024-b55e-fb97e99cb0df",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:11:00.000Z",
+      "last_edited_time": "2025-10-14T04:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "디스크 컨트롤러는 다음과 같은 우선순위로 작업을 처리한다:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "디스크 컨트롤러는 다음과 같은 우선순위로 작업을 처리한다:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "28ca071d-4763-8048-b740-d799dccbebdd",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ca071d-4763-8024-b55e-fb97e99cb0df"
+          },
+          "created_time": "2025-10-14T04:11:00.000Z",
+          "last_edited_time": "2025-10-14T04:11:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "작업 소요시간이 짧은 순",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "작업 소요시간이 짧은 순",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "28ca071d-4763-80c0-aa4a-fa713149371e",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ca071d-4763-8024-b55e-fb97e99cb0df"
+          },
+          "created_time": "2025-10-14T04:11:00.000Z",
+          "last_edited_time": "2025-10-14T04:11:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "요청 시각이 빠른 순",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "요청 시각이 빠른 순",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "28ca071d-4763-806b-8952-d39309b19198",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ca071d-4763-8024-b55e-fb97e99cb0df"
+          },
+          "created_time": "2025-10-14T04:11:00.000Z",
+          "last_edited_time": "2025-10-14T04:11:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "numbered_list_item",
+          "numbered_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "작업 번호가 작은 순",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "작업 번호가 작은 순",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-8073-85f8-fe89f18014ab",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:11:00.000Z",
+      "last_edited_time": "2025-10-14T04:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "모든 작업의 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "모든 작업의 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "평균 반환 시간(요청~완료까지의 시간)",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "평균 반환 시간(요청~완료까지의 시간)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 의 정수 부분을 구하라.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 의 정수 부분을 구하라.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-8086-9961-d0108c957277",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:07:00.000Z",
+      "last_edited_time": "2025-10-14T04:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-8001-8bf9-ca447f213681",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:07:00.000Z",
+      "last_edited_time": "2025-10-14T04:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 문제는 보자마자 우선순위 큐를 써야겠다는 생각이 들었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 문제는 보자마자 우선순위 큐를 써야겠다는 생각이 들었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-8042-bc2a-f761dd0c9389",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:12:00.000Z",
+      "last_edited_time": "2025-10-14T04:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-809d-984f-e823f11071b7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:12:00.000Z",
+      "last_edited_time": "2025-10-14T04:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만, 단순히 요청 시각이 빠른 순으로 정렬한다면, 아직 요청되지 않은 작업이 현재 작업보다 소요시간이 짧다는 이유로 먼지 처리되는 문제가 생길 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만, 단순히 요청 시각이 빠른 순으로 정렬한다면, 아직 요청되지 않은 작업이 현재 작업보다 소요시간이 짧다는 이유로 먼지 처리되는 문제가 생길 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-8080-bb5e-ca48b4f9474d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:12:00.000Z",
+      "last_edited_time": "2025-10-14T04:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-808f-8585-e889b13ed194",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:12:00.000Z",
+      "last_edited_time": "2025-10-14T04:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 나는 우선순위 큐를 두개 사용했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 나는 우선순위 큐를 두개 사용했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-80f0-8a86-ea06ee073b0d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:07:00.000Z",
+      "last_edited_time": "2025-10-14T04:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "temp 큐 : 요청 시각을 기준으로 정렬",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "temp 큐 : 요청 시각을 기준으로 정렬",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "28ca071d-4763-804d-b9ab-ffc914dd8ed1",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ca071d-4763-80f0-8a86-ea06ee073b0d"
+          },
+          "created_time": "2025-10-14T04:13:00.000Z",
+          "last_edited_time": "2025-10-14T04:13:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "→ 아직 요청되지 않은 작업들 관리",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "→ 아직 요청되지 않은 작업들 관리",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-80b5-a808-e37c6e9a4134",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:13:00.000Z",
+      "last_edited_time": "2025-10-14T04:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "pq 큐 : 문제의 우선순위를 기준으로 정렬",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "pq 큐 : 문제의 우선순위를 기준으로 정렬",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "28ca071d-4763-809e-bb46-d9b56a93d2eb",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ca071d-4763-80b5-a808-e37c6e9a4134"
+          },
+          "created_time": "2025-10-14T04:13:00.000Z",
+          "last_edited_time": "2025-10-14T04:13:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "→ 현재 시점에서 처리할 수 있는 작업들 관리",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "→ 현재 시점에서 처리할 수 있는 작업들 관리",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-8007-9659-fb145d927506",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:13:00.000Z",
+      "last_edited_time": "2025-10-14T04:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이렇게 하면 현재 작업이 끝날 때까지 들어온 요청들을 pq에 쌓아두고 pq에서 우선순위가 높은 작업들을 선택해 처리할 수 있게 된다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이렇게 하면 현재 작업이 끝날 때까지 들어온 요청들을 pq에 쌓아두고 pq에서 우선순위가 높은 작업들을 선택해 처리할 수 있게 된다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-80bc-9dc6-e9fa75090a51",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:14:00.000Z",
+      "last_edited_time": "2025-10-14T04:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-805f-be59-c860871d677e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:14:00.000Z",
+      "last_edited_time": "2025-10-14T04:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "모든 작업을 요청 시각 기준으로 temp 큐에 저장",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "모든 작업을 요청 시각 기준으로 temp 큐에 저장",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-80cd-b216-ee4a39971290",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:14:00.000Z",
+      "last_edited_time": "2025-10-14T04:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "현재 시간(",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "현재 시간(",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "time",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "time",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ")을 기준으로",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ")을 기준으로",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "28ca071d-4763-8003-9271-e9c3d2c03cd7",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ca071d-4763-80cd-b216-ee4a39971290"
+          },
+          "created_time": "2025-10-14T04:14:00.000Z",
+          "last_edited_time": "2025-10-14T04:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "time",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "time",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " 이하로 요청된 모든 작업을 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " 이하로 요청된 모든 작업을 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "pq",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "pq",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "에 옮김",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "에 옮김",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-802f-8c1d-f2afc5ee652b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:14:00.000Z",
+      "last_edited_time": "2025-10-14T04:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "pq",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "pq",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "가 비었다면,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가 비었다면,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "28ca071d-4763-80d1-8795-d47e1bbbef60",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ca071d-4763-802f-8c1d-f2afc5ee652b"
+          },
+          "created_time": "2025-10-14T04:14:00.000Z",
+          "last_edited_time": "2025-10-14T04:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "다음 요청이 들어오는 시각으로 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "다음 요청이 들어오는 시각으로 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "time",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "time",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "을 이동",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "을 이동",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "28ca071d-4763-807c-90bf-edbd8e73359f",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ca071d-4763-802f-8c1d-f2afc5ee652b"
+          },
+          "created_time": "2025-10-14T04:14:00.000Z",
+          "last_edited_time": "2025-10-14T04:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "그 시각에 들어온 작업들을 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "그 시각에 들어온 작업들을 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "pq",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "pq",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "에 추가",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "에 추가",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-8017-a4be-d7b595576b1f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:14:00.000Z",
+      "last_edited_time": "2025-10-14T04:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "pq",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "pq",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "에서 작업을 하나 꺼내 처리하고,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "에서 작업을 하나 꺼내 처리하고,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "28ca071d-4763-804b-b4bf-d7837605ded8",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ca071d-4763-8017-a4be-d7b595576b1f"
+          },
+          "created_time": "2025-10-14T04:14:00.000Z",
+          "last_edited_time": "2025-10-14T04:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "현재 시각 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "현재 시각 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "time",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "time",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "을 갱신",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "을 갱신",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "28ca071d-4763-804c-99cc-dee4a7085fab",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ca071d-4763-8017-a4be-d7b595576b1f"
+          },
+          "created_time": "2025-10-14T04:14:00.000Z",
+          "last_edited_time": "2025-10-14T04:15:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "반환 시간(",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "반환 시간(",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "time - requestTime",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "time - requestTime",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": ")을 누적",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": ")을 누적",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-8073-830d-d523e31434fa",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:14:00.000Z",
+      "last_edited_time": "2025-10-14T04:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "모든 작업을 처리할 때까지 반복",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "모든 작업을 처리할 때까지 반복",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-8048-b169-c5c75762b335",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:07:00.000Z",
+      "last_edited_time": "2025-10-14T04:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최종 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최종 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ca071d-4763-8088-acf7-f5cf2816b6bc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ca071d-4763-804e-98bf-dac926ae82aa"
+      },
+      "created_time": "2025-10-14T04:09:00.000Z",
+      "last_edited_time": "2025-10-14T04:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.util.*;\n\nclass Solution {\n    public class Job{\n        public int num;\n        public int requestTime;\n        public int jobTime;\n        \n        public Job(int num, int requestTime, int jobTime){\n            this.num = num;\n            this.requestTime = requestTime;\n            this.jobTime = jobTime;\n        }\n    }\n    \n    public int solution(int[][] jobs) {\n        int answer = 0;\n        int cnt = jobs.length;\n        \n        // 우선순위: 작업시간 -> 요청 시각 -> 작업 번호\n        PriorityQueue<Job> pq = new PriorityQueue<>((o1, o2)->{\n            if(o1.jobTime == o2.jobTime && o1.requestTime == o2.requestTime)\n                return o1.num - o2.num;\n            else if(o1.jobTime == o2.jobTime)\n                return o1.requestTime - o2.requestTime;\n            else\n                return o1.jobTime - o2.jobTime;\n        });\n        \n        // 요청 시각 기준 정렬\n        PriorityQueue<Job> temp = new PriorityQueue<>((o1, o2)->{\n            return o1.requestTime - o2.requestTime;\n        });\n        \n        for(int i=0;i<cnt;i++){\n            temp.add(new Job(i, jobs[i][0], jobs[i][1]));\n        }\n        \n        int time = 0;\n        while(!pq.isEmpty() || !temp.isEmpty()){\n            // 작업 우선순위 큐가 비어있다면, \n            // 현재 시간 이후 처음 요청된 작업들을 넣어줌\n            if(pq.isEmpty()){\n                pq.add(temp.poll());\n                while(!temp.isEmpty() && temp.peek().requestTime == pq.peek().requestTime)\n                    pq.add(temp.poll());\n            }\n            \n            Job now = pq.poll();\n            // 현재 작업을 기준으로 시간 업데이트\n            time = Math.max(time, now.requestTime); // 요청 시각 이전이면 시간 맞추기\n            time += now.jobTime; // 작업 수행\n            answer += time-now.requestTime; // 반환 시간 누적\n            \n            // 현재 작업 중 새로 요청된 작업들을 pq로 이동\n            while(!temp.isEmpty() && temp.peek().requestTime <= time){\n                pq.add(temp.poll());\n            }\n        }\n        \n        return answer/cnt;\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.util.*;\n\nclass Solution {\n    public class Job{\n        public int num;\n        public int requestTime;\n        public int jobTime;\n        \n        public Job(int num, int requestTime, int jobTime){\n            this.num = num;\n            this.requestTime = requestTime;\n            this.jobTime = jobTime;\n        }\n    }\n    \n    public int solution(int[][] jobs) {\n        int answer = 0;\n        int cnt = jobs.length;\n        \n        // 우선순위: 작업시간 -> 요청 시각 -> 작업 번호\n        PriorityQueue<Job> pq = new PriorityQueue<>((o1, o2)->{\n            if(o1.jobTime == o2.jobTime && o1.requestTime == o2.requestTime)\n                return o1.num - o2.num;\n            else if(o1.jobTime == o2.jobTime)\n                return o1.requestTime - o2.requestTime;\n            else\n                return o1.jobTime - o2.jobTime;\n        });\n        \n        // 요청 시각 기준 정렬\n        PriorityQueue<Job> temp = new PriorityQueue<>((o1, o2)->{\n            return o1.requestTime - o2.requestTime;\n        });\n        \n        for(int i=0;i<cnt;i++){\n            temp.add(new Job(i, jobs[i][0], jobs[i][1]));\n        }\n        \n        int time = 0;\n        while(!pq.isEmpty() || !temp.isEmpty()){\n            // 작업 우선순위 큐가 비어있다면, \n            // 현재 시간 이후 처음 요청된 작업들을 넣어줌\n            if(pq.isEmpty()){\n                pq.add(temp.poll());\n                while(!temp.isEmpty() && temp.peek().requestTime == pq.peek().requestTime)\n                    pq.add(temp.poll());\n            }\n            \n            Job now = pq.poll();\n            // 현재 작업을 기준으로 시간 업데이트\n            time = Math.max(time, now.requestTime); // 요청 시각 이전이면 시간 맞추기\n            time += now.jobTime; // 작업 수행\n            answer += time-now.requestTime; // 반환 시간 누적\n            \n            // 현재 작업 중 새로 요청된 작업들을 pq로 이동\n            while(!temp.isEmpty() && temp.peek().requestTime <= time){\n                pq.add(temp.poll());\n            }\n        }\n        \n        return answer/cnt;\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    }
+  ]
+}
