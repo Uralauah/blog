@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "자물쇠와 열쇠",
+    slug: "programmers-자물쇠와-열쇠-java",
+    content: require('../notion-data/28da071d-4763-8001-b2eb-e817a508c551.json'),
+    date: "2025-10-15",
+    description: "자물쇠와 열쇠",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "모두 0으로 만들기",
     slug: "programmers-모두-0으로-만들기-java",
     content: require('../notion-data/28da071d-4763-80be-8b0d-d33959693035.json'),
