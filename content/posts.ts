@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "모두 0으로 만들기",
+    slug: "programmers-모두-0으로-만들기-java",
+    content: require('../notion-data/28da071d-4763-80be-8b0d-d33959693035.json'),
+    date: "2025-10-15",
+    description: "모두 0으로 만들기",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "디스크 컨트롤러",
     slug: "programmers-디스크-컨트롤러-java",
     content: require('../notion-data/28ca071d-4763-804e-98bf-dac926ae82aa.json'),
