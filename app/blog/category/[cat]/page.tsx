@@ -5,7 +5,7 @@ import { posts } from 'content'
 import Link from 'next/link'
 import PageContainer from 'components/page-container'
 
-export const runtime = 'edge'
+
 
 const POSTS_PER_PAGE = 10;
 
