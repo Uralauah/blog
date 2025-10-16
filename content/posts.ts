@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "광고 삽입",
+    slug: "programmers-광고-삽입-java",
+    content: require('../notion-data/28ea071d-4763-80b6-a480-fa17a7e54f90.json'),
+    date: "2025-10-16",
+    description: "광고 삽입",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "자물쇠와 열쇠",
     slug: "programmers-자물쇠와-열쇠-java",
     content: require('../notion-data/28da071d-4763-8001-b2eb-e817a508c551.json'),

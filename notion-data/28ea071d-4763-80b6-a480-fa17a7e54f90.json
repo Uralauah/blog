@@ -1,0 +1,2612 @@
+{
+  "object": "page",
+  "id": "28ea071d-4763-80b6-a480-fa17a7e54f90",
+  "created_time": "2025-10-16T07:48:00.000Z",
+  "last_edited_time": "2025-10-16T07:55:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "is_locked": false,
+  "properties": {
+    "카테고리": {
+      "id": "%40IYg",
+      "type": "select",
+      "select": {
+        "id": "e238869e-b403-4fed-81d5-f58c1b00c59e",
+        "name": "코딩테스트",
+        "color": "red"
+      }
+    },
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "JAVA",
+          "color": "pink"
+        },
+        {
+          "id": "d40fc4d5-7962-4bbf-a366-7a9e7469728c",
+          "name": "프로그래머스",
+          "color": "orange"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-10-16",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "광고 삽입",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "광고 삽입",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/28ea071d476380b6a480fa17a7e54f90",
+  "public_url": null,
+  "request_id": "78b52f34-f258-4fd7-8c50-61af88754e87",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "28ea071d-4763-80fb-9b92-dfaf4242e983",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:48:00.000Z",
+      "last_edited_time": "2025-10-16T07:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://school.programmers.co.kr/learn/courses/30/lessons/72414"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://school.programmers.co.kr/learn/courses/30/lessons/72414"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-80f0-ad11-f912e3e6b50b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:48:00.000Z",
+      "last_edited_time": "2025-10-16T07:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 1시간 12분",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 1시간 12분",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-80a5-92b6-ea9e145d2ad1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:48:00.000Z",
+      "last_edited_time": "2025-10-16T07:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 요약",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 요약",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-8059-93d4-e4c9a6fa95e3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:50:00.000Z",
+      "last_edited_time": "2025-10-16T07:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "play_time",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "play_time",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 동영상 총 재생시간 (HH:MM:SS)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 동영상 총 재생시간 (HH:MM:SS)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-804a-b8bd-f62b27f1157b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:50:00.000Z",
+      "last_edited_time": "2025-10-16T07:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "adv_time",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "adv_time",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 광고 재생시간 (HH:MM:SS)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 광고 재생시간 (HH:MM:SS)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-8040-b843-ca75b6a4ac7d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:50:00.000Z",
+      "last_edited_time": "2025-10-16T07:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "logs",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "logs",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ": 시청자별 재생 구간 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ": 시청자별 재생 구간 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "[시작-끝]",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "[시작-끝]",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 이 최대 30만 개",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 이 최대 30만 개",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-8044-a192-d151fd1bc270",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:50:00.000Z",
+      "last_edited_time": "2025-10-16T07:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "목표: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "목표: ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "시청자 누적 재생시간 합이 최대",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "시청자 누적 재생시간 합이 최대",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "가 되는 광고 시작 시각을 반환 (여러 곳이면 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가 되는 광고 시작 시각을 반환 (여러 곳이면 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "가장 빠른 시각",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가장 빠른 시각",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ")",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ")",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-8039-9aa1-f60dd3a16d38",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:48:00.000Z",
+      "last_edited_time": "2025-10-16T07:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-80aa-88d2-d986f1113559",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "잘못된 시도",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "잘못된 시도",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-80a3-96d6-f8adbfcca2ea",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "처음엔 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "처음엔 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "문자열 그대로 우선순위 큐",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문자열 그대로 우선순위 큐",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "를 써서 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "를 써서 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "logs",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "logs",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "의 시작·끝 시각 문자열을 푸시하고 팝하면서 동시 시청자 수 변화를 추적하려 했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "의 시작·끝 시각 문자열을 푸시하고 팝하면서 동시 시청자 수 변화를 추적하려 했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-80a5-8f3c-ed38204c8fbb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 문자열 파싱·정렬 기준 처리와 동시성 집계를 함께 다루다 보니 구현이 복잡해지고, 최종적으로는 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 문자열 파싱·정렬 기준 처리와 동시성 집계를 함께 다루다 보니 구현이 복잡해지고, 최종적으로는 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "시간·가독성 면에서 비효율",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "시간·가독성 면에서 비효율",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이라 포기했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이라 포기했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-8023-a574-d429238aa520",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-803e-8443-e726f59cb417",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 생각을 바꿨다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 생각을 바꿨다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-808b-8b90-c498c4db8108",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "“모든 초를 직접 세지 말고, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "“모든 초를 직접 세지 말고, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "변화가 있는 시점만 표시하자!",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "변화가 있는 시점만 표시하자!",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "”",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "”",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-80c5-b51d-ffb4b74c7f4e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 문제는 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 문제는 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "누적합",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "누적합",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 과 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 과 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "차분 배열",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "차분 배열",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 개념을 이용하면 한 번의 계산으로 동시 시청자 수를 효율적으로 구할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 개념을 이용하면 한 번의 계산으로 동시 시청자 수를 효율적으로 구할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-8064-a95e-d652b724a4b3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-80d3-b902-e6e4d625076e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "핵심 아이디어",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "핵심 아이디어",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-8035-8e6f-ee8bfa1c36b8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "차분 배열 활용",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "차분 배열 활용",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "28ea071d-4763-801b-bd57-f38c0c377d7f",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ea071d-4763-8035-8e6f-ee8bfa1c36b8"
+          },
+          "created_time": "2025-10-16T07:52:00.000Z",
+          "last_edited_time": "2025-10-16T07:53:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "각 시청 구간 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "각 시청 구간 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "[start, end)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "[start, end)",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " 에 대해",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " 에 대해",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "28ea071d-4763-802e-abdd-cbe7e59b2324",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ea071d-4763-8035-8e6f-ee8bfa1c36b8"
+          },
+          "created_time": "2025-10-16T07:52:00.000Z",
+          "last_edited_time": "2025-10-16T07:53:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "viewer[start] += 1",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "viewer[start] += 1",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "28ea071d-4763-8039-ba94-cdabe289a8bd",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ea071d-4763-8035-8e6f-ee8bfa1c36b8"
+          },
+          "created_time": "2025-10-16T07:52:00.000Z",
+          "last_edited_time": "2025-10-16T07:53:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": true,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "viewer[end] -= 1",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "viewer[end] -= 1",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": [
+            {
+              "object": "block",
+              "id": "28ea071d-4763-802b-84dd-c27c205490ed",
+              "parent": {
+                "type": "block_id",
+                "block_id": "28ea071d-4763-8039-ba94-cdabe289a8bd"
+              },
+              "created_time": "2025-10-16T07:52:00.000Z",
+              "last_edited_time": "2025-10-16T07:52:00.000Z",
+              "created_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "last_edited_by": {
+                "object": "user",
+                "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+              },
+              "has_children": false,
+              "archived": false,
+              "in_trash": false,
+              "type": "paragraph",
+              "paragraph": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "text": {
+                      "content": "이렇게 표시한다.",
+                      "link": null
+                    },
+                    "annotations": {
+                      "bold": false,
+                      "italic": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "code": false,
+                      "color": "default"
+                    },
+                    "plain_text": "이렇게 표시한다.",
+                    "href": null
+                  }
+                ],
+                "color": "default"
+              },
+              "blocks": []
+            }
+          ]
+        },
+        {
+          "object": "block",
+          "id": "28ea071d-4763-80f6-b4b6-ddb9f25a7a3b",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ea071d-4763-8035-8e6f-ee8bfa1c36b8"
+          },
+          "created_time": "2025-10-16T07:52:00.000Z",
+          "last_edited_time": "2025-10-16T07:52:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "이후 한 번 누적합을 돌리면,",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "이후 한 번 누적합을 돌리면,",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "28ea071d-4763-808f-ae18-cda08f2f45a4",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ea071d-4763-8035-8e6f-ee8bfa1c36b8"
+          },
+          "created_time": "2025-10-16T07:52:00.000Z",
+          "last_edited_time": "2025-10-16T07:52:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "→ 각 초의 “동시 시청자 수”를 얻을 수 있다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "→ 각 초의 “동시 시청자 수”를 얻을 수 있다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-80f2-9ae4-fad75db80277",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-80d5-a44d-db223402fda3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "누적합 2번 사용",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "누적합 2번 사용",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "28ea071d-4763-804d-bcd9-f001c7e228b0",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ea071d-4763-80d5-a44d-db223402fda3"
+          },
+          "created_time": "2025-10-16T07:52:00.000Z",
+          "last_edited_time": "2025-10-16T07:52:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "첫 번째 누적합으로 “동시 시청자 수”를 만들었고,",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "첫 번째 누적합으로 “동시 시청자 수”를 만들었고,",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "28ea071d-4763-808b-8e8d-cc6db3edb7bf",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ea071d-4763-80d5-a44d-db223402fda3"
+          },
+          "created_time": "2025-10-16T07:52:00.000Z",
+          "last_edited_time": "2025-10-16T07:52:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "두 번째 누적합으로 “0초부터 i초까지의 누적 시청시간 합”을 만든다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "두 번째 누적합으로 “0초부터 i초까지의 누적 시청시간 합”을 만든다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "28ea071d-4763-806a-bc07-e4ca6ee161e2",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ea071d-4763-80d5-a44d-db223402fda3"
+          },
+          "created_time": "2025-10-16T07:52:00.000Z",
+          "last_edited_time": "2025-10-16T07:53:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "이렇게 하면 임의의 구간 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "이렇게 하면 임의의 구간 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "[L, R]",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "[L, R]",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "의 합은",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "의 합은",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "28ea071d-4763-8005-be88-c4bad14d1b69",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ea071d-4763-80d5-a44d-db223402fda3"
+          },
+          "created_time": "2025-10-16T07:52:00.000Z",
+          "last_edited_time": "2025-10-16T07:53:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "viewer[R] - viewer[L-1]",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "viewer[R] - viewer[L-1]",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " 으로 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " 으로 ",
+                "href": null
+              },
+              {
+                "type": "equation",
+                "equation": {
+                  "expression": "O(1)"
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "O(1)",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "에 계산할 수 있다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "에 계산할 수 있다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-8049-a6f7-de0f581a40c4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-80ec-864d-f01b2c48bfd3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "슬라이딩 윈도우",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "슬라이딩 윈도우",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "28ea071d-4763-8010-8d42-d5c3ff9b0cdd",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ea071d-4763-80ec-864d-f01b2c48bfd3"
+          },
+          "created_time": "2025-10-16T07:52:00.000Z",
+          "last_edited_time": "2025-10-16T07:54:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "광고 길이를 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "광고 길이를 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "adv_time",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "adv_time",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " = A 라고 하면 시작 시각이 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " = A 라고 하면 시작 시각이 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "i",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "i",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "일 때의 누적 시청시간은 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "일 때의 누적 시청시간은 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "viewer[i + A - 1] - viewer[i - 1]",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "viewer[i + A - 1] - viewer[i - 1]",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " 이 된다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " 이 된다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "28ea071d-4763-8022-83fa-dc7a93753960",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ea071d-4763-80ec-864d-f01b2c48bfd3"
+          },
+          "created_time": "2025-10-16T07:52:00.000Z",
+          "last_edited_time": "2025-10-16T07:52:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "이걸 모든 i에 대해 돌리며 최대값을 찾으면 된다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "이걸 모든 i에 대해 돌리며 최대값을 찾으면 된다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "28ea071d-4763-80be-b8ca-ebc2b2a61510",
+          "parent": {
+            "type": "block_id",
+            "block_id": "28ea071d-4763-80ec-864d-f01b2c48bfd3"
+          },
+          "created_time": "2025-10-16T07:52:00.000Z",
+          "last_edited_time": "2025-10-16T07:54:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "같은 값이 여러 개면, ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "같은 값이 여러 개면, ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "처음 나온",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "처음 나온",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " 시각을 선택하면 된다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " 시각을 선택하면 된다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-80dc-946a-f1617973334d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-8001-8f20-f8456a75f0b8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "왜 두 번 누적합을 쓰는가?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "왜 두 번 누적합을 쓰는가?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-80a6-81ba-d12b9828576c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "한 번 누적합만 하면 각 초의 시청자 수까지만 구할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "한 번 누적합만 하면 각 초의 시청자 수까지만 구할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-8043-a193-edab127fe86b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 광고 구간의 “합”을 빠르게 구하려면",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 광고 구간의 “합”을 빠르게 구하려면",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-8098-8625-f2e8d384bdb3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "두 번째 누적합을 이용해 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "두 번째 누적합을 이용해 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "prefix sum 배열",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "prefix sum 배열",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "을 만들어야 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "을 만들어야 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-800c-b7ff-d26038080fa5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:52:00.000Z",
+      "last_edited_time": "2025-10-16T07:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이렇게 하면 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이렇게 하면 ",
+            "href": null
+          },
+          {
+            "type": "equation",
+            "equation": {
+              "expression": "O(1)"
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "O(1)",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "만에 임의의 구간 시청자 합을 구할 수 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "만에 임의의 구간 시청자 합을 구할 수 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-807e-876f-da7e61df53ca",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:48:00.000Z",
+      "last_edited_time": "2025-10-16T07:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최종 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최종 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "28ea071d-4763-8038-a663-c0898400914a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "28ea071d-4763-80b6-a480-fa17a7e54f90"
+      },
+      "created_time": "2025-10-16T07:54:00.000Z",
+      "last_edited_time": "2025-10-16T07:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.util.*;\n\nclass Solution {\n    public int strToInt(String time){\n        StringTokenizer st = new StringTokenizer(time, \":\");\n        int sec = 0;\n        int t = 60*60;\n        while(st.hasMoreTokens()){\n            sec += Integer.parseInt(st.nextToken())*t;\n            t/=60;\n        }\n        return sec;\n    }\n    \n    public String intToStr(int time){ \n        int h = time/3600;\n        time %= 3600;\n        int m = time/60;\n        time %= 60;\n        return String.format(\"%02d:%02d:%02d\",h,m,time);\n    }\n    \n    public String solution(String play_time, String adv_time, String[] logs) {\n        if(play_time.equals(adv_time))\n            return intToStr(0);\n        \n        int ptime = strToInt(play_time);\n        int atime = strToInt(adv_time);\n        \n        long[] viewer = new long[ptime+1];\n        \n        for(int i=0;i<logs.length;i++){\n            StringTokenizer st = new StringTokenizer(logs[i],\"-\");\n            int from = strToInt(st.nextToken());\n            int to = strToInt(st.nextToken());\n            \n            viewer[from] +=1;\n            viewer[to] -=1;\n        }\n        \n        for(int i=1;i<ptime+1;i++){\n            viewer[i]+=viewer[i-1];\n        }\n        \n        for(int i=1;i<ptime+1;i++){\n            viewer[i]+=viewer[i-1];\n        }\n        \n        long max = viewer[atime];\n        int start = 0;\n        \n        for(int i=1;i<ptime+1-atime;i++){\n            long now = viewer[i+atime-1] - viewer[i-1];\n            if(max<now){\n                max = now;\n                start = i;\n            }\n        }\n        \n        return intToStr(start);\n    \n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.util.*;\n\nclass Solution {\n    public int strToInt(String time){\n        StringTokenizer st = new StringTokenizer(time, \":\");\n        int sec = 0;\n        int t = 60*60;\n        while(st.hasMoreTokens()){\n            sec += Integer.parseInt(st.nextToken())*t;\n            t/=60;\n        }\n        return sec;\n    }\n    \n    public String intToStr(int time){ \n        int h = time/3600;\n        time %= 3600;\n        int m = time/60;\n        time %= 60;\n        return String.format(\"%02d:%02d:%02d\",h,m,time);\n    }\n    \n    public String solution(String play_time, String adv_time, String[] logs) {\n        if(play_time.equals(adv_time))\n            return intToStr(0);\n        \n        int ptime = strToInt(play_time);\n        int atime = strToInt(adv_time);\n        \n        long[] viewer = new long[ptime+1];\n        \n        for(int i=0;i<logs.length;i++){\n            StringTokenizer st = new StringTokenizer(logs[i],\"-\");\n            int from = strToInt(st.nextToken());\n            int to = strToInt(st.nextToken());\n            \n            viewer[from] +=1;\n            viewer[to] -=1;\n        }\n        \n        for(int i=1;i<ptime+1;i++){\n            viewer[i]+=viewer[i-1];\n        }\n        \n        for(int i=1;i<ptime+1;i++){\n            viewer[i]+=viewer[i-1];\n        }\n        \n        long max = viewer[atime];\n        int start = 0;\n        \n        for(int i=1;i<ptime+1-atime;i++){\n            long now = viewer[i+atime-1] - viewer[i-1];\n            if(max<now){\n                max = now;\n                start = i;\n            }\n        }\n        \n        return intToStr(start);\n    \n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    }
+  ]
+}
