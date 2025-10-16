@@ -21,13 +21,15 @@
   --sh-entity: #e25a1c;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --sh-class: #4c97f8;
-    --sh-identifier: white;
-    --sh-keyword: #f47067;
-    --sh-string: #0fa295;
-  }
+html.dark {
+  --sh-class: #4c97f8;
+  --sh-identifier: white;
+  --sh-keyword: #f47067;
+  --sh-string: #0fa295;
+  --sh-sign: #ccc;
+  --sh-comment: #999;
+  --sh-property: #f8c555;
+  --sh-entity: #f8c555;
 }
 
 html {
@@ -172,4 +174,27 @@ table {
 
 .dark .gradient-border::after {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.12), transparent);
+}
+
+html.dark {
+  --sh-class: #4c97f8;
+  --sh-identifier: white;
+  --sh-keyword: #f47067;
+  --sh-string: #0fa295;
+  --sh-sign: #ccc;
+  --sh-comment: #999;
+  --sh-property: #f8c555;
+  --sh-entity: #f8c555;
+}
+
+.dark .token.operator,
+.dark .token.punctuation,
+.dark .token.property,
+.dark .token.tag,
+.dark .token.boolean,
+.dark .token.number,
+.dark .token.constant,
+.dark .token.symbol,
+.dark .token.deleted {
+  background: transparent !important;
 }
