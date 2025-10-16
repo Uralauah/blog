@@ -52,7 +52,8 @@ export default function Blog({ params }: { params: { slug: string } }) {
   const post = posts.find((p) => p.slug === decodedSlug)
   if (!post) notFound()
 
-  const headings = extractHeadings(post.content.blocks)
+  const content = post.getContent()
+  const headings = extractHeadings(content.blocks)
 
   return (
     <section className="grid grid-cols-[minmax(0,400px)_768px_240px] gap-12 w-full px-4 md:px-8">
@@ -79,7 +80,7 @@ export default function Blog({ params }: { params: { slug: string } }) {
           }),
         }}
       />
-      <NotionRenderer post={post} />
+      <NotionRenderer post={{ ...post, content }} />
       <div className="mt-16">
         <Comment />
       </div>
