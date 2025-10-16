@@ -1,7 +1,7 @@
 // app/blog/[slug]/page.tsx
 import dynamic from 'next/dynamic'
 import { notFound } from 'next/navigation'
-import posts from 'content/posts'
+import { postsWithContent as posts } from 'content'
 import { baseUrl } from 'app/sitemap'
 
 import NotionRenderer from 'components/notion-renderer'

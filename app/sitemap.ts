@@ -1,4 +1,4 @@
-import posts from "content/posts"
+import { posts } from "content"
 
 export const baseUrl = 'https://codinggroove.site'
 

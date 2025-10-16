@@ -1,7 +1,7 @@
 // components/BlogPosts.tsx
 
 import Link from 'next/link'
-import posts from '../content/posts'
+import { posts } from 'content'
 
 export function BlogPosts() {
   // 모든 카테고리 + “전체글” 섞어서 세트 만들기

@@ -1,6 +1,6 @@
 // components/RecentPosts.tsx
 import Link from 'next/link'
-import posts from '../content/posts'
+import { posts } from 'content'
 
 export function RecentPosts() {
   const sortedPosts = [...posts].sort((a, b) => {

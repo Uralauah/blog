@@ -1,18 +1,13 @@
 'use client'
 
 import { useSearchParams } from 'next/navigation'
-import postsWithContent from 'content/posts'
+import { posts } from 'content'
 import Link from 'next/link'
 import PageContainer from 'components/page-container'
 
 export const runtime = 'edge'
 
 const POSTS_PER_PAGE = 10;
-
-const posts = postsWithContent.map(p => {
-    const { getContent, ...rest } = p;
-    return rest;
-})
 
 const slugMap: Record<string, string> = {
   '컴퓨터비전': 'computer-vision',

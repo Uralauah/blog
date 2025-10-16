@@ -1,6 +1,6 @@
 import { Suspense } from 'react'
 import Link from 'next/link'
-import posts from 'content/posts'
+import { posts } from 'content'
 import PostList from 'components/post-list'
 import PageContainer from 'components/page-container'
 
@@ -14,11 +14,6 @@ export default function Page() {
     return new Date(b.date).getTime() - new Date(a.date).getTime()
   })
 
-  const serializablePosts = sortedPosts.map(p => {
-    const { getContent, ...rest } = p;
-    return rest;
-  })
-
   return (
     <PageContainer size="narrow">
       <section>
@@ -26,7 +21,7 @@ export default function Page() {
 
         {/* Suspense로 감싸기 (필수!) */}
         <Suspense fallback={<p>로딩 중...</p>}>
-          <PostList posts={serializablePosts} />
+          <PostList posts={sortedPosts} />
         </Suspense>
       </section>
     </PageContainer>

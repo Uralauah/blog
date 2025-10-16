@@ -1,5 +1,5 @@
 import { baseUrl } from 'app/sitemap'
-import posts from 'content/posts'
+import { posts } from 'content'
 
 export const runtime = 'edge';
 
