@@ -52,7 +52,8 @@ export default function Blog({ params }: { params: { slug: string } }) {
   const post = posts.find((p) => p.slug === decodedSlug)
   if (!post) notFound()
 
-  const content = post.getContent()
+  const { getContent, ...restOfPost } = post
+  const content = getContent()
   const headings = extractHeadings(content.blocks)
 
   return (
@@ -80,7 +81,7 @@ export default function Blog({ params }: { params: { slug: string } }) {
           }),
         }}
       />
-      <NotionRenderer post={{ ...post, content }} />
+      <NotionRenderer post={{ ...restOfPost, content }} />
       <div className="mt-16">
         <Comment />
       </div>
