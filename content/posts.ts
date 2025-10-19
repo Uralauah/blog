@@ -3,7 +3,7 @@ const posts = [
   {
     title: "리틀 프렌즈 사천성",
     slug: "programmers-리틀-프렌즈-사천성-java",
-    content: require('../notion-data/291a071d-4763-8035-99fa-d29405227970.json'),
+    getContent: () =>require('../notion-data/291a071d-4763-8035-99fa-d29405227970.json'),
     date: "2025-10-19",
     description: "리틀 프렌즈 사천성",
     image: undefined,
