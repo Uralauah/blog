@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "무지의 먹방 라이브",
+    slug: "programmers-무지의-먹방-라이브-java",
+    getContent: () => require('../notion-data/29ca071d-4763-804a-916f-cb01fe570315.json'),
+    date: "2025-10-30",
+    description: "무지의 먹방 라이브",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "리틀 프렌즈 사천성",
     slug: "programmers-리틀-프렌즈-사천성-java",
     getContent: () =>require('../notion-data/291a071d-4763-8035-99fa-d29405227970.json'),
