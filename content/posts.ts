@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "행렬과 연산",
+    slug: "programmers-행렬과-연산-java",
+    getContent: () => require('../notion-data/29ea071d-4763-8028-b8c2-fc1d9a96c765.json'),
+    date: "2025-11-01",
+    description: "행렬과 연산",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "무지의 먹방 라이브",
     slug: "programmers-무지의-먹방-라이브-java",
     getContent: () => require('../notion-data/29ca071d-4763-804a-916f-cb01fe570315.json'),
