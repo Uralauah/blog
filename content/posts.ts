@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "등산코스 정하기",
+    slug: "programmers-등산코스-정하기-java",
+    getContent: () => require('../notion-data/2a2a071d-4763-80b5-81d1-cf9b95952075.json'),
+    date: "2025-11-05",
+    description: "등산코스 정하기",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "행렬과 연산",
     slug: "programmers-행렬과-연산-java",
     getContent: () => require('../notion-data/29ea071d-4763-8028-b8c2-fc1d9a96c765.json'),

@@ -1,0 +1,2996 @@
+{
+  "object": "page",
+  "id": "2a2a071d-4763-80b5-81d1-cf9b95952075",
+  "created_time": "2025-11-05T11:57:00.000Z",
+  "last_edited_time": "2025-11-05T13:04:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "00c159ee-4626-4a86-8d75-a9a02e229a3d"
+  },
+  "archived": false,
+  "in_trash": false,
+  "is_locked": false,
+  "properties": {
+    "카테고리": {
+      "id": "%40IYg",
+      "type": "select",
+      "select": {
+        "id": "e238869e-b403-4fed-81d5-f58c1b00c59e",
+        "name": "코딩테스트",
+        "color": "red"
+      }
+    },
+    "태그": {
+      "id": "T%5Cnr",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "35bf0f0d-5958-4a89-841e-c1f524b7a72a",
+          "name": "JAVA",
+          "color": "pink"
+        },
+        {
+          "id": "d40fc4d5-7962-4bbf-a366-7a9e7469728c",
+          "name": "프로그래머스",
+          "color": "orange"
+        }
+      ]
+    },
+    "게시일": {
+      "id": "wOPZ",
+      "type": "date",
+      "date": {
+        "start": "2025-11-05",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "제목": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "등산코스 정하기",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "등산코스 정하기",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/2a2a071d476380b581d1cf9b95952075",
+  "public_url": null,
+  "request_id": "2a8e425c-48f6-42e0-a205-8e6216073cac",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80e2-b4b8-d00c8ad973a5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T11:57:00.000Z",
+      "last_edited_time": "2025-11-05T13:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 링크",
+              "link": {
+                "url": "https://school.programmers.co.kr/learn/courses/30/lessons/118669"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 링크",
+            "href": "https://school.programmers.co.kr/learn/courses/30/lessons/118669"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8094-8a03-de7dc29d4000",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T11:57:00.000Z",
+      "last_edited_time": "2025-11-05T13:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이 시간 : 1시간15분",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이 시간 : 1시간15분",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80ca-b4f3-efb3554b130c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T11:57:00.000Z",
+      "last_edited_time": "2025-11-05T11:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 요약",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 요약",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80f5-b42f-eab7564b2ce7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:03:00.000Z",
+      "last_edited_time": "2025-11-05T13:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "산의 지점들 중 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "산의 지점들 중 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "출입구 → 산봉우리 → 출입구",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "출입구 → 산봉우리 → 출입구",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "로만 이동해야 함.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로만 이동해야 함.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-800f-a4fe-d9626e5611c8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:03:00.000Z",
+      "last_edited_time": "2025-11-05T13:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "경로에서 지나는 등산로 시간 중 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "경로에서 지나는 등산로 시간 중 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "가장 큰 값 = intensity",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가장 큰 값 = intensity",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80fe-8a34-e04ab7dd909e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:03:00.000Z",
+      "last_edited_time": "2025-11-05T13:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "모든 산봉우리 중, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "모든 산봉우리 중, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "intensity가 가장 작은 산봉우리",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "intensity가 가장 작은 산봉우리",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "를 찾는다.(동률이면 번호가 작은 것)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "를 찾는다.(동률이면 번호가 작은 것)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8053-99a6-e64a41f4dee9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T11:57:00.000Z",
+      "last_edited_time": "2025-11-05T11:57:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 풀이",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 풀이",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8021-8119-f1b4ef101aa5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 문제는 얼핏 보면",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 문제는 얼핏 보면",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-807e-9a2b-e19b7ec7977c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "“출입구에서 각 산봉우리까지 왕복하며 최댓값이 최소가 되는 경로”",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "“출입구에서 각 산봉우리까지 왕복하며 최댓값이 최소가 되는 경로”",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80e2-84cf-e8cfaf9f513e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "→ ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "→ ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Minimax Path",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Minimax Path",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 문제로 보인다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 문제로 보인다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8083-9d5e-dac4c599e345",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "즉, 단순한 최단 거리(다익스트라)처럼 간선들의 합을 최소화하는 것이 아니라",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "즉, 단순한 최단 거리(다익스트라)처럼 간선들의 합을 최소화하는 것이 아니라",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-808d-a5b7-c797362280b9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "경로 중 가장 큰 간선(시간)을 최소화",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "경로 중 가장 큰 간선(시간)을 최소화",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "해야 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "해야 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-806d-86a8-f2dbfccc362a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 처음엔 산봉우리에서 BFS로 출입구까지 탐색하면서",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 처음엔 산봉우리에서 BFS로 출입구까지 탐색하면서",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80bc-bd27-d3e67866eecb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최댓값을 갱신해가는 방식",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최댓값을 갱신해가는 방식",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "을 시도했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "을 시도했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80a2-a12a-f1210e68d689",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만, 이 방식은 문제가 많았고 실제로 오답이 나왔다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만, 이 방식은 문제가 많았고 실제로 오답이 나왔다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8044-ba66-dc6a57effee8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "(→ 뒤에서 “실패 코드”로 정리)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "(→ 뒤에서 “실패 코드”로 정리)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8012-9212-f12b1593d8c7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80c1-bac5-d9df4c52b27a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "핵심 아이디어",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "핵심 아이디어",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80b9-88ed-f87daa57dcce",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "목표: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "목표: ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "intensity = 경로 중 최대 간선 가중치를 최소화",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "intensity = 경로 중 최대 간선 가중치를 최소화",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8047-ad3c-d4bdb6668bca",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이때, 출입구는 여러 곳일 수 있고",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이때, 출입구는 여러 곳일 수 있고",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "2a2a071d-4763-80d3-9b5a-f0cd258fde1f",
+          "parent": {
+            "type": "block_id",
+            "block_id": "2a2a071d-4763-8047-ad3c-d4bdb6668bca"
+          },
+          "created_time": "2025-11-05T12:58:00.000Z",
+          "last_edited_time": "2025-11-05T12:58:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "산봉우리도 여러 곳이므로",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "산봉우리도 여러 곳이므로",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "2a2a071d-4763-8014-9a8f-d73cc84d38af",
+          "parent": {
+            "type": "block_id",
+            "block_id": "2a2a071d-4763-8047-ad3c-d4bdb6668bca"
+          },
+          "created_time": "2025-11-05T12:58:00.000Z",
+          "last_edited_time": "2025-11-05T12:58:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "모든 출입구에서 시작해 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "모든 출입구에서 시작해 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "동시에",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "동시에",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " 탐색하는 방식이 유리하다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " 탐색하는 방식이 유리하다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8086-8e71-fad0299f11cc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T13:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "즉,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "즉,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "2a2a071d-4763-80ac-965b-fc917cee4edf",
+          "parent": {
+            "type": "block_id",
+            "block_id": "2a2a071d-4763-8086-8e71-fad0299f11cc"
+          },
+          "created_time": "2025-11-05T12:58:00.000Z",
+          "last_edited_time": "2025-11-05T12:59:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "multi-source Dijkstra(다중 시작점 다익스트라)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "multi-source Dijkstra(다중 시작점 다익스트라)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "2a2a071d-4763-80ef-a649-ed61d00ca41e",
+          "parent": {
+            "type": "block_id",
+            "block_id": "2a2a071d-4763-8086-8e71-fad0299f11cc"
+          },
+          "created_time": "2025-11-05T12:58:00.000Z",
+          "last_edited_time": "2025-11-05T12:59:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "+",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "+",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "2a2a071d-4763-8066-93fb-f1037a1fd3ad",
+          "parent": {
+            "type": "block_id",
+            "block_id": "2a2a071d-4763-8086-8e71-fad0299f11cc"
+          },
+          "created_time": "2025-11-05T12:58:00.000Z",
+          "last_edited_time": "2025-11-05T13:00:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "비용 정의 = 누적합이 아니라 ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "비용 정의 = 누적합이 아니라 ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "max(edge weight)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "max(edge weight)",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "를 활용한다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "를 활용한다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8049-9ab5-f55171d91741",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "또한, 산봉우리에 도착하면 더 이상 확장할 필요가 없다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "또한, 산봉우리에 도착하면 더 이상 확장할 필요가 없다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "2a2a071d-4763-8019-b3bf-d4a78853440d",
+          "parent": {
+            "type": "block_id",
+            "block_id": "2a2a071d-4763-8049-9ab5-f55171d91741"
+          },
+          "created_time": "2025-11-05T12:58:00.000Z",
+          "last_edited_time": "2025-11-05T12:58:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "(산봉우리는 딱 한 번만 방문해야 하고, 이후 경로는 고려 불필요)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "(산봉우리는 딱 한 번만 방문해야 하고, 이후 경로는 고려 불필요)",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80e5-9a9a-db2c0ad20327",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80d0-86bf-f0eb2fe8cf70",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "실패 접근",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "실패 접근",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8043-93cd-f385f985cf7d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "처음 시도할 때는,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "처음 시도할 때는,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8093-9bcd-d1e91c967058",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "각 산봉우리(summit)에서 출발 → 출입구까지 도달",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "각 산봉우리(summit)에서 출발 → 출입구까지 도달",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8043-9e11-f2e42672e966",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "할 때 발생하는 intensity를 계산하는 방식이었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "할 때 발생하는 intensity를 계산하는 방식이었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-800a-9f1c-e3a90254195f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T13:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "for (각 summit) {\n    BFS → gate에 도달할 때까지 탐색\n    intensity = 경로 내 최대 간선\n    최소값 갱신\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "for (각 summit) {\n    BFS → gate에 도달할 때까지 탐색\n    intensity = 경로 내 최대 간선\n    최소값 갱신\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8023-a805-c97c7d9af6b3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "겉으로 보면 될 것 같았으나, 실제로는",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "겉으로 보면 될 것 같았으나, 실제로는",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80cb-ade5-f275669cb0ee",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "모든 산봉우리마다 BFS/Dijkstra → 비효율",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "모든 산봉우리마다 BFS/Dijkstra → 비효율",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-808e-8be4-d1e7bcd5b34b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "탐색 방향 제약이 사실상 없어",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "탐색 방향 제약이 사실상 없어",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "2a2a071d-4763-80ea-a519-dd802de6a700",
+          "parent": {
+            "type": "block_id",
+            "block_id": "2a2a071d-4763-808e-8be4-d1e7bcd5b34b"
+          },
+          "created_time": "2025-11-05T12:58:00.000Z",
+          "last_edited_time": "2025-11-05T12:58:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "“중간에 다른 출입구를 지나가는 잘못된 코스”도 걸러내기 어려움",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "“중간에 다른 출입구를 지나가는 잘못된 코스”도 걸러내기 어려움",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80d7-a340-cfaf72b54ae7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 조건을 제대로 만족시키기 어렵고",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 조건을 제대로 만족시키기 어렵고",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80e9-8ea5-e7c599dbbbbe",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "시간/메모리도 비효율적이라 결국 실패했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "시간/메모리도 비효율적이라 결국 실패했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8066-b0ea-d25fe274199f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T12:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "실패 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "실패 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-808d-9d93-fbf8ff30bb58",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T12:58:00.000Z",
+      "last_edited_time": "2025-11-05T13:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "for(int i=0;i<summits.length;i++){\n    int[] dist = new int[n+1];\n    boolean[] visited = new boolean[n+1];\n    int s = summits[i];\n    Arrays.fill(dist,Integer.MAX_VALUE);\n    dist[s] = 0;\n\n    Queue<Node> q = new ArrayDeque<>();\n    q.add(new Node(s,0));\n\n    while(!q.isEmpty()){\n        Node now = q.poll();\n        if(now.dist>dist[now.num])\n            continue;\n        dist[now.num] = now.dist;\n\n        if(gate.contains(now.num)){\n            if(answer[1]<now.dist)\n                continue;\n            answer[0] = s;\n            answer[1] = now.dist;\n            continue;\n        }\n\n        for(Node next : arr[now.num]){\n            int nd = Math.max(now.dist, next.dist);\n            if(dist[next.num]<nd)\n                continue;\n            q.add(new Node(next.num, nd));\n        }\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "for(int i=0;i<summits.length;i++){\n    int[] dist = new int[n+1];\n    boolean[] visited = new boolean[n+1];\n    int s = summits[i];\n    Arrays.fill(dist,Integer.MAX_VALUE);\n    dist[s] = 0;\n\n    Queue<Node> q = new ArrayDeque<>();\n    q.add(new Node(s,0));\n\n    while(!q.isEmpty()){\n        Node now = q.poll();\n        if(now.dist>dist[now.num])\n            continue;\n        dist[now.num] = now.dist;\n\n        if(gate.contains(now.num)){\n            if(answer[1]<now.dist)\n                continue;\n            answer[0] = s;\n            answer[1] = now.dist;\n            continue;\n        }\n\n        for(Node next : arr[now.num]){\n            int nd = Math.max(now.dist, next.dist);\n            if(dist[next.num]<nd)\n                continue;\n            q.add(new Node(next.num, nd));\n        }\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8048-a47c-efa208dca056",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:02:00.000Z",
+      "last_edited_time": "2025-11-05T13:02:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8080-b233-cb3c34187ade",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:00:00.000Z",
+      "last_edited_time": "2025-11-05T13:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "다중 시작점 다익스트라 + Max Edge Cost 누적 방식",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "다중 시작점 다익스트라 + Max Edge Cost 누적 방식",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-805c-96a8-f2fc42058be0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:00:00.000Z",
+      "last_edited_time": "2025-11-05T13:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "출입구들을 모두 시작점으로 하여",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "출입구들을 모두 시작점으로 하여",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "intensity[node] = 그 지점까지 도달할 때의 최소 intensity",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "intensity[node] = 그 지점까지 도달할 때의 최소 intensity",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "로 정의하고 갱신해간다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "로 정의하고 갱신해간다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-802a-ba76-f0393edd8a23",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:00:00.000Z",
+      "last_edited_time": "2025-11-05T13:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "일반적인 다익스트라는 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "일반적인 다익스트라는 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "cost = prev_cost + edge",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "cost = prev_cost + edge",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이지만,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이지만,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "2a2a071d-4763-805a-ad57-c395eb7de8fe",
+          "parent": {
+            "type": "block_id",
+            "block_id": "2a2a071d-4763-802a-ba76-f0393edd8a23"
+          },
+          "created_time": "2025-11-05T13:00:00.000Z",
+          "last_edited_time": "2025-11-05T13:00:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "여기서는",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "여기서는",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "cost = max(prev_cost, edge)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "purple"
+                },
+                "plain_text": "cost = max(prev_cost, edge)",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "이다.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "이다.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-806f-b88d-fec3a316bb9c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:00:00.000Z",
+      "last_edited_time": "2025-11-05T13:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "또한, 도중에 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "또한, 도중에 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "산봉우리에 도착하면 그 노드는 확장하지 않는다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "산봉우리에 도착하면 그 노드는 확장하지 않는다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8051-a2f5-c3cf5e0422fe",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:00:00.000Z",
+      "last_edited_time": "2025-11-05T13:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최종적으로 모든 산봉우리 중 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최종적으로 모든 산봉우리 중 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "intensity[s]",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "purple"
+            },
+            "plain_text": "intensity[s]",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "가 가장 작은 산봉우리를 선택 (동률 시 번호가 작은 것)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가 가장 작은 산봉우리를 선택 (동률 시 번호가 작은 것)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80ac-805d-d98d04ee1da8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:00:00.000Z",
+      "last_edited_time": "2025-11-05T13:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "왜 출입구에서 출발해야 하나?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "왜 출입구에서 출발해야 하나?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8068-b4f5-cfe53f385971",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:00:00.000Z",
+      "last_edited_time": "2025-11-05T13:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제 규칙상",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제 규칙상",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "2a2a071d-4763-8004-be19-cc921f13a14c",
+          "parent": {
+            "type": "block_id",
+            "block_id": "2a2a071d-4763-8068-b4f5-cfe53f385971"
+          },
+          "created_time": "2025-11-05T13:00:00.000Z",
+          "last_edited_time": "2025-11-05T13:00:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "“출입구는 처음과 끝에만 등장해야 한다”",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "“출입구는 처음과 끝에만 등장해야 한다”",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80bd-a071-c220d627df5d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:00:00.000Z",
+      "last_edited_time": "2025-11-05T13:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "즉, 코스의 진입과 탈출은 항상 출입구.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "즉, 코스의 진입과 탈출은 항상 출입구.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-8009-9d30-c6c5a6660024",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:00:00.000Z",
+      "last_edited_time": "2025-11-05T13:02:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그러므로, 출입구에서 시작해 각 지점까지 intensity를 갱신해가는 게 자연스러움.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그러므로, 출입구에서 시작해 각 지점까지 intensity를 갱신해가는 게 자연스러움.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-803b-8e07-f68be905d3a8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:00:00.000Z",
+      "last_edited_time": "2025-11-05T13:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-80e0-8df6-fcc114ce0d47",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:00:00.000Z",
+      "last_edited_time": "2025-11-05T13:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "정답 코드",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "정답 코드",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "2a2a071d-4763-804e-ac42-f1623ceccad6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a2a071d-4763-80b5-81d1-cf9b95952075"
+      },
+      "created_time": "2025-11-05T13:00:00.000Z",
+      "last_edited_time": "2025-11-05T13:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "b0f85a34-2514-4dd0-b3d5-0fe2d4483fd6"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import java.util.*;\n\nclass Solution {\n    public class Node{\n        public int num;\n        public int dist;\n\n        public Node(int num, int dist){\n            this.num = num;\n            this.dist = dist;\n        }\n    }\n\n    public int[] solution(int n, int[][] paths, int[] gates, int[] summits) {\n        int[] answer = {Integer.MAX_VALUE, Integer.MAX_VALUE};\n\n        List<Node>[] arr = new ArrayList[n+1];\n        for(int i=1;i<=n;i++){\n            arr[i] = new ArrayList<>();\n        }\n\n        Set<Integer> summit = new HashSet<>();\n        for(int s : summits){\n            summit.add(s);\n        }\n\n        for(int[] p : paths){\n            int f = p[0], t = p[1], d = p[2];\n            arr[f].add(new Node(t, d));\n            arr[t].add(new Node(f, d));\n        }\n\n        PriorityQueue<Node> pq = new PriorityQueue<>((a,b)->a.dist-b.dist);\n        int[] intensity = new int[n+1];\n        Arrays.fill(intensity, Integer.MAX_VALUE);\n\n        for(int g : gates){\n            intensity[g] = 0;\n            pq.add(new Node(g, 0));\n        }\n\n        while(!pq.isEmpty()){\n            Node now = pq.poll();\n\n            if(intensity[now.num] < now.dist)\n                continue;\n            if(summit.contains(now.num))\n                continue;\n\n            for(Node next : arr[now.num]){\n                int cost = Math.max(now.dist, next.dist);\n                if(cost < intensity[next.num]){\n                    intensity[next.num] = cost;\n                    pq.add(new Node(next.num, cost));\n                }\n            }\n        }\n\n        Arrays.sort(summits);\n        for(int s : summits){\n            if(intensity[s] < answer[1]){\n                answer[0] = s;\n                answer[1] = intensity[s];\n            }\n        }\n\n        return answer;\n    }\n}\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import java.util.*;\n\nclass Solution {\n    public class Node{\n        public int num;\n        public int dist;\n\n        public Node(int num, int dist){\n            this.num = num;\n            this.dist = dist;\n        }\n    }\n\n    public int[] solution(int n, int[][] paths, int[] gates, int[] summits) {\n        int[] answer = {Integer.MAX_VALUE, Integer.MAX_VALUE};\n\n        List<Node>[] arr = new ArrayList[n+1];\n        for(int i=1;i<=n;i++){\n            arr[i] = new ArrayList<>();\n        }\n\n        Set<Integer> summit = new HashSet<>();\n        for(int s : summits){\n            summit.add(s);\n        }\n\n        for(int[] p : paths){\n            int f = p[0], t = p[1], d = p[2];\n            arr[f].add(new Node(t, d));\n            arr[t].add(new Node(f, d));\n        }\n\n        PriorityQueue<Node> pq = new PriorityQueue<>((a,b)->a.dist-b.dist);\n        int[] intensity = new int[n+1];\n        Arrays.fill(intensity, Integer.MAX_VALUE);\n\n        for(int g : gates){\n            intensity[g] = 0;\n            pq.add(new Node(g, 0));\n        }\n\n        while(!pq.isEmpty()){\n            Node now = pq.poll();\n\n            if(intensity[now.num] < now.dist)\n                continue;\n            if(summit.contains(now.num))\n                continue;\n\n            for(Node next : arr[now.num]){\n                int cost = Math.max(now.dist, next.dist);\n                if(cost < intensity[next.num]){\n                    intensity[next.num] = cost;\n                    pq.add(new Node(next.num, cost));\n                }\n            }\n        }\n\n        Arrays.sort(summits);\n        for(int s : summits){\n            if(intensity[s] < answer[1]){\n                answer[0] = s;\n                answer[1] = intensity[s];\n            }\n        }\n\n        return answer;\n    }\n}\n",
+            "href": null
+          }
+        ],
+        "language": "java"
+      },
+      "blocks": []
+    }
+  ]
+}
