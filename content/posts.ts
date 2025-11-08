@@ -1,6 +1,26 @@
 
 const posts = [
   {
+    title: "지형 편집",
+    slug: "programmers-지형-편집-java",
+    getContent: () => require('../notion-data/2a5a071d-4763-8067-a072-e37674de2e8c.json'),
+    date: "2025-11-08",
+    description: "지형 편집",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
+    title: "기둥과 보 설치",
+    slug: "programmers-기둥과-보-설치-java",
+    getContent: () => require('../notion-data/2a5a071d-4763-8019-a0f3-d8679891cc43.json'),
+    date: "2025-11-07",
+    description: "기둥과 보 설치",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "등산코스 정하기",
     slug: "programmers-등산코스-정하기-java",
     getContent: () => require('../notion-data/2a2a071d-4763-80b5-81d1-cf9b95952075.json'),
