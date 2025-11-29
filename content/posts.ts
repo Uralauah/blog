@@ -1,6 +1,16 @@
 
 const posts = [
   {
+    title: "가사 검색",
+    slug: "programmers-가사-검색-java",
+    getContent: () => require('../notion-data/2b6a071d-4763-8097-a70c-c0036c99795d.json'),
+    date: "2025-11-25",
+    description: "가사 검색",
+    image: undefined,
+    category: "codingtest",
+    tags: ["JAVA","프로그래머스"]
+  },
+  {
     title: "지형 편집",
     slug: "programmers-지형-편집-java",
     getContent: () => require('../notion-data/2a5a071d-4763-8067-a072-e37674de2e8c.json'),
