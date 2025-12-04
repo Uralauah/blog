@@ -198,3 +198,10 @@ html.dark {
 .dark .token.deleted {
   background: transparent !important;
 }
+
+.notion-body table {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  white-space: normal;
+} 
